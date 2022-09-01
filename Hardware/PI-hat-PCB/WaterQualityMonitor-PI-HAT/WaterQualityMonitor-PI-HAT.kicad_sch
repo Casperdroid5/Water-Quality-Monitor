@@ -1,0 +1,22 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 8ea8e036-45b0-4a64-b0f0-e1619de64821)
+
+  (paper "A4")
+
+  (title_block
+    (title "Water Quality Monitor")
+    (date "2022-09-01")
+    (rev "0.1")
+    (company "HAN")
+    (comment 1 "Casper R. Tak")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
