@@ -1,0 +1,12 @@
+Een aantal technische specificaties Smart keuren.
+pros and cons list.
+
+centrale control eenheid.
+er zijn functies. 
+ongeveer 6 blokken. die krijgen input en ze hebben een output.
+opzoek naar een high level blokdiagram ipo diagram, architectuur diagram.
+schets creëren. schiet UML te kort?
+
+relaties verzinnen tussen hardware en software (software => klassen maken)
+
+focussen van camera is een deel van de functie van video's en fotos maken. (video acquisition)

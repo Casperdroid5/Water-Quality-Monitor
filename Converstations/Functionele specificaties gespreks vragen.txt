@@ -1,0 +1,34 @@
+1. Is dit een water kwaliteit monitor voor nu? -> het is een waterkwaliteit monitor
+2. Hoe wordt de informatie gewonnen, via camera, maar hoe wordt dit geïnterpreteerd en in hoe verre is dit mijn taak? -> camera is belangrijkste, andere sensoren op i2c voor uitbreiding. ik hoef niet specifiek met de camera bezig. Beelden maken (foto's en video's) moet ik wel maken en verwerken. simpele foto of video maken door de microscoop, niets bijzonders verder.
+3. De hoofdfunctie is water kwaliteit meten, maar wat zijn de subfuncties die deze hoofdfunctie in werking brengen?
+4. Kunnen we samen gaan zitten voor de functionele specificaties?
+5. Strokenplanner gebruiken, in combinatie met trello.
+6. Na documentatie voor functioneel en technisch, blokdiagram maken (functie verbintenissen, input/ouput, power definities).
+
+PCB functions: 
+Doel voor camera: scherp beeld = Focus motor: driver, lens moet versteld worden of Moving magnet driver, voor scherpstellen/focus
+
+Led driver voor camera verlichting (cn5711)
+
+Pompmotor = driver voor pompmotor (misschien 3 motoren) één voegt water toe, ander stofje etc. 
+
+Externe connectoren i2c (sparkfun connector molex?) 
+
+Koelen en verhitten: moet flink wat stroom kunnen lopen (flinke kunnen stromen schakellen) 
+
+Temperatuur sensor via i2c (al één gevonden) 
+Flatcabel met daarin camera focusmotor stroom en i2c gecombineerd.
+
+Één flatcable naar mijn printplaat (sensoren zijn i2c) 
+
+Stepper motor chip (tmc2208)
+
+Moving manget actuator driver (drv8838, vereist speciale pwm pinnen)
+
+Hoofdvoeding wordt aangesloten aan mijn pcb, mijn pcb voedt de pi (v-in pin). 
+Motoren en cool/warmte zal niet tegelijkertijd stroom verbruiken. Peltier verbruikt stroom terwijl sensoren meten.
+
+Printplaat mag groter dan de pi (liever niet). Liefst 1 printplaat. Quad layer pcb.  Functionaliteit is belangrijk, hoeft niet draagbaar (wel optilbaar) te zijn (stroom)
+
+Stacking pcb’s? flex pcb’s?
+

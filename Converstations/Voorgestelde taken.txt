@@ -1,0 +1,11 @@
+* Pi-hat (PCB) ontwerpen voor een online biosensor die we samen met de Wageningen uni aan het maken zijn (er ligt al veel klaar, daar kan je op voortborduren). 
+	Eerst requirements opstellen, componenten kiezen (maakbaar bij easyEda?), schema tekenen, proto opbouwen op breadboard, testplan maken en evt schema wijzigen, 
+	dan PCB tekenen, test uitvoeren en documenteren
+  -> Leerdoelen: analyseren, ontwerpen, realiseren, beheren, rekening houden met maakbaarheid en testbaarheid, documenteren, testen
+* Meehelpen aan het op de kaart zetten van HCL, bv. (nog) beter aansluiten bij studenten, en bij de zorg.
+  -> Leerdoelen: managen, professionaliseren
+* Meehelpen met overzichtskaart maken van stage en minor opties voor studenten die geïnteresseerd zijn in zorgtechnologie
+  -> Leerdoelen: onderzoeken en adviseren
+* Opzetten van PyQt en OpenCV camera processing, zie https://www.raspberrypi.com/documentation/accessories/camera.html#post-processing-with-opencv
+  -> Leerdoelen: Meer ervaring opdoen met Python programmeren
+* Evt ook pi-hat voor climate controller, even zien hoe het loopt.

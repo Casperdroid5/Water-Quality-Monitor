@@ -1,0 +1,5 @@
+Afmaken state diagram
+Herzien van System architecture (moet schematic zichtbaar worden).
+technische specificatie die meetbaar is.
+Led schema ontwerpen.
+testplannen verzinnen.
