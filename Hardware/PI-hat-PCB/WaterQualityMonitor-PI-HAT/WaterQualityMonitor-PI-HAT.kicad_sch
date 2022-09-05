@@ -748,6 +748,7 @@
     (property "Datasheet" "~" (id 3) (at 63.5 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Purpose" "current sense resistor" (id 4) (at 63.5 49.53 0))
     (pin "1" (uuid d29ae0c7-5923-493d-92fa-11ee8cbef2c4))
     (pin "2" (uuid 1aa8b50c-2060-433d-8fa7-81cebffc8c39))
   )
