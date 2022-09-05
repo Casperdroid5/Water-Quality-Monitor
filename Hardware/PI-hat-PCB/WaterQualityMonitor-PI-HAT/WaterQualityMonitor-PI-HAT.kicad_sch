@@ -736,8 +736,12 @@
   (symbol (lib_id "Device:R") (at 63.5 49.53 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6b423158-56f2-4aac-bab7-adb690d7dca0)
-    (property "Reference" "R?" (id 0) (at 60.96 48.26 0))
-    (property "Value" "10" (id 1) (at 60.96 50.8 0))
+    (property "Reference" "R?" (id 0) (at 66.04 48.2599 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "5.1" (id 1) (at 66.04 50.7999 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
     (property "Footprint" "" (id 2) (at 65.278 49.53 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1013,7 +1017,7 @@
       (reference "R?") (unit 1) (value "R") (footprint "")
     )
     (path "/6b423158-56f2-4aac-bab7-adb690d7dca0"
-      (reference "R?") (unit 1) (value "10") (footprint "")
+      (reference "R?") (unit 1) (value "5.1") (footprint "")
     )
     (path "/42f59bf4-af48-4db1-8bdf-07de8825d459/91536648-8bec-4010-8981-2ab46b350c0b"
       (reference "R?") (unit 1) (value "20k") (footprint "")
