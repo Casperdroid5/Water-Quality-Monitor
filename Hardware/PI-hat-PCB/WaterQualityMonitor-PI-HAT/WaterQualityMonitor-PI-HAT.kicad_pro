@@ -345,6 +345,10 @@
     [
       "42f59bf4-af48-4db1-8bdf-07de8825d459",
       "Steppermotor"
+    ],
+    [
+      "6c4087b1-d585-4615-84b3-d395a8b5856d",
+      "PowerManagementSystem"
     ]
   ],
   "text_variables": {}

@@ -10,7 +10,7 @@ bestellijst maken voor aliexpress
 +meerdere leddrivers 
 +stepper drivers
 
-verschillende voedingsdomein (stap 1)
+verschillende voedingsdomeinen (stap 1)
 +spanning, rimpel, stroom
 
 KiCad plugin voor bijhouden BOM. Interactive HTML BOM
