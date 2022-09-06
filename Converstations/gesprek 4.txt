@@ -1,1 +1,23 @@
 Samen naar datasheets kijken, hoe vergelijk ik het beste?
+
+Moet alles eerst getest worden ivm hardware/chip levertijden? of wijs om wel alvast schematics te creëeren?
+
+Hoe zit het met software? Wat is het doel voor mijn stageperiode? -> Alles in eerste instantie kunnen aansturen los van elkaar? -> los van elkaar is prima, het product komt niet af, dus software ook niet.
+
+waarschijnlijk 10fps 1/10 shuttertijd (ivm hoge resolutie), dus 100ms vang je alle photonen. ontwikkeling: led licht is geconstateerd aan stroom (uitzoeken datasheet)]
+
+bestellijst maken voor aliexpress
++meerdere leddrivers 
++stepper drivers
+
+verschillende voedingsdomein (stap 1)
++spanning, rimpel, stroom
+
+KiCad plugin voor bijhouden BOM. Interactive HTML BOM
+
+schematic vinden van (cn5711)
+
+
+
+
+
