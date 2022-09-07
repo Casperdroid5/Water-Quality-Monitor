@@ -2,8 +2,8 @@ rt7272A te gebruiken als spanningsregulatoren voor in ieder geval de RPI (5V)
 Plannen die ik heb, opschrijven uitvoeren en later op reflecteren.
 Reverse engineer het PiPrintHat pcb power source(open source?)
 
-beschermde circuit voor stepper motor drivers
+beschermde circuit voor stepper motor drivers zoeken op internet.
 
-in kicad werken met subtabladen en architecture (high level)
+in kicad werken met subtabladen en architecture (high level).
 
-mcp9600 temperature sensor word gebruikt
+mcp9600 temperature sensor word gebruikt vooral vanwege i2c
