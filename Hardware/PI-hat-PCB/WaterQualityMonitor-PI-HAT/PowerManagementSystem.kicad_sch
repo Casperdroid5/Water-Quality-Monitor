@@ -1581,7 +1581,7 @@
     (in_bom yes) (on_board yes)
     (uuid a1342b2e-a4f7-4e7a-824f-808549ab5321)
     (property "Reference" "L?" (id 0) (at 83.82 74.93 90))
-    (property "Value" "55uH" (id 1) (at 83.82 77.47 90))
+    (property "Value" "47uH" (id 1) (at 83.82 77.47 90))
     (property "Footprint" "" (id 2) (at 83.82 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
