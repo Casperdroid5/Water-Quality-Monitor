@@ -915,14 +915,14 @@
     )
   )
 
-  (sheet (at 208.28 16.764) (size 24.13 24.384) (fields_autoplaced)
+  (sheet (at 207.772 16.002) (size 24.13 24.384) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 6c4087b1-d585-4615-84b3-d395a8b5856d)
-    (property "Sheet name" "PowerManagementSystem" (id 0) (at 208.28 16.0524 0)
+    (property "Sheet name" "PowerManagementSystem" (id 0) (at 207.772 15.2904 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "PowerManagementSystem.kicad_sch" (id 1) (at 208.28 41.7326 0)
+    (property "Sheet file" "PowerManagementSystem.kicad_sch" (id 1) (at 207.772 40.9706 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -982,6 +982,9 @@
     (path "/f7c1a79a-d55a-4b3b-8063-443314e7f9d2"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/16bbf45a-8ace-4715-9752-963ceeda95dd"
+      (reference "C?") (unit 1) (value "470uF") (footprint "")
+    )
     (path "/42f59bf4-af48-4db1-8bdf-07de8825d459/31f3d317-46d6-4bff-9b17-8bcb370cb142"
       (reference "C?") (unit 1) (value "100n/50V") (footprint "")
     )
@@ -1006,11 +1009,23 @@
     (path "/42f59bf4-af48-4db1-8bdf-07de8825d459/aa909402-e10e-43db-9093-f526c7cd47b5"
       (reference "C?") (unit 1) (value "1u/50V") (footprint "")
     )
+    (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/bf6ccfca-aa1c-4b62-89f7-9ed254fba4d9"
+      (reference "C?") (unit 1) (value "470uF") (footprint "")
+    )
+    (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/e9f90fa0-0a02-440c-810d-2e4ef34a8a56"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "")
+    )
     (path "/42f59bf4-af48-4db1-8bdf-07de8825d459/f84160ec-0f38-4a5f-accf-95f707c987f8"
       (reference "C?") (unit 1) (value "1u/50V") (footprint "")
     )
+    (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/fb328b6f-6260-4633-9020-b7fc05f4a81c"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "")
+    )
     (path "/42f59bf4-af48-4db1-8bdf-07de8825d459/ff0ac1c4-0af9-49b6-a744-6f0d8a90bdd9"
       (reference "C?") (unit 1) (value "100n/50V") (footprint "")
+    )
+    (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/18ceec45-f1bc-4192-b2f9-3f5f5adb2737"
+      (reference "D?") (unit 1) (value "TSSA3U45") (footprint "DIOM5126X250N")
     )
     (path "/2332a297-6c4e-4c6c-8298-0e97c090832c"
       (reference "D?") (unit 1) (value "SESD0402X1UN-0020-090") (footprint "DIODFN100X60X43-2N")
@@ -1018,11 +1033,26 @@
     (path "/f3747824-7ae0-46af-a774-78fceec77b76"
       (reference "D?") (unit 1) (value "OVLEW1CB9") (footprint "LED_5MM")
     )
+    (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/1405d2af-cd16-4f85-b1ad-d656b8d21679"
+      (reference "IC?") (unit 1) (value "TS2596CM550_RNG") (footprint "TS2596CM550RNG")
+    )
+    (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/82c7efd6-a5a9-4673-a1f8-d7292b268a6a"
+      (reference "IC?") (unit 1) (value "TS2596CM550_RNG") (footprint "TS2596CM550RNG")
+    )
+    (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/c0bb48e4-d819-465c-9b84-04c7b6f1208c"
+      (reference "IC?") (unit 1) (value "TS2596CM550_RNG") (footprint "TS2596CM550RNG")
+    )
+    (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/347c9c14-574b-4a06-ad6e-9cda2fa90223"
+      (reference "J?") (unit 1) (value "Jack-DC 24V in") (footprint "")
+    )
     (path "/42f59bf4-af48-4db1-8bdf-07de8825d459/6676c19c-2a18-42c0-b4fe-19a8db474d3a"
       (reference "J?") (unit 1) (value "Conn_01x02_Male") (footprint "")
     )
     (path "/42f59bf4-af48-4db1-8bdf-07de8825d459/1e0accfc-cd9d-49a8-9e17-1de3c4a3f511"
       (reference "JP?") (unit 1) (value "SolderJumper_3_Open") (footprint "")
+    )
+    (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/05da9c01-de52-4ed8-b0ef-983279336dd5"
+      (reference "L?") (unit 1) (value "33uH") (footprint "")
     )
     (path "/bb8ea0c7-769c-4d91-a944-5e66cb94087c"
       (reference "L?") (unit 1) (value "4.7uH") (footprint "")
