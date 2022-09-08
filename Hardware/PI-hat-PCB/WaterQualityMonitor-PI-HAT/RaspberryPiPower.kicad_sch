@@ -894,7 +894,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 99564976-f836-4ae3-8df9-b86e184ee695)
   )
-  (hierarchical_label "24V+" (shape input) (at 95.25 91.44 180)
+  (hierarchical_label "12V+" (shape input) (at 95.25 91.44 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a61b1d10-f6ef-4f5c-982a-e333d1e217e8)
   )
