@@ -348,11 +348,15 @@
     ],
     [
       "6c4087b1-d585-4615-84b3-d395a8b5856d",
-      "PowerManagementSystem"
+      "RaspberryPiPower"
     ],
     [
       "7b03732c-6b0a-482e-b8e3-ced6ad7436b5",
       "FocusMotors"
+    ],
+    [
+      "2ed95514-5eec-42d9-b793-cef8be4211a9",
+      "SensorsPower"
     ]
   ],
   "text_variables": {}
