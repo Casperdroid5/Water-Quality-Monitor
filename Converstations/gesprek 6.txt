@@ -2,7 +2,7 @@ Uitzoeken of VIO van de tmc2208 5v of 3.3V moet zijn. Logic levels uitzoeken.
 uitzoeken of kleine stepper motor 24V aankan (welke spanning moet ie hebben?
 stroomspiegel is bedoeld om 2 voedingen tegen elkaar te koppelen. backpower protection circuit?
 power circuit beveiling globaal maken (niet elk circuit zijn eigen bescherming)
-dit was de vraag: dit heb ik uitgezocht: dit is het antwoord (waarom uitwerken in documentatie)
+componenten keuze uitleggen: dit was de vraag, dit heb ik uitgezocht, dit is het antwoord (waarom uitwerken in documentatie)
 
 zetcode pyqt 5 uitzoeken.
 
