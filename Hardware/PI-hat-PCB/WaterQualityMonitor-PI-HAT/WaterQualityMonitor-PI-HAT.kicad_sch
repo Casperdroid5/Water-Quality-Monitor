@@ -1832,7 +1832,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 047364be-a14b-4169-81f7-b8c3a7d28956)
   )
-  (wire (pts (xy 76.835 123.19) (xy 57.785 123.19))
+  (wire (pts (xy 73.025 123.19) (xy 57.785 123.19))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0e29f742-e07d-4844-a8b6-cfc0b3dff7ef)
   )
@@ -1894,7 +1894,7 @@
     (uuid 2569875c-e36e-4a94-96bf-cd3c5a8134d6)
   )
 
-  (wire (pts (xy 72.39 125.73) (xy 76.835 125.73))
+  (wire (pts (xy 72.39 125.73) (xy 73.025 125.73))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 291d55b7-b5b0-43d6-8125-2810e432405a)
   )
@@ -2028,7 +2028,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 8d742d4d-a3c9-4695-997b-d10a39801b6d)
   )
-  (wire (pts (xy 76.835 125.73) (xy 76.835 123.19))
+  (wire (pts (xy 73.025 125.73) (xy 73.025 123.19))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 967c7ea8-773d-4c07-a480-64ed1782af44)
   )
@@ -2968,7 +2968,7 @@
     (in_bom yes) (on_board yes)
     (uuid bacc34b0-9755-45d5-8946-44f33e8699fb)
     (property "Reference" "F?" (id 0) (at 29.845 70.485 90))
-    (property "Value" "0.8A" (id 1) (at 29.845 74.93 90))
+    (property "Value" "0.5A" (id 1) (at 29.845 74.93 90))
     (property "Footprint" "" (id 2) (at 29.845 74.168 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3512,6 +3512,9 @@
     (path "/dba9d5b3-e173-4585-b9ef-b95170c4dd03"
       (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
     )
+    (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/6404ccb8-58f1-49b5-b309-15fc332ead6d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/2ed95514-5eec-42d9-b793-cef8be4211a9/0f4fd65c-b657-47ac-aaae-e2509ef0f4ff"
       (reference "C?") (unit 1) (value "10u") (footprint "")
     )
@@ -3520,6 +3523,9 @@
     )
     (path "/2ed95514-5eec-42d9-b793-cef8be4211a9/34a99f5e-b6fc-435d-894c-9c90babdf567"
       (reference "C?") (unit 1) (value "100n") (footprint "")
+    )
+    (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/45cf8dc3-5f81-4af3-b0d1-8379078362f4"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "")
     )
     (path "/2ed95514-5eec-42d9-b793-cef8be4211a9/48dc776b-2737-4497-8a9d-ed2db2cb1044"
       (reference "C?") (unit 1) (value "22u 10V") (footprint "")
@@ -3532,6 +3538,9 @@
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/69f29097-2575-4071-a5ad-9d8a6188f953"
       (reference "C?") (unit 1) (value "10u") (footprint "")
+    )
+    (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/6a1389f5-af30-47b1-b0e6-d495f68a5530"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "")
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/7514df18-9295-4870-9b15-d0d13f5e8b8b"
       (reference "C?") (unit 1) (value "100n") (footprint "")
@@ -3591,7 +3600,7 @@
       (reference "F?") (unit 1) (value "10A") (footprint "")
     )
     (path "/bacc34b0-9755-45d5-8946-44f33e8699fb"
-      (reference "F?") (unit 1) (value "0.8A") (footprint "")
+      (reference "F?") (unit 1) (value "0.5A") (footprint "")
     )
     (path "/d5116229-7762-4e04-b6c3-7976938e8406"
       (reference "F?") (unit 1) (value "5A") (footprint "")
@@ -3700,6 +3709,9 @@
     )
     (path "/2ed95514-5eec-42d9-b793-cef8be4211a9/4e508ce4-4d51-4971-bff8-010a0de42277"
       (reference "U?") (unit 1) (value "RT7272AGSP") (footprint "SOIC127P599X175-9N")
+    )
+    (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/6545ece4-0b5f-4c21-9b79-a47e184d45e6"
+      (reference "U?") (unit 1) (value "DRV8838") (footprint "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm")
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/ac0fbcf0-97bf-4099-a5f5-25c63eb93075"
       (reference "U?") (unit 1) (value "RT7272AGSP") (footprint "SOIC127P599X175-9N")
