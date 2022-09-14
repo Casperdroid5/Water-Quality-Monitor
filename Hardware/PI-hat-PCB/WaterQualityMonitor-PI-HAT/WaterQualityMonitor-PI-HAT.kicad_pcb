@@ -513,7 +513,7 @@
 
   (footprint "MountingHole:MountingHole_2.7mm_M2.5" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp 0beff73c-ea66-46e4-96f9-c0c7195d2160)
-    (at 149.69 137.57)
+    (at 144.805 165.68)
     (descr "Mounting Hole 2.7mm, no annular, M2.5")
     (tags "mounting hole 2.7mm no annular m2.5")
     (attr board_only exclude_from_pos_files exclude_from_bom)
@@ -1212,7 +1212,7 @@
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 5A19A433) (tstamp 4ca5af88-2017-47d4-83fb-2067754a83f2)
-    (at 96.5756 136.302 90)
+    (at 91.6906 164.412 90)
     (descr "Through hole straight socket strip, 2x20, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 2x20 2.54mm double row")
     (property "Sheetfile" "WaterQualityMonitor-PI-HAT.kicad_sch")
@@ -2114,7 +2114,7 @@
 
   (footprint "MountingHole:MountingHole_2.7mm_M2.5" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp 7e8d827e-a7ed-44d4-95fc-a91af7cef820)
-    (at 91.69 186.57)
+    (at 86.805 214.68)
     (descr "Mounting Hole 2.7mm, no annular, M2.5")
     (tags "mounting hole 2.7mm no annular m2.5")
     (attr board_only exclude_from_pos_files exclude_from_bom)
@@ -2301,7 +2301,7 @@
 
   (footprint "MountingHole:MountingHole_2.7mm_M2.5" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp 89efe179-e83b-40db-abd4-3fc7739e57ac)
-    (at 91.69 137.57)
+    (at 86.805 165.68)
     (descr "Mounting Hole 2.7mm, no annular, M2.5")
     (tags "mounting hole 2.7mm no annular m2.5")
     (attr board_only exclude_from_pos_files exclude_from_bom)
@@ -3534,7 +3534,7 @@
 
   (footprint "MountingHole:MountingHole_2.7mm_M2.5" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp c5d6c104-5680-4140-a821-8340078f5018)
-    (at 149.69 186.57)
+    (at 144.805 214.68)
     (descr "Mounting Hole 2.7mm, no annular, M2.5")
     (tags "mounting hole 2.7mm no annular m2.5")
     (attr board_only exclude_from_pos_files exclude_from_bom)
@@ -4668,36 +4668,41 @@
     )
   )
 
-  (gr_rect (start 154.19 171.895) (end 175.19 187.745) (layer "Dwgs.User") (width 0.1) (fill none) (tstamp 0361f1e7-3200-462a-a139-1890cc8ecc5d))
-  (gr_rect (start 175.19 154.52) (end 158.09 167.62) (layer "Dwgs.User") (width 0.1) (fill none) (tstamp 29df31ed-bd0f-485f-bd0e-edc97e11b54b))
-  (gr_rect (start 175.19 136.425925) (end 158.09 149.525925) (layer "Dwgs.User") (width 0.1) (fill none) (tstamp 55c2b75d-5e45-4a08-ab83-0bcdd5f03b6a))
-  (gr_arc (start 88.69 153.57) (mid 88.336447 153.423553) (end 88.19 153.07) (layer "Edge.Cuts") (width 0.1) (tstamp 1cbbeb2e-83bf-40c4-9181-345b5ff6244b))
-  (gr_line (start 134.19 171.07) (end 134.19 186.07) (layer "Edge.Cuts") (width 0.1) (tstamp 79c07597-5ab9-4d26-b4b3-a70ae9dcd11d))
-  (gr_line (start 132.19 186.07) (end 132.19 171.07) (layer "Edge.Cuts") (width 0.1) (tstamp 81e492f6-268f-4ce2-bb45-32834e67e85b))
-  (gr_line (start 92.69 170.57) (end 88.69 170.57) (layer "Edge.Cuts") (width 0.1) (tstamp 97ae713b-7d2d-4a60-bcd9-2dd4b368aa15))
-  (gr_arc (start 132.19 171.07) (mid 133.19 170.07) (end 134.19 171.07) (layer "Edge.Cuts") (width 0.1) (tstamp b6c3db4f-e418-4da3-aef6-5010435bcf13))
-  (gr_arc (start 88.19 171.07) (mid 88.336138 170.716755) (end 88.689127 170.570001) (layer "Edge.Cuts") (width 0.1) (tstamp c389f2b1-4f48-4b83-bc49-b9c848c13388))
-  (gr_line (start 93.19 154.07) (end 93.19 170.07) (layer "Edge.Cuts") (width 0.1) (tstamp ca58cd03-72f8-4aa1-9c49-e57771516d3b))
-  (gr_arc (start 134.19 186.07) (mid 133.19 187.07) (end 132.19 186.07) (layer "Edge.Cuts") (width 0.1) (tstamp d4c39290-1388-499e-abdc-d2c7dce5190a))
-  (gr_line (start 88.69 153.57) (end 92.69 153.57) (layer "Edge.Cuts") (width 0.1) (tstamp e8b6e282-1f54-4aa1-a0f2-cc1b0a55c7aa))
-  (gr_arc (start 93.19 170.07) (mid 93.043553 170.423553) (end 92.69 170.57) (layer "Edge.Cuts") (width 0.1) (tstamp f07b6ce9-d2eb-486d-bee9-15304e35501c))
-  (gr_arc (start 92.69 153.57) (mid 93.043553 153.716447) (end 93.19 154.07) (layer "Edge.Cuts") (width 0.1) (tstamp f78d019e-cf6e-46b1-83f8-3ba515696edd))
-  (gr_text "USB" (at 165.914 161.622) (layer "Dwgs.User") (tstamp 00000000-0000-0000-0000-0000580cbbe9)
+  (gr_rect (start 149.305 200.005) (end 170.305 215.855) (layer "Dwgs.User") (width 0.1) (fill none) (tstamp 0361f1e7-3200-462a-a139-1890cc8ecc5d))
+  (gr_rect (start 170.305 182.63) (end 153.205 195.73) (layer "Dwgs.User") (width 0.1) (fill none) (tstamp 29df31ed-bd0f-485f-bd0e-edc97e11b54b))
+  (gr_rect (start 170.305 164.535925) (end 153.205 177.635925) (layer "Dwgs.User") (width 0.1) (fill none) (tstamp 55c2b75d-5e45-4a08-ab83-0bcdd5f03b6a))
+  (gr_line (start 86.907 182.708) (end 86.907 197.708) (layer "Edge.Cuts") (width 0.1) (tstamp 06809ba2-f11a-40ba-a772-c51d31060648))
+  (gr_line (start 49.315 213.061) (end 49.315 123.526) (layer "Edge.Cuts") (width 0.1) (tstamp 1130f673-5a87-4c35-9d4e-610acc21fffd))
+  (gr_line (start 147.105 218.141) (end 54.395 218.141) (layer "Edge.Cuts") (width 0.1) (tstamp 2429cb60-a9f1-4ae8-8b94-44df70f8227f))
+  (gr_arc (start 84.907 182.708) (mid 85.907 181.708) (end 86.907 182.708) (layer "Edge.Cuts") (width 0.1) (tstamp 28264392-6120-4837-998c-85a4116c5c9c))
+  (gr_line (start 148.375002 123.525998) (end 148.375002 216.871) (layer "Edge.Cuts") (width 0.1) (tstamp 32a6c0db-7669-439c-bf73-71577c4282a3))
+  (gr_arc (start 143.295002 118.445998) (mid 146.887104 119.933896) (end 148.375002 123.525998) (layer "Edge.Cuts") (width 0.1) (tstamp 38532103-80f2-46ad-86ce-93eab10ab2a2))
+  (gr_line (start 84.907 197.708) (end 84.907 182.708) (layer "Edge.Cuts") (width 0.1) (tstamp 6a8fdcbc-fafe-4112-8389-467d0507544d))
+  (gr_line (start 54.395 118.446) (end 143.295002 118.446) (layer "Edge.Cuts") (width 0.1) (tstamp 728bdf39-b274-4d82-88b8-c1bd9ff8ead6))
+  (gr_line (start 129.305 199.18) (end 129.305 214.18) (layer "Edge.Cuts") (width 0.1) (tstamp 79c07597-5ab9-4d26-b4b3-a70ae9dcd11d))
+  (gr_line (start 127.305 214.18) (end 127.305 199.18) (layer "Edge.Cuts") (width 0.1) (tstamp 81e492f6-268f-4ce2-bb45-32834e67e85b))
+  (gr_arc (start 148.375 216.871) (mid 148.003026 217.769026) (end 147.105 218.141) (layer "Edge.Cuts") (width 0.1) (tstamp af1f744a-3b0b-40fd-a2e7-93eba615b41c))
+  (gr_arc (start 54.395 218.141) (mid 50.802898 216.653102) (end 49.315 213.061) (layer "Edge.Cuts") (width 0.1) (tstamp b1d14817-fd88-44a9-b8e9-574b3194c17b))
+  (gr_arc (start 127.305 199.18) (mid 128.305 198.18) (end 129.305 199.18) (layer "Edge.Cuts") (width 0.1) (tstamp b6c3db4f-e418-4da3-aef6-5010435bcf13))
+  (gr_arc (start 49.315 123.526) (mid 50.802898 119.933898) (end 54.395 118.446) (layer "Edge.Cuts") (width 0.1) (tstamp d231d6dd-8c0c-4ff1-9cd6-f8ed758e2643))
+  (gr_arc (start 129.305 214.18) (mid 128.305 215.18) (end 127.305 214.18) (layer "Edge.Cuts") (width 0.1) (tstamp d4c39290-1388-499e-abdc-d2c7dce5190a))
+  (gr_arc (start 86.907 197.708) (mid 85.907 198.708) (end 84.907 197.708) (layer "Edge.Cuts") (width 0.1) (tstamp f6076878-26ce-4071-b56f-bc040c8baf64))
+  (gr_text "USB" (at 161.029 189.732) (layer "Dwgs.User") (tstamp 00000000-0000-0000-0000-0000580cbbe9)
     (effects (font (size 2 2) (thickness 0.15)))
   )
-  (gr_text "RJ45" (at 164.39 179.91) (layer "Dwgs.User") (tstamp 00000000-0000-0000-0000-0000580cbbeb)
+  (gr_text "RJ45" (at 159.505 208.02) (layer "Dwgs.User") (tstamp 00000000-0000-0000-0000-0000580cbbeb)
     (effects (font (size 2 2) (thickness 0.15)))
   )
-  (gr_text "DISPLAY (OPTIONAL)" (at 90.69 162.07 90) (layer "Dwgs.User") (tstamp 00000000-0000-0000-0000-0000580cbbff)
+  (gr_text "DISPLAY" (at 85.891 190.208 90) (layer "Dwgs.User") (tstamp 00000000-0000-0000-0000-0000580cbbff)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "CAMERÀ" (at 133.19 178.57 90) (layer "Dwgs.User") (tstamp 1811fd1a-b55e-4d16-931d-f9ec6a9e16f7)
+  (gr_text "CAMERÀ" (at 128.305 206.68 90) (layer "Dwgs.User") (tstamp 1811fd1a-b55e-4d16-931d-f9ec6a9e16f7)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "USB" (at 166.422 142.318) (layer "Dwgs.User") (tstamp 3b108586-2520-4867-9c38-7334a1000bb5)
+  (gr_text "USB" (at 161.537 170.428) (layer "Dwgs.User") (tstamp 3b108586-2520-4867-9c38-7334a1000bb5)
     (effects (font (size 2 2) (thickness 0.15)))
   )
-  (gr_text "PoE" (at 149.69 143.71) (layer "Dwgs.User") (tstamp 6528a76f-b7a7-4621-952f-d7da1058963a)
+  (gr_text "PoE" (at 144.805 171.82) (layer "Dwgs.User") (tstamp 6528a76f-b7a7-4621-952f-d7da1058963a)
     (effects (font (size 1 1) (thickness 0.15)))
   )
 
@@ -4708,11 +4713,47 @@
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 152.19 146.21)
-        (xy 147.19 146.21)
-        (xy 147.19 141.21)
-        (xy 152.19 141.21)
+        (xy 147.305 174.32)
+        (xy 142.305 174.32)
+        (xy 142.305 169.32)
+        (xy 147.305 169.32)
       )
+    )
+  )
+  (group "" (id 7e2a50c6-4801-4c85-9f0a-4a59d730581f)
+    (members
+      00000000-0000-0000-0000-0000580cbbff
+      06809ba2-f11a-40ba-a772-c51d31060648
+      28264392-6120-4837-998c-85a4116c5c9c
+      6a8fdcbc-fafe-4112-8389-467d0507544d
+      f6076878-26ce-4071-b56f-bc040c8baf64
+    )
+  )
+  (group "" (id 83ed5d0b-8fbe-4b0c-82e6-92d3041e5b57)
+    (members
+      00000000-0000-0000-0000-0000580cbbe9
+      00000000-0000-0000-0000-0000580cbbeb
+      0361f1e7-3200-462a-a139-1890cc8ecc5d
+      0beff73c-ea66-46e4-96f9-c0c7195d2160
+      1130f673-5a87-4c35-9d4e-610acc21fffd
+      2429cb60-a9f1-4ae8-8b94-44df70f8227f
+      29df31ed-bd0f-485f-bd0e-edc97e11b54b
+      32a6c0db-7669-439c-bf73-71577c4282a3
+      38532103-80f2-46ad-86ce-93eab10ab2a2
+      3b108586-2520-4867-9c38-7334a1000bb5
+      4ca5af88-2017-47d4-83fb-2067754a83f2
+      55c2b75d-5e45-4a08-ab83-0bcdd5f03b6a
+      6528a76f-b7a7-4621-952f-d7da1058963a
+      728bdf39-b274-4d82-88b8-c1bd9ff8ead6
+      7e2a50c6-4801-4c85-9f0a-4a59d730581f
+      7e8d827e-a7ed-44d4-95fc-a91af7cef820
+      89efe179-e83b-40db-abd4-3fc7739e57ac
+      ab1c4aff-2e3b-49c6-ac2a-6145f3d7130f
+      ad629bd4-e7e1-40e2-81d6-711e1f1d1fae
+      af1f744a-3b0b-40fd-a2e7-93eba615b41c
+      b1d14817-fd88-44a9-b8e9-574b3194c17b
+      c5d6c104-5680-4140-a821-8340078f5018
+      d231d6dd-8c0c-4ff1-9cd6-f8ed758e2643
     )
   )
   (group "" (id ad629bd4-e7e1-40e2-81d6-711e1f1d1fae)
