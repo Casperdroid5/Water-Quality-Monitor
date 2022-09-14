@@ -1,0 +1,5 @@
+daadwerkelijk testen van componenten voor de printplaat word gemaakt.
+bestelformulier van componenten maken.
+2 extra high power pins (zoals de 10W weerstand)
+overige GPIO uitbreken.
+testpads toevoegen
