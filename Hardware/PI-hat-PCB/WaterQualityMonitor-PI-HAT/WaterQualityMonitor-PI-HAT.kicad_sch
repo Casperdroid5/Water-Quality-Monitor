@@ -2136,6 +2136,97 @@
         )
       )
     )
+    (symbol "power:GNDPWR" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GNDPWR" (id 1) (at 0 -3.302 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 -1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 -1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GNDPWR\" , power ground" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GNDPWR_0_1"
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy 0 0)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.016 -1.27)
+            (xy -1.27 -2.032)
+            (xy -1.27 -2.032)
+          )
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.508 -1.27)
+            (xy -0.762 -2.032)
+            (xy -0.762 -2.032)
+          )
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy -0.254 -2.032)
+            (xy -0.254 -2.032)
+          )
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.508 -1.27)
+            (xy 0.254 -2.032)
+            (xy 0.254 -2.032)
+          )
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 -1.27)
+            (xy -1.016 -1.27)
+            (xy -1.016 -1.27)
+          )
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 -1.27)
+            (xy 0.762 -2.032)
+            (xy 0.762 -2.032)
+            (xy 0.762 -2.032)
+          )
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "GNDPWR_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GNDPWR" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "#FLG" (id 0) (at 0 1.905 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -3838,6 +3929,22 @@
     (pin "1" (uuid 3bb8a858-d808-44d5-bc61-0cf42b1d2c5c))
   )
 
+  (symbol (lib_id "power:PWR_FLAG") (at 251.46 75.565 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 1cfbb037-8f66-4868-9eb3-dc497f9cecd3)
+    (property "Reference" "#FLG0104" (id 0) (at 251.46 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (id 1) (at 251.46 69.85 0))
+    (property "Footprint" "" (id 2) (at 251.46 75.565 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 251.46 75.565 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6f038030-3c54-4934-a79b-a46cdd15286f))
+  )
+
   (symbol (lib_id "SESD0402X1UN-0020-090:SESD0402X1UN-0020-090") (at 61.595 27.305 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2332a297-6c4e-4c6c-8298-0e97c090832c)
@@ -3924,7 +4031,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 138.43 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 30cd394e-3084-4d16-b302-5287e0ee0118)
-    (property "Reference" "#FLG?" (id 0) (at 136.525 73.66 0)
+    (property "Reference" "#FLG0103" (id 0) (at 136.525 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 132.715 73.66 0)
@@ -4233,7 +4340,7 @@
     (property "Value" "100n" (id 1) (at 235.1658 89.4143 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 237.49 88.265 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (id 2) (at 237.49 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 237.49 88.265 0)
@@ -4290,7 +4397,7 @@
     (property "Value" "3.9k" (id 1) (at 273.2787 81.7943 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 271.78 80.645 0)
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (id 2) (at 271.78 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 271.78 80.645 0)
@@ -4298,6 +4405,24 @@
     )
     (pin "1" (uuid 6baa82cf-af92-4ae1-a566-6be521a25cc6))
     (pin "2" (uuid ef6f2faa-2763-4017-af8a-20305ba8dfbd))
+  )
+
+  (symbol (lib_id "power:GNDPWR") (at 251.46 98.425 90) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 87dccc3f-8cdf-48b9-b44b-b1a84b76968b)
+    (property "Reference" "#PWR0127" (id 0) (at 256.54 98.425 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDPWR" (id 1) (at 255.27 98.5519 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (id 2) (at 252.73 98.425 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 252.73 98.425 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b876fe1e-abc9-4b92-8200-57e6c653a89e))
   )
 
   (symbol (lib_id "Device:R_Small") (at 264.16 80.645 0) (unit 1)
@@ -4309,7 +4434,7 @@
     (property "Value" "3.9k" (id 1) (at 265.6587 81.7943 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 264.16 80.645 0)
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (id 2) (at 264.16 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 264.16 80.645 0)
@@ -4760,7 +4885,7 @@
     (property "Value" "ID_WP" (id 1) (at 266.7 88.011 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (id 2) (at 266.7 90.805 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" (id 2) (at 266.7 90.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 266.7 90.805 0)
@@ -4830,7 +4955,7 @@
     (uuid f0da1c4a-3b35-4b96-878a-21013f0f687f)
     (property "Reference" "U9" (id 0) (at 245.11 81.2608 0))
     (property "Value" "CAT24C256" (id 1) (at 257.81 94.9895 0))
-    (property "Footprint" "" (id 2) (at 251.46 88.265 0)
+    (property "Footprint" "Footprints:SOIC127P600X175-8N" (id 2) (at 251.46 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF" (id 3) (at 251.46 88.265 0)
@@ -5114,6 +5239,12 @@
     (path "/33945106-d19b-4708-a0a8-52d16c71870b"
       (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
     )
+    (path "/30cd394e-3084-4d16-b302-5287e0ee0118"
+      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/1cfbb037-8f66-4868-9eb3-dc497f9cecd3"
+      (reference "#FLG0104") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
     (path "/abe7620e-b407-456b-a238-cfaeacff62cf"
       (reference "#FLG0105") (unit 1) (value "PWR_FLAG") (footprint "")
     )
@@ -5122,9 +5253,6 @@
     )
     (path "/13386dce-bbfc-4f3a-b245-1dbd74d72851"
       (reference "#FLG0107") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/30cd394e-3084-4d16-b302-5287e0ee0118"
-      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/d0db8a61-6bfd-43c8-b1d0-7cfc4c4d9e62"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
@@ -5203,6 +5331,9 @@
     )
     (path "/2ed95514-5eec-42d9-b793-cef8be4211a9/8ad460af-be45-4966-9f86-9ab24a84c51b"
       (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/87dccc3f-8cdf-48b9-b44b-b1a84b76968b"
+      (reference "#PWR0127") (unit 1) (value "GNDPWR") (footprint "")
     )
     (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/6404ccb8-58f1-49b5-b309-15fc332ead6d"
       (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
@@ -5295,7 +5426,7 @@
       (reference "C24") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
     )
     (path "/6d1772b3-b434-4c39-820a-75c27b63c8e3"
-      (reference "C25") (unit 1) (value "100n") (footprint "")
+      (reference "C25") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
     )
     (path "/2332a297-6c4e-4c6c-8298-0e97c090832c"
       (reference "D1") (unit 1) (value "SESD0402X1UN-0020-090") (footprint "SmacSYs:SESD0402X1UN0020090")
@@ -5349,7 +5480,7 @@
       (reference "J10") (unit 1) (value "GPIO") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical")
     )
     (path "/d76e85fc-4f2e-4d54-b404-7aa3a9abd669"
-      (reference "JP1") (unit 1) (value "ID_WP") (footprint "")
+      (reference "JP1") (unit 1) (value "ID_WP") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/bb8ea0c7-769c-4d91-a944-5e66cb94087c"
       (reference "L1") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder")
@@ -5430,10 +5561,10 @@
       (reference "R17") (unit 1) (value "1k87") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/93a1a383-0aa1-4a12-94bf-c12d2e0a0fc4"
-      (reference "R18") (unit 1) (value "3.9k") (footprint "")
+      (reference "R18") (unit 1) (value "3.9k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/857f46c4-5304-4f80-9dc8-f41df7a6e674"
-      (reference "R19") (unit 1) (value "3.9k") (footprint "")
+      (reference "R19") (unit 1) (value "3.9k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/c4faca07-3860-42fb-9e62-697ba90173b0"
       (reference "U1") (unit 1) (value "DRV8870DDA") (footprint "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias")
@@ -5460,7 +5591,7 @@
       (reference "U8") (unit 1) (value "RT7272AGSP") (footprint "Snapeda:SOIC127P599X175-9N")
     )
     (path "/f0da1c4a-3b35-4b96-878a-21013f0f687f"
-      (reference "U9") (unit 1) (value "CAT24C256") (footprint "")
+      (reference "U9") (unit 1) (value "CAT24C256") (footprint "Footprints:SOIC127P600X175-8N")
     )
   )
 )
