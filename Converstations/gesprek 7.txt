@@ -1,4 +1,4 @@
-daadwerkelijk testen van componenten voor de printplaat word gemaakt.
+daadwerkelijk testen van componenten voor de printplaat word gemaakt (anders komen er teveel variabele indien er problemen zijn)
 bestelformulier van componenten maken.
 2 extra high power pins (zoals de 10W weerstand)
 overige GPIO uitbreken.
