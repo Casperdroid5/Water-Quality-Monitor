@@ -5794,6 +5794,24 @@
     (path "/857f46c4-5304-4f80-9dc8-f41df7a6e674"
       (reference "R19") (unit 1) (value "3.9k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
+    (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/24a41367-f749-4d24-8d97-e1876b4712ad"
+      (reference "R?") (unit 1) (value "22k") (footprint "")
+    )
+    (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/403a04d0-feeb-4614-b4d2-4be145463f80"
+      (reference "R?") (unit 1) (value "22k") (footprint "")
+    )
+    (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/9574c2c2-0489-4094-bbea-0f63f4a444cf"
+      (reference "R?") (unit 1) (value "22k") (footprint "")
+    )
+    (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/a00136a6-7e5e-4701-a6be-836ac909d5aa"
+      (reference "R?") (unit 1) (value "22k") (footprint "")
+    )
+    (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/cab08119-0e04-4159-a5c8-d70b94063c85"
+      (reference "R?") (unit 1) (value "22k") (footprint "")
+    )
+    (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/e449317c-5d3c-4f00-86af-b9868a847145"
+      (reference "R?") (unit 1) (value "22k") (footprint "")
+    )
     (path "/c4faca07-3860-42fb-9e62-697ba90173b0"
       (reference "U1") (unit 1) (value "DRV8870DDA") (footprint "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias")
     )
