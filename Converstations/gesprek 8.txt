@@ -1,0 +1,8 @@
+enable pin voor motor drivers gpio maken (ivm verschillende drivers)
+meer gedetaileerde uitleg geven over componentkeuze (bijvoorbeeld mosfet)
+
+we gaan als ik klaar ben met de schematic een FMEA (failure mode and effect, wikipedia)
+
+Ik kan alvast werken met PIQT (grafisch knopjes maken) om dingen te gaan testen. (zetcode tutorial) object oriented
+
+draaibaar knopje maken, voor code die jeroen heeft gedeelt (voorbeeldcode)

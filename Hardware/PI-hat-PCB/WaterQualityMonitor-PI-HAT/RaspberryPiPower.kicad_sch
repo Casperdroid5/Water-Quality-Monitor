@@ -1211,10 +1211,10 @@
   )
 
   (symbol (lib_id "SamacSys_Parts:DMMT5401-7-F") (at 222.885 102.87 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid caba448a-7835-4e6f-829a-54fc84211a56)
     (property "Reference" "IC2" (id 0) (at 234.315 94.615 0))
-    (property "Value" "DMMT5401-7-F" (id 1) (at 234.315 97.155 0))
+    (property "Value" "DMMT5401-7-F" (id 1) (at 234.315 100.965 0))
     (property "Footprint" "SmacSYs:SOT95P285X140-6N" (id 2) (at 241.935 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
