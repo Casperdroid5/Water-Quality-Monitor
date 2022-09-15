@@ -5375,7 +5375,7 @@
     (property "Value" "TestPoint" (id 1) (at 34.29 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature" (id 2) (at 39.37 41.91 0)
+    (property "Footprint" "TestPoint:TestPoint_Bridge_Pitch7.62mm_Drill1.3mm" (id 2) (at 39.37 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 39.37 41.91 0)
@@ -5627,7 +5627,7 @@
     (property "Value" "TestPoint" (id 1) (at 56.515 22.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature" (id 2) (at 61.595 27.305 0)
+    (property "Footprint" "TestPoint:TestPoint_Bridge_Pitch7.62mm_Drill1.3mm" (id 2) (at 61.595 27.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 61.595 27.305 0)
@@ -6292,16 +6292,16 @@
       (reference "R25") (unit 1) (value "22k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/c2928137-276d-472a-9839-ed9a9c8de13f"
-      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Keystone_5019_Minature")
+      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Bridge_Pitch7.62mm_Drill1.3mm")
     )
     (path "/f00f7c16-9150-4e29-ae7d-50f52db54047"
-      (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Keystone_5019_Minature")
+      (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Bridge_Pitch7.62mm_Drill1.3mm")
     )
     (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/e19e6939-0bd1-4b02-8900-8a8506864f13"
-      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Keystone_5019_Minature")
+      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Bridge_Pitch7.62mm_Drill1.3mm")
     )
     (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/054db319-3c0c-4009-b8ca-fadd43bb8927"
-      (reference "TP4") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Keystone_5019_Minature")
+      (reference "TP4") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Bridge_Pitch7.62mm_Drill1.3mm")
     )
     (path "/c4faca07-3860-42fb-9e62-697ba90173b0"
       (reference "U1") (unit 1) (value "DRV8870DDA") (footprint "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias")
