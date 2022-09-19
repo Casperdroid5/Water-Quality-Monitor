@@ -1,6 +1,7 @@
 enable pin voor motor drivers gpio maken (ivm verschillende drivers)
 meer gedetaileerde uitleg geven over componentkeuze (bijvoorbeeld mosfet)
 
+
 we gaan als ik klaar ben met de schematic een FMEA (Failure Mode and Effects Analysis, wikipedia)
 
 Ik kan alvast werken met PIQT (grafisch knopjes maken) om dingen te gaan testen. (zetcode tutorial) object oriented
