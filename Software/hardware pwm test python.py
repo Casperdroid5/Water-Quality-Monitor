@@ -19,4 +19,4 @@ for dutycycle in range(Lowest_value, Highest_value, 100): #Slowly brightening th
     pi.hardware_PWM(hardwareGPIOPin, 100000, dutycycle) #Hardware pwm setting GPIO18 (pin 12), switching frequency (10000hz) and duty cycle 
     #time.sleep (0)
     print(dutycycle)
-pi.hardware_PWM(hardwareGPIOPin, 0, 0) #Turn of PWM
+pi.hardware_PWM(hardwareGPIOPin, 0, 0) #Turn of PWM  
