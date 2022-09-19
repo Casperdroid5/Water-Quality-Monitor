@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Water Quality Monitor")
+    (rev "1")
+    (company "HAN")
+    (comment 1 "Casper R. Tak")
+  )
+
   (lib_symbols
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
@@ -372,7 +379,6 @@
       )
     )
   )
-
 
   (junction (at 121.92 114.3) (diameter 0) (color 0 0 0 0)
     (uuid 09df384f-9bca-4d81-8cfc-baddea3af616)
