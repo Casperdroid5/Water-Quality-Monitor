@@ -20,7 +20,7 @@ class Window(QMainWindow):
         self.setWindowTitle("PWM control knob")
 
         # setting geometry
-        self.setGeometry(100, 100, 500, 400)
+        self.setGeometry(100, 100, 500, 500)
 
         # calling method
         self.UiComponents()
@@ -42,13 +42,13 @@ class Window(QMainWindow):
         dial = QDial(self)
 
         # setting geometry to the dial
-        dial.setGeometry(100, 100, 100, 100)
+        dial.setGeometry(200, 200, 200, 200)
 
         # setting minimum value to the dial
         dial.setMinimum(0)
 
         # setting maximum value to the dial
-        dial.setMaximum(100)
+        dial.setMaximum(1000)
 
         # making notch visible
         dial.setNotchesVisible(True)
