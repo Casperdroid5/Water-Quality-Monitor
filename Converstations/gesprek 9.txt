@@ -1,0 +1,10 @@
+voor elk hardware stuk een software abstractie (incapsulation) 
+Je kan alleen de hardware inkomen via die klasse.
+In iedere klasse een main functie aanmaken om de klasse te testen (unittest)
+testen maken (voor elk component) word + excel bestandje
+kijken of connectors inclusief kabels verkrijgbaar zijn.
+lijstje met component vragen voor Johan B
+transistoren
+ferritebeat
+schema + componentkeuze afsluiten VOOR START PCB ontwerp
+Rastaban-HAT
