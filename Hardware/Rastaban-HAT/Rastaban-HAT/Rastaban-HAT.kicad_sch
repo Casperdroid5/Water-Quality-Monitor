@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (title "Water Quality Monitor")
-    (date "2022-09-19")
+    (title "Rastaban-HAT")
+    (date "2022-09-21")
     (rev "1")
     (company "HAN")
     (comment 1 "Casper R. Tak")
@@ -4941,10 +4941,10 @@
   (symbol (lib_id "SamacSys_Parts:SMBJ26A") (at 216.535 34.925 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6659f4e8-15f2-43f4-924e-74d59efb1046)
-    (property "Reference" "D3" (id 0) (at 208.28 37.465 90)
+    (property "Reference" "D3" (id 0) (at 220.345 43.18 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SMBJ26A" (id 1) (at 204.47 35.56 90)
+    (property "Value" "SMBJ26A" (id 1) (at 219.075 45.72 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Snapeda:DIOM4336X265N" (id 2) (at 206.375 38.735 0)
@@ -5180,6 +5180,22 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7ae54b8f-7482-46fe-bcb1-e37276d245a1))
+  )
+
+  (symbol (lib_id "power:GNDPWR") (at 60.96 54.61 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 840330af-b6c3-4624-ab5e-e44541e68281)
+    (property "Reference" "#PWR?" (id 0) (at 60.96 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDPWR" (id 1) (at 60.833 59.055 0))
+    (property "Footprint" "" (id 2) (at 60.96 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 60.96 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 80e1cb83-e50e-4a89-a585-31a82ceae7ce))
   )
 
   (symbol (lib_id "Device:R_Small") (at 266.7 80.645 0) (unit 1)
@@ -5747,22 +5763,6 @@
     (pin "1" (uuid 8dfd820f-ec7b-4cae-ab2b-50fbcad3a5d4))
   )
 
-  (symbol (lib_id "power:GNDD") (at 60.96 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid d3bac943-d9b5-4c80-9f4c-6175db4c351f)
-    (property "Reference" "#PWR06" (id 0) (at 60.96 60.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDD" (id 1) (at 60.96 59.69 0))
-    (property "Footprint" "" (id 2) (at 60.96 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 60.96 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 515a9833-e521-4ffd-b075-2306b4a2bd59))
-  )
-
   (symbol (lib_id "Device:Fuse") (at 71.755 71.755 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d5116229-7762-4e04-b6c3-7976938e8406)
@@ -6323,9 +6323,6 @@
     (path "/a1d99167-f42c-418b-b07d-d4c2c2639134"
       (reference "#PWR05") (unit 1) (value "GNDPWR") (footprint "")
     )
-    (path "/d3bac943-d9b5-4c80-9f4c-6175db4c351f"
-      (reference "#PWR06") (unit 1) (value "GNDD") (footprint "")
-    )
     (path "/4818aded-9da4-455e-ba5d-be3249099ab5"
       (reference "#PWR07") (unit 1) (value "GNDPWR") (footprint "")
     )
@@ -6412,6 +6409,9 @@
     )
     (path "/b541cb51-efb4-4c41-976b-cd9e51aa4fc6"
       (reference "#PWR0133") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/840330af-b6c3-4624-ab5e-e44541e68281"
+      (reference "#PWR?") (unit 1) (value "GNDPWR") (footprint "")
     )
     (path "/795e2927-7986-4d25-ae7a-1b0489c3e708"
       (reference "C1") (unit 1) (value "10uF") (footprint "SmacSYs:SOIC127P600X175-8N")

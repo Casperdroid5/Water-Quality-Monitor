@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "Water Quality Monitor")
+    (title "Rastaban-HAT")
     (rev "1")
     (company "HAN")
     (comment 1 "Casper R. Tak")
