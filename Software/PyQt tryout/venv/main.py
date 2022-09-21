@@ -30,7 +30,7 @@ class Window(QMainWindow):
         self.show()
 
     def ControlRpiPWM(self, KnobValue, label: QLabel):
-        label.setText("PWM value = " + str(KnobValue))
+        label.setText("Brightness Level = " + str(KnobValue))
         DutyCycle = int((KnobValue*10000)+380000) # typecast str to int. 6200000 steps between fully of and on (dutycycle)  
         print(DutyCycle) # debug value
         pi.set_PWM_range(hardwareGPIOPin, 40000)
@@ -55,7 +55,7 @@ class Window(QMainWindow):
         dial.setNotchesVisible(True)
 
         # creating a label
-        label = QLabel("PWM value not set", self)
+        label = QLabel("Brightness Level not set", self)
 
         # setting geometry to the label
         label.setGeometry(220, 125, 200, 60)
