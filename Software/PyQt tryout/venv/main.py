@@ -8,8 +8,8 @@ from PyQt5 import QtCore, QtGui
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 
-
-
+pi = pigpio.pi()
+hardwareGPIOPin = 18
 
 class Window(QMainWindow):
 
@@ -30,11 +30,10 @@ class Window(QMainWindow):
 
     def ControlRpiPWM(self, KnobValue, label: QLabel):
         label.setText("PWM value = " + str(KnobValue))
-        DutyCycle = int(KnobValue) # typecast str to int
+        DutyCycle = int(KnobValue*100) # typecast str to int
         print(DutyCycle) # debug value
         pi.hardware_PWM(hardwareGPIOPin, 100000, DutyCycle)  # Hardware pwm setting GPIO18 (pin 12), switching frequency (10000hz) and duty cycle
         print("DutyCycle set to: " + str(DutyCycle))
-
 
     # method for components
     def UiComponents(self):
