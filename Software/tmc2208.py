@@ -2,7 +2,7 @@
 
 # *** Import ***
 import pigpio #RPI GPIO library
-import utime
+import time
 
 pi = pigpio.pi()
 hardwareGPIOPin = 18
@@ -17,10 +17,10 @@ direction.high()
 
 def stepOne():
   step.high()
-  utime.sleep(0.001)
+  time.perf_counter(0.001)
   step.low()
 
 
 while True:
     stepOne()
-    utime.sleep(0.1)
+    time.perf_counter(0.1)

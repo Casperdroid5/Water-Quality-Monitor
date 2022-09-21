@@ -6,6 +6,8 @@ Highest_value = 1000000
 Lowest_value = 350000
 hardwareGPIOPin = 18
 
+pi.set_PWM_range(hardwareGPIOPin, 100)
+
 pi.hardware_PWM(hardwareGPIOPin, 0, 0) #Turn of PWM
 time.sleep (0.1)
 for dutycycle in range(Highest_value,Lowest_value, -100): #Slowly dimming the external led

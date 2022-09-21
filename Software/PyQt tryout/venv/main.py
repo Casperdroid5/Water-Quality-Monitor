@@ -11,6 +11,7 @@ from PyQt5.QtCore import *
 pi = pigpio.pi()
 hardwareGPIOPin = 18
 
+
 class Window(QMainWindow):
 
     def __init__(self):
@@ -30,8 +31,9 @@ class Window(QMainWindow):
 
     def ControlRpiPWM(self, KnobValue, label: QLabel):
         label.setText("PWM value = " + str(KnobValue))
-        DutyCycle = int(KnobValue*100) # typecast str to int
+        DutyCycle = int((KnobValue*10000)+380000) # typecast str to int. 6200000 steps between fully of and on (dutycycle)  
         print(DutyCycle) # debug value
+        pi.set_PWM_range(hardwareGPIOPin, 40000)
         pi.hardware_PWM(hardwareGPIOPin, 100000, DutyCycle)  # Hardware pwm setting GPIO18 (pin 12), switching frequency (10000hz) and duty cycle, only works with hardware attached
         print("DutyCycle set to: " + str(DutyCycle))
 
@@ -47,7 +49,7 @@ class Window(QMainWindow):
         dial.setMinimum(0)
 
         # setting maximum value to the dial
-        dial.setMaximum(1000)
+        dial.setMaximum(62)
 
         # making notch visible
         dial.setNotchesVisible(True)
