@@ -4,9 +4,12 @@
 import pigpio #RPI GPIO library
 import utime
 
-direction = Pin(14, Pin.OUT)
-step = Pin(15, Pin.OUT)
-enable = Pin(13, Pin.OUT)
+pi = pigpio.pi()
+hardwareGPIOPin = 18
+
+direction = pi(14)
+step = pi(15)
+enable = pi(13)
 
 enable.low()
 
