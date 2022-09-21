@@ -32,7 +32,7 @@ class Window(QMainWindow):
         label.setText("PWM value = " + str(KnobValue))
         DutyCycle = int(KnobValue) # typecast str to int
         print(DutyCycle) # debug value
-        pi.hardware_PWM(hardwareGPIOPin, 100000, DutyCycle)  # Hardware pwm setting GPIO18 (pin 12), switching frequency (10000hz) and duty cycle
+        pi.hardware_PWM(hardwareGPIOPin, 100000, DutyCycle)  # Hardware pwm setting GPIO18 (pin 12), switching frequency (10000hz) and duty cycle, only works with hardware attached
         print("DutyCycle set to: " + str(DutyCycle))
 
 
