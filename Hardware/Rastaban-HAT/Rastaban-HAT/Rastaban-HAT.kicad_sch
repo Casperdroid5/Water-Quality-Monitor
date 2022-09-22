@@ -4594,7 +4594,7 @@
   (symbol (lib_id "Connector:Conn_01x05_Male") (at 193.675 114.935 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 24bb24ca-3d2a-479f-b9a0-a9d8fbfb368d)
-    (property "Reference" "J?" (id 0) (at 194.945 114.9349 0)
+    (property "Reference" "J9" (id 0) (at 194.945 114.9349 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x05_Male" (id 1) (at 194.945 116.2049 0)
@@ -6352,14 +6352,14 @@
     (path "/afd82313-5a87-47b5-9615-086f92b29aa8"
       (reference "J8") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm")
     )
+    (path "/24bb24ca-3d2a-479f-b9a0-a9d8fbfb368d"
+      (reference "J9") (unit 1) (value "Conn_01x05_Male") (footprint "")
+    )
     (path "/cdd25cd5-3c1d-4ee9-8209-d2eb21ea0541"
       (reference "J10") (unit 1) (value "GPIO") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical")
     )
     (path "/f8f40b7e-e51c-4600-aa2a-8259bee415a5"
       (reference "J11") (unit 1) (value "Conn_01x06_Male") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical")
-    )
-    (path "/24bb24ca-3d2a-479f-b9a0-a9d8fbfb368d"
-      (reference "J?") (unit 1) (value "Conn_01x05_Male") (footprint "")
     )
     (path "/d76e85fc-4f2e-4d54-b404-7aa3a9abd669"
       (reference "JP1") (unit 1) (value "ID_WP") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
@@ -6503,25 +6503,25 @@
       (reference "U2") (unit 1) (value "TPS61169DCKR") (footprint "Snapeda:SOT65P210X110-5N")
     )
     (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/c1dc1b77-ffa7-4f69-878e-c9530094aabf"
-      (reference "U3") (unit 1) (value "TMC2208_SILENTSTEPSTICK") (footprint "Footprints:TMC2208_SILENTSTEPSTICK")
+      (reference "U3") (unit 1) (value "TMC2208_Carrier") (footprint "Footprints:TMC2208_SILENTSTEPSTICK")
     )
     (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/07c85e68-0bf7-427d-95a2-4df276793fef"
-      (reference "U4") (unit 1) (value "TMC2208_SILENTSTEPSTICK") (footprint "Footprints:TMC2208_SILENTSTEPSTICK")
+      (reference "U4") (unit 1) (value "TMC2208_Carrier") (footprint "Footprints:TMC2208_SILENTSTEPSTICK")
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/ac0fbcf0-97bf-4099-a5f5-25c63eb93075"
       (reference "U5") (unit 1) (value "RT7272AGSP") (footprint "Snapeda:SOIC127P599X175-9N")
     )
     (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/172503d1-ddd9-46cd-8151-cd5fd3ec266e"
-      (reference "U6") (unit 1) (value "TMC2208_SILENTSTEPSTICK") (footprint "Footprints:TMC2208_SILENTSTEPSTICK")
+      (reference "U6") (unit 1) (value "TMC2208_Carrier") (footprint "Footprints:TMC2208_SILENTSTEPSTICK")
+    )
+    (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/1d3758c9-7eb3-42ba-8ec8-545ede1e6fd7"
+      (reference "U7") (unit 1) (value "DRV8838 POLOLU") (footprint "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm")
     )
     (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/4618c428-5a77-4793-bb70-4e68ce6d6c82"
       (reference "U8") (unit 1) (value "TLV1117-33") (footprint "")
     )
     (path "/f0da1c4a-3b35-4b96-878a-21013f0f687f"
       (reference "U9") (unit 1) (value "CAT24C256") (footprint "Footprints:SOIC127P600X175-8N")
-    )
-    (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/1d3758c9-7eb3-42ba-8ec8-545ede1e6fd7"
-      (reference "U?") (unit 1) (value "DRV8838 POLOLU") (footprint "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm")
     )
   )
 )
