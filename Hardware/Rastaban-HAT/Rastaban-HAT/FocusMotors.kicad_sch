@@ -6,7 +6,7 @@
 
   (title_block
     (title "Rastaban-HAT")
-    (rev "1")
+    (rev "1.1")
     (company "HAN")
     (comment 1 "Casper R. Tak")
   )
@@ -661,8 +661,8 @@
   (symbol (lib_id "Driver_Motor:DRV8838 POLOLU") (at 222.25 106.045 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1d3758c9-7eb3-42ba-8ec8-545ede1e6fd7)
-    (property "Reference" "U7" (id 0) (at 222.25 97.155 0))
-    (property "Value" "DRV8838 POLOLU" (id 1) (at 222.25 99.695 0))
+    (property "Reference" "U7" (id 0) (at 222.25 95.885 0))
+    (property "Value" "DRV8838 POLOLU" (id 1) (at 222.25 98.425 0))
     (property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm" (id 2) (at 226.695 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -830,7 +830,7 @@
     (property "Reference" "C19" (id 0) (at 166.37 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10n 10V" (id 1) (at 166.37 113.665 0)
+    (property "Value" "10u 10V" (id 1) (at 166.37 113.665 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 171.1452 114.935 0)

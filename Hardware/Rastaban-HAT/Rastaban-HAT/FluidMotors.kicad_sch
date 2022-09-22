@@ -6,7 +6,7 @@
 
   (title_block
     (title "Rastaban-HAT")
-    (rev "1")
+    (rev "1.1")
     (company "HAN")
     (comment 1 "Casper R. Tak")
   )
@@ -741,7 +741,7 @@
     (property "Reference" "C16" (id 0) (at 139.7 99.6949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n 35V" (id 1) (at 139.7 102.2349 0)
+    (property "Value" "100u 35V" (id 1) (at 139.7 102.2349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 136.8552 104.775 0)
@@ -830,7 +830,7 @@
     (property "Reference" "C17" (id 0) (at 219.71 99.6949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n 35V" (id 1) (at 219.71 102.2349 0)
+    (property "Value" "100u 35V" (id 1) (at 219.71 102.2349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 217.5002 104.775 0)
