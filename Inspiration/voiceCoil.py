@@ -46,8 +46,3 @@ class VoiceCoil(QObject):
         except Exception as err:
             self.postMessage.emit("{}: error; type: {}, args: {}".format(self.__class__.__name__, type(err), err.args))            
 
-
-if __name__ == "__main__":
-    instantiate gui
-    connect signals to voicecoil slots
-    
