@@ -2,3 +2,6 @@ Vragen aan Johan:
 SMD of tht voor de gpio header?
 mosfet types (welke zijn ideaal, jellybean?)
 12 of 24V ivm stepup en stepdown voor RPI en (grote steppermotor)
+
+Esd chip: input/output zijn goed aangesloten, gnd ook
+Vcc weer ik niet zeker, want er is ook al een stroompad naar 3V3 via pull-ups. Laten we dat even checken bij Johan
