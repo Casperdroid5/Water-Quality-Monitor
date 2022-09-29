@@ -1,7 +1,28 @@
 Vragen aan Johan:
+
 SMD of tht voor de gpio header?
 mosfet types (welke zijn ideaal, jellybean?)
 12 of 24V ivm stepup en stepdown voor RPI en (grote steppermotor)
 
 Esd chip: input/output zijn goed aangesloten, gnd ook
-Vcc weer ik niet zeker, want er is ook al een stroompad naar 3V3 via pull-ups. Laten we dat even checken bij Johan
+Vcc weer ik niet zeker, want er is ook al een stroompad naar 3V3 via pull-ups. 
+Laten we dat even checken bij Johan
+
+stroombron op led, weerstand mogelijk, stroombron netter. 
+
+ontkoppel condensator op d4 en d1 (vss en vcc)
+
+weerstanden voor u9 (zodat i2c adress ingesteld kan worden)
+reden 0.2 ohm (Itrip) is deze chip wel geschikt i.v.m. de hoge peltier stroom vraag.
+
+add power diode to j7 and j8 
+
+backpower protection circuit (orientation?)
+
+u4, u3, u6 ontkoppeling voor vio (100nf)
+
+stepper motor uitzoeken (hogere spanningen)
+
+uitzoeken hoe we goedkoop de pcb's kunnen laten bestucken (bij jlcpcb?). export via kicad
+
+

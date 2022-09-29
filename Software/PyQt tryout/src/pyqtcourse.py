@@ -1,70 +1,21 @@
 import sys
 
-from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import QVBoxLayout  # <2>
-from PyQt5.QtWidgets import QWidget  # <1>
-from PyQt5.QtWidgets import (
-    QApplication,
-    QCheckBox,
-    QComboBox,
-    QDateEdit,
-    QDateTimeEdit,
-    QDial,
-    QDoubleSpinBox,
-    QFontComboBox,
-    QLabel,
-    QLCDNumber,
-    QLineEdit,
-    QMainWindow,
-    QProgressBar,
-    QPushButton,
-    QRadioButton,
-    QSlider,
-    QSpinBox,
-    QTimeEdit,
-)
+from PyQt5.QtWidgets import *
 
 
-# Subclass QMainWindow to customize your application's main window
 class MainWindow(QMainWindow):
     def __init__(self):
-        super().__init__()
+        self.setWindowTitle("GUI Window")
+        button = QPushButton("Press Me!")
+        button.setCheckable(True)
+        button.clicked.connect(self.the_button_was_clicked)
+        # Set the central widget of the Window.
+        self.setCentralWidget(button)
 
-        self.setWindowTitle("Widgets App")
-
-        layout = QVBoxLayout()
-        widgets = [
-            QCheckBox,
-            QComboBox,
-            QDateEdit,
-            QDateTimeEdit,
-            QDial,
-            QDoubleSpinBox,
-            QFontComboBox,
-            QLCDNumber,
-            QLabel,
-            QLineEdit,
-            QProgressBar,
-            QPushButton,
-            QRadioButton,
-            QSlider,
-            QSpinBox,
-            QTimeEdit,
-        ]
-
-        for w in widgets:
-            layout.addWidget(w())
-
-        widget = QWidget()
-        widget.setLayout(layout)
-
-        # Set the central widget of the Window. Widget will expand
-        # to take up all the space in the window by default.
-        self.setCentralWidget(widget)
 
 
 app = QApplication(sys.argv)
+
 window = MainWindow()
 window.show()
-
 app.exec_()
