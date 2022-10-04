@@ -686,7 +686,7 @@
     (uuid 1d3758c9-7eb3-42ba-8ec8-545ede1e6fd7)
     (property "Reference" "U7" (id 0) (at 222.25 95.885 0))
     (property "Value" "DRV8838 POLOLU" (id 1) (at 222.25 98.425 0))
-    (property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm" (id 2) (at 226.695 130.81 0)
+    (property "Footprint" "" (id 2) (at 226.695 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8837.pdf" (id 3) (at 227.33 125.73 0)
