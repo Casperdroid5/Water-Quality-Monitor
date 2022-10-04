@@ -1160,7 +1160,7 @@
     (uuid ac0fbcf0-97bf-4099-a5f5-25c63eb93075)
     (property "Reference" "U5" (id 0) (at 134.62 87.63 0))
     (property "Value" "RT7272AGSP" (id 1) (at 134.62 90.17 0))
-    (property "Footprint" "" (id 2) (at 127 110.49 0)
+    (property "Footprint" "SnapEDA Library:SOIC127P599X175-9N" (id 2) (at 127 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 139.7 101.6 0)

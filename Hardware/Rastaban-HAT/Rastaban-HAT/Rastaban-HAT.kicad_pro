@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.81,
-          "height": 1.316,
-          "width": 1.316
+          "drill": 0.0,
+          "height": 1.75,
+          "width": 1.425
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -365,9 +365,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
-        "nets": [
-          "GND"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.35,
