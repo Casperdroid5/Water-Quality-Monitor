@@ -2760,6 +2760,7 @@
     )
   )
 
+
   (junction (at 182.245 83.82) (diameter 0) (color 0 0 0 0)
     (uuid 021a6196-42a1-4d3e-96a3-20debe7d7bbd)
   )
@@ -5138,7 +5139,7 @@
     (property "Value" "DMG1012T" (id 1) (at 61.595 40.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-523" (id 2) (at 60.96 39.37 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (id 2) (at 60.96 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31783.pdf" (id 3) (at 66.04 37.465 0)
@@ -5616,7 +5617,7 @@
     (uuid 917d18dc-3722-4ec8-8baf-2a9436363902)
     (property "Reference" "U10" (id 0) (at 252.73 28.575 0))
     (property "Value" "xl6009_module" (id 1) (at 253.365 31.115 0))
-    (property "Footprint" "" (id 2) (at 249.555 34.29 0)
+    (property "Footprint" "Connector_PinHeader_1.00mm:xl6009 Boost converter" (id 2) (at 249.555 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 249.555 34.29 0)
@@ -5689,7 +5690,7 @@
     (property "Value" "2N7002K" (id 1) (at 43.18 100.3299 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 41.91 100.965 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (id 2) (at 41.91 100.965 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf" (id 3) (at 36.83 99.06 0)
@@ -6518,7 +6519,7 @@
     (property "Value" "IRL540SPBF" (id 1) (at 71.12 92.075 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "SamacSys_Parts:IRL540SPBF" (id 2) (at 79.375 100.33 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (id 2) (at 79.375 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.vishay.com/docs/91306/sihl640s.pdf" (id 3) (at 79.375 102.87 0)
@@ -7045,7 +7046,7 @@
       (reference "PE1") (unit 1) (value "PeltierElement") (footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm")
     )
     (path "/9a9094d0-3c31-47ba-80eb-52481aba703b"
-      (reference "Q1") (unit 1) (value "2N7002K") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q1") (unit 1) (value "2N7002K") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/7d0f6651-cf00-4061-884b-b5c994534c8a"
       (reference "Q2") (unit 1) (value "IRL540SPBF") (footprint "SamacSys_Parts:IRL540SPBF")
@@ -7054,13 +7055,13 @@
       (reference "Q3") (unit 1) (value "DMG2305UX-7") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/f7b12a86-646a-43d0-b4a6-be89ce46d7c6"
-      (reference "Q4") (unit 1) (value "IRL540SPBF") (footprint "SamacSys_Parts:IRL540SPBF")
+      (reference "Q4") (unit 1) (value "IRL540SPBF") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/e1dca29f-1a0e-4463-a7da-56bdf46b3fda"
       (reference "Q5") (unit 1) (value "IRL540SPBF") (footprint "SamacSys_Parts:IRL540SPBF")
     )
     (path "/52dc7e8b-b1eb-4620-8eaf-faf5e24e7dfc"
-      (reference "Q6") (unit 1) (value "DMG1012T") (footprint "Package_TO_SOT_SMD:SOT-523")
+      (reference "Q6") (unit 1) (value "DMG1012T") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/b982913b-78ea-41c6-92bb-058d05052eaf"
       (reference "R1") (unit 1) (value "0.2") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -7201,7 +7202,7 @@
       (reference "U9") (unit 1) (value "CAT24C256") (footprint "SamacSys_Parts:SOIC127P600X175-8N")
     )
     (path "/917d18dc-3722-4ec8-8baf-2a9436363902"
-      (reference "U10") (unit 1) (value "xl6009_module") (footprint "")
+      (reference "U10") (unit 1) (value "xl6009_module") (footprint "Connector_PinHeader_1.00mm:xl6009 Boost converter")
     )
   )
 )

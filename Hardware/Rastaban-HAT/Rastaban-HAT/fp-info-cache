@@ -1,4 +1,4 @@
-20390506194993475
+20392171156382529
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -29378,6 +29378,13 @@ Surface mounted pin header SMD 2x40 1.00mm double row
 0
 80
 80
+Connector_PinHeader_1.00mm
+xl6009 Boost converter
+
+
+0
+4
+4
 Connector_PinHeader_1.27mm
 PinHeader_1x01_P1.27mm_Horizontal
 Through hole angled pin header, 1x01, 1.27mm pitch, 4.0mm pin length, single row
