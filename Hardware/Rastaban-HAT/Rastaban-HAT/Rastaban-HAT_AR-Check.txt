@@ -1,0 +1,17 @@
+AR checking written on:
+'C:\Users\crtak\HAN\Jeroen Veen - Effluent\07 Studentprojects\Casper Tak\Hardware\Rastaban-HAT\Rastaban-HAT\Rastaban-HAT_AR-Check.txt'
+'action_menu_annular_check.py'
+version = 1.7.2
+Testing PCB for Annular Rings
+TH Pads >= 0.125 Vias >= 0.125
+PHD margin on PTH = 0
+
+VIAS that Pass = 0; Fails = 0
+AR PTH violation of 0.0 at XY 216.054,198.953
+AR PTH violation of 0.0 at XY 225.754,198.953
+AR PTH violation of 0.0 at XY 247.09,198.953
+AR PTH violation of 0.0 at XY 237.39,198.953
+AR PTH violation of 0.0 at XY 206.45,198.953
+AR PTH violation of 0.0 at XY 196.75,198.953
+TH PADS that Pass = 115; Fails = 6
+NPTH PADS that Pass = 0; Fails = 0
