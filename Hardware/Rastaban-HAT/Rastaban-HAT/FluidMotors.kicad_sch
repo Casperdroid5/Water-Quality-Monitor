@@ -832,7 +832,7 @@
   (symbol (lib_name "TMC2208_SILENTSTEPSTICK_1") (lib_id "TMC2208_SILENTSTEPSTICK:TMC2208_SILENTSTEPSTICK") (at 184.15 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 87051d40-c155-42ae-a681-4d15ce0c4865)
-    (property "Reference" "U?" (id 0) (at 184.15 78.74 0))
+    (property "Reference" "U4" (id 0) (at 184.15 78.74 0))
     (property "Value" "TMC2208_Carrier" (id 1) (at 184.15 81.28 0))
     (property "Footprint" "SnapEDA Library:MODULE_TMC2208_SILENTSTEPSTICK" (id 2) (at 168.91 123.19 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)

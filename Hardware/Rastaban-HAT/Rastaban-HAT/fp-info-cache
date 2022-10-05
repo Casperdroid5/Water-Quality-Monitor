@@ -1,4 +1,4 @@
-20388831865020729
+20390506194993475
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57833,6 +57833,13 @@ carambola2 8devices
 0
 104
 52
+Module
+DRV8838 POLOLU
+
+
+0
+10
+9
 Module
 Maple_Mini
 Maple Mini, http://docs.leaflabs.com/static.leaflabs.com/pub/leaflabs/maple-docs/0.0.12/hardware/maple-mini.html
