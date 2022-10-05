@@ -2760,7 +2760,6 @@
     )
   )
 
-
   (junction (at 182.245 83.82) (diameter 0) (color 0 0 0 0)
     (uuid 021a6196-42a1-4d3e-96a3-20debe7d7bbd)
   )
@@ -6220,8 +6219,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ad697895-9f9a-43c7-b6fc-78ff2030db30))
-    (pin "3" (uuid 2b3d70b6-8155-4d75-9ee5-f4827a2ca5f0))
     (pin "2" (uuid 5f1807a5-52b5-4615-acc2-be6a0e838b2d))
+    (pin "3" (uuid 2b3d70b6-8155-4d75-9ee5-f4827a2ca5f0))
   )
 
   (symbol (lib_id "SparkFun-Resistors:1.20KOHM-0603-1_10W-1%") (at 75.565 83.82 90) (unit 1)

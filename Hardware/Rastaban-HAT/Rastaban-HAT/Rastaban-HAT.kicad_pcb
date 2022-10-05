@@ -350,7 +350,7 @@
       (net 32 "5V+") (pinfunction "E2") (pintype "passive") (tstamp 59581477-2b6d-43a1-851a-621362c281e5))
     (pad "6" smd rect locked (at 1.3 -0.95 90) (size 0.6 1.15) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 10 "Net-(C11-Pad2)") (pinfunction "E1") (pintype "passive") (tstamp c5c94c4f-bfc6-4da5-9017-a9cc8cdf18c7))
-    (model "${KIPRJMOD}/packages3D/D5V0P4UR6SO-7.stp"
+    (model "${KIPRJMOD}/packages3D/SOT-23-6.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -613,6 +613,11 @@
       (net 106 "unconnected-(U6-PadJP3_2)") (pinfunction "INDEX") (pintype "output+no_connect") (tstamp 706c9857-f954-445e-be1d-dabe543dc343))
     (pad "VREF" thru_hole circle locked (at 2.54 7.239) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask)
       (net 105 "Net-(C24-Pad2)") (pinfunction "VREF") (pintype "passive") (tstamp bf385053-e425-4430-9a68-89f6e27e90d4))
+    (model "${KIPRJMOD}/packages3D/BTT TMC2208 TMC2209 UART Stepper Driver.step"
+      (offset (xyz 0 0 7.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
@@ -840,6 +845,11 @@
       (net 91 "24V+") (pinfunction "out+") (pintype "power_out") (tstamp 7fada096-2282-4eb1-b31f-fa69835449b7))
     (pad "4" thru_hole circle (at 20.955 8.755) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "out-") (pintype "passive") (tstamp c56c826d-1e98-4540-8f7b-ec8a080093cf))
+    (model "${KIPRJMOD}/packages3D/XL6009.stp"
+      (offset (xyz 0.3 0 5.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
@@ -1116,7 +1126,7 @@
       (net 1 "GND") (pinfunction "5") (pintype "passive") (tstamp e94608fd-1dca-4456-8e16-abf1a8a7a546))
     (pad "6" smd rect locked (at 7.35 4.2) (size 2.2 5.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "6") (pintype "passive") (tstamp 3460d368-f514-4ac2-8f7f-39d5728e3057))
-    (model "C:/Users/crtak/Documents/KiCad/SamacSys_Parts.3dshapes/1778780.stp"
+    (model "${KIPRJMOD}/packages3D/1778780.stp"
       (offset (xyz -5.849999817 -8.169999954 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1279,7 +1289,7 @@
       (net 1 "GND") (pinfunction "S") (pintype "passive") (tstamp 3c88c12b-1fb8-4e30-acb4-6fdd47403a19))
     (pad "3" smd rect (at 0.645 0 180) (size 0.51 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 49 "Net-(D2-PadK)") (pinfunction "D") (pintype "passive") (tstamp 51e9d018-48bc-46b4-8123-05f4862b3a94))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+    (model "${KIPRJMOD}/packages3D/SOT-23.step"
       (offset (xyz 0 0 0))
       (scale (xyz 0.6 0.5 0.6))
       (rotate (xyz 0 0 0))
@@ -1739,7 +1749,7 @@
       (net 21 "Net-(D2-PadA)") (pinfunction "A") (pintype "passive") (tstamp cb571d6d-cba6-4202-9ce2-d57a77494fd6))
     (pad "K" thru_hole circle (at 2.54 0) (size 1.316 1.316) (drill 0.81) (layers *.Cu *.Mask "Dwgs.User")
       (net 49 "Net-(D2-PadK)") (pinfunction "C") (pintype "passive") (tstamp d0d998f1-cf5a-4f69-9b36-89ef43a2c919))
-    (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_Clear.step"
+    (model "${KIPRJMOD}/packages3D/LED_D5.0mm_Clear.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1864,7 +1874,7 @@
       (net 1 "GND") (pinfunction "5") (pintype "passive") (tstamp a4b9aec1-987e-4163-be87-cc23da9fcc71))
     (pad "6" smd rect locked (at 7.35 4.2) (size 2.2 5.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "6") (pintype "passive") (tstamp d6954d62-e7da-4abe-bd0f-4e8bf5490baa))
-    (model "C:/Users/crtak/Documents/KiCad/SamacSys_Parts.3dshapes/1778780.stp"
+    (model "${KIPRJMOD}/packages3D/1778780.stp"
       (offset (xyz -5.849999817 -8.169999954 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2402,7 +2412,7 @@
       (net 31 "/FocusMotors/out2") (pinfunction "Pin_1") (pintype "passive") (tstamp bf9b0e99-001c-4cc5-9717-a41dc31a9b53))
     (pad "2" thru_hole oval (at 5 0 180) (size 1.98 3.96) (drill 1.32) (layers *.Cu *.Mask)
       (net 30 "/FocusMotors/out1") (pinfunction "Pin_2") (pintype "passive") (tstamp 075f9690-b39b-4a1b-90c6-809082c337c7))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_Altech.3dshapes/Altech_AK300_1x02_P5.00mm_45-Degree.wrl"
+    (model "${KIPRJMOD}/packages3D/Altech_AK300_1x02_P5.00mm_45-Degree.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2925,7 +2935,7 @@
       (net 45 "Net-(PE1-Pad1)") (pintype "passive") (tstamp a1523914-90c1-4e1b-8cef-40272499e4d5))
     (pad "2" thru_hole oval (at 5 0 90) (size 1.98 3.96) (drill 1.32) (layers *.Cu *.Mask)
       (net 46 "Net-(PE1-Pad2)") (pintype "passive") (tstamp dddd187d-0202-416b-994c-7b1b6b116f17))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_Altech.3dshapes/Altech_AK300_1x02_P5.00mm_45-Degree.wrl"
+    (model "${KIPRJMOD}/packages3D/Altech_AK300_1x02_P5.00mm_45-Degree.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3122,7 +3132,7 @@
       (net 1 "GND") (pinfunction "5") (pintype "passive") (tstamp b1e8e3de-f4e8-467f-ac98-0218e0fc2a7a))
     (pad "6" smd rect locked (at 7.35 4.2) (size 2.2 5.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "6") (pintype "passive") (tstamp ea3a3e5f-9b84-4743-97b0-e34fcf890883))
-    (model "C:/Users/crtak/Documents/KiCad/SamacSys_Parts.3dshapes/1778780.stp"
+    (model "${KIPRJMOD}/packages3D/1778780.stp"
       (offset (xyz -5.849999817 -8.169999954 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3308,7 +3318,7 @@
       (net 16 "3.3V+") (pinfunction "VCC") (pintype "passive") (tstamp 2eca2745-3973-4c0c-9157-3f02f9ea8a23))
     (pad "6" smd rect locked (at 1.3 -0.95 90) (size 0.6 1.15) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 62 "GPIO10") (pinfunction "I/O4") (pintype "passive") (tstamp a34190f3-bc27-47e7-9441-6057d830e588))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step"
+    (model "${KIPRJMOD}/packages3D/SOT-23-6.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3514,7 +3524,7 @@
       (net 16 "3.3V+") (pinfunction "VCC") (pintype "passive") (tstamp 292b220e-a0ec-4dbb-9ca9-3af4219eaa69))
     (pad "6" smd rect locked (at 1.3 -0.95 90) (size 0.6 1.15) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 96 "unconnected-(D4-Pad6)") (pinfunction "I/O4") (pintype "passive+no_connect") (tstamp 08e6a966-1712-4c51-a0cf-873d3d6cf48a))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step"
+    (model "${KIPRJMOD}/packages3D/SOT-23-6.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3619,6 +3629,11 @@
       (net 16 "3.3V+") (pinfunction "VIN") (pintype "power_in") (tstamp 9fb3f3cb-0eb1-4261-9637-64f7fd3af200))
     (pad "10" thru_hole oval (at 3.81 4.953) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 563209ac-48d9-4ba4-8ebe-b93af221074c))
+    (model "${KIPRJMOD}/packages3D/drv8838-motor-driver-carrier.step"
+      (offset (xyz 5 6.5 4.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -180))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
@@ -4327,6 +4342,11 @@
       (net 98 "unconnected-(U3-PadJP3_2)") (pinfunction "INDEX") (pintype "output+no_connect") (tstamp 07a5ccbf-e78e-4247-9a3f-ae0b562c749f))
     (pad "VREF" thru_hole circle locked (at 2.54 7.239) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask)
       (net 16 "3.3V+") (pinfunction "VREF") (pintype "passive") (tstamp 0a7c9683-e88f-4443-91f1-95f1fa48bd79))
+    (model "${KIPRJMOD}/packages3D/BTT TMC2208 TMC2209 UART Stepper Driver.step"
+      (offset (xyz 0 0 7.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (footprint "SamacSys_Parts:IRL540SPBF" (layer "F.Cu")
@@ -4544,7 +4564,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KICAD6_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_CUI_PJ-063AH_Horizontal.step"
+    (model "${KIPRJMOD}/packages3D/BarrelJack_CUI_PJ-063AH_Horizontal.step"
       (offset (xyz 0 0 0.5))
       (scale (xyz 1 1.1 1))
       (rotate (xyz 0 0 0))
@@ -4855,7 +4875,7 @@
       (net 56 "Net-(D5-PadC)") (pinfunction "Pin_1") (pintype "passive") (tstamp abc7970a-333c-4d4c-bc97-ac8d2e14b0af))
     (pad "2" thru_hole oval (at 5 0 90) (size 1.98 3.96) (drill 1.32) (layers *.Cu *.Mask)
       (net 89 "Net-(D5-PadA)") (pinfunction "Pin_2") (pintype "passive") (tstamp 6409d6d2-fa1d-4ded-b7fa-f1095adb8b83))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_Altech.3dshapes/Altech_AK300_1x02_P5.00mm_45-Degree.wrl"
+    (model "${KIPRJMOD}/packages3D/Altech_AK300_1x02_P5.00mm_45-Degree.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5165,7 +5185,7 @@
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 0e15b82a-7279-4782-b15c-0f2da79bae43))
     (pad "S2" smd rect locked (at 2.8 3.875 180) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 9818c6e0-d924-45d1-b698-aac15365ce3d))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/SM04B-SRSS-TB(LF)(SN)--3DModel-STEP-56544.STEP"
+    (model "${KIPRJMOD}/packages3D/SM04B-SRSS-TB(LF)(SN)--3DModel-STEP-56544.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -180))
@@ -5380,7 +5400,7 @@
       (net 57 "Net-(D6-PadC)") (pinfunction "Pin_1") (pintype "passive") (tstamp e8d879cf-60a0-4763-9fbc-cc9e48bc9ff5))
     (pad "2" thru_hole oval (at 5 0 90) (size 1.98 3.96) (drill 1.32) (layers *.Cu *.Mask)
       (net 90 "Net-(D6-PadA)") (pinfunction "Pin_2") (pintype "passive") (tstamp ad72f724-04c6-45da-8a4a-6c6d9dfd29c7))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_Altech.3dshapes/Altech_AK300_1x02_P5.00mm_45-Degree.wrl"
+    (model "${KIPRJMOD}/packages3D/Altech_AK300_1x02_P5.00mm_45-Degree.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5479,6 +5499,11 @@
       (net 102 "unconnected-(U4-PadJP3_2)") (pinfunction "INDEX") (pintype "output+no_connect") (tstamp befe0e6a-7a87-4115-b034-ed74ec97b96d))
     (pad "VREF" thru_hole circle locked (at 2.54 7.239) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask)
       (net 101 "Net-(C23-Pad2)") (pinfunction "VREF") (pintype "passive") (tstamp 221dbc2c-235b-4ba1-8985-f0032ee42c85))
+    (model "${KIPRJMOD}/packages3D/BTT TMC2208 TMC2209 UART Stepper Driver.step"
+      (offset (xyz 0 0 7.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
