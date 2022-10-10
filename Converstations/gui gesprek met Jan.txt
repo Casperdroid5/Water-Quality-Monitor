@@ -1,0 +1,24 @@
+opschrijven wat je nodig hebt(functies, variabelen)
+
+groeperen en namen geven
+
+eerst kleinste onafhankelijk maken (zonder gui functioneel)
+
+peltier eigen class
+
+application test maken (vinkjes zetten, met oog beoordelen)
+
+HardwareClass:
+	pwm_controller: PWMClass = PWMClass()
+	...
+
+PWMController:
+	HighestValue
+	LowestValue
+	pi
+	GPIOPin
+
+	VolledigAan();
+	Uit();
+	Change(int value);
+	
