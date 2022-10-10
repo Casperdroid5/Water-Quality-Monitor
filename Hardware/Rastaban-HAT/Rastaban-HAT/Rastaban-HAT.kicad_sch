@@ -4636,7 +4636,7 @@
     (property "Value" "Screw_Terminal_01x02" (id 1) (at 48.895 169.5449 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" (id 2) (at 45.72 167.005 0)
+    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (id 2) (at 45.72 167.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 45.72 167.005 0)
@@ -5193,7 +5193,7 @@
     (property "Value" "Screw_Terminal_01x02" (id 1) (at 181.61 27.3049 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" (id 2) (at 178.435 24.765 0)
+    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (id 2) (at 178.435 24.765 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 178.435 24.765 0)
@@ -5756,7 +5756,7 @@
     (uuid a5a5959a-c687-4613-9524-73f0cec68824)
     (property "Reference" "PE1" (id 0) (at 67.31 120.015 0))
     (property "Value" "PeltierElement" (id 1) (at 67.31 121.92 0))
-    (property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" (id 2) (at 67.31 127.508 0)
+    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (id 2) (at 67.31 127.508 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 67.31 125.095 90)
@@ -5790,7 +5790,7 @@
     (property "Value" "Screw_Terminal_01x02" (id 1) (at 83.82 169.5449 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" (id 2) (at 80.645 167.005 0)
+    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (id 2) (at 80.645 167.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 80.645 167.005 0)
@@ -6253,7 +6253,7 @@
     (property "Value" "1.20KOHM-0603-1_10W-1%" (id 1) (at 63.5 85.09 90)
       (effects (font (size 1 1)) hide)
     )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (id 2) (at 71.755 83.82 0)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical" (id 2) (at 71.755 83.82 0)
       (effects (font (size 0.508 0.508)) hide)
     )
     (property "Datasheet" "" (id 3) (at 75.565 83.82 0)
@@ -6967,7 +6967,7 @@
       (reference "J3") (unit 1) (value "1778780") (footprint "SamacSys_Parts:1778780")
     )
     (path "/5aac9ea9-4fe8-4ec4-82c6-ee5bf07b1349"
-      (reference "J4") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm")
+      (reference "J4") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
     )
     (path "/e220ca8d-f503-491c-aac3-31543f7f0722"
       (reference "J5") (unit 1) (value "Jack-DC 12V+") (footprint "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002")
@@ -6976,10 +6976,10 @@
       (reference "J6") (unit 1) (value "SM04B-SRSS-TB(LF)(SN)") (footprint "SnapEDA Library:JST_SM04B-SRSS-TB(LF)(SN)")
     )
     (path "/00360c14-430e-4399-9d74-f52e2b63950e"
-      (reference "J7") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm")
+      (reference "J7") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
     )
     (path "/afd82313-5a87-47b5-9615-086f92b29aa8"
-      (reference "J8") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm")
+      (reference "J8") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
     )
     (path "/24bb24ca-3d2a-479f-b9a0-a9d8fbfb368d"
       (reference "J9") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
@@ -7009,7 +7009,7 @@
       (reference "M1") (unit 1) (value "Fan") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/a5a5959a-c687-4613-9524-73f0cec68824"
-      (reference "PE1") (unit 1) (value "PeltierElement") (footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm")
+      (reference "PE1") (unit 1) (value "PeltierElement") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
     )
     (path "/9a9094d0-3c31-47ba-80eb-52481aba703b"
       (reference "Q1") (unit 1) (value "2N7002K") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -7036,7 +7036,7 @@
       (reference "R2") (unit 1) (value "3.33") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/e2569925-ebf9-4052-bd02-8582502d3183"
-      (reference "R3") (unit 1) (value "1.20KOHM-0603-1_10W-1%") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+      (reference "R3") (unit 1) (value "1.20KOHM-0603-1_10W-1%") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical")
     )
     (path "/cb7fd693-d799-4afd-af49-3ab48484f6ca"
       (reference "R4") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
