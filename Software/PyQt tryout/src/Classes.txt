@@ -1,0 +1,43 @@
+
+HardwareClass:
+	pwm_controller: PWMClass = PWMClass()
+	...
+
+PWMController:  (suitable for multiple classes)
+	HighestValue
+	LowestValue
+	pi
+	GPIOPin
+
+	VolledigAan();
+	Uit();
+	Change(int value);
+
+LEDController:
+    VolledigAan();
+	Uit();
+	Change(int value);  
+
+PeltierController:
+	koelenVolledigAan();
+	VerhittenVolledigAan();
+	Uit();
+	ChangeTemperature(int value)
+
+PowerGPIO:
+	VolledigAan();
+	Uit();
+	Change(int value);
+
+Motors:
+    EnableMotor(int motor, bool enable);
+    Rotation in degrees(int motor, bool dir, int step);
+    degrees to ml(motor);
+    ChangeSpeed(int motor, int value);
+
+
+
+    
+    
+
+

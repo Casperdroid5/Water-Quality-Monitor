@@ -8,17 +8,12 @@ peltier eigen class
 
 application test maken (vinkjes zetten, met oog beoordelen)
 
-HardwareClass:
-	pwm_controller: PWMClass = PWMClass()
-	...
-
-PWMController:
-	HighestValue
-	LowestValue
-	pi
-	GPIOPin
-
-	VolledigAan();
-	Uit();
-	Change(int value);
 	
+
+
+
+
+
+
+	
+
