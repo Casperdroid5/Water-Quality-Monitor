@@ -213,7 +213,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 086f3fb6-c568-45e4-8b6e-c099af76ec1c)
-    (at 228.778 181.28 180)
+    (at 249.86 252.4 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "FluidMotors.kicad_sch")
@@ -255,7 +255,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0aa615dc-446c-41cc-bd77-dd0ac76a4fe1)
-    (at 163.754 171.12 90)
+    (at 317.932 228.524 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Purpose" "to prevent undefined state at boot")
@@ -298,7 +298,7 @@
 
   (footprint "SamacSys_Parts:SOT95P285X140-6N" (layer "F.Cu")
     (tedit 0) (tstamp 0cf9d652-051a-4f39-a51e-8969ec700616)
-    (at 200.838 121.336)
+    (at 353.97 111.242)
     (descr "SOT26+")
     (tags "TVS Diode (Uni-directional)")
     (property "Description" "Transistor Dual PNP 150V 0.2A SOT26-6 Diodes Inc DMMT5401-7-F Dual PNP Bipolar Transistor, -200 mA, -150 V, 6-Pin SOT-26")
@@ -359,7 +359,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 133bc21d-54d6-46fd-b242-42b1f6d228bd)
-    (at 166.802 142.164 -90)
+    (at 342.57 179.756 -90)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Field4" "RES-08413")
@@ -546,7 +546,7 @@
 
   (footprint "SnapEDA Library:MODULE_TMC2208_SILENTSTEPSTICK" (layer "F.Cu")
     (tedit 633C1E53) (tstamp 2236c54a-e125-4f67-9523-d3acf59f6bc6)
-    (at 242.748 176.708)
+    (at 211.252 247.32)
     (property "MANUFACTURER" "Trinamic Motion")
     (property "Purpose" "Primairy steppermotor driver")
     (property "Sheetfile" "FocusMotors.kicad_sch")
@@ -622,7 +622,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 248b2b80-6791-479f-9cbc-d8433358487c)
-    (at 308.534 149.276 90)
+    (at 324.79 179.248 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "LCSC" "C2918513")
@@ -668,7 +668,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 253ef5dd-5339-4938-8281-2413f66ea21f)
-    (at 305.994 149.276 90)
+    (at 322.25 179.248 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "LCSC" "C28061")
@@ -712,7 +712,7 @@
 
   (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 282906d8-9289-4ce5-8b27-e74e3d1fb3c3)
-    (at 87.554 145.72)
+    (at 325.7695 142.672)
     (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "fuse handsolder")
     (property "Sheetfile" "Rastaban-HAT.kicad_sch")
@@ -796,7 +796,7 @@
 
   (footprint "Connector_PinHeader_1.00mm:xl6009 Boost converter" (layer "F.Cu")
     (tedit 0) (tstamp 28f1ab6a-f402-4dbe-9810-375a2b3eb259)
-    (at 188.646 122.606)
+    (at 163.754 243.764)
     (property "Sheetfile" "Rastaban-HAT.kicad_sch")
     (property "Sheetname" "")
     (path "/917d18dc-3722-4ec8-8baf-2a9436363902")
@@ -952,7 +952,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 2e540407-9102-4081-8c48-89967b9b30a4)
-    (at 223.6765 181.28)
+    (at 244.7585 252.4)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Purpose" "decoupling")
@@ -995,7 +995,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 311f37a1-f729-41fb-9906-16074392f4b8)
-    (at 228.762 178.74 180)
+    (at 249.844 249.86 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "FluidMotors.kicad_sch")
@@ -1080,7 +1080,7 @@
 
   (footprint "SamacSys_Parts:1778780" (layer "F.Cu")
     (tedit 0) (tstamp 322ce0f1-6718-4fa9-9f93-3cf48d655784)
-    (at 220.904 193.603)
+    (at 246.812 265.739)
     (descr "1778780")
     (tags "Connector")
     (property "Description" "PCB header, nominal cross section: 0.5 mm?, color: black, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 4, Number of rows: 1, Number of positions per row: 4, number of connections: 4, product range: PTSM 0,5/..-HH-SMD, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape, Article with anti-rotation pin")
@@ -1139,7 +1139,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 34f11389-f4c0-4261-9e42-6a3c8c3e5501)
-    (at 159.182 171.12 -90)
+    (at 313.36 228.524 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Purpose" "to prevent current surge (ESD)")
@@ -1182,7 +1182,7 @@
 
   (footprint "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 3725a04b-bcd2-499a-9bae-3c0a7ee3e11d)
-    (at 212.522 170.104)
+    (at 279.324 241.224)
     (descr "THT rectangular pad as test Point, square 2.0mm_Drill1.0mm  side length, hole diameter 1.0mm")
     (tags "test point THT pad rectangle square")
     (property "Sheetfile" "FluidMotors.kicad_sch")
@@ -1215,7 +1215,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 377bd618-5525-4333-8f67-93c3abab66a8)
-    (at 215.062 134.544 180)
+    (at 368.478 123.876 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "RaspberryPiPower.kicad_sch")
@@ -1302,7 +1302,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3a42eb98-edff-4109-8cbe-9d0d4f071937)
-    (at 164.262 132.496 -90)
+    (at 367.716 213.043 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Purpose" "to prevent undefined state at boot")
@@ -1345,7 +1345,7 @@
 
   (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 3c1bceab-d34a-4d0e-807a-9fbefd31abdc)
-    (at 300.914 151.816)
+    (at 317.17 181.788)
     (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "fuse handsolder")
     (property "Sheetfile" "Rastaban-HAT.kicad_sch")
@@ -1387,7 +1387,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3e18be72-cdb9-43ba-8a0f-217a5dec2cc5)
-    (at 211.49 180.772 180)
+    (at 278.292 251.892 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "FluidMotors.kicad_sch")
@@ -1429,7 +1429,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 41dbfe44-265b-4eac-aacb-3349aaee8113)
-    (at 227.762 120.812)
+    (at 370.51 106.604)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "RaspberryPiPower.kicad_sch")
@@ -1471,7 +1471,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4203e776-22e8-4b89-b094-0f68c9cf5478)
-    (at 198.298 125.416 90)
+    (at 349.174 113.716 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "RaspberryPiPower.kicad_sch")
@@ -1500,9 +1500,9 @@
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp 4e4f0e26-4b4f-4663-9cb3-8e4816f5de4f))
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp 5028110c-1c6c-43a8-9c1e-406ba5ee9edc))
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp b0de51ab-72f2-4c41-9abb-171012ef3017))
-    (pad "1" smd roundrect (at -1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
+    (pad "1" smd roundrect (at -1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 19 "Net-(IC2-Pad1)") (pintype "passive") (tstamp 6dcbc3a5-ec98-4874-b70d-1244514b2935))
-    (pad "2" smd roundrect (at 1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
+    (pad "2" smd roundrect (at 1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 1 "GND") (pintype "passive") (tstamp 1d263cc6-ff15-4e9a-9c3a-a4a19e68486e))
     (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -1513,7 +1513,7 @@
 
   (footprint "SamacSys_Parts:IRL540SPBF" (layer "F.Cu")
     (tedit 0) (tstamp 461872ab-b0ef-412d-a4c4-c7299339ea7c)
-    (at 159.436 137.2575)
+    (at 357.81 169.659)
     (descr "TO-263 (D2PAK )")
     (tags "MOSFET (N-Channel)")
     (property "Description" "MOSFET N-CH  100V HEXFET MOSFET")
@@ -1568,7 +1568,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp 46b9fb01-987d-45ab-a30b-124c9e5026a2)
-    (at 205.918 120.828)
+    (at 357.3805 107.178 180)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Description" "MOSFET P-Ch 20V 5A Enhancement SOT23 Diodes Inc DMG2305UX-7 P-channel MOSFET Transistor, -3.3 A, -20 V, 3-Pin SOT-23")
@@ -1606,11 +1606,11 @@
     (fp_line (start -0.65 1.45) (end -0.65 -1.125) (layer "F.Fab") (width 0.1) (tstamp 9569e603-37a3-4aed-8c6b-bd2d14c29ae5))
     (fp_line (start 0.65 1.45) (end -0.65 1.45) (layer "F.Fab") (width 0.1) (tstamp 9a43556b-436e-43f6-bae3-0792ef5bb851))
     (fp_line (start -0.65 -1.125) (end -0.325 -1.45) (layer "F.Fab") (width 0.1) (tstamp acae94b1-6365-4e5a-ae94-7dddbd43f82d))
-    (pad "1" smd roundrect (at -0.9375 -0.95) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.9375 -0.95 180) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 20 "Net-(IC2-Pad4)") (pintype "passive") (tstamp 44515fb4-47fe-4fa1-9e46-615698af7137))
-    (pad "2" smd roundrect (at -0.9375 0.95) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at -0.9375 0.95 180) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 32 "5V+") (pintype "passive") (tstamp b7b9b6e6-c7fb-4069-89b4-d24bc0941151))
-    (pad "3" smd roundrect (at 0.9375 0) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "3" smd roundrect (at 0.9375 0 180) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 10 "Net-(C11-Pad2)") (pintype "passive") (tstamp e15bd98c-5ec1-4bd5-a8f2-939dbd0d234d))
     (model "${KIPRJMOD}/packages3D/SOT-23.wrl"
       (offset (xyz 0 0 0))
@@ -1621,7 +1621,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 47c42637-de00-47c3-901f-44262d60df06)
-    (at 227.762 126.4)
+    (at 370.51 111.684)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "RaspberryPiPower.kicad_sch")
@@ -1762,7 +1762,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4d5ced8a-7be9-4055-948c-c8d38e3ff30b)
-    (at 78.918 141.148 90)
+    (at 317.1335 138.1 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Purpose" "to prevent current surge (ESD)")
@@ -1828,7 +1828,7 @@
 
   (footprint "SamacSys_Parts:1778780" (layer "F.Cu")
     (tedit 0) (tstamp 53ba565f-033b-466b-b6e0-87a90fcaea9d)
-    (at 242.24 193.603)
+    (at 210.744 264.215)
     (descr "1778780")
     (tags "Connector")
     (property "Description" "PCB header, nominal cross section: 0.5 mm?, color: black, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 4, Number of rows: 1, Number of positions per row: 4, number of connections: 4, product range: PTSM 0,5/..-HH-SMD, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape, Article with anti-rotation pin")
@@ -1920,7 +1920,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 57caf625-5824-4ea1-9ed9-d34e0af9e1c2)
-    (at 325.044 143.1585 90)
+    (at 312.0685 197.565 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Purpose" "decoupling")
@@ -1928,15 +1928,15 @@
     (property "Sheetname" "FocusMotors")
     (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/45cf8dc3-5f81-4af3-b0d1-8379078362f4")
     (attr smd)
-    (fp_text reference "C15" (at 0 -1.68 90) (layer "F.SilkS")
+    (fp_text reference "C15" (at 0 -1.68) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5c254c61-531e-4643-bc84-26b6d61a445e)
     )
-    (fp_text value "0.1uF 50V" (at 0 1.68 90) (layer "F.Fab")
+    (fp_text value "0.1uF 50V" (at 0 1.68) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 62292efd-0e0f-4ced-8ac8-c4d470b05b51)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp 0aa44eae-f85a-4768-bc74-9b99f4dbf88c)
     )
@@ -1950,9 +1950,9 @@
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp 5e914611-d728-499f-89a2-85a000a07269))
     (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp 73e21101-3e60-4b4b-a63a-2c3d21c643ce))
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp c25dd454-11ed-45c4-8af0-5b583b853106))
-    (pad "1" smd roundrect (at -1.0375 0 90) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
+    (pad "1" smd roundrect (at -1.0375 0 180) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 1 "GND") (pintype "passive") (tstamp b8e4fcc7-5f8d-466d-94ce-30e83b21482f))
-    (pad "2" smd roundrect (at 1.0375 0 90) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
+    (pad "2" smd roundrect (at 1.0375 0 180) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 17 "Net-(C15-Pad2)") (pintype "passive") (tstamp df94ff84-a06b-46b6-a5e4-de80ef733556))
     (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -2006,7 +2006,7 @@
 
   (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 587e2808-ab65-495a-ae9c-9f7a7bb97bc8)
-    (at 237.668 124.384)
+    (at 381.1415 114.224 180)
     (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "fuse handsolder")
     (property "Sheetfile" "Rastaban-HAT.kicad_sch")
@@ -2035,9 +2035,9 @@
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp 4c176bb8-a952-46e3-ab77-30082c53fbbc))
     (fp_line (start 1.6 0.8) (end -1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp b6e4f5b5-aa1f-45b4-9cd9-6156c690ca6b))
     (fp_line (start 1.6 -0.8) (end 1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp d043de95-7666-4d92-8762-877c69f66a93))
-    (pad "1" smd roundrect (at -1.4875 0) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1754392982)
+    (pad "1" smd roundrect (at -1.4875 0 180) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1754392982)
       (net 14 "12VIN") (pintype "passive") (tstamp ca60d26d-2087-4f52-930d-c73c368db0a2))
-    (pad "2" smd roundrect (at 1.4875 0) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1754392982)
+    (pad "2" smd roundrect (at 1.4875 0 180) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1754392982)
       (net 4 "Net-(C5-Pad1)") (pintype "passive") (tstamp 33cf1045-e4b6-4f48-969d-1ff1ea1f1668))
     (model "${KIPRJMOD}/packages3D/Fuse_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
@@ -2048,7 +2048,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 59db14f7-8980-403b-a2de-1f06ba36d701)
-    (at 159.182 151.816 90)
+    (at 365.938 183.312 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Purpose" "to prevent undefined state at boot")
@@ -2091,7 +2091,7 @@
 
   (footprint "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 5a027007-d6fc-47c8-b91b-982e2db3128f)
-    (at 229.794 170.104)
+    (at 250.876 241.224)
     (descr "THT rectangular pad as test Point, square 2.0mm_Drill1.0mm  side length, hole diameter 1.0mm")
     (tags "test point THT pad rectangle square")
     (property "Sheetfile" "FluidMotors.kicad_sch")
@@ -2167,7 +2167,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 5cf22103-8749-4851-89f3-a1c08735e6c9)
-    (at 243.51 148.768 180)
+    (at 301.93 150.8 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "LCSC" "C49678")
@@ -2211,7 +2211,7 @@
 
   (footprint "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 5f8278ce-13f2-4a4a-8334-f943d8c9dc1d)
-    (at 154.102 172.136)
+    (at 245.034 125.4)
     (descr "THT rectangular pad as test Point, square 2.0mm_Drill1.0mm  side length, hole diameter 1.0mm")
     (tags "test point THT pad rectangle square")
     (property "Sheetfile" "Rastaban-HAT.kicad_sch")
@@ -2222,7 +2222,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d9e4a5c4-53d6-4a93-8ebf-c08be65d2450)
     )
-    (fp_text value "TestPoint" (at 0 2.05) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 3.048) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1dda928e-1f06-4a5d-b3e1-9ad6c83b3199)
     )
@@ -2244,7 +2244,7 @@
 
   (footprint "SamacSys_Parts:IRL540SPBF" (layer "F.Cu")
     (tedit 0) (tstamp 61548839-1de2-4f3c-94b8-047676bdf574)
-    (at 159.436 117.843)
+    (at 362.89 198.39)
     (descr "TO-263 (D2PAK )")
     (tags "MOSFET (N-Channel)")
     (property "Description" "MOSFET N-CH  100V HEXFET MOSFET")
@@ -2299,22 +2299,22 @@
 
   (footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" (layer "F.Cu")
     (tedit 59FF0306) (tstamp 6291b139-f9d9-42ae-8d6d-b41056779b7e)
-    (at 176.425 202.616 180)
+    (at 300.406 201.092 90)
     (descr "Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf")
     (tags "Altech AK300 terminal block pitch 5.0mm")
     (property "Sheetfile" "Rastaban-HAT.kicad_sch")
     (property "Sheetname" "")
     (path "/5aac9ea9-4fe8-4ec4-82c6-ee5bf07b1349")
     (attr through_hole)
-    (fp_text reference "J4" (at -1.92 -6.99) (layer "F.SilkS")
+    (fp_text reference "J4" (at -1.92 -6.99 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d6f3a88e-b3b9-4cd7-b408-99a283e4a2f0)
     )
-    (fp_text value "Screw_Terminal_01x02" (at 2.78 7.75) (layer "F.Fab")
+    (fp_text value "Screw_Terminal_01x02" (at 2.78 7.75 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0d3c5402-07d0-4c09-be1d-02b0bcc4ab3e)
     )
-    (fp_text user "${REFERENCE}" (at 2.5 -2) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 2.5 -2 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 76d98db0-7e5e-43fe-9e01-62a8e3171544)
     )
@@ -2414,9 +2414,9 @@
     (fp_arc (start -1.42 -4.13) (mid -1.718466 -4.559406) (end -1.562972 -5.058699) (layer "F.Fab") (width 0.1) (tstamp 85d3120e-3db9-4fc5-b6d1-d8a3b33e8461))
     (fp_arc (start -1.62 -5) (mid -0.05669 -5.772528) (end 1.539976 -5.071534) (layer "F.Fab") (width 0.1) (tstamp d50317c7-8490-42dc-ad10-d18e72beb9d8))
     (fp_arc (start 1.53 -4.12) (mid 0.02849 -3.628196) (end -1.459829 -4.158582) (layer "F.Fab") (width 0.1) (tstamp dbe52c36-61e1-4b24-862c-b360b445f920))
-    (pad "1" thru_hole rect (at 0 0 180) (size 1.98 3.96) (drill 1.32) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 90) (size 1.98 3.96) (drill 1.32) (layers *.Cu *.Mask)
       (net 31 "/FocusMotors/out2") (pinfunction "Pin_1") (pintype "passive") (tstamp bf9b0e99-001c-4cc5-9717-a41dc31a9b53))
-    (pad "2" thru_hole oval (at 5 0 180) (size 1.98 3.96) (drill 1.32) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 5 0 90) (size 1.98 3.96) (drill 1.32) (layers *.Cu *.Mask)
       (net 30 "/FocusMotors/out1") (pinfunction "Pin_2") (pintype "passive") (tstamp 075f9690-b39b-4a1b-90c6-809082c337c7))
     (model "${KIPRJMOD}/packages3D/Altech_AK300_1x02_P5.00mm_45-Degree.wrl"
       (offset (xyz 0 0 0))
@@ -2427,7 +2427,7 @@
 
   (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 6a2dcc29-fcaf-4d8b-a783-8377f469620b)
-    (at 169.342 160.96)
+    (at 323.774 216.6455)
     (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "fuse handsolder")
     (property "Sheetfile" "Rastaban-HAT.kicad_sch")
@@ -2469,7 +2469,7 @@
 
   (footprint "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm" (layer "F.Cu")
     (tedit 5BC5C9B9) (tstamp 7084e11b-5bfb-48b7-adee-00cfb48134ab)
-    (at 322.778 149.276)
+    (at 318.186 199.831 90)
     (descr "C, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=11mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 2.50mm diameter 6.3mm height 11mm Non-Polar Electrolytic Capacitor")
     (property "LCSC Part#" "")
@@ -2479,24 +2479,24 @@
     (property "Sheetname" "FocusMotors")
     (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/e5d64b5c-b610-4e2e-9355-8b38ef775df4")
     (attr through_hole)
-    (fp_text reference "C19" (at 1.25 -4.4) (layer "F.SilkS")
+    (fp_text reference "C19" (at 1.25 -4.4 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dd40f826-1d3b-4972-a2f1-db393c8b187f)
     )
-    (fp_text value "10uF 10V" (at 1.25 4.4) (layer "F.Fab")
+    (fp_text value "10uF 10V" (at 1.25 4.4 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6a794d28-83b9-4632-b078-56df6321cd00)
     )
-    (fp_text user "${REFERENCE}" (at 1.25 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 1.25 0 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dfbb3e4d-81a4-4b7d-ac3b-d79e15e5f896)
     )
     (fp_circle (center 1.25 0) (end 4.52 0) (layer "F.SilkS") (width 0.12) (fill none) (tstamp d5447aa7-b4a3-4473-badd-03110cdc3715))
     (fp_circle (center 1.25 0) (end 4.65 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 383f0654-042b-43da-9dfb-46ff9864d981))
     (fp_circle (center 1.25 0) (end 4.4 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 3bb0d08b-7ca4-444e-8a65-83492f1e4f19))
-    (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle (at 0 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 32 "5V+") (pintype "passive") (tstamp 94f8691f-d5ff-4663-95dd-34f16a0bc1c1))
-    (pad "2" thru_hole circle (at 2.5 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 2.5 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 1 "GND") (pintype "passive") (tstamp 1a04ad78-f987-4593-b910-b1a8dcea0836))
     (model "${KIPRJMOD}/packages3D/C_Radial_D6.3mm_H11.0mm_P2.50mm.wrl"
       (offset (xyz 0 0 0))
@@ -2507,7 +2507,7 @@
 
   (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" (layer "F.Cu")
     (tedit 5A3F6CCC) (tstamp 721c29b7-1ac4-4ed5-b55b-123288e8a7d3)
-    (at 243.002 189.408)
+    (at 211.506 260.02)
     (descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open, labeled with numbers")
     (tags "solder jumper open")
     (property "Purpose" "Choose between 12V/24V motor supply")
@@ -2607,7 +2607,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 7edce229-22d7-414a-8c01-aca278a279a5)
-    (at 206.934 183.82)
+    (at 273.736 254.94)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Purpose" "decoupling")
@@ -2650,22 +2650,22 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 80f10847-2430-4a27-98c0-7180c8ab5eed)
-    (at 223.698 129.464 -90)
+    (at 364.938 116.764 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "RaspberryPiPower.kicad_sch")
     (property "Sheetname" "RaspberryPiPower")
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/317db19f-5a50-436e-8320-9e71a68bebe5")
     (attr smd)
-    (fp_text reference "R10" (at 0 -1.65 90) (layer "F.SilkS")
+    (fp_text reference "R10" (at 0 -1.65) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e5abefa4-22fe-4023-89d1-8ccc3b8fb405)
     )
-    (fp_text value "10k" (at 0 1.65 90) (layer "F.Fab")
+    (fp_text value "10k" (at 0 1.65) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a154c766-227e-4152-9b89-820e5a46dbe5)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp 57c4f8de-70dd-4487-97eb-89d7cf2d8492)
     )
@@ -2679,9 +2679,9 @@
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp 715881f1-19ec-409a-bc4a-6609a2aa9b71))
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp 99dbce29-dcb8-4212-82d7-824aa531de65))
     (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp a6fc05aa-bfff-4bc4-927d-a01a3b13ebf9))
-    (pad "1" smd roundrect (at -1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
+    (pad "1" smd roundrect (at -1 0 180) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 5 "12V+") (pintype "passive") (tstamp 2d342a0b-29d4-463b-938d-8f884eff31c1))
-    (pad "2" smd roundrect (at 1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
+    (pad "2" smd roundrect (at 1 0 180) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 52 "Net-(R10-Pad2)") (pintype "passive") (tstamp 5e65f85d-dd2f-4b55-bd06-4955780d9047))
     (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -2692,7 +2692,7 @@
 
   (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 83c6c8c4-c4f3-4fd0-936d-2bf315dfde7c)
-    (at 169.85 176.708)
+    (at 367.97 176.2)
     (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "fuse handsolder")
     (property "Sheetfile" "Rastaban-HAT.kicad_sch")
@@ -2734,7 +2734,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 84d069c9-5e22-4661-860f-f4f2667bf11a)
-    (at 245.034 181.28 180)
+    (at 213.538 251.892 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "FocusMotors.kicad_sch")
@@ -2776,7 +2776,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 84eae851-3ed9-4106-a05e-9c469aadf463)
-    (at 92.126 143.429)
+    (at 330.3415 140.381)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (property "Purpose" "Cooling fan")
@@ -2824,7 +2824,7 @@
 
   (footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" (layer "F.Cu")
     (tedit 59FF0306) (tstamp 85f14f5e-7d72-40ad-9ad2-fb08d0dbee29)
-    (at 158.42 206.172 90)
+    (at 299.898 180.772 90)
     (descr "Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf")
     (tags "Altech AK300 terminal block pitch 5.0mm")
     (property "Sheetfile" "Rastaban-HAT.kicad_sch")
@@ -2952,7 +2952,7 @@
 
   (footprint "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF0) (tstamp 870ba91f-d216-4d36-8507-89912292892b)
-    (at 169.342 164.008 180)
+    (at 323.52 221.412 180)
     (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (property "Field4" "DIO-08378")
@@ -3043,7 +3043,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp 8a326283-fe43-4c57-9d08-854c9a7ec86d)
-    (at 81.966 146.228 90)
+    (at 320.1815 143.18 90)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Purpose" "Cooling fan switch")
@@ -3091,7 +3091,7 @@
 
   (footprint "SamacSys_Parts:1778780" (layer "F.Cu")
     (tedit 0) (tstamp 8c5f7c17-f32f-4cc1-95e7-7d19d513cbfb)
-    (at 201.6 193.603)
+    (at 275.768 264.215)
     (descr "1778780")
     (tags "Connector")
     (property "Description" "PCB header, nominal cross section: 0.5 mm?, color: black, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 4, Number of rows: 1, Number of positions per row: 4, number of connections: 4, product range: PTSM 0,5/..-HH-SMD, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape, Article with anti-rotation pin")
@@ -3150,7 +3150,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 8d22ddcc-1c4d-47af-8301-56d1886f7937)
-    (at 222.174 135.544 -90)
+    (at 365.938 120.32 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "RaspberryPiPower.kicad_sch")
@@ -3192,7 +3192,7 @@
 
   (footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm" (layer "F.Cu")
     (tedit 5BC5C9B9) (tstamp 901e12f6-60e8-4286-8eaf-f4a8d3184598)
-    (at 223.972 171.628)
+    (at 240.482 231.572)
     (descr "C, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=5mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 2.50mm diameter 6.3mm height 5mm Non-Polar Electrolytic Capacitor")
     (property "LCSC Part#" "")
@@ -3276,7 +3276,7 @@
 
   (footprint "SamacSys_Parts:SOT95P285X140-6N" (layer "F.Cu")
     (tedit 0) (tstamp 96022304-0a55-4b51-b643-edf04c1fb1c0)
-    (at 243.51 145.72)
+    (at 301.93 147.752)
     (descr "SOT26+")
     (tags "TVS Diode (Uni-directional)")
     (property "Description" "ESD Suppressors / TVS Diodes General Protection PP")
@@ -3403,7 +3403,7 @@
 
   (footprint "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias" (layer "F.Cu")
     (tedit 5B0C20CF) (tstamp 99f2b3dc-a3c2-4c52-bbb1-72a1893d4bea)
-    (at 300.406 146.228)
+    (at 316.662 176.2)
     (descr "8-pin HTSOP package with 1.27mm pin pitch, compatible with SOIC-8, 3.9x4.9mm body, exposed pad, thermal vias, http://www.ti.com/lit/ds/symlink/drv8870.pdf")
     (tags "HTSOP 1.27")
     (property "Sheetfile" "Rastaban-HAT.kicad_sch")
@@ -3544,7 +3544,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 9c4cb5a3-dddf-4cdf-a929-6e4249bf97ce)
-    (at 159.69 132.512 90)
+    (at 363.144 213.059 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Purpose" "to prevent current surge (ESD)")
@@ -3587,24 +3587,24 @@
 
   (footprint "Module:DRV8838 POLOLU" (layer "F.Cu")
     (tedit 0) (tstamp a781d9f5-2630-465a-8a40-57a6a247faec)
-    (at 323.774 146.228)
+    (at 315.138 198.835 90)
     (property "Sheetfile" "FocusMotors.kicad_sch")
     (property "Sheetname" "FocusMotors")
     (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/1d3758c9-7eb3-42ba-8ec8-545ede1e6fd7")
     (attr through_hole)
-    (fp_text reference "U7" (at 0 -8.001 unlocked) (layer "F.SilkS")
+    (fp_text reference "U7" (at 0 -8.001 90 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f69ba6c7-a145-465c-80ce-85f013e57823)
     )
-    (fp_text value "DRV8838 POLOLU" (at 0.254 -0.102 unlocked) (layer "F.Fab")
+    (fp_text value "DRV8838 POLOLU" (at 0.254 -0.102 90 unlocked) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e0dddb17-93c4-47ed-b679-e7443d99bc19)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 180) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7b2abca4-f61e-44e2-b0f1-05744c1d9c4d)
     )
-    (fp_text user "${REFERENCE}" (at 0 10.263 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 10.263 90 unlocked) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e2e049cc-13b0-4e9a-827d-2e70f5ff4f57)
     )
@@ -3620,25 +3620,25 @@
     (fp_line (start 5.715 6.604) (end 5.715 -7.002) (layer "F.CrtYd") (width 0.05) (tstamp 45c1d6ab-411e-4c09-af74-815b451d6fde))
     (fp_line (start -5.61 6.604) (end 5.715 6.604) (layer "F.CrtYd") (width 0.05) (tstamp b0768886-dc52-4124-8bfb-f0d28b00ed52))
     (fp_line (start 5.715 -7.002) (end -5.61 -7.002) (layer "F.CrtYd") (width 0.05) (tstamp b27473c1-5002-46f5-86a7-4afc77682a79))
-    (pad "1" thru_hole rect (at -3.81 -5.202) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at -3.81 -5.202 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 8ab5b381-94af-4c50-b906-3c698f881fae))
-    (pad "2" thru_hole oval (at -3.81 -2.662) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at -3.81 -2.662 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 112 "unconnected-(U7-Pad2)") (pinfunction "VCC") (pintype "power_in+no_connect") (tstamp e6a1f3e2-661a-412f-9197-d827bc6cb40c))
-    (pad "3" thru_hole oval (at -3.81 -0.122) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "3" thru_hole oval (at -3.81 -0.122 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 33 "ENDRV") (pinfunction "ENABLE") (pintype "input") (tstamp a125b0b3-61ec-42d0-8bc6-3fce1beef831))
-    (pad "4" thru_hole oval (at -3.81 2.418) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "4" thru_hole oval (at -3.81 2.418 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 35 "PHADRV") (pinfunction "PH") (pintype "input") (tstamp 2ef115d7-71fb-4f04-9b3b-403892bfe6f7))
-    (pad "5" thru_hole oval (at -3.81 4.958) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "5" thru_hole oval (at -3.81 4.958 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 83 "SLEEP") (pinfunction "EN") (pintype "input") (tstamp a7f90118-0770-450c-aac5-9e2198f9ce28))
-    (pad "6" thru_hole trapezoid (at 3.81 -5.202) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "6" thru_hole trapezoid (at 3.81 -5.202 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 17 "Net-(C15-Pad2)") (pinfunction "VM") (pintype "power_in") (tstamp 22f16182-95c2-459d-9074-6003f5a6697f))
-    (pad "7" thru_hole oval (at 3.81 -2.667) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "7" thru_hole oval (at 3.81 -2.667 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 30 "/FocusMotors/out1") (pinfunction "01") (pintype "output") (tstamp a972ee71-5342-4e68-bf74-00bfccd3b4e1))
-    (pad "8" thru_hole oval (at 3.81 -0.127) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "8" thru_hole oval (at 3.81 -0.127 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 31 "/FocusMotors/out2") (pinfunction "02") (pintype "output") (tstamp 8dbd56ef-a469-4d7a-ac85-f4320f3c79a9))
-    (pad "9" thru_hole oval (at 3.81 2.413) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "9" thru_hole oval (at 3.81 2.413 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 16 "3.3V+") (pinfunction "VIN") (pintype "power_in") (tstamp 9fb3f3cb-0eb1-4261-9637-64f7fd3af200))
-    (pad "10" thru_hole oval (at 3.81 4.953) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "10" thru_hole oval (at 3.81 4.953 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 563209ac-48d9-4ba4-8ebe-b93af221074c))
     (model "${KIPRJMOD}/packages3D/drv8838-motor-driver-carrier.step"
       (offset (xyz 5 6.5 4.5))
@@ -3649,7 +3649,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp a808af0d-f310-417c-abba-618c0fef8355)
-    (at 294.31 146.736 -90)
+    (at 310.566 176.708 -90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "LCSC" "C49678")
@@ -3693,7 +3693,7 @@
 
   (footprint "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF0) (tstamp a8d49877-d9f0-4e56-a8a6-0395ce91bf83)
-    (at 169.85 179.756 180)
+    (at 367.97 179.248 180)
     (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (property "Field4" "DIO-08378")
@@ -3740,22 +3740,22 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a9d8670b-589a-4bba-a82f-9ec848685b7c)
-    (at 203.886 125.924 90)
+    (at 353.97 114.29 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "RaspberryPiPower.kicad_sch")
     (property "Sheetname" "RaspberryPiPower")
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/1dab99d4-401f-4cbc-baae-6f99b48c1825")
     (attr smd)
-    (fp_text reference "R12" (at 0 -1.65 90) (layer "F.SilkS")
+    (fp_text reference "R12" (at 0 -1.65) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a010511b-34d5-4b63-af81-333a7f39477a)
     )
-    (fp_text value "47K" (at 0 1.65 90) (layer "F.Fab")
+    (fp_text value "47K" (at 0 1.65) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bbd81d75-2205-4c44-bf38-3edcda7a93f6)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp fb59f769-d705-47e8-82dd-faffe947142a)
     )
@@ -3769,9 +3769,9 @@
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp 492a6b43-7167-4e49-be39-8d60b57d000b))
     (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp a8a49385-876b-497d-941d-e12694de3bd4))
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp cf5b3056-c717-4cb8-a73f-4cf4e54a6820))
-    (pad "1" smd roundrect (at -1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
+    (pad "1" smd roundrect (at -1 0 180) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 20 "Net-(IC2-Pad4)") (pintype "passive") (tstamp ed5b1abe-8809-4107-8fd2-9b48c2217d8b))
-    (pad "2" smd roundrect (at 1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
+    (pad "2" smd roundrect (at 1 0 180) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 1 "GND") (pintype "passive") (tstamp 3e31f450-55da-4dcb-9cd4-c482aff5a6fb))
     (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -3782,7 +3782,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ae1d7bec-fe14-4cc8-b8f1-a447e5134529)
-    (at 307.01 144.704 -90)
+    (at 323.266 174.676 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Rastaban-HAT.kicad_sch")
@@ -3824,7 +3824,7 @@
 
   (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp afb7b144-8309-4668-abe3-d65bdb8858e6)
-    (at 168.834 148.26)
+    (at 375.59 179.756)
     (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "fuse handsolder")
     (property "Sheetfile" "Rastaban-HAT.kicad_sch")
@@ -3866,7 +3866,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp b034166a-7fcd-402f-84a6-135467c88f6a)
-    (at 82.49 140.64)
+    (at 320.7055 137.592)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Purpose" "to prevent undefined state at boot")
@@ -3909,7 +3909,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp b6210c16-8f88-4cea-837c-a261ad0a3928)
-    (at 322.504 143.18 -90)
+    (at 312.09 200.105)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Purpose" "decoupling")
@@ -3917,15 +3917,15 @@
     (property "Sheetname" "FocusMotors")
     (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/6a1389f5-af30-47b1-b0e6-d495f68a5530")
     (attr smd)
-    (fp_text reference "C14" (at 0 -1.68 90) (layer "F.SilkS")
+    (fp_text reference "C14" (at 0 -1.68) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 14cffc87-8fc2-4f85-9148-45f24526c4c2)
     )
-    (fp_text value "0.1uF 50V" (at 0 2.54 90) (layer "F.Fab")
+    (fp_text value "0.1uF 50V" (at 0 2.54) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 503a88ec-f182-4cc0-98c7-fd9ab6d929b4)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp b5392dca-d5b1-42c4-9cb2-b483f967be48)
     )
@@ -3939,9 +3939,9 @@
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp 1a00bdf5-fbf8-458e-a6d8-b893f9a091dd))
     (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp 2d896c6b-3680-4369-82b7-4889bb838e25))
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp e86caeea-0a1c-431a-8e11-d5f8e320cb22))
-    (pad "1" smd roundrect (at -1.0375 0 270) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
+    (pad "1" smd roundrect (at -1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 16 "3.3V+") (pintype "passive") (tstamp 73c64713-6938-407d-b34d-29c8c8b066ec))
-    (pad "2" smd roundrect (at 1.0375 0 270) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
+    (pad "2" smd roundrect (at 1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 1 "GND") (pintype "passive") (tstamp 60573be8-ba0a-4192-a699-3bc3fdb93ebf))
     (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -3952,22 +3952,22 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp b6b1c481-c973-416a-aaa7-4948e2045c10)
-    (at 215.57 129.972 180)
+    (at 357.81 113.2295 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "RaspberryPiPower.kicad_sch")
     (property "Sheetname" "RaspberryPiPower")
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/f03fb959-c8a5-4712-b6a4-6cc2a029701f")
     (attr smd)
-    (fp_text reference "C10" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C10" (at 0 -1.68 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ee4d88a7-c1dd-4df9-a97f-353711edd583)
     )
-    (fp_text value "100nF 50V" (at -2.266 1.98) (layer "F.Fab")
+    (fp_text value "100nF 50V" (at -2.266 1.98 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b8a7418a-8f53-4bfc-954e-343c62f6631e)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp 2667d7d1-f92c-4f14-9d7f-bd89532ca3b5)
     )
@@ -3981,9 +3981,9 @@
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp 385ce4b9-5515-4136-a9d4-65f7a8f6a6a4))
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp 7e4540e7-b423-4852-ad77-0fb27019c5f2))
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp 8635573b-8872-4afc-a748-fa3ca6987ad2))
-    (pad "1" smd roundrect (at -1.0375 0 180) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
+    (pad "1" smd roundrect (at -1.0375 0 90) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 8 "Net-(C10-Pad1)") (pintype "passive") (tstamp b20a9164-79d6-4435-8f40-a66d3b362d28))
-    (pad "2" smd roundrect (at 1.0375 0 180) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
+    (pad "2" smd roundrect (at 1.0375 0 90) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 9 "Net-(C10-Pad2)") (pintype "passive") (tstamp 5491567c-8de4-4232-8826-04668cf27335))
     (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -3994,7 +3994,7 @@
 
   (footprint "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF0) (tstamp b729af2c-c4dd-4079-ae7d-063a6a7f91f4)
-    (at 220.65 116.764 180)
+    (at 362.382 108.128 180)
     (descr "Inductor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "inductor handsolder")
     (property "Sheetfile" "RaspberryPiPower.kicad_sch")
@@ -4036,22 +4036,22 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp bba0b860-69d9-4dc5-aaad-b1336af1c100)
-    (at 215.062 114.732 180)
+    (at 353.004 120.32 -90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "RaspberryPiPower.kicad_sch")
     (property "Sheetname" "RaspberryPiPower")
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/62f9fb86-f705-4051-bd0e-ccfba8b3b0c0")
     (attr smd)
-    (fp_text reference "C11" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C11" (at 0 -1.68 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2060c3cb-c5e7-4223-a1c4-d6d6023d93d5)
     )
-    (fp_text value "22uF 10V" (at 0 1.68) (layer "F.Fab")
+    (fp_text value "22uF 10V" (at 0 1.68 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 53dd6c43-d665-447a-a552-054f58e290c7)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp 544440e8-d302-4306-bfda-3e62ce56f2a3)
     )
@@ -4065,9 +4065,9 @@
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp 50e8b699-ff77-4683-88df-957b9f3a448b))
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp d0383b1d-ce2a-4b0e-b612-66172182ad10))
     (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp d9316021-88d2-4f33-b506-24bf3e041080))
-    (pad "1" smd roundrect (at -1.0375 0 180) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
+    (pad "1" smd roundrect (at -1.0375 0 270) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 1 "GND") (pintype "passive") (tstamp 6be8f59d-722f-44df-b692-3edcdaa17491))
-    (pad "2" smd roundrect (at 1.0375 0 180) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
+    (pad "2" smd roundrect (at 1.0375 0 270) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 10 "Net-(C11-Pad2)") (pintype "passive") (tstamp 0ce7bb02-50d0-4b64-9311-8003195973a6))
     (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -4078,7 +4078,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp bc3c67bf-6a04-410d-ab4f-917bc1b3daf2)
-    (at 245.034 177.724 180)
+    (at 213.538 248.336 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "FocusMotors.kicad_sch")
@@ -4120,7 +4120,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp be998426-16ff-443b-9307-c6d5bf9dff89)
-    (at 219.126 135.544 90)
+    (at 362.89 120.32 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "RaspberryPiPower.kicad_sch")
@@ -4162,7 +4162,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp c3fb1c91-6e34-4d4c-8ee9-070b94b4279f)
-    (at 223.698 119.288 -90)
+    (at 366.446 107.604 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "RaspberryPiPower.kicad_sch")
@@ -4191,9 +4191,9 @@
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp a691c629-0a90-4553-b170-15ab685aec70))
     (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp c17a6b0b-687b-485c-a4aa-c27426cad986))
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp d0058739-b18d-495d-951f-7fc634709b1a))
-    (pad "1" smd roundrect (at -1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
+    (pad "1" smd roundrect (at -1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 50 "Net-(R6-Pad1)") (pintype "passive") (tstamp 537d296a-94b8-45b7-ae3f-d56034b691c4))
-    (pad "2" smd roundrect (at 1 0 270) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
+    (pad "2" smd roundrect (at 1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 1 "GND") (pintype "passive") (tstamp fba64124-b8cd-4bbf-a885-e64e2c6aca6a))
     (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -4204,22 +4204,22 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp c5eaeab3-ee0e-41ea-993c-b8f301e3dbd1)
-    (at 215.0405 121.336 180)
+    (at 359.608 120.3415 -90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "RaspberryPiPower.kicad_sch")
     (property "Sheetname" "RaspberryPiPower")
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/7514df18-9295-4870-9b15-d0d13f5e8b8b")
     (attr smd)
-    (fp_text reference "C13" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C13" (at 0 -1.68 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1c008778-6136-4753-8cbe-280bf87c8e84)
     )
-    (fp_text value "100nF 50V" (at 0.3 6.329) (layer "F.Fab")
+    (fp_text value "100nF 50V" (at 0.3 6.329 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a89d4495-e7a9-46cb-b45b-32cdf12167b4)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp 210c256c-d771-47d2-93d5-6a48164aca64)
     )
@@ -4233,9 +4233,9 @@
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp 3ceb973c-2120-45f5-a59e-17e84f1268df))
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp 6d9f637b-0376-4252-81e0-280ef145a840))
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp ad6b49ea-da4e-4181-bdf8-1f8c4573bf03))
-    (pad "1" smd roundrect (at -1.0375 0 180) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
+    (pad "1" smd roundrect (at -1.0375 0 270) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 1 "GND") (pintype "passive") (tstamp 8bb460b3-3f7b-4253-a57a-8d0344e710fa))
-    (pad "2" smd roundrect (at 1.0375 0 180) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
+    (pad "2" smd roundrect (at 1.0375 0 270) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 10 "Net-(C11-Pad2)") (pintype "passive") (tstamp e295ff5e-068b-4a91-95dd-b883f9bf1160))
     (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -4246,7 +4246,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp c653ef87-ea31-4ca5-870f-d383e731d459)
-    (at 227.762 123.86)
+    (at 370.51 109.144)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "RaspberryPiPower.kicad_sch")
@@ -4288,7 +4288,7 @@
 
   (footprint "SnapEDA Library:MODULE_TMC2208_SILENTSTEPSTICK" (layer "F.Cu")
     (tedit 633C1E53) (tstamp c66c0e55-9202-4dda-b096-af5c8708e1a1)
-    (at 225.984 176.708)
+    (at 247.066 247.828)
     (property "MANUFACTURER" "Trinamic Motion")
     (property "Purpose" "Primairy steppermotor driver")
     (property "Sheetfile" "FluidMotors.kicad_sch")
@@ -4364,7 +4364,7 @@
 
   (footprint "SamacSys_Parts:IRL540SPBF" (layer "F.Cu")
     (tedit 0) (tstamp c745bbbb-78f8-4edf-b8d5-84d7355b3f5b)
-    (at 159.436 156.5615)
+    (at 313.614 213.9655)
     (descr "TO-263 (D2PAK )")
     (tags "MOSFET (N-Channel)")
     (property "Description" "MOSFET N-CH  100V HEXFET MOSFET")
@@ -4419,7 +4419,7 @@
 
   (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" (layer "F.Cu")
     (tedit 5A3F6CCC) (tstamp ca1d0b88-1450-4fe6-8296-434e01c30ec0)
-    (at 224.206 189.408)
+    (at 245.288 260.528)
     (descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open, labeled with numbers")
     (tags "solder jumper open")
     (property "Purpose" "Choose between 12V/24V motor supply")
@@ -4484,7 +4484,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp cbfaad58-5bd9-449f-9929-3b1da95547b9)
-    (at 240.462 183.82)
+    (at 208.966 254.432)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Purpose" "decoupling")
@@ -4684,7 +4684,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp df8231d4-67f8-468d-ab69-66e7cb036e16)
-    (at 164.262 151.832 -90)
+    (at 371.018 183.328 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Purpose" "to prevent current surge (ESD)")
@@ -4727,7 +4727,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp e0904446-299f-4124-86c3-3c9dbfee2e4e)
-    (at 232.8205 114.224)
+    (at 375.082 105.08)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "LCSC" "C440198")
@@ -4770,7 +4770,7 @@
 
   (footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" (layer "F.Cu")
     (tedit 59FF0306) (tstamp e0fdd8ee-6df0-4c59-b652-3678e7b4ada5)
-    (at 158.42 194.713 90)
+    (at 299.898 222.4585 90)
     (descr "Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf")
     (tags "Altech AK300 terminal block pitch 5.0mm")
     (property "Sheetfile" "Rastaban-HAT.kicad_sch")
@@ -4781,7 +4781,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4c7ebeb8-d95e-4821-8964-9a42c0f08311)
     )
-    (fp_text value "Screw_Terminal_01x02" (at 2.78 7.75 90) (layer "F.Fab")
+    (fp_text value "Screw_Terminal_01x02" (at 0.01 -3.43 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 590bbbf6-c9c4-4391-b89a-ad7b1e0dee2f)
     )
@@ -4898,22 +4898,22 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp e51145b9-e67d-44d5-a755-dc7e61776a9d)
-    (at 214.0245 126.416 180)
+    (at 368.986 120.32 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "RaspberryPiPower.kicad_sch")
     (property "Sheetname" "RaspberryPiPower")
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/c3440438-0c3a-44cb-a190-31c82ffe96e5")
     (attr smd)
-    (fp_text reference "C9" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C9" (at 0 -1.68 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 82961942-e05e-4e95-8759-e2955c19f7b7)
     )
-    (fp_text value "2.7nF 50V" (at 0 1.68) (layer "F.Fab")
+    (fp_text value "2.7nF 50V" (at 3.032 1.68 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 20e54e76-2a55-478b-b58f-dc5067d68a22)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp e6c343cb-9a98-41a7-85a1-7e21f9115120)
     )
@@ -4927,9 +4927,9 @@
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp 6e664a0c-9902-4ea0-9bb3-bd6bc40dc95a))
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp b25e792b-eb04-4266-bbf0-320c10513e01))
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp dca6a90a-039e-494a-b824-29d8834fd581))
-    (pad "1" smd roundrect (at -1.0375 0 180) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
+    (pad "1" smd roundrect (at -1.0375 0 90) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 6 "Net-(C9-Pad1)") (pintype "passive") (tstamp 6d440f7c-cb0e-47af-86b0-61d8fee2c246))
-    (pad "2" smd roundrect (at 1.0375 0 180) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
+    (pad "2" smd roundrect (at 1.0375 0 90) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 7 "Net-(C9-Pad2)") (pintype "passive") (tstamp 703011ca-6cdb-4d39-9e1a-7f118ee805e2))
     (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -4940,7 +4940,7 @@
 
   (footprint "SnapEDA Library:SOIC127P599X175-9N" (layer "F.Cu")
     (tedit 633C1F9A) (tstamp e60f0d89-4a32-4ea1-a09d-f61237d08cee)
-    (at 221.158 124.384)
+    (at 363.906 112.7)
     (property "MANUFACTURER" "Richtek USA Inc.")
     (property "MAXIMUM_PACKAGE_HEIGHT" "1.753 mm")
     (property "PARTREV" "June 2015")
@@ -4953,7 +4953,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9f5f8889-84e7-4eed-a0d9-02f90c2db3cb)
     )
-    (fp_text value "RT7272AGSP" (at 7.385 4.375) (layer "F.Fab")
+    (fp_text value "RT7272AGSP" (at 7.385 1.343) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e847e86a-01a5-4dbc-8787-2fc5ff688ad9)
     )
@@ -5020,7 +5020,7 @@
 
   (footprint "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF0) (tstamp e8526205-b46a-4a82-ac67-a540759c9cac)
-    (at 227.762 114.224)
+    (at 371.018 102.032 180)
     (descr "Inductor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "inductor handsolder")
     (property "Sheetfile" "Rastaban-HAT.kicad_sch")
@@ -5049,9 +5049,9 @@
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp 1b154a79-04e4-4294-9b4a-5cf5943ef9bb))
     (fp_line (start -1.6 -0.8) (end 1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp bfd45175-7116-44d4-bbe6-06bd66004c6b))
     (fp_line (start 1.6 -0.8) (end 1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp e3987389-9738-49e5-b7f9-5a71d8aaa629))
-    (pad "1" smd roundrect (at -1.6625 0) (size 1.225 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2040816327)
+    (pad "1" smd roundrect (at -1.6625 0 180) (size 1.225 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2040816327)
       (net 4 "Net-(C5-Pad1)") (pintype "passive") (tstamp 9c580efa-5681-4e73-b22d-aaa48b5e487d))
-    (pad "2" smd roundrect (at 1.6625 0) (size 1.225 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2040816327)
+    (pad "2" smd roundrect (at 1.6625 0 180) (size 1.225 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2040816327)
       (net 5 "12V+") (pintype "passive") (tstamp d1081016-b127-4040-bdd0-6ab376f29659))
     (model "${KIPRJMOD}/packages3D/L_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
@@ -5062,22 +5062,22 @@
 
   (footprint "SamacSys_Parts:SOT230P700X180-4N" (layer "F.Cu")
     (tedit 0) (tstamp e8a695fc-c3fc-4d1a-9e70-100bd2b9b93e)
-    (at 324.028 156.896)
+    (at 325.806 198.581 90)
     (descr "DCY (R-PDSO-G4)")
     (tags "Integrated Circuit")
     (property "Sheetfile" "FocusMotors.kicad_sch")
     (property "Sheetname" "FocusMotors")
     (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/4618c428-5a77-4793-bb70-4e68ce6d6c82")
     (attr smd)
-    (fp_text reference "U8" (at 0 0) (layer "F.SilkS")
+    (fp_text reference "U8" (at 0 0 90) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 02d5f3bc-3ab3-4f15-a009-582e5d5034da)
     )
-    (fp_text value "TLV1117-33" (at 0 0) (layer "F.SilkS") hide
+    (fp_text value "TLV1117-33" (at 0 0 90) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 2f8974a1-3c4e-49b4-9ada-8c2703dc0069)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp cd2c48b6-78b6-4b35-8c7d-c584eac319ca)
     )
@@ -5095,13 +5095,13 @@
     (fp_line (start 1.75 3.25) (end -1.75 3.25) (layer "F.Fab") (width 0.1) (tstamp 64519fe9-572c-4228-8b45-1d50f02c2326))
     (fp_line (start -1.75 3.25) (end -1.75 -3.25) (layer "F.Fab") (width 0.1) (tstamp 718e2461-7f51-48c9-8e7c-ad741cf35b56))
     (fp_line (start 1.75 -3.25) (end 1.75 3.25) (layer "F.Fab") (width 0.1) (tstamp e7598767-3766-4736-97ef-77d3b733861e))
-    (pad "1" smd rect locked (at -3.15 -2.3 90) (size 0.95 1.75) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at -3.15 -2.3 180) (size 0.95 1.75) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 3df27569-cc10-4f8d-9750-65ae9fa5495f))
-    (pad "2" smd rect locked (at -3.15 0 90) (size 0.95 1.75) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at -3.15 0 180) (size 0.95 1.75) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 17 "Net-(C15-Pad2)") (pinfunction "VO") (pintype "power_out") (tstamp 792ca161-404c-4c1e-8e45-4453946dd82a))
-    (pad "3" smd rect locked (at -3.15 2.3 90) (size 0.95 1.75) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "3" smd rect locked (at -3.15 2.3 180) (size 0.95 1.75) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 32 "5V+") (pinfunction "VI") (pintype "power_in") (tstamp 40e6084e-1850-4d25-a3a1-247cffe46c45))
-    (pad "4" smd rect locked (at 3.15 0) (size 1.75 3.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "4" smd rect locked (at 3.15 0 90) (size 1.75 3.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 17 "Net-(C15-Pad2)") (pinfunction "VO") (pintype "power_out") (tstamp bf6f3dcd-6a40-4ba1-bb19-03f5eb742bec))
     (model "${KIPRJMOD}/packages3D/SOT-223.step"
       (offset (xyz 0 0 0))
@@ -5112,22 +5112,22 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp ec3fab0f-8415-4bdd-8847-742f674bab96)
-    (at 215.062 118.014 180)
+    (at 356.286 120.32 -90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "RaspberryPiPower.kicad_sch")
     (property "Sheetname" "RaspberryPiPower")
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/cb026e0a-013a-4a17-87c5-4ed4f0628bfc")
     (attr smd)
-    (fp_text reference "C12" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C12" (at 0 -1.68 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4c16e35e-fef6-4a3a-aedf-ee642192567d)
     )
-    (fp_text value "22uF 10V" (at 0 1.68) (layer "F.Fab")
+    (fp_text value "22uF 10V" (at 0 1.68 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d2b37427-acfc-4b01-a5f9-9b7fa2c51f1b)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp 3297785e-7b23-43a1-9674-467e990a7ab8)
     )
@@ -5141,9 +5141,9 @@
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp 671943a0-0497-46f7-ac96-de02cf54a96b))
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp 779e1afb-826a-420d-b2ea-8199dcc3ec85))
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp cbf71df6-41c4-4407-8d43-63bb302ab4ee))
-    (pad "1" smd roundrect (at -1.0375 0 180) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
+    (pad "1" smd roundrect (at -1.0375 0 270) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 1 "GND") (pintype "passive") (tstamp 20596f5f-fcfe-4b3e-b369-95807eb5ce1e))
-    (pad "2" smd roundrect (at 1.0375 0 180) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
+    (pad "2" smd roundrect (at 1.0375 0 270) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 10 "Net-(C11-Pad2)") (pintype "passive") (tstamp 9e9853fd-44b7-4f6d-a9f7-5f4e0206a9cc))
     (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -5154,7 +5154,7 @@
 
   (footprint "SnapEDA Library:JST_SM04B-SRSS-TB(LF)(SN)" (layer "F.Cu")
     (tedit 6320915D) (tstamp eca91ecb-f04d-444c-9051-f512a3fe2f2b)
-    (at 188.138 197.822)
+    (at 306.026 242.24 90)
     (property "LCSC" "C160404")
     (property "LCSC Part#" "")
     (property "MANUFACTURER" "JST")
@@ -5164,11 +5164,11 @@
     (property "Sheetname" "")
     (path "/a59c5d3d-4ea0-4b08-99c1-38f965204418")
     (attr through_hole)
-    (fp_text reference "J6" (at -0.545095 -1.767685) (layer "F.SilkS")
+    (fp_text reference "J6" (at -0.545095 -1.767685 90) (layer "F.SilkS")
       (effects (font (size 1.001173 1.001173) (thickness 0.15)))
       (tstamp 5c42fe8e-480a-47ec-994b-3afa7898b09d)
     )
-    (fp_text value "SM04B-SRSS-TB(LF)(SN)" (at 12.17039 5.74055) (layer "F.Fab") hide
+    (fp_text value "SM04B-SRSS-TB(LF)(SN)" (at 12.17039 5.74055 90) (layer "F.Fab") hide
       (effects (font (size 1.000567 1.000567) (thickness 0.15)))
       (tstamp 749451dc-3eb7-43e4-b6b3-9a3804cbe5f0)
     )
@@ -5187,17 +5187,17 @@
     (fp_line (start 3 4.575) (end -3 4.575) (layer "F.Fab") (width 0.127) (tstamp 9a54977b-23ff-47a8-a2fa-3563c2ccb6ef))
     (fp_line (start -3 0.325) (end 3 0.325) (layer "F.Fab") (width 0.127) (tstamp eecdc100-30cf-4ecb-a2f1-5e6a0bac50cd))
     (fp_circle (center -2.45 -0.385) (end -2.35 -0.385) (layer "F.Fab") (width 0.3) (fill none) (tstamp d7f985fa-63b7-40a9-b982-97bc169cf665))
-    (pad "1" smd rect locked (at -1.5 0) (size 0.6 1.55) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at -1.5 0 90) (size 0.6 1.55) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "1") (pintype "passive") (tstamp 14b29dc8-2e8f-457a-b4f8-520b89260f09))
-    (pad "2" smd rect locked (at -0.5 0) (size 0.6 1.55) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at -0.5 0 90) (size 0.6 1.55) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 16 "3.3V+") (pinfunction "2") (pintype "passive") (tstamp 3e2d59e1-5fb0-4801-b075-dcf6dd72df8f))
-    (pad "3" smd rect locked (at 0.5 0) (size 0.6 1.55) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "3" smd rect locked (at 0.5 0 90) (size 0.6 1.55) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 18 "SCL") (pinfunction "3") (pintype "passive") (tstamp 8271a164-bd1f-4736-95b5-bf1e926035a2))
-    (pad "4" smd rect locked (at 1.5 0) (size 0.6 1.55) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "4" smd rect locked (at 1.5 0 90) (size 0.6 1.55) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 15 "SDA") (pinfunction "4") (pintype "passive") (tstamp 1d13c1a7-5d6b-4ff2-b5ec-15aca52f38c0))
-    (pad "S1" smd rect locked (at -2.8 3.875 180) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "S1" smd rect locked (at -2.8 3.875 270) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 0e15b82a-7279-4782-b15c-0f2da79bae43))
-    (pad "S2" smd rect locked (at 2.8 3.875 180) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "S2" smd rect locked (at 2.8 3.875 270) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 9818c6e0-d924-45d1-b698-aac15365ce3d))
     (model "${KIPRJMOD}/packages3D/SM04B-SRSS-TB(LF)(SN)--3DModel-STEP-56544.STEP"
       (offset (xyz 0 0 0))
@@ -5208,7 +5208,7 @@
 
   (footprint "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm" (layer "F.Cu")
     (tedit 5BC5C9B9) (tstamp f145e64c-63da-44ee-bcc9-34ee80281e10)
-    (at 241.752 171.628)
+    (at 204.414 231.572)
     (descr "C, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=11mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 2.50mm diameter 6.3mm height 11mm Non-Polar Electrolytic Capacitor")
     (property "LCSC Part#" "")
@@ -5246,7 +5246,7 @@
 
   (footprint "SamacSys_Parts:DIOM5436X261N" (layer "F.Cu")
     (tedit 0) (tstamp f6cc9ebd-89b8-4927-8b0e-aee22453adf4)
-    (at 237.922 127.94)
+    (at 375.59 111.684 90)
     (descr "DO-214AA (SMB J-Bend)")
     (tags "TVS Diode (Uni-directional)")
     (property "Description" "TVS Diode Single Uni-Dir 26V 600W 2-Pin SMB T/R")
@@ -5260,15 +5260,15 @@
     (property "Sheetname" "")
     (path "/6659f4e8-15f2-43f4-924e-74d59efb1046")
     (attr smd)
-    (fp_text reference "D3" (at 0 0) (layer "F.SilkS")
+    (fp_text reference "D3" (at 0 0 90) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 54d61c85-3af8-4379-9058-c1004bcebf40)
     )
-    (fp_text value "SMBJ26A" (at 0 0) (layer "F.SilkS") hide
+    (fp_text value "SMBJ26A" (at 0 0 90) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 6a5a66d8-c716-4361-8ab0-cda10799d5cb)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp d3845087-b056-4ffa-8e69-89a789bb4819)
     )
@@ -5283,9 +5283,9 @@
     (fp_line (start -2.7 1.81) (end -2.7 -1.81) (layer "F.Fab") (width 0.1) (tstamp e0e24b6b-7817-44ae-b118-3c1d32a4803c))
     (fp_line (start -2.7 -1.81) (end 2.7 -1.81) (layer "F.Fab") (width 0.1) (tstamp ec9b7f8d-b6fe-4d6a-87bd-8f4fe4b409a9))
     (fp_line (start 2.7 1.81) (end -2.7 1.81) (layer "F.Fab") (width 0.1) (tstamp ff3ff3a4-8322-49b7-aaaf-135032ba3960))
-    (pad "A" smd rect locked (at 2.2 0 90) (size 2.15 2.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "A" smd rect locked (at 2.2 0 180) (size 2.15 2.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp 0412f895-8133-446b-8c90-f36d248e5f51))
-    (pad "K" smd rect locked (at -2.2 0 90) (size 2.15 2.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "K" smd rect locked (at -2.2 0 180) (size 2.15 2.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "Net-(C5-Pad1)") (pintype "passive") (tstamp bec25b6d-7a33-4077-9e80-36e0d3ba2183))
     (model "${KIPRJMOD}/packages3D/SMBJ26A.stp"
       (offset (xyz 0 0 0))
@@ -5296,7 +5296,7 @@
 
   (footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" (layer "F.Cu")
     (tedit 59FF0306) (tstamp f7b2ea56-06e6-4bdd-86c5-9ba4dfcb9e3b)
-    (at 158.42 183.537 90)
+    (at 347.142 206.68 90)
     (descr "Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf")
     (tags "Altech AK300 terminal block pitch 5.0mm")
     (property "Sheetfile" "Rastaban-HAT.kicad_sch")
@@ -5447,7 +5447,7 @@
 
   (footprint "SnapEDA Library:MODULE_TMC2208_SILENTSTEPSTICK" (layer "F.Cu")
     (tedit 633C1E53) (tstamp f8f4a461-23a6-4177-bd9f-868459a46949)
-    (at 209.22 176.708)
+    (at 276.022 247.828)
     (property "MANUFACTURER" "Trinamic Motion")
     (property "Purpose" "Primairy steppermotor driver")
     (property "Sheetfile" "FluidMotors.kicad_sch")
@@ -5523,7 +5523,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp fc97f36a-76ac-48dd-8ce8-47e6e017fadb)
-    (at 211.522 177.724 180)
+    (at 278.324 248.844 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "FluidMotors.kicad_sch")
@@ -5565,7 +5565,7 @@
 
   (footprint "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm" (layer "F.Cu")
     (tedit 5BC5C9B9) (tstamp fd59d92a-bf7d-4f66-b8ac-2dd5997925e7)
-    (at 206.7 171.628)
+    (at 270.454 231.572)
     (descr "C, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=11mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 2.50mm diameter 6.3mm height 11mm Non-Polar Electrolytic Capacitor")
     (property "LCSC Part#" "")
@@ -5955,13 +5955,24 @@
     (effects (font (size 2 2) (thickness 0.15)))
   )
 
-  (group "" (id 2acf6825-2371-4ab8-9af4-dc99da14e7c7)
+  (group "" (id 248b9d1f-b07e-4456-ab29-8b02c4ce1461)
     (members
-      57caf625-5824-4ea1-9ed9-d34e0af9e1c2
-      7084e11b-5bfb-48b7-adee-00cfb48134ab
-      a781d9f5-2630-465a-8a40-57a6a247faec
-      b6210c16-8f88-4cea-837c-a261ad0a3928
-      e8a695fc-c3fc-4d1a-9e70-100bd2b9b93e
+      133bc21d-54d6-46fd-b242-42b1f6d228bd
+      461872ab-b0ef-412d-a4c4-c7299339ea7c
+      59db14f7-8980-403b-a2de-1f06ba36d701
+      83c6c8c4-c4f3-4fd0-936d-2bf315dfde7c
+      a8d49877-d9f0-4e56-a8a6-0395ce91bf83
+      afb7b144-8309-4668-abe3-d65bdb8858e6
+      df8231d4-67f8-468d-ab69-66e7cb036e16
+    )
+  )
+  (group "" (id 38bec662-54c1-412e-9656-9f2a5c3af1b7)
+    (members
+      282906d8-9289-4ce5-8b27-e74e3d1fb3c3
+      4d5ced8a-7be9-4055-948c-c8d38e3ff30b
+      84eae851-3ed9-4106-a05e-9c469aadf463
+      8a326283-fe43-4c57-9d08-854c9a7ec86d
+      b034166a-7fcd-402f-84a6-135467c88f6a
     )
   )
   (group "" (id 3a09ab08-a2a4-460a-8423-037adc47f02c)
@@ -5986,11 +5997,34 @@
       c125eef5-cf32-42ee-8de2-c02d0c880a07
     )
   )
-  (group "" (id 7831a10b-cf84-458d-a923-3708b9f59cd2)
+  (group "" (id 765bf843-c816-4544-a755-cb65a0126cda)
+    (members
+      086f3fb6-c568-45e4-8b6e-c099af76ec1c
+      2e540407-9102-4081-8c48-89967b9b30a4
+      311f37a1-f729-41fb-9906-16074392f4b8
+      322ce0f1-6718-4fa9-9f93-3cf48d655784
+      5a027007-d6fc-47c8-b91b-982e2db3128f
+      901e12f6-60e8-4286-8eaf-f4a8d3184598
+      c66c0e55-9202-4dda-b096-af5c8708e1a1
+      ca1d0b88-1450-4fe6-8296-434e01c30ec0
+    )
+  )
+  (group "" (id 811cbd98-d69a-4bdd-81ce-41141e0d94f2)
+    (members
+      57caf625-5824-4ea1-9ed9-d34e0af9e1c2
+      6291b139-f9d9-42ae-8d6d-b41056779b7e
+      7084e11b-5bfb-48b7-adee-00cfb48134ab
+      a781d9f5-2630-465a-8a40-57a6a247faec
+      b6210c16-8f88-4cea-837c-a261ad0a3928
+      e8a695fc-c3fc-4d1a-9e70-100bd2b9b93e
+    )
+  )
+  (group "" (id 891d44d0-6249-4949-bf77-ff46ad9e581c)
     (members
       248b2b80-6791-479f-9cbc-d8433358487c
       253ef5dd-5339-4938-8281-2413f66ea21f
       3c1bceab-d34a-4d0e-807a-9fbefd31abdc
+      85f14f5e-7d72-40ad-9ad2-fb08d0dbee29
       99f2b3dc-a3c2-4c52-bbb1-72a1893d4bea
       a808af0d-f310-417c-abba-618c0fef8355
       ae1d7bec-fe14-4cc8-b8f1-a447e5134529
@@ -6002,6 +6036,79 @@
       8785bc4b-fea8-4064-b759-7e4a3ba7c562
       9b956302-5f5a-4746-8ed9-0139668c9767
       d84ad254-e981-437a-be4f-d6e7e0602464
+    )
+  )
+  (group "" (id 927782b5-0c41-4c50-abff-2e2a5d08e284)
+    (members
+      2236c54a-e125-4f67-9523-d3acf59f6bc6
+      53ba565f-033b-466b-b6e0-87a90fcaea9d
+      721c29b7-1ac4-4ed5-b55b-123288e8a7d3
+      84d069c9-5e22-4661-860f-f4f2667bf11a
+      bc3c67bf-6a04-410d-ab4f-917bc1b3daf2
+      cbfaad58-5bd9-449f-9929-3b1da95547b9
+      f145e64c-63da-44ee-bcc9-34ee80281e10
+    )
+  )
+  (group "" (id 9bf5f5c2-d3a3-4475-9b39-c7f61e35a69a)
+    (members
+      0cf9d652-051a-4f39-a51e-8969ec700616
+      377bd618-5525-4333-8f67-93c3abab66a8
+      41dbfe44-265b-4eac-aacb-3349aaee8113
+      4203e776-22e8-4b89-b094-0f68c9cf5478
+      46b9fb01-987d-45ab-a30b-124c9e5026a2
+      47c42637-de00-47c3-901f-44262d60df06
+      587e2808-ab65-495a-ae9c-9f7a7bb97bc8
+      80f10847-2430-4a27-98c0-7180c8ab5eed
+      8d22ddcc-1c4d-47af-8301-56d1886f7937
+      a9d8670b-589a-4bba-a82f-9ec848685b7c
+      b6b1c481-c973-416a-aaa7-4948e2045c10
+      b729af2c-c4dd-4079-ae7d-063a6a7f91f4
+      bba0b860-69d9-4dc5-aaad-b1336af1c100
+      be998426-16ff-443b-9307-c6d5bf9dff89
+      c3fb1c91-6e34-4d4c-8ee9-070b94b4279f
+      c5eaeab3-ee0e-41ea-993c-b8f301e3dbd1
+      c653ef87-ea31-4ca5-870f-d383e731d459
+      e0904446-299f-4124-86c3-3c9dbfee2e4e
+      e51145b9-e67d-44d5-a755-dc7e61776a9d
+      e60f0d89-4a32-4ea1-a09d-f61237d08cee
+      e8526205-b46a-4a82-ac67-a540759c9cac
+      ec3fab0f-8415-4bdd-8847-742f674bab96
+      f6cc9ebd-89b8-4927-8b0e-aee22453adf4
+    )
+  )
+  (group "" (id 9f404887-8a6b-41cd-8cfe-d48c994f6cb7)
+    (members
+      3a42eb98-edff-4109-8cbe-9d0d4f071937
+      61548839-1de2-4f3c-94b8-047676bdf574
+      9c4cb5a3-dddf-4cdf-a929-6e4249bf97ce
+      f7b2ea56-06e6-4bdd-86c5-9ba4dfcb9e3b
+    )
+  )
+  (group "" (id bc7c11d4-cc6d-48bf-a191-58aa59f14531)
+    (members
+      0aa615dc-446c-41cc-bd77-dd0ac76a4fe1
+      34f11389-f4c0-4261-9e42-6a3c8c3e5501
+      6a2dcc29-fcaf-4d8b-a783-8377f469620b
+      870ba91f-d216-4d36-8507-89912292892b
+      c745bbbb-78f8-4edf-b8d5-84d7355b3f5b
+      e0fdd8ee-6df0-4c59-b652-3678e7b4ada5
+    )
+  )
+  (group "" (id d3972f5d-d93c-44b0-b20e-bd9f18de5eba)
+    (members
+      3725a04b-bcd2-499a-9bae-3c0a7ee3e11d
+      3e18be72-cdb9-43ba-8a0f-217a5dec2cc5
+      7edce229-22d7-414a-8c01-aca278a279a5
+      8c5f7c17-f32f-4cc1-95e7-7d19d513cbfb
+      f8f4a461-23a6-4177-bd9f-868459a46949
+      fc97f36a-76ac-48dd-8ce8-47e6e017fadb
+      fd59d92a-bf7d-4f66-b8ac-2dd5997925e7
+    )
+  )
+  (group "" (id d7f75d66-5524-4b69-a46d-c115292ab59e)
+    (members
+      5cf22103-8749-4851-89f3-a1c08735e6c9
+      96022304-0a55-4b51-b643-edf04c1fb1c0
     )
   )
   (group "" (id de3fa60e-4871-4679-bd54-aea6db495dce)
