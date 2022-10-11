@@ -9,7 +9,7 @@ _MIN: int = 0
 _FREQUENCY = 100_000
 pi = pigpio.pi()
 
-class PWMController():
+class PWM():
     def __init__(self, gpio_pin: int) -> None:
         self._gpio_pin: int = gpio_pin
 
@@ -22,7 +22,7 @@ class PWMController():
     def change(self, duty_cycle: int):
          pi.hardware_PWM(self._gpio_pin, _FREQUENCY, duty_cycle)
 
-class LEDController():
+class MicroscopeLED():
     def __init__(self, gpio_pin: int) -> None:
         self._gpio_pin: int = gpio_pin
 
@@ -36,7 +36,7 @@ class LEDController():
          pi.hardware_PWM(self._gpio_pin, _FREQUENCY, duty_cycle)
 
 
-class PeltierController():
+class Peltier():
     def __init__(self, GPIOpeltier_in2: int, GPIOpeltier_in1: int) -> None:
         self._gpio_pin: int = GPIOpeltier_in1
         self._gpio_pin: int = GPIOpeltier_in2
@@ -73,23 +73,28 @@ class PowerGPIO():
 class Motors():
     def __init__(self, MOTORnum: int, DIR, STEP, EN, PHASE, SLEEP) -> None:
         self._gpio_pin: int = MOTORnum 
+        self._gpio_pin: int = DIR
+        self._gpio_pin: int = STEP
+        self._gpio_pin: int = EN
+        self._gpio_pin: int = PHASE
+        self._gpio_pin: int = SLEEP
 
-    def set_motor_power(self, MOTORnum, enabled: bool): 
+    def set_motor_power(self, enabled: bool): 
         if enabled == True:
             pi.hardware_PWM(self.MOTORnum, _MAX, _MAX)
         else: 
             pi.hardware_PWM(self.MOTORnum, _MIN, _MIN)
 
-    def set_motor_dir(self, MOTORnum, DIR: bool):
+    def set_motor_dir(self, DIR: bool):
         if DIR == 1:
             pi.harware_PWM(self.MOTORnum, _MAX, _MAX) #high on enable pin to enable motor
         else:
-            pi.hardware_PWM(self.MOTORnum, _MIN, _MIN)
+            pi.hardware_PWM(self.MOTORnum, _MIN, _MIN) #low on enable pin to enable motor
 
-    def set_motor_step(self, STEPPIN, STEP: float):
+    def set_motor_step(self, STEP: float):
         for x in range(STEP):
-            STEP + 1
             pi.harware_PWM(self.STEPPIN, _MAX, _MAX) 
             delay(0.001)
             pi.harware_PWM(self.STEPPIN, _MIN, _MIN) 
             delay(0.001)
+            STEP + 1
