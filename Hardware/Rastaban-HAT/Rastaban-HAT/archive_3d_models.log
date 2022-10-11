@@ -1,5 +1,22 @@
-10-10 13:02:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 210:Plugin executed on: 'win32'
-10-10 13:02:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 211:Plugin executed with python version: '3.9.10 (main, Jun 24 2022, 05:34:59) [MSC v.1932 64 bit (AMD64)]'
-10-10 13:02:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 212:KiCad build version: (6.0.6)
-10-10 13:02:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 213:Plugin version: 1.0.3
-
+10-11 10:28:34 com_github_bouni_kicad-jlcpcb-tools.store 224:Part C3 is already in the database and has a lcsc value, the value supplied from the board will be ignored.
+10-11 10:28:34 com_github_bouni_kicad-jlcpcb-tools.store 224:Part C2 is already in the database and has a lcsc value, the value supplied from the board will be ignored.
+10-11 10:28:34 com_github_bouni_kicad-jlcpcb-tools.store 224:Part C4 is already in the database and has a lcsc value, the value supplied from the board will be ignored.
+10-11 10:28:34 com_github_bouni_kicad-jlcpcb-tools.store 224:Part J1 is already in the database and has a lcsc value, the value supplied from the board will be ignored.
+10-11 10:28:34 com_github_bouni_kicad-jlcpcb-tools.store 224:Part J3 is already in the database and has a lcsc value, the value supplied from the board will be ignored.
+10-11 10:28:34 com_github_bouni_kicad-jlcpcb-tools.store 224:Part C20 is already in the database and has a lcsc value, the value supplied from the board will be ignored.
+10-11 10:28:34 com_github_bouni_kicad-jlcpcb-tools.store 224:Part D5 is already in the database and has a lcsc value, the value supplied from the board will be ignored.
+10-11 10:28:34 com_github_bouni_kicad-jlcpcb-tools.store 224:Part C21 is already in the database and has a lcsc value, the value supplied from the board will be ignored.
+10-11 10:28:34 com_github_bouni_kicad-jlcpcb-tools.store 224:Part J2 is already in the database and has a lcsc value, the value supplied from the board will be ignored.
+10-11 10:28:34 com_github_bouni_kicad-jlcpcb-tools.store 224:Part C1 is already in the database and has a lcsc value, the value supplied from the board will be ignored.
+10-11 10:28:34 com_github_bouni_kicad-jlcpcb-tools.store 224:Part D1 is already in the database and has a lcsc value, the value supplied from the board will be ignored.
+10-11 10:28:34 com_github_bouni_kicad-jlcpcb-tools.store 224:Part D4 is already in the database and has a lcsc value, the value supplied from the board will be ignored.
+10-11 10:28:34 com_github_bouni_kicad-jlcpcb-tools.store 224:Part C26 is already in the database and has a lcsc value, the value supplied from the board will be ignored.
+10-11 10:28:34 com_github_bouni_kicad-jlcpcb-tools.store 224:Part D6 is already in the database and has a lcsc value, the value supplied from the board will be ignored.
+10-11 10:28:34 com_github_bouni_kicad-jlcpcb-tools.store 224:Part C5 is already in the database and has a lcsc value, the value supplied from the board will be ignored.
+10-11 10:28:34 com_github_bouni_kicad-jlcpcb-tools.store 224:Part J6 is already in the database and has a lcsc value, the value supplied from the board will be ignored.
+10-11 10:28:34 com_github_bouni_kicad-jlcpcb-tools.store 224:Part D3 is already in the database and has a lcsc value, the value supplied from the board will be ignored.
+10-11 10:28:34 com_github_bouni_kicad-jlcpcb-tools.store 224:Part C25 is already in the database and has a lcsc value, the value supplied from the board will be ignored.
+10-11 10:29:43 com_github_bouni_kicad-jlcpcb-tools.partselector 511:Load settings
+10-11 10:29:43 com_github_bouni_kicad-jlcpcb-tools.partselector 513:{'partselector': {'basic': True, 'extended': True, 'stock': False}}
+10-11 10:33:34 com_github_bouni_kicad-jlcpcb-tools.partselector 511:Load settings
+10-11 10:33:34 com_github_bouni_kicad-jlcpcb-tools.partselector 513:{'partselector': {'basic': True, 'extended': True, 'stock': False}}

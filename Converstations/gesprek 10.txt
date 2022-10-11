@@ -1,0 +1,6 @@
+Vragen aan Jeroen:
+PCB:
+-Codensator types, welke type voor ontkoppeling en voor de motoren
+-SMD grootte van complementaire componenten (R, C)
+-Tóch LEDS toevoegen?
+-
