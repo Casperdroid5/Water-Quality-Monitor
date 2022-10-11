@@ -1,4 +1,8 @@
+from ctypes.wintypes import BOOL
+from turtle import delay
+from xmlrpc.client import Boolean
 import pigpio
+
 
 _MAX: int = 100
 _MIN: int = 0
@@ -33,9 +37,9 @@ class LEDController():
 
 
 class PeltierController():
-    def __init__(self, GPIOpeltier_in2: int, GPIOpeltier_in1) -> None:
+    def __init__(self, GPIOpeltier_in2: int, GPIOpeltier_in1: int) -> None:
         self._gpio_pin: int = GPIOpeltier_in1
-        self._gpio_pin: int = GPIOpeltier_in1
+        self._gpio_pin: int = GPIOpeltier_in2
     
     def turn_cooler_fully_on(self):
         pi.hardware_PWM(self._GPIOpeltier_in1, _MAX, _MAX)
@@ -65,3 +69,27 @@ class PowerGPIO():
 
     def change(self, duty_cycle: int):
          pi.hardware_PWM(self._POWERGPIOpin, _FREQUENCY, duty_cycle)
+
+class Motors():
+    def __init__(self, MOTORnum: int, DIR, STEP, EN, PHASE, SLEEP) -> None:
+        self._gpio_pin: int = MOTORnum 
+
+    def set_motor_power(self, MOTORnum, enabled: bool): 
+        if enabled == True:
+            pi.hardware_PWM(self.MOTORnum, _MAX, _MAX)
+        else: 
+            pi.hardware_PWM(self.MOTORnum, _MIN, _MIN)
+
+    def set_motor_dir(self, MOTORnum, DIR: bool):
+        if DIR == 1:
+            pi.harware_PWM(self.MOTORnum, _MAX, _MAX) #high on enable pin to enable motor
+        else:
+            pi.hardware_PWM(self.MOTORnum, _MIN, _MIN)
+
+    def set_motor_step(self, STEPPIN, STEP: float):
+        for x in range(STEP):
+            STEP + 1
+            pi.harware_PWM(self.STEPPIN, _MAX, _MAX) 
+            delay(0.001)
+            pi.harware_PWM(self.STEPPIN, _MIN, _MIN) 
+            delay(0.001)

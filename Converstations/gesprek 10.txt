@@ -3,4 +3,4 @@ PCB:
 -Codensator types, welke type voor ontkoppeling en voor de motoren
 -SMD grootte van complementaire componenten (R, C)
 -Tóch LEDS toevoegen?
--
+-Motor intantaties maken, voor 2 vloeistof steppers en 1 focus stepper? aanpak?
