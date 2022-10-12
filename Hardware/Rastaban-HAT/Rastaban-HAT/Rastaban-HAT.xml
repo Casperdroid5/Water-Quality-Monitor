@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\crtak\HAN\Jeroen Veen - Effluent\07 Studentprojects\Casper Tak\Hardware\Rastaban-HAT\Rastaban-HAT\Rastaban-HAT.kicad_sch</source>
-    <date>11/10/2022 14:20:11</date>
+    <date>12/10/2022 12:01:07</date>
     <tool>Eeschema (6.0.6)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -226,21 +226,13 @@
       <datasheet>https://www.arrow.com/en/products/d5v0p4ur6so-7/diodes-incorporated</datasheet>
       <fields>
         <field name="Description">ESD Suppressors / TVS Diodes General Protection PP</field>
-        <field name="Height">1.4</field>
         <field name="LCSC">C531179</field>
-        <field name="Manufacturer_Name">Diodes Inc.</field>
-        <field name="Manufacturer_Part_Number">D5V0P4UR6SO-7</field>
-        <field name="Mouser Part Number">621-D5V0P4UR6SO-7</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/D5V0P4UR6SO-7?qs=rN85NNvew%2FSjbewGRfhy7A%3D%3D</field>
+        <field name="Mouser">621-D5V0P4UR6SO-7</field>
         <field name="Purpose">ESD protection</field>
       </fields>
       <libsource lib="" part="D5V0P4UR6SO-7_1" description="ESD Suppressors / TVS Diodes General Protection PP"/>
       <property name="Description" value="ESD Suppressors / TVS Diodes General Protection PP"/>
-      <property name="Height" value="1.4"/>
-      <property name="Mouser Part Number" value="621-D5V0P4UR6SO-7"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/D5V0P4UR6SO-7?qs=rN85NNvew%2FSjbewGRfhy7A%3D%3D"/>
-      <property name="Manufacturer_Name" value="Diodes Inc."/>
-      <property name="Manufacturer_Part_Number" value="D5V0P4UR6SO-7"/>
+      <property name="Mouser" value="621-D5V0P4UR6SO-7"/>
       <property name="Purpose" value="ESD protection"/>
       <property name="LCSC" value="C531179"/>
       <property name="Sheetname" value=""/>
@@ -253,12 +245,12 @@
       <footprint>SamacSys_Parts:OVLEW1CB9</footprint>
       <datasheet>https://www.farnell.com/datasheets/2702468.pdf</datasheet>
       <fields>
-        <field name="Field4">XXX-00000</field>
+        <field name="Mouser">828-OVLEW1CB9</field>
         <field name="Purpose">LED for microscope</field>
       </fields>
       <libsource lib="SparkFun-LED" part="LED5MM" description="&lt;b&gt;LED (Generic)&lt;/b&gt;Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LEDs. Generic LEDs with no color specified."/>
-      <property name="Field4" value="XXX-00000"/>
       <property name="Purpose" value="LED for microscope"/>
+      <property name="Mouser" value="828-OVLEW1CB9"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -269,22 +261,14 @@
       <footprint>SamacSys_Parts:DIOM5436X261N</footprint>
       <datasheet>https://www.bourns.com/docs/product-datasheets/smbj.pdf?sfvrsn=34552159_17</datasheet>
       <fields>
-        <field name="Description">TVS Diode Single Uni-Dir 26V 600W 2-Pin SMB T/R</field>
-        <field name="Height">2.44</field>
         <field name="LCSC">C10216</field>
-        <field name="Manufacturer_Name">Bourns</field>
-        <field name="Manufacturer_Part_Number">SMBJ26A</field>
         <field name="Mouser Part Number">652-SMBJ26A</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Bourns/SMBJ26A?qs=%252Bf8Cd6aE5bzyuNXx4QjGJA%3D%3D</field>
+        <field name="Purpose">ESD</field>
       </fields>
       <libsource lib="SamacSys_Parts" part="SMBJ26A" description="TVS Diode Single Uni-Dir 26V 600W 2-Pin SMB T/R"/>
-      <property name="Description" value="TVS Diode Single Uni-Dir 26V 600W 2-Pin SMB T/R"/>
-      <property name="Height" value="2.44"/>
       <property name="Mouser Part Number" value="652-SMBJ26A"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Bourns/SMBJ26A?qs=%252Bf8Cd6aE5bzyuNXx4QjGJA%3D%3D"/>
-      <property name="Manufacturer_Name" value="Bourns"/>
-      <property name="Manufacturer_Part_Number" value="SMBJ26A"/>
       <property name="LCSC" value="C10216"/>
+      <property name="Purpose" value="ESD"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -296,40 +280,35 @@
       <datasheet>https://www.arrow.com/en/products/d5v0p4ur6so-7/diodes-incorporated</datasheet>
       <fields>
         <field name="Description">ESD Suppressors / TVS Diodes General Protection PP</field>
-        <field name="Height">1.4</field>
         <field name="LCSC">C531179</field>
-        <field name="Manufacturer_Name">Diodes Inc.</field>
-        <field name="Manufacturer_Part_Number">D5V0P4UR6SO-7</field>
-        <field name="Mouser Part Number">621-D5V0P4UR6SO-7</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/D5V0P4UR6SO-7?qs=rN85NNvew%2FSjbewGRfhy7A%3D%3D</field>
+        <field name="Mouser">621-D5V0P4UR6SO-7</field>
         <field name="Purpose">ESD protection</field>
       </fields>
       <libsource lib="" part="D5V0P4UR6SO-7_1" description="ESD Suppressors / TVS Diodes General Protection PP"/>
       <property name="Description" value="ESD Suppressors / TVS Diodes General Protection PP"/>
-      <property name="Height" value="1.4"/>
-      <property name="Mouser Part Number" value="621-D5V0P4UR6SO-7"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/D5V0P4UR6SO-7?qs=rN85NNvew%2FSjbewGRfhy7A%3D%3D"/>
-      <property name="Manufacturer_Name" value="Diodes Inc."/>
-      <property name="Manufacturer_Part_Number" value="D5V0P4UR6SO-7"/>
+      <property name="Mouser" value="621-D5V0P4UR6SO-7"/>
       <property name="Purpose" value="ESD protection"/>
       <property name="LCSC" value="C531179"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>6578ccc9-8e10-4703-a403-8d3952656fca</tstamps>
+      <tstamps>0075f53b-c207-4977-b7da-e66b34dcf784</tstamps>
     </comp>
     <comp ref="D5">
       <value>DIODE-1N4148</value>
       <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://nl.mouser.com/datasheet/2/308/1/1N4148WS_D-3006419.pdf</datasheet>
       <fields>
         <field name="Field4">DIO-08378</field>
         <field name="LCSC">C2128</field>
+        <field name="Mouser">512-1N4148WS</field>
         <field name="Purpose">To prevent EMF</field>
       </fields>
       <libsource lib="SparkFun-DiscreteSemi" part="DIODE-1N4148" description="Diode These are standard reverse protection diodes and small signal diodes. &lt;b&gt;SparkFun Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/11177 &gt;SparkFun SparkPunk Sound Kit&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/13231 &gt;SparkFun ESP8266 Thing&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
       <property name="Field4" value="DIO-08378"/>
       <property name="Purpose" value="To prevent EMF"/>
       <property name="LCSC" value="C2128"/>
+      <property name="Mouser" value="512-1N4148WS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -338,19 +317,22 @@
     <comp ref="D6">
       <value>DIODE-1N4148</value>
       <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://nl.mouser.com/datasheet/2/308/1/1N4148WS_D-3006419.pdf</datasheet>
       <fields>
         <field name="Field4">DIO-08378</field>
         <field name="LCSC">C2128</field>
+        <field name="Mouser">512-1N4148WS</field>
         <field name="Purpose">To prevent EMF</field>
       </fields>
       <libsource lib="SparkFun-DiscreteSemi" part="DIODE-1N4148" description="Diode These are standard reverse protection diodes and small signal diodes. &lt;b&gt;SparkFun Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/11177 &gt;SparkFun SparkPunk Sound Kit&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/13231 &gt;SparkFun ESP8266 Thing&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
       <property name="Field4" value="DIO-08378"/>
       <property name="Purpose" value="To prevent EMF"/>
       <property name="LCSC" value="C2128"/>
+      <property name="Mouser" value="512-1N4148WS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>151484bb-abd3-417b-bcff-406950e48d66</tstamps>
+      <tstamps>35a41ac7-6c14-4f8c-82a4-1901853e8348</tstamps>
     </comp>
     <comp ref="F1">
       <value>0.5A</value>
@@ -371,7 +353,7 @@
       <tstamps>aad0bd0c-8c40-4f59-a931-9d40d3c93f6e</tstamps>
     </comp>
     <comp ref="F3">
-      <value>3.2A</value>
+      <value>5A</value>
       <footprint>Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
       <property name="Sheetname" value=""/>
@@ -389,7 +371,7 @@
       <tstamps>b73aee68-d2d6-4af6-8012-832b4d70c4c0</tstamps>
     </comp>
     <comp ref="F5">
-      <value>3.2A</value>
+      <value>5A</value>
       <footprint>Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
       <property name="Sheetname" value=""/>
@@ -398,7 +380,7 @@
       <tstamps>15e341b8-b722-4b21-9283-a504e09cc3d5</tstamps>
     </comp>
     <comp ref="F6">
-      <value>3.2A</value>
+      <value>5A</value>
       <footprint>Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
       <property name="Sheetname" value=""/>
@@ -495,17 +477,31 @@
     </comp>
     <comp ref="J4">
       <value>Screw_Terminal_01x02</value>
-      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <footprint>SamacSys_Parts:1808190</footprint>
+      <datasheet>https://www.phoenixcontact.com/en-us/products/pcb-header-ptsm-05-2-hh0-25-smd-r32-1808190?type=pdf</datasheet>
+      <fields>
+        <field name="Mouser">651-1808190</field>
+        <field name="Purpose">Terminal</field>
+      </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Purpose" value="Terminal"/>
+      <property name="Mouser" value="651-1808190"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>5aac9ea9-4fe8-4ec4-82c6-ee5bf07b1349</tstamps>
+      <tstamps>72095511-e22a-429b-b14d-7b07d12754e9</tstamps>
     </comp>
     <comp ref="J5">
       <value>Jack-DC 12V+</value>
       <footprint>Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002</footprint>
+      <datasheet>https://nl.mouser.com/datasheet/2/445/694106301002-1719831.pdf</datasheet>
+      <fields>
+        <field name="Mouser">710-694106301002</field>
+        <field name="Purpose">Power input connector</field>
+      </fields>
       <libsource lib="Connector" part="Jack-DC" description="DC Barrel Jack"/>
+      <property name="Purpose" value="Power input connector"/>
+      <property name="Mouser" value="710-694106301002"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -514,17 +510,11 @@
     <comp ref="J6">
       <value>SM04B-SRSS-TB(LF)(SN)</value>
       <footprint>SnapEDA Library:JST_SM04B-SRSS-TB(LF)(SN)</footprint>
+      <datasheet>https://www.farnell.com/datasheets/2082363.pdf</datasheet>
       <fields>
         <field name="LCSC">C160404</field>
-        <field name="MANUFACTURER">JST</field>
-        <field name="Manufacturer_Part_Number">C160404</field>
-        <field name="STANDARD">Manufacturer recommendations</field>
       </fields>
       <libsource lib="SM04B-SRSS-TB_LF__SN_" part="SM04B-SRSS-TB(LF)(SN)" description=""/>
-      <property name="MANUFACTURER" value="JST"/>
-      <property name="STANDARD" value="Manufacturer recommendations"/>
-      <property name="LCSC Part#" value=""/>
-      <property name="Manufacturer_Part_Number" value="C160404"/>
       <property name="LCSC" value="C160404"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
@@ -533,8 +523,15 @@
     </comp>
     <comp ref="J7">
       <value>Screw_Terminal_01x02</value>
-      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <footprint>SamacSys_Parts:1808190</footprint>
+      <datasheet>https://www.phoenixcontact.com/en-us/products/pcb-header-ptsm-05-2-hh0-25-smd-r32-1808190?type=pdf</datasheet>
+      <fields>
+        <field name="Mouser">651-1808190</field>
+        <field name="Purpose">Terminal</field>
+      </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Purpose" value="Terminal"/>
+      <property name="Mouser" value="651-1808190"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -542,12 +539,19 @@
     </comp>
     <comp ref="J8">
       <value>Screw_Terminal_01x02</value>
-      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <footprint>SamacSys_Parts:1808190</footprint>
+      <datasheet>https://www.phoenixcontact.com/en-us/products/pcb-header-ptsm-05-2-hh0-25-smd-r32-1808190?type=pdf</datasheet>
+      <fields>
+        <field name="Mouser">651-1808190</field>
+        <field name="Purpose">Terminal</field>
+      </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Purpose" value="Terminal"/>
+      <property name="Mouser" value="651-1808190"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>afd82313-5a87-47b5-9615-086f92b29aa8</tstamps>
+      <tstamps>28c54d7f-daa9-4302-85f5-36582dc2620a</tstamps>
     </comp>
     <comp ref="J9">
       <value>Conn_01x05_Male</value>
@@ -561,7 +565,14 @@
     <comp ref="J10">
       <value>GPIO</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical_SMD</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2187/CS25582-40G-M36-0A+(1).jpg</datasheet>
+      <fields>
+        <field name="Mouser">485-2187</field>
+        <field name="Purpose">PINheaderRPI</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x20_Odd_Even" description="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Purpose" value="PINheaderRPI"/>
+      <property name="Mouser" value="485-2187"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -604,7 +615,7 @@
     </comp>
     <comp ref="M1">
       <value>Fan</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <footprint>SamacSys_Parts:1808190</footprint>
       <fields>
         <field name="Purpose">Cooling fan</field>
       </fields>
@@ -617,104 +628,83 @@
     </comp>
     <comp ref="PE1">
       <value>PeltierElement</value>
-      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <footprint>SamacSys_Parts:1808190</footprint>
+      <datasheet>https://www.phoenixcontact.com/en-us/products/pcb-header-ptsm-05-2-hh0-25-smd-r32-1808190?type=pdf</datasheet>
+      <fields>
+        <field name="Mouser">651-1808190</field>
+      </fields>
       <libsource lib="Device" part="PeltierElement" description="Peltier element, thermoelectric cooler"/>
+      <property name="Mouser" value="651-1808190"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a5a5959a-c687-4613-9524-73f0cec68824</tstamps>
     </comp>
     <comp ref="Q1">
-      <value>2N7002K</value>
+      <value>PMV15ENE</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.diodes.com/assets/Datasheets/ds30896.pdf</datasheet>
+      <datasheet>https://nl.mouser.com/datasheet/2/916/PMV15ENE-2909821.pdf</datasheet>
       <fields>
-        <field name="Purpose">Cooling fan switch</field>
+        <field name="Mouser">771-PMV15ENER</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002K" description="0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
-      <property name="Purpose" value="Cooling fan switch"/>
+      <property name="Mouser" value="771-PMV15ENER"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>9a9094d0-3c31-47ba-80eb-52481aba703b</tstamps>
+      <tstamps>d781f579-d711-4274-aa03-1956fe5a4698</tstamps>
     </comp>
     <comp ref="Q2">
-      <value>IRL540SPBF</value>
-      <footprint>SamacSys_Parts:IRL540SPBF</footprint>
-      <datasheet>https://www.vishay.com/docs/91306/sihl640s.pdf</datasheet>
+      <value>PMV15ENE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://nl.mouser.com/datasheet/2/916/PMV15ENE-2909821.pdf</datasheet>
       <fields>
-        <field name="Description">MOSFET N-CH  100V HEXFET MOSFET</field>
-        <field name="Height">4.83</field>
-        <field name="Manufacturer_Name">Vishay</field>
-        <field name="Manufacturer_Part_Number">IRL540SPBF</field>
-        <field name="Mouser Part Number">844-IRL540SPBF</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/IRL540SPBF?qs=cvaI6ThkwxtaFmKhXRqY9Q%3D%3D</field>
+        <field name="Mouser">771-PMV15ENER</field>
       </fields>
-      <libsource lib="SamacSys_Parts" part="IRL540SPBF" description="MOSFET N-CH  100V HEXFET MOSFET"/>
-      <property name="Description" value="MOSFET N-CH  100V HEXFET MOSFET"/>
-      <property name="Height" value="4.83"/>
-      <property name="Mouser Part Number" value="844-IRL540SPBF"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/IRL540SPBF?qs=cvaI6ThkwxtaFmKhXRqY9Q%3D%3D"/>
-      <property name="Manufacturer_Name" value="Vishay"/>
-      <property name="Manufacturer_Part_Number" value="IRL540SPBF"/>
+      <libsource lib="Transistor_FET" part="2N7002K" description="0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Mouser" value="771-PMV15ENER"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7d0f6651-cf00-4061-884b-b5c994534c8a</tstamps>
+      <tstamps>79a87a34-ce08-4a45-a783-4b1608b58851</tstamps>
     </comp>
     <comp ref="Q4">
-      <value>IRL540SPBF</value>
-      <footprint>SamacSys_Parts:IRL540SPBF</footprint>
-      <datasheet>https://www.vishay.com/docs/91306/sihl640s.pdf</datasheet>
+      <value>PMV15ENE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://nl.mouser.com/datasheet/2/916/PMV15ENE-2909821.pdf</datasheet>
       <fields>
-        <field name="Description">MOSFET N-CH  100V HEXFET MOSFET</field>
-        <field name="Height">4.83</field>
-        <field name="Manufacturer_Name">Vishay</field>
-        <field name="Manufacturer_Part_Number">IRL540SPBF</field>
-        <field name="Mouser Part Number">844-IRL540SPBF</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/IRL540SPBF?qs=cvaI6ThkwxtaFmKhXRqY9Q%3D%3D</field>
+        <field name="Mouser">771-PMV15ENER</field>
       </fields>
-      <libsource lib="SamacSys_Parts" part="IRL540SPBF" description="MOSFET N-CH  100V HEXFET MOSFET"/>
-      <property name="Description" value="MOSFET N-CH  100V HEXFET MOSFET"/>
-      <property name="Height" value="4.83"/>
-      <property name="Mouser Part Number" value="844-IRL540SPBF"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/IRL540SPBF?qs=cvaI6ThkwxtaFmKhXRqY9Q%3D%3D"/>
-      <property name="Manufacturer_Name" value="Vishay"/>
-      <property name="Manufacturer_Part_Number" value="IRL540SPBF"/>
+      <libsource lib="Transistor_FET" part="2N7002K" description="0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Mouser" value="771-PMV15ENER"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f7b12a86-646a-43d0-b4a6-be89ce46d7c6</tstamps>
+      <tstamps>f90f5433-864e-43d0-aa94-c0a228052989</tstamps>
     </comp>
     <comp ref="Q5">
-      <value>IRL540SPBF</value>
-      <footprint>SamacSys_Parts:IRL540SPBF</footprint>
-      <datasheet>https://www.vishay.com/docs/91306/sihl640s.pdf</datasheet>
+      <value>PMV15ENE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://nl.mouser.com/datasheet/2/916/PMV15ENE-2909821.pdf</datasheet>
       <fields>
-        <field name="Description">MOSFET N-CH  100V HEXFET MOSFET</field>
-        <field name="Height">4.83</field>
-        <field name="Manufacturer_Name">Vishay</field>
-        <field name="Manufacturer_Part_Number">IRL540SPBF</field>
-        <field name="Mouser Part Number">844-IRL540SPBF</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/IRL540SPBF?qs=cvaI6ThkwxtaFmKhXRqY9Q%3D%3D</field>
+        <field name="Mouser">771-PMV15ENER</field>
       </fields>
-      <libsource lib="SamacSys_Parts" part="IRL540SPBF" description="MOSFET N-CH  100V HEXFET MOSFET"/>
-      <property name="Description" value="MOSFET N-CH  100V HEXFET MOSFET"/>
-      <property name="Height" value="4.83"/>
-      <property name="Mouser Part Number" value="844-IRL540SPBF"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/IRL540SPBF?qs=cvaI6ThkwxtaFmKhXRqY9Q%3D%3D"/>
-      <property name="Manufacturer_Name" value="Vishay"/>
-      <property name="Manufacturer_Part_Number" value="IRL540SPBF"/>
+      <libsource lib="Transistor_FET" part="2N7002K" description="0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Mouser" value="771-PMV15ENER"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e1dca29f-1a0e-4463-a7da-56bdf46b3fda</tstamps>
+      <tstamps>3c893e8e-42f7-41db-8af0-31704d9102b5</tstamps>
     </comp>
     <comp ref="Q6">
-      <value>DMG1012T</value>
-      <footprint>Package_TO_SOT_SMD:SOT-523</footprint>
-      <datasheet>https://www.diodes.com/assets/Datasheets/ds31783.pdf</datasheet>
+      <value>2N70002HWX</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering</footprint>
+      <datasheet>https://nl.mouser.com/datasheet/2/916/2N7002HW-2909781.pdf</datasheet>
+      <fields>
+        <field name="Mouser">771-2N7002HWX</field>
+      </fields>
       <libsource lib="Transistor_FET" part="DMG1012T" description="20V Vds, 0.63 Id, N-Channel MOSFET with ESD protection, SOT-523"/>
+      <property name="Mouser" value="771-2N7002HWX"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -743,16 +733,12 @@
       <tstamps>00db92f9-b335-411c-b323-c06099a8c80d</tstamps>
     </comp>
     <comp ref="R3">
-      <value>1.20KOHM-0603-1_10W-1%</value>
-      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical</footprint>
+      <value>10W resistor</value>
+      <footprint>SamacSys_Parts:1808190</footprint>
       <fields>
-        <field name="Field4">RES-08413</field>
-        <field name="Field5">RES-09383</field>
         <field name="Purpose">Heating resistor</field>
       </fields>
       <libsource lib="SparkFun-Resistors" part="1.20KOHM-0603-1_10W-1%" description="1.20k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"/>
-      <property name="Field4" value="RES-08413"/>
-      <property name="Field5" value="RES-09383"/>
       <property name="Purpose" value="Heating resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
@@ -1010,7 +996,13 @@
       <value>DRV8870DDA</value>
       <footprint>Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/drv8870.pdf</datasheet>
+      <fields>
+        <field name="Mouser">595-DRV8870DDA</field>
+        <field name="Purpose">H-bridge for peltier hot/cold side</field>
+      </fields>
       <libsource lib="Driver_Motor" part="DRV8870DDA" description="Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Dynamic current limiting, HTSOP-8"/>
+      <property name="Purpose" value="H-bridge for peltier hot/cold side"/>
+      <property name="Mouser" value="595-DRV8870DDA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1020,7 +1012,13 @@
       <value>TLV1117-33</value>
       <footprint>SamacSys_Parts:SOT230P700X180-4N</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tlv1117.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C37359</field>
+        <field name="Purpose">Voltage regulator</field>
+      </fields>
       <libsource lib="Regulator_Linear" part="TLV1117-33" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"/>
+      <property name="LCSC" value="C37359"/>
+      <property name="Purpose" value="Voltage regulator"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1030,7 +1028,13 @@
       <value>CAT24C256</value>
       <footprint>SamacSys_Parts:SOIC127P600X175-8N</footprint>
       <datasheet>https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF</datasheet>
+      <fields>
+        <field name="Mouser">698-CAT24C256WI-GT3</field>
+        <field name="Purpose">EEPROM pihat</field>
+      </fields>
       <libsource lib="Memory_EEPROM" part="CAT24C256" description="256 kb CMOS Serial EEPROM, DIP-8/SOIC-8/TSSOP-8/DFN-8"/>
+      <property name="Purpose" value="EEPROM pihat"/>
+      <property name="Mouser" value="698-CAT24C256WI-GT3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1304,25 +1308,17 @@
       <tstamps>7514df18-9295-4870-9b15-d0d13f5e8b8b</tstamps>
     </comp>
     <comp ref="IC2">
-      <value>DMMT5401-7-F</value>
+      <value>BCM53DS</value>
       <footprint>SamacSys_Parts:SOT95P285X140-6N</footprint>
-      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-9/DSA-164366.pdf</datasheet>
+      <datasheet>https://nl.mouser.com/datasheet/2/916/BCM53DS-1370670.pdf</datasheet>
       <fields>
-        <field name="Description">Transistor Dual PNP 150V 0.2A SOT26-6 Diodes Inc DMMT5401-7-F Dual PNP Bipolar Transistor, -200 mA, -150 V, 6-Pin SOT-26</field>
-        <field name="Height">1.4</field>
-        <field name="Manufacturer_Name">Diodes Inc.</field>
-        <field name="Manufacturer_Part_Number">DMMT5401-7-F</field>
-        <field name="Mouser Part Number">621-DMMT5401-7-F</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMMT5401-7-F?qs=hiZRsJxw0h3f7LzTPwvEFQ%3D%3D</field>
+        <field name="Description">80 V, 1 A PNP/PNP matched double transistors</field>
+        <field name="Mouser Part Number">771-BCM53DSFs</field>
         <field name="Purpose">Dual PNP small signal transistor</field>
       </fields>
       <libsource lib="SamacSys_Parts" part="DMMT5401-7-F" description="Transistor Dual PNP 150V 0.2A SOT26-6 Diodes Inc DMMT5401-7-F Dual PNP Bipolar Transistor, -200 mA, -150 V, 6-Pin SOT-26"/>
-      <property name="Description" value="Transistor Dual PNP 150V 0.2A SOT26-6 Diodes Inc DMMT5401-7-F Dual PNP Bipolar Transistor, -200 mA, -150 V, 6-Pin SOT-26"/>
-      <property name="Height" value="1.4"/>
-      <property name="Mouser Part Number" value="621-DMMT5401-7-F"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMMT5401-7-F?qs=hiZRsJxw0h3f7LzTPwvEFQ%3D%3D"/>
-      <property name="Manufacturer_Name" value="Diodes Inc."/>
-      <property name="Manufacturer_Part_Number" value="DMMT5401-7-F"/>
+      <property name="Description" value="80 V, 1 A PNP/PNP matched double transistors"/>
+      <property name="Mouser Part Number" value="771-BCM53DSFs"/>
       <property name="Purpose" value="Dual PNP small signal transistor"/>
       <property name="Sheetname" value="RaspberryPiPower"/>
       <property name="Sheetfile" value="RaspberryPiPower.kicad_sch"/>
@@ -1344,19 +1340,11 @@
       <datasheet>https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf</datasheet>
       <fields>
         <field name="Description">MOSFET P-Ch 20V 5A Enhancement SOT23 Diodes Inc DMG2305UX-7 P-channel MOSFET Transistor, -3.3 A, -20 V, 3-Pin SOT-23</field>
-        <field name="Height">1.1</field>
-        <field name="Manufacturer_Name">Diodes Inc.</field>
-        <field name="Manufacturer_Part_Number">DMG2305UX-7</field>
-        <field name="Mouser Part Number">621-DMG2305UX-7</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG2305UX-7?qs=L1DZKBg7t5F%2FNBHrjfxC%252Bg%3D%3D</field>
+        <field name="LCSC">C2940629</field>
       </fields>
       <libsource lib="SamacSys_Parts" part="DMG2305UX-7" description="MOSFET P-Ch 20V 5A Enhancement SOT23 Diodes Inc DMG2305UX-7 P-channel MOSFET Transistor, -3.3 A, -20 V, 3-Pin SOT-23"/>
       <property name="Description" value="MOSFET P-Ch 20V 5A Enhancement SOT23 Diodes Inc DMG2305UX-7 P-channel MOSFET Transistor, -3.3 A, -20 V, 3-Pin SOT-23"/>
-      <property name="Height" value="1.1"/>
-      <property name="Mouser Part Number" value="621-DMG2305UX-7"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG2305UX-7?qs=L1DZKBg7t5F%2FNBHrjfxC%252Bg%3D%3D"/>
-      <property name="Manufacturer_Name" value="Diodes Inc."/>
-      <property name="Manufacturer_Part_Number" value="DMG2305UX-7"/>
+      <property name="LCSC" value="C2940629"/>
       <property name="Sheetname" value="RaspberryPiPower"/>
       <property name="Sheetfile" value="RaspberryPiPower.kicad_sch"/>
       <sheetpath names="/RaspberryPiPower/" tstamps="/6c4087b1-d585-4615-84b3-d395a8b5856d/"/>
@@ -1428,17 +1416,14 @@
     <comp ref="U5">
       <value>RT7272AGSP</value>
       <footprint>SnapEDA Library:SOIC127P599X175-9N</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206101730_Richtek-Tech-RT7272AGSP_C3031672.pdf</datasheet>
       <fields>
-        <field name="MANUFACTURER">Richtek USA Inc.</field>
-        <field name="MAXIMUM_PACKAGE_HEIGHT">1.753 mm</field>
-        <field name="PARTREV">June 2015</field>
-        <field name="STANDARD">IPC-7351B</field>
+        <field name="LCSC">C3031672</field>
+        <field name="Purpose">StepDown converter</field>
       </fields>
       <libsource lib="RT7272AGSP" part="RT7272AGSP" description=""/>
-      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.753 mm"/>
-      <property name="STANDARD" value="IPC-7351B"/>
-      <property name="PARTREV" value="June 2015"/>
-      <property name="MANUFACTURER" value="Richtek USA Inc."/>
+      <property name="Purpose" value="StepDown converter"/>
+      <property name="LCSC" value="C3031672"/>
       <property name="Sheetname" value="RaspberryPiPower"/>
       <property name="Sheetfile" value="RaspberryPiPower.kicad_sch"/>
       <sheetpath names="/RaspberryPiPower/" tstamps="/6c4087b1-d585-4615-84b3-d395a8b5856d/"/>
@@ -1597,7 +1582,11 @@
       <value>DRV8838 POLOLU</value>
       <footprint>Module:DRV8838 POLOLU</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/drv8837.pdf</datasheet>
+      <fields>
+        <field name="Vanallesenmeer">https://www.vanallesenmeer.nl/DRV8838-Single-Brushed-DC-Motor-Driver-Carrier-Pololu-2990</field>
+      </fields>
       <libsource lib="Driver_Motor" part="DRV8838 POLOLU" description="H-Bridge driver, 1.8A, Low Voltage, PH/EN input, WSON-8"/>
+      <property name="Vanallesenmeer" value="https://www.vanallesenmeer.nl/DRV8838-Single-Brushed-DC-Motor-Driver-Carrier-Pololu-2990"/>
       <property name="Sheetname" value="FocusMotors"/>
       <property name="Sheetfile" value="FocusMotors.kicad_sch"/>
       <sheetpath names="/FocusMotors/" tstamps="/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/"/>
@@ -1607,11 +1596,17 @@
       <value>TLV1117-33</value>
       <footprint>SamacSys_Parts:SOT230P700X180-4N</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tlv1117.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C37359</field>
+        <field name="Purpose">Voltage regulator</field>
+      </fields>
       <libsource lib="Regulator_Linear" part="TLV1117-33" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"/>
+      <property name="LCSC" value="C37359"/>
+      <property name="Purpose" value="Voltage regulator"/>
       <property name="Sheetname" value="FocusMotors"/>
       <property name="Sheetfile" value="FocusMotors.kicad_sch"/>
       <sheetpath names="/FocusMotors/" tstamps="/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/"/>
-      <tstamps>4618c428-5a77-4793-bb70-4e68ce6d6c82</tstamps>
+      <tstamps>981d5a8d-1ed2-4526-9cfd-d88479025092</tstamps>
     </comp>
   </components>
   <libparts>
@@ -2210,27 +2205,6 @@
         <pin num="6" name="E1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="SamacSys_Parts" part="IRL540SPBF">
-      <description>MOSFET N-CH  100V HEXFET MOSFET</description>
-      <docs>https://www.vishay.com/docs/91306/sihl640s.pdf</docs>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">IRL540SPBF</field>
-        <field name="Footprint">IRL540SPBF</field>
-        <field name="Datasheet">https://www.vishay.com/docs/91306/sihl640s.pdf</field>
-        <field name="Description">MOSFET N-CH  100V HEXFET MOSFET</field>
-        <field name="Height">4.83</field>
-        <field name="Mouser Part Number">844-IRL540SPBF</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/IRL540SPBF?qs=cvaI6ThkwxtaFmKhXRqY9Q%3D%3D</field>
-        <field name="Manufacturer_Name">Vishay</field>
-        <field name="Manufacturer_Part_Number">IRL540SPBF</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-        <pin num="3" name="" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="SamacSys_Parts" part="SMBJ26A">
       <description>TVS Diode Single Uni-Dir 26V 600W 2-Pin SMB T/R</description>
       <docs>https://www.bourns.com/docs/product-datasheets/smbj.pdf?sfvrsn=34552159_17</docs>
@@ -2614,9 +2588,9 @@
       <node ref="J6" pin="S1" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J6" pin="S2" pinfunction="SHIELD" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q2" pin="3" pintype="passive"/>
-      <node ref="Q4" pin="3" pintype="passive"/>
-      <node ref="Q5" pin="3" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q6" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
@@ -2771,7 +2745,7 @@
     <net code="55" name="Net-(D5-PadA)">
       <node ref="D5" pin="A" pinfunction="A" pintype="passive"/>
       <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="Q2" pin="2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
     </net>
     <net code="56" name="Net-(D5-PadC)">
       <node ref="D5" pin="C" pinfunction="C" pintype="passive"/>
@@ -2781,20 +2755,20 @@
     <net code="57" name="Net-(D6-PadA)">
       <node ref="D6" pin="A" pinfunction="A" pintype="passive"/>
       <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="Q5" pin="2" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="58" name="Net-(D6-PadC)">
-      <node ref="D6" pin="C" pinfunction="C" pintype="passive"/>
-      <node ref="F6" pin="2" pintype="passive"/>
-      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
-    </net>
-    <net code="59" name="Net-(F1-Pad2)">
+    <net code="58" name="Net-(F1-Pad2)">
       <node ref="F1" pin="2" pintype="passive"/>
       <node ref="M1" pin="1" pinfunction="+" pintype="passive"/>
     </net>
-    <net code="60" name="Net-(F3-Pad2)">
+    <net code="59" name="Net-(F3-Pad2)">
       <node ref="F3" pin="2" pintype="passive"/>
       <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(F6-Pad2)">
+      <node ref="D6" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="F6" pin="2" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="61" name="Net-(IC2-Pad1)">
       <node ref="IC2" pin="1" pinfunction="C1" pintype="passive"/>
@@ -2835,76 +2809,76 @@
       <node ref="PE1" pin="2" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="OUT1" pintype="output"/>
     </net>
-    <net code="70" name="Net-(Q1-Pad1)">
-      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R27" pin="2" pintype="passive"/>
-      <node ref="R29" pin="1" pintype="passive"/>
-    </net>
-    <net code="71" name="Net-(Q2-Pad1)">
-      <node ref="Q2" pin="1" pintype="passive"/>
-      <node ref="R28" pin="2" pintype="passive"/>
-      <node ref="R30" pin="1" pintype="passive"/>
-    </net>
-    <net code="72" name="Net-(Q4-Pad1)">
-      <node ref="Q4" pin="1" pintype="passive"/>
-      <node ref="R31" pin="2" pintype="passive"/>
-      <node ref="R33" pin="1" pintype="passive"/>
-    </net>
-    <net code="73" name="Net-(Q4-Pad2)">
-      <node ref="Q4" pin="2" pintype="passive"/>
-      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
-    </net>
-    <net code="74" name="Net-(Q5-Pad1)">
-      <node ref="Q5" pin="1" pintype="passive"/>
-      <node ref="R32" pin="2" pintype="passive"/>
-      <node ref="R34" pin="1" pintype="passive"/>
-    </net>
-    <net code="75" name="Net-(Q6-Pad1)">
+    <net code="70" name="Net-(Q6-Pad1)">
       <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="R14" pin="1" pintype="passive"/>
       <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="76" name="Net-(R1-Pad2)">
+    <net code="71" name="Net-(R1-Pad2)">
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="ISEN" pintype="passive"/>
     </net>
-    <net code="77" name="Net-(R6-Pad1)">
+    <net code="72" name="Net-(R3-Pad1)">
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(R6-Pad1)">
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U5" pin="7" pinfunction="RLIM" pintype="passive"/>
     </net>
-    <net code="78" name="Net-(R8-Pad2)">
+    <net code="74" name="Net-(R8-Pad2)">
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U5" pin="5" pinfunction="FB" pintype="input"/>
     </net>
-    <net code="79" name="Net-(R10-Pad2)">
+    <net code="75" name="Net-(R10-Pad2)">
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="U5" pin="3" pinfunction="EN" pintype="input"/>
     </net>
-    <net code="80" name="Net-(R20-Pad1)">
+    <net code="76" name="Net-(R20-Pad1)">
       <node ref="R20" pin="1" pintype="passive"/>
       <node ref="U3" pin="JP1_7" pinfunction="MS1" pintype="input"/>
     </net>
-    <net code="81" name="Net-(R21-Pad1)">
+    <net code="77" name="Net-(R21-Pad1)">
       <node ref="R21" pin="1" pintype="passive"/>
       <node ref="U3" pin="JP1_6" pinfunction="MS2" pintype="input"/>
     </net>
-    <net code="82" name="Net-(R22-Pad1)">
+    <net code="78" name="Net-(R22-Pad1)">
       <node ref="R22" pin="1" pintype="passive"/>
       <node ref="U4" pin="JP1_7" pinfunction="MS1" pintype="input"/>
     </net>
-    <net code="83" name="Net-(R23-Pad1)">
+    <net code="79" name="Net-(R23-Pad1)">
       <node ref="R23" pin="1" pintype="passive"/>
       <node ref="U4" pin="JP1_6" pinfunction="MS2" pintype="input"/>
     </net>
-    <net code="84" name="Net-(R24-Pad1)">
+    <net code="80" name="Net-(R24-Pad1)">
       <node ref="R24" pin="1" pintype="passive"/>
       <node ref="U6" pin="JP1_7" pinfunction="MS1" pintype="input"/>
     </net>
-    <net code="85" name="Net-(R25-Pad1)">
+    <net code="81" name="Net-(R25-Pad1)">
       <node ref="R25" pin="1" pintype="passive"/>
       <node ref="U6" pin="JP1_6" pinfunction="MS2" pintype="input"/>
+    </net>
+    <net code="82" name="Net-(R27-Pad2)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(R28-Pad2)">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(R31-Pad2)">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(R32-Pad2)">
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
     </net>
     <net code="86" name="PHADRV">
       <node ref="J10" pin="33" pinfunction="Pin_33" pintype="passive"/>
