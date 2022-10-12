@@ -1,7 +1,21 @@
 Vragen aan Jeroen:
+
 PCB:
--Codensator types, welke type voor ontkoppeling en voor de motoren
--SMD grootte van complementaire componenten (R, C)
--Tóch LEDS toevoegen?
+-Condensator types, welke type voor ontkoppeling en voor de motoren -> hoge frequenties (keramisch) lage freq, electrolyte. Juiste voltages kiezen voor condensator. 
+-SMD grootte van complementaire componenten (R, C) -> 08.05, passieve componenten laten solderen,  tht zelf doen (kosten), vervangde componenten zoeken (BASIC is goedkoper) Ook bij mouser bestellen
+-Tóch LEDS toevoegen? -> nee
+
+SOFTWARE:
 -Motor intantaties maken, voor 2 vloeistof steppers en 1 focus stepper? aanpak?
 -alle constanten declareren, waar?
+
+Notes:
+ln317? 
+led driver.
+max1916.
+
+connector voor led en weerstand en ventilator (alles met connectors) JST of PHOENIX?
+
+waarom geen JST: speciale crimp tools nodig voor het fabriceren van eigen kabels, connectoren lijken allen op elkaar, stepper motor kabels zijn niet allen hetzelfde. waarom wél PHOENIX: Naar mijn mening bied het flexibiliteit en zekerheid om de PHOENIX connectoren te gebruiken aangezien je deze zelf en erg gemakkelijk fabriceert op lengte en met de gewenste kabels, kleuren etc.
+
+werken in branches, gebruik globale variabelen.
