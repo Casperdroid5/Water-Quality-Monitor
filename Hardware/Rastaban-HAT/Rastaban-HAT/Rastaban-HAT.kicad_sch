@@ -5423,13 +5423,13 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x03_Male") (at 65.405 27.305 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 65050cde-b5be-4827-b0e6-aaa3d1a1f03b)
-    (property "Reference" "J?" (id 0) (at 66.04 19.05 0))
+    (property "Reference" "J12" (id 0) (at 67.945 21.59 0))
     (property "Value" "Conn_01x03_Male" (id 1) (at 66.04 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (id 2) (at 65.405 27.305 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" (id 2) (at 65.405 27.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 65.405 27.305 0)
@@ -5515,7 +5515,7 @@
     (property "Reference" "C2" (id 0) (at 50.8 113.03 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "0.1uF 50V" (id 1) (at 48.26 117.475 0)
+    (property "Value" "100nF 50V" (id 1) (at 48.26 117.475 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 53.0098 111.76 0)
@@ -6066,7 +6066,7 @@
     (uuid c251b5da-b99e-4ddb-a4de-62952dc041e7)
     (property "Reference" "IC1" (id 0) (at 52.07 38.1 0))
     (property "Value" "BCR420UW6-7" (id 1) (at 52.07 40.64 0))
-    (property "Footprint" "SOT95P285X140-6N" (id 2) (at 63.5 43.18 0)
+    (property "Footprint" "SamacSys_Parts:SOT95P280X145-6N" (id 2) (at 63.5 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.arrow.com/en/products/bcr420uw6-7/diodes-incorporated" (id 3) (at 63.5 45.72 0)
@@ -7079,7 +7079,7 @@
       (reference "C1") (unit 1) (value "10uF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/6e705e76-606c-4ed6-ae7f-ed966b630818"
-      (reference "C2") (unit 1) (value "0.1uF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C2") (unit 1) (value "100nF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/023fab8f-e850-4f6d-bd01-c197d7adaf26"
       (reference "C3") (unit 1) (value "47uF 50V") (footprint "Capacitor_SMD:CP_Elec_3x5.4")
@@ -7115,10 +7115,10 @@
       (reference "C13") (unit 1) (value "100nF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/6a1389f5-af30-47b1-b0e6-d495f68a5530"
-      (reference "C14") (unit 1) (value "0.1uF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C14") (unit 1) (value "100nF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/45cf8dc3-5f81-4af3-b0d1-8379078362f4"
-      (reference "C15") (unit 1) (value "0.1uF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C15") (unit 1) (value "100nF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/b391f05e-9d79-4808-8c88-d0da93b38ae2"
       (reference "C16") (unit 1) (value "100uF 50V") (footprint "Capacitor_SMD:CP_Elec_8x10")
@@ -7193,7 +7193,7 @@
       (reference "FB1") (unit 1) (value "150uH") (footprint "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder")
     )
     (path "/c251b5da-b99e-4ddb-a4de-62952dc041e7"
-      (reference "IC1") (unit 1) (value "BCR420UW6-7") (footprint "SOT95P285X140-6N")
+      (reference "IC1") (unit 1) (value "BCR420UW6-7") (footprint "SamacSys_Parts:SOT95P280X145-6N")
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/caba448a-7835-4e6f-829a-54fc84211a56"
       (reference "IC2") (unit 1) (value "BCM53DS") (footprint "SamacSys_Parts:SOT95P285X140-6N")
@@ -7232,7 +7232,7 @@
       (reference "J11") (unit 1) (value "Conn_01x06_Male") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical")
     )
     (path "/65050cde-b5be-4827-b0e6-aaa3d1a1f03b"
-      (reference "J?") (unit 1) (value "Conn_01x03_Male") (footprint "")
+      (reference "J12") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
     )
     (path "/d76e85fc-4f2e-4d54-b404-7aa3a9abd669"
       (reference "JP1") (unit 1) (value "ID_WP") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
