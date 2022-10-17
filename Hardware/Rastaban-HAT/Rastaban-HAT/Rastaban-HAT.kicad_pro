@@ -55,7 +55,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|215173000|114287000|8976b7d2-cba0-4459-8c7c-474831cc841c|0d1ffe3e-916f-4d89-9ae3-754d4d98c276",
+        "copper_edge_clearance|232130500|191910000|acf0ceb6-4648-477b-a31a-96209f5dd9a0|065f7fc0-c01d-47d9-8e8f-0af06c70f627",
+        "hole_clearance|248008000|207358000|1b456737-5089-4ed1-bba4-6ab69399a633|a4dff433-614f-417e-8948-3a38ac707f3b",
+        "hole_clearance|248458000|207358000|ea3a3e5f-9b84-4743-97b0-e34fcf890883|a4dff433-614f-417e-8948-3a38ac707f3b",
+        "hole_near_hole|247058000|206508000|1b456737-5089-4ed1-bba4-6ab69399a633|a4dff433-614f-417e-8948-3a38ac707f3b",
+        "silk_over_copper|155892000|207616607|bb5e11f8-210a-40a5-b228-5851b1ba19fa|78bc4fdf-571e-4f4e-a1d9-ce745a6c70fc"
+      ],
       "meta": {
         "version": 2
       },
@@ -63,7 +70,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
