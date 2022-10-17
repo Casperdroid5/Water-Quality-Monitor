@@ -7360,7 +7360,7 @@
       (reference "IC1") (unit 1) (value "BCR420UW6-7") (footprint "SamacSys_Parts:SOT95P280X145-6N")
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/caba448a-7835-4e6f-829a-54fc84211a56"
-      (reference "IC2") (unit 1) (value "BCM53DS") (footprint "SamacSys_Parts:SOT95P285X140-6N")
+      (reference "IC2") (unit 1) (value "BCM53DS") (footprint "SamacSys_Parts:SOT95P280X145-6N")
     )
     (path "/3e10c08e-67b3-4717-b449-44243f0aae62"
       (reference "J1") (unit 1) (value "1778780") (footprint "SamacSys_Parts:1778780")
