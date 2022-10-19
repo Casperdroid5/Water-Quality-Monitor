@@ -64,3 +64,4 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,LCSC,Mouser,TinyTronics,Vanallesen
 53,1,U7,DRV8838 POLOLU,Driver_Motor:DRV8838 POLOLU,Module:DRV8838 POLOLU,,,,https://www.vanallesenmeer.nl/DRV8838-Single-Brushed-DC-Motor-Driver-Carrier-Pololu-2990
 54,1,U9,CAT24C256,Memory_EEPROM:CAT24C256,SamacSys_Parts:SOIC127P600X175-8N,,698-CAT24C256WI-GT3,,
 55,1,U10,xl6009_module,Battery_Management:xl6009_module,Connector_PinHeader_1.00mm:xl6009 Boost converter,,,https://www.tinytronics.nl/shop/nl/power/spanningsconverters/boost-(step-up)-converters/dc-dc-verstelbare-step-up-boost-converter-xl6009-4a,
+56,5,B1,CR1220-2,Battery Mount,,C70381,,,
