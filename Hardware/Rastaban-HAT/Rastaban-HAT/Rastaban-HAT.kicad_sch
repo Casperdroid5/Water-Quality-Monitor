@@ -2769,6 +2769,7 @@
     )
   )
 
+
   (junction (at 182.245 83.82) (diameter 0) (color 0 0 0 0)
     (uuid 021a6196-42a1-4d3e-96a3-20debe7d7bbd)
   )
@@ -4978,7 +4979,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Male") (at 47.625 27.305 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1ea964af-da3d-44fa-847d-b6df7f6e3ab6)
-    (property "Reference" "J?" (id 0) (at 50.165 21.59 0))
+    (property "Reference" "J13" (id 0) (at 50.165 21.59 0))
     (property "Value" "Conn_01x03_Male" (id 1) (at 48.26 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -7435,7 +7436,7 @@
       (reference "J12") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
     )
     (path "/1ea964af-da3d-44fa-847d-b6df7f6e3ab6"
-      (reference "J?") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+      (reference "J13") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
     )
     (path "/d76e85fc-4f2e-4d54-b404-7aa3a9abd669"
       (reference "JP1") (unit 1) (value "ID_WP") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")

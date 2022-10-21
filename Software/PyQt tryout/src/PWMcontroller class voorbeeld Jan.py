@@ -20,14 +20,19 @@ class PWM():
     def turn_off(self):
         pi.hardware_PWM(self._gpio_pin, _MIN, _MIN)
 
-    def change(self, duty_cycle: int):
+    def set_value(self, duty_cycle: int):
          pi.hardware_PWM(self._gpio_pin, _FREQUENCY, duty_cycle)
 
-LED = PWM(Microscope_Led)
-LED.turn_fully_on()
+MicroscopeLED = PWM
+MicroscopeLED.turn_fully_on()
 delay(100)
-LED.turn_off()
+MicroscopeLED.turn_off()
    
+class peripheral ():
+    MicroscopeLED
+    Peltier
+
+
 
 
 class Peltier():
