@@ -1,34 +1,21 @@
 import time
 import pigpio
+from pwm import PWM
 
 _MAX: int = 100_0000
 _MIN: int = 350_000
 _OFF: int = 0
 #_FREQUENCY = 100_000
-class PowerGPIO():
-    def __init__(self, pi, GPIOPin: int) -> None:
-        self._GPIOPin: int = GPIOPin
+class PowerGPIO(PWM):
+    def __init__(self, pi, POWERGPIOPin: int) -> None:
+        self._GPIOPin: int = POWERGPIOPin
         self._pigpio = pi
         self.state = ''
-
-    def TurnOn(self):
-         self._pigpio.hardware_PWM(self._GPIOPin, _MAX, _MAX)
-         self.state = 'On'
-         return self.state
-
-    def TurnOff(self):
-        self._pigpio.hardware_PWM(self._GPIOPin, _MIN, _MIN)
-        self.state = 'Off'
-        return self.state
-
-    def SetValue(self, DutyCycle: int, Frequency: int):
-        self._pigpio.hardware_PWM(self._GPIOPin, Frequency, DutyCycle)
-        return self.state
 
 if __name__ == "__main__":
     
     
-    powergpio1 = PowerGPIO(pi = pigpio.pi(), GPIOPin = 12)
+    powergpio1 = PWM(pi = pigpio.pi(), GPIOPin = 12)
     print("On/Off test")
     x = powergpio1.TurnOn()
     print(x)
