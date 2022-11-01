@@ -3,7 +3,8 @@ import pigpio
 _MAX: int = 100
 _MIN: int = 0
 #_FREQUENCY = 100_000
-
+_LOWEST_VALUE = 350_000
+_HIGHEST_VALUE = 100_0000
 class PWM():
 
     def __init__(self, pi, GPIOPin: int) -> None:
@@ -31,14 +32,17 @@ if __name__ == "__main__":
     
     
     led1 = PWM(pi = pigpio.pi(), GPIOPin = 12)
-    x = led1.Turnon()
+    x = led1.TurnOn()
     print(x)
-    x = led1.Turnoff()
-    print(x)
-    x = led1.SetValue(Frequency=10000, DutyCycle= 12500)
+    x = led1.TurnOff()
+    print(x) 
+
+    #for x in range(_LOWEST_VALUE, _HIGHEST_VALUE, 100): # steps of 100
+    #    time.sleep(0.1)
+     #   print(DutyCycle)
+     #   x = led1.SetValue(Frequency= x, DutyCycle= x)
+
     
-
-
 
 
 
