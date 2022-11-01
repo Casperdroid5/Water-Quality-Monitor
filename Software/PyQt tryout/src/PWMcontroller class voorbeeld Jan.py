@@ -8,43 +8,60 @@ _MAX: int = 100
 _MIN: int = 0
 _FREQUENCY = 100_000
 pi = pigpio.pi()
-Microscope_Led = 12
+Microscope_Led_Pin = 12
 
 class PWM():
-    def __init__(self, gpio_pin: int) -> None:
-        self._gpio_pin: int = gpio_pin
+    def __init__(self, GPIOPin: int) -> None:
+        self._GPIOPin: int = GPIOPin
 
     def turn_fully_on(self):
-         pi.hardware_PWM(self._gpio_pin, _MAX, _MAX)
+         pi.hardware_PWM(self._GPIOPin, _MAX, _MAX)
 
     def turn_off(self):
-        pi.hardware_PWM(self._gpio_pin, _MIN, _MIN)
+        pi.hardware_PWM(self._GPIOPin, _MIN, _MIN)
 
-    def set_value(self, duty_cycle: int):
-         pi.hardware_PWM(self._gpio_pin, _FREQUENCY, duty_cycle)
+    def set_value(self, DutyCycle: int, Frequency: int):
+        pi.hardware_PWM(self._GPIOPin, Frequency, DutyCycle)
 
-MicroscopeLED = PWM
+
+
+pwm_example = PWM(GPIOPin=10, DutyCycle=20, Frequency=30)
+pwm_example.set_value(DutyCycle=30, Frequency=50)
+
+
+
+
+print(MicroscopeLED.GPIOPin)
+MicroscopeLED.GPIOPin = 25
+
+
 MicroscopeLED.turn_fully_on()
 delay(100)
-MicroscopeLED.turn_off()
-   
-class peripheral ():
-    MicroscopeLED
-    Peltier
+MicroscopeLED.turn_off() 
+MicroscopeLED.set_value(MicroscopeLED, 10000, 34000)
+
+peltier = Peltier()
+peltier.heatingon
 
 
 
+#class peripheral():
+#    MicroscopeLED()
+#    Peltier()
+#   Motor()
 
 class Peltier():
-    def __init__(self, GPIOpeltier_in2: int, GPIOpeltier_in1: int) -> None:
-        self._gpio_pin: int = GPIOpeltier_in1
-        self._gpio_pin: int = GPIOpeltier_in2
-    
-    def turn_cooler_fully_on(self):
+    def __init__(self, GPIOpeltier_in2: int, GPIOpeltier_in1: int, IN1_val: int, IN2_val: int) -> None:
+        self._GPIOpeltier_in1: int = GPIOpeltier_in1
+        self._GPIOpeltier_in2: int = GPIOpeltier_in2
+        self._gpio_pin3: int = IN1_val
+        self._gpio_pin4: int = IN2_val
+
+    def SetToCooling(self):
         pi.hardware_PWM(self._GPIOpeltier_in1, _MAX, _MAX)
         pi.hardware_PWM(self._GPIOpeltier_in2, _MIN, _MIN)
 
-    def turn_heater_fully_on(self):
+    def SetToHeating(self):
         pi.hardware_PWM(self._GPIOpeltier_in1, _MIN, _MIN)
         pi.hardware_PWM(self._GPIOpeltier_in2, _MAX, _MAX)
         
@@ -52,13 +69,13 @@ class Peltier():
         pi.hardware_PWM(self._GPIOpeltier_in1, _MIN, _MIN)
         pi.hardware_PWM(self._GPIOpeltier_in2, _MIN, _MIN)
 
-    def Change_Temperature(self, DutyCycle: int):
+    def SetTemperature(self, DutyCycle: int):
         pi.hardware_PWM(self._GPIOpeltier_in1, _MAX, DutyCycle)
         pi.hardware_PWM(self._GPIOpeltier_in2, _MAX, DutyCycle)    
 
 class PowerGPIO():
     def __init__(self, POWERGPIOpin: int) -> None:
-        self._gpio_pin: int = POWERGPIOpin
+        self._PWM = PWM(PowerGPIOpin)
     
     def turn_fully_on(self):
          pi.hardware_PWM(self._POWERGPIOpin, _MAX, _MAX)
