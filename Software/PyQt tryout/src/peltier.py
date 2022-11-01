@@ -41,7 +41,7 @@ class PELTIER():
 if __name__ == "__main__":
     
     
-    Peltier1 = PELTIER(pi = pigpio.pi(), GPIOpeltier_in1 = 12, GPIOpeltier_in2 = 13)
+    Peltier1 = PELTIER(pi = pigpio.pi(), GPIOpeltier_in1 = 13, GPIOpeltier_in2 = 12)
     print("full Cool/Heat test")
     x = Peltier1.SetToCooling()
     print(x)
@@ -49,6 +49,7 @@ if __name__ == "__main__":
     x = Peltier1.SetToHeating()
     print(x) 
     time.sleep(3)
+    print("SetTemperature Test")
     x = Peltier1.SetTemperature(In1DutyCycle = 75_000, In1Frequency = 100_000, In2DutyCycle = _MIN, In2Frequency = _MIN) 
     print(x)
     time.sleep(3)
