@@ -1,3 +1,4 @@
+
 _MAX: int = 100
 _MIN: int = 0
 #_FREQUENCY = 100_000
