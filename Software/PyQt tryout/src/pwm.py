@@ -2,10 +2,9 @@ import time
 import pigpio
 
 _MAX: int = 100_0000
-_MIN: int = 0
+_MIN: int = 350_000
+_OFF: int = 0
 #_FREQUENCY = 100_000
-_LOWEST_VALUE = 350_000
-_HIGHEST_VALUE = 100_0000
 class PWM():
 
     def __init__(self, pi, GPIOPin: int) -> None:
@@ -48,10 +47,10 @@ if __name__ == "__main__":
     time.sleep(1)
 
     print("Sweep test")
-    for x in range(_LOWEST_VALUE, _HIGHEST_VALUE, 100): # steps of 100
+    for x in range(_MIN, _MAX, 100): # steps of 100
         #time.sleep(0.1)
         print(x)
-        x = led1.SetValue(Frequency = 100000, DutyCycle = x)
+        x = led1.SetValue(Frequency = 100_000, DutyCycle = x)
 
     x = led1.TurnOff()
     print(x)
