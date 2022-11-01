@@ -1,0 +1,9 @@
+klassen in andere files zetten, nooit globals gebruiken.
+voor elke classe een nieuwe file
+files kleine letter, classes grote leters (ZENOFPI PEP style guide)
+Basis boek
+pwm sweepen, scope eraan hangen
+syntax zelf uitzoeken
+Volgende week af: classes werkend, demo op RPI, meetrapport, welke tests gedaan etc.
+bron: w3schools kan helpen
+RPI gebruiken om code te draaien of een class pigpio maken
