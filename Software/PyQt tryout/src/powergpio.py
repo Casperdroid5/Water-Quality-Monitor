@@ -6,11 +6,8 @@ _MAX: int = 100_0000
 _MIN: int = 350_000
 _OFF: int = 0
 #_FREQUENCY = 100_000
-class PowerGPIO(PWM):
-    def __init__(self, pi, POWERGPIOPin: int) -> None:
-        self._GPIOPin: int = POWERGPIOPin
-        self._pigpio = pi
-        self.state = ''
+class PowerGPIO(PWM): # Child class from PWM
+    pass
 
 if __name__ == "__main__":
     
