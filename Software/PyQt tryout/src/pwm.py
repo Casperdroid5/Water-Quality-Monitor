@@ -1,7 +1,7 @@
 import time
 import pigpio
 
-_MAX: int = 100
+_MAX: int = 100_0000
 _MIN: int = 0
 #_FREQUENCY = 100_000
 _LOWEST_VALUE = 350_000
