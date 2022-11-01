@@ -49,7 +49,7 @@ if __name__ == "__main__":
     x = Peltier1.SetToHeating()
     print(x) 
     time.sleep(3)
-    x = Peltier1.SetTemperature(DutyCycle= 25_000, Frequency=100_000)
+    x = Peltier1.SetTemperature(In1DutyCycle = 75_000, In1Frequency = _MAX, In2DutyCycle = 0, In2Frequency = _MIN) 
     print(x)
     time.sleep(3)
     x = Peltier1.TurnOff()
