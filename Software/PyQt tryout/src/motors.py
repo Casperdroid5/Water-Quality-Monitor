@@ -44,6 +44,8 @@ class MOTORS():
             self._pigpio.harware_PWM(self.STEPPIN, _OFF, _OFF) 
             time.sleep(0.001)
             STEP + 1
+            self.state = STEP
+            return self.state
 
 
 
