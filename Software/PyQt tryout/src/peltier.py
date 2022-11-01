@@ -31,8 +31,7 @@ class PELTIER():
         return self.state
 
     def SetTemperature(self, In1DutyCycle: int, In1Frequency: int, In2DutyCycle: int, In2Frequency: int):
-        self._pigpio.hardware_PWM(self._GPIOpeltier_in1, _MAX, In1DutyCycle, In1Frequency)
-        self._pigpio.hardware_PWM(self._GPIOpeltier_in2, _MAX, In2DutyCycle, In2Frequency)
+        self._pigpio.hardware_PWM(self._GPIOpeltier_in1, _MAX, In1DutyCycle, In1Frequency, In2DutyCycle, In2Frequency)
         self.state = 'Custom value: '
         return self.state    
 
