@@ -30,9 +30,9 @@ class PELTIER():
         self.state = 'OFF'
         return self.state
 
-    def SetTemperature(self, DutyCycle: int, Frequency: int):
-        self._pigpio.hardware_PWM(self._GPIOpeltier_in1, _MAX, DutyCycle, Frequency)
-        self._pigpio.hardware_PWM(self._GPIOpeltier_in2, _MAX, DutyCycle, Frequency)
+    def SetTemperature(self, In1DutyCycle: int, In1Frequency: int, In2DutyCycle: int, In2Frequency: int):
+        self._pigpio.hardware_PWM(self._GPIOpeltier_in1, _MAX, In1DutyCycle, In1Frequency)
+        self._pigpio.hardware_PWM(self._GPIOpeltier_in2, _MAX, In2DutyCycle, In2Frequency)
         self.state = 'Custom value: '
         return self.state    
 
@@ -57,16 +57,16 @@ if __name__ == "__main__":
     time.sleep(3)
 
     print("Sweep test HOT")
-    for x in range(_LOWEST_VALUE, _HIGHEST_VALUE, 100): # steps of 100
+    for x in range(_MIN, _MAX, 100): # steps of 100
         #time.sleep(0.1)
         print(x)
-        x = Peltier1.SetValue(Frequency = 100000, DutyCycle = x)
+        x = Peltier1.SetValue(In1DutyCycle = _MIN, In1Frequency = _MAX, In2DutyCycle = x, In2Frequency = _MAX)
 
-    print("Sweep test COLD")
-    for x in range(_LOWEST_VALUE, _HIGHEST_VALUE, 100): # steps of 100
+    print("Sweep test COLD") # assuming in2 is the hot side
+    for x in range(_MIN, _MAX, 100): # steps of 100
         #time.sleep(0.1)
         print(x)
-        x = Peltier1.SetValue(Frequency = 100000, DutyCycle = x)
+        x = Peltier1.SetValue(In1DutyCycle = x, In1Frequency = _MAX, In2DutyCycle = _MIN, In2Frequency = _MAX)
 
     x = Peltier1.TurnOff()
     print(x)
