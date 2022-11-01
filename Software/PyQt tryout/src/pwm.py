@@ -33,6 +33,7 @@ if __name__ == "__main__":
     
     
     led1 = PWM(pi = pigpio.pi(), GPIOPin = 12)
+    print("On/Off test")
     x = led1.TurnOn()
     print(x)
     time.sleep(1)
@@ -46,10 +47,15 @@ if __name__ == "__main__":
     print(x) 
     time.sleep(1)
 
+    print("Sweep test")
     for x in range(_LOWEST_VALUE, _HIGHEST_VALUE, 100): # steps of 100
         #time.sleep(0.1)
         print(x)
         x = led1.SetValue(Frequency = 100000, DutyCycle = x)
+
+    x = led1.TurnOff()
+    print(x)
+    print("test complete")
         
 
     
