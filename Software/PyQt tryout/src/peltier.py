@@ -2,7 +2,8 @@ import time
 import pigpio
 
 _MAX: int = 100_0000
-_MIN: int = 0
+_MIN: int = 350_000
+_OFF: int = 0
 #_FREQUENCY = 100_000
 
 class PELTIER():
