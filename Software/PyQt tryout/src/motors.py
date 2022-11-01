@@ -19,15 +19,23 @@ class MOTORS():
 
     def set_motor_power(self, enabled: bool): 
         if enabled == True:
-            self._pigpio.hardware_PWM(self.MOTORnum, _MAX, _MAX)
+            self._pigpio.hardware_PWM(self.MOTORnum, _MAX, _MAX) #high on enable pin to enable motor
+            self.state = 'MOTOR ENABLED'
+            return self.state
         else: 
             self._pigpio.hardware_PWM(self.MOTORnum, _OFF, _OFF)
+            self.state = 'MOTOR DISABLED'
+            return self.state
 
     def set_motor_dir(self, DIR: bool):
         if DIR == 1:
-            self._pigpio.harware_PWM(self.MOTORnum, _MAX, _MAX) #high on enable pin to enable motor
+            self._pigpio.harware_PWM(self.MOTORnum, _MAX, _MAX) 
+            self.state = 'CLOCKWISE'
+            return self.state
         else:
-            self._pigpio.hardware_PWM(self.MOTORnum, _OFF, _OFF) #low on enable pin to enable motor
+            self._pigpio.hardware_PWM(self.MOTORnum, _OFF, _OFF) 
+            self.state = 'COUNTERCLOCKWISE'
+            return self.state
 
     def set_motor_step(self, STEP: float):
         for x in range(STEP):
