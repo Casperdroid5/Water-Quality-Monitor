@@ -60,13 +60,13 @@ if __name__ == "__main__":
     for x in range(_MIN, _MAX, 100): # steps of 100
         #time.sleep(0.1)
         print(x)
-        x = Peltier1.SetValue(In1DutyCycle = _MIN, In1Frequency = _MAX, In2DutyCycle = x, In2Frequency = _MAX)
+        x = Peltier1.SetTemperature(In1DutyCycle = _MIN, In1Frequency = _MAX, In2DutyCycle = x, In2Frequency = _MAX)
 
     print("Sweep test COLD") # assuming in2 is the hot side
     for x in range(_MIN, _MAX, 100): # steps of 100
         #time.sleep(0.1)
         print(x)
-        x = Peltier1.SetValue(In1DutyCycle = x, In1Frequency = _MAX, In2DutyCycle = _MIN, In2Frequency = _MAX)
+        x = Peltier1.SetTemperature(In1DutyCycle = x, In1Frequency = _MAX, In2DutyCycle = _MIN, In2Frequency = _MAX)
 
     x = Peltier1.TurnOff()
     print(x)
