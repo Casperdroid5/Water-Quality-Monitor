@@ -10,16 +10,16 @@ class PWM():
     def __init__(self, pi, GPIOPin: int) -> None:
         self._GPIOPin: int = GPIOPin
         self._pigpio = pi
-        self.state = 0
+        self.state = ''
 
     def TurnOn(self):
          self._pigpio.hardware_PWM(self._GPIOPin, _MAX, _MAX)
-         self.state = 1
+         self.state = 'On'
          return self.state
 
     def TurnOff(self):
         self._pigpio.hardware_PWM(self._GPIOPin, _MIN, _MIN)
-        self.state = 0
+        self.state = 'Off'
         return self.state
 
     def SetValue(self, DutyCycle: int, Frequency: int):
