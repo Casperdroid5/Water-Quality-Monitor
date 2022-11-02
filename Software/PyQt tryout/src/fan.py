@@ -2,7 +2,7 @@ import time
 import pigpio
 from pwm import PWM
 import constants
-from enum import Enum, unique
+from enums import State
 
 
 class FAN(PWM): # Child class from PWM
