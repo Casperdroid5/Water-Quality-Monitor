@@ -1,6 +1,6 @@
 import time
 import pigpio
-from hardwarepwm import PWM
+from pwm import PWM
 import constants
 
 class HEATINGRESISTOR(PWM): # Child class from PWM
@@ -31,10 +31,10 @@ if __name__ == "__main__":
     time.sleep(1)
 
     print("Sweep test")
-    for x in range(constants.MIN, constants.MAX, 100): # steps of 100
+    for x in range(constants.MINPWM, constants.MAXPWM, 10): # steps of 100
         #time.sleep(0.1)
         print(x)
-        x = HeatingResistor1.SetValue(Frequency = 100_000, DutyCycle = x)
+        x = HeatingResistor1.SetValue( DutyCycle = x)
 
     x = HeatingResistor1.TurnOff()
     print(x)
