@@ -8,14 +8,14 @@ import constants
 
 class MOTORS():
 
-    def __init__(self, pi, MOTORnum: int) -> None:
+    def __init__(self, pi, MOTORnum: int, DirPin: int, StepPin: int, EnablePin: int, PhasePin: int, SleepPin: int) -> None:
         self._pigpio = pi
         self.MOTORnum: int = MOTORnum 
-        #self.DIR: int = DIR
-        #self.STEP: int = STEP
-        #self.EN: int = EN
-        #self.PHASE: int = PHASE
-        #self.SLEEP: int = SLEEP
+        self.DirPin: int = DirPin
+        self.StepPin: int = StepPin
+        self.EnablePin: int = EnablePin
+        self.PhasePin: int = PhasePin
+        self.SleepPin: int = SleepPin
         self.state = None
 
     def SetMotorState(self, ENABLE: bool): 
@@ -52,7 +52,7 @@ class MOTORS():
 if __name__ == "__main__":
         
     
-    Motor1 = MOTORS(pi = pigpio.pi(), MOTORnum = 12) # pins missing (for dir etc)
+    Motor1 = MOTORS(pi = pigpio.pi(), MOTORnum = 1, DirPin = 16, StepPin = 13, EnablePin = 40, PhasePin = )
     
     print("Enable/Disable Motor")
     x = Motor1.SetMotorState(ENABLE = True)
