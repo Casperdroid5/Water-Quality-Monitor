@@ -12,6 +12,10 @@ class State(Enum):
     CLOCKWISE = 7
     COUNTERCLOCKWISE = 8
     STEP = 9
+    ENABLE = 10
+    PHASE = 11
+    SLEEP = 12
+    
 
 
     

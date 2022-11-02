@@ -6,80 +6,70 @@ from enums import State
 import constants
 
 
-class MOTORS():
+class VOICECOILMOTORS():
 
-    def __init__(self, pi, MOTORnum: int, DirPin: int, StepPin: int, EnablePin: int, PhasePin: int, SleepPin: int) -> None:
+    def __init__(self, pi, MOTORnum: int, EnablePin: int, PhasePin: int, SleepPin: int) -> None:
         self._pigpio = pi
         self.MOTORnum: int = MOTORnum 
-        self.DirPin: int = DirPin
-        self.StepPin: int = StepPin
         self.EnablePin: int = EnablePin
         self.PhasePin: int = PhasePin
         self.SleepPin: int = SleepPin
         self.state = None
 
-    def SetMotorState(self, ENABLE: bool): 
-        if ENABLE == True:
-            self._pigpio.hardware_PWM(self.MOTORnum, constants.MAX, constants.MAX) #high on enable pin to enable motor
-            self.state = State.MOTOR_ENABLED.name
-            return self.state
-        else: 
-            self._pigpio.hardware_PWM(self.MOTORnum, constants.OFF, constants.OFF)
-            self.state = State.MOTOR_DISABLED.name
-            return self.state
+    def SetMotorEnable(self, ENABLE: int, Frequency: int): # Enable controls speed
+        self._pigpio.hardware_PWM(self._GPIOPin, Frequency, ENABLE)
+        return self.state
 
-    def SetMotorDir(self, DIR: bool):
-        if DIR == 1:
+    def SetMotorPhase(self, PHASE: bool): # Phase controls direction
+        if PHASE == 1:
             self._pigpio.harware_PWM(self.MOTORnum, constants.MAX, constants.MAX) 
-            self.state = State.CLOCKWISE.name
+            self.state = State.PHASE.name
             return self.state
         else:
             self._pigpio.hardware_PWM(self.MOTORnum, constants.OFF, constants.OFF) 
-            self.state = State.MOTOR_COUNTERCLOCKWISE.name
+            self.state = State.PHASE.name
             return self.state
 
-    def SetMotorStep(self, STEP: int):
-        for x in range(STEP):
-            self._pigpio.harware_PWM(self.STEPPIN, constants.MAX, constants.MAX) 
-            time.sleep(0.001)
-            self._pigpio.harware_PWM(self.STEPPIN, constants.OFF, constants.OFF) 
-            time.sleep(0.001)
-            STEP + 1
-            self.state = State.STEP.name
+    def SetMotorSleep(self, SLEEP: int):
+        if SLEEP == 1:
+            self._pigpio.hardware_PWM(self.SleepPin, constants.OFF, constants.LOFF)
+        else:
+            self._pigpio.hardware_PWM(self.MOTORnum, constants.ON, constants.ON) 
+            self.state = State.SLEEP.name
             return self.state
 
 
 if __name__ == "__main__":
         
     
-    Motor1 = MOTORS(pi = pigpio.pi(), MOTORnum = 1, DirPin = 16, StepPin = 13, EnablePin = 40, PhasePin = )
+    Motor1 = VOICECOILMOTORS(pi = pigpio.pi(), MOTORnum = 1, EnablePin = 36, PhasePin = 33, SleepPin = 36)
     
     print("Enable/Disable Motor")
-    x = Motor1.SetMotorState(ENABLE = True)
+    x = Motor1.SetMotorState(SLEEP = True)
     print(x)
     time.sleep(2)
-    x = Motor1.SetMotorState(ENABLE = False)
+    x = Motor1.SetMotorState(SLEEP = False)
     print(x) 
     time.sleep(2)
     
     print("Set Motor Direction Test")
     time.sleep(1)
-    x = Motor1.SetMotorDir(DIR = 1)
+    x = Motor1.SetMotorDir(PHASE = 1)
     print(x)
 
-    print("Set Motor Step Test")
+    print("Set Motor Drive Test")
     time.sleep(1)
-    x = Motor1.SetMotorStep(STEP = 200)
+    x = Motor1.SetMotorStep(ENABLE = 100_000)
     print(x)
     
     print("Set Motor Direction Test")
     time.sleep(1)
-    x = Motor1.SetMotorDir(DIR = 0)
+    x = Motor1.SetMotorDir(PHASE = 0)
     print(x)
 
-    print("Set Motor Step Test")
+    print("Set Motor Drive Test")
     time.sleep(1)
-    x = Motor1.SetMotorStep(STEP = 200)
+    x = Motor1.SetMotorStep(ENABLE = 100_000)
     print(x)
 
     # print("Sweep test HOT")
