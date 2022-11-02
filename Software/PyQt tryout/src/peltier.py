@@ -2,7 +2,9 @@ import time
 import pigpio
 from enums import State
 import constants
+
 class PELTIER():
+    
     def __init__(self, pi, GPIOpeltier_in1: int, GPIOpeltier_in2: int) -> None:
         self._GPIOpeltier_in1: int = GPIOpeltier_in1
         self._GPIOpeltier_in2: int = GPIOpeltier_in2

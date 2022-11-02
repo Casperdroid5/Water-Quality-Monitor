@@ -3,7 +3,7 @@ import pigpio
 from pwm import PWM
 import constants
 
-class HeatingResistor(PWM): # Child class from PWM
+class HEATINGRESISTOR(PWM): # Child class from PWM
 
     def GetState(self):
         print(self.state)
@@ -12,7 +12,7 @@ class HeatingResistor(PWM): # Child class from PWM
 if __name__ == "__main__":
     
     
-    HeatingResistor1 = HeatingResistor(pi = pigpio.pi(), GPIOPin = 12)
+    HeatingResistor1 = HEATINGRESISTOR(pi = pigpio.pi(), GPIOPin = 12)
     
     HeatingResistor1.GetState()
     time.sleep(3)
