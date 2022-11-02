@@ -1,4 +1,6 @@
+from ctypes.wintypes import DOUBLE
 import time
+from tkinter import DoubleVar
 import pigpio
 from enums import State
 import constants
