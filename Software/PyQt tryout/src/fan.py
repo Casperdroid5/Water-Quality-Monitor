@@ -2,8 +2,10 @@ import time
 import pigpio
 from pwm import PWM
 import constants
+from enum import Enum, unique
 
-class Fan(PWM): # Child class from PWM
+
+class FAN(PWM): # Child class from PWM
 
     def GetState(self):
         print(self.state)
@@ -12,7 +14,7 @@ class Fan(PWM): # Child class from PWM
 if __name__ == "__main__":
     
     
-    Fan1 = Fan(pi = pigpio.pi(), GPIOPin = 31)
+    Fan1 = FAN(pi = pigpio.pi(), GPIOPin = 12)
     
     Fan1.GetState()
     time.sleep(3)
@@ -31,10 +33,10 @@ if __name__ == "__main__":
     time.sleep(1)
 
     print("Sweep test")
-    for x in range(constants.MIN, constants.MAX, 100): # steps of 100
-        #time.sleep(0.1)
+    for x in range(constants.MINPWM, constants.MAXPWM, 10): # steps of 100
+        time.sleep(0.1)
         print(x)
-        x = Fan1.SetValue(Frequency = 100_000, DutyCycle = x)
+        x = Fan1.SetValue(DutyCycle = x)
 
     x = Fan1.TurnOff()
     print(x)

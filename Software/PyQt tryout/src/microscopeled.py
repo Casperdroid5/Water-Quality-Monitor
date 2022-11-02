@@ -1,10 +1,10 @@
 import time
 import pigpio
 from enums import State
-from hardwarepwm import PWM
+from hardwarepwm import HARDWAREPWM
 import constants
 
-class MICROSCOPELED(PWM): # Child class from PWM
+class MICROSCOPELED(HARDWAREPWM): # Child class from PWM
 
     def GetState(self):
         print(self.state)

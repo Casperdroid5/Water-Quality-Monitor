@@ -16,11 +16,12 @@ class HARDWAREPWM():
          return self.state
 
     def TurnOff(self):
-        self._pigpio.hardware_PWM(self._GPIOPin, constants.MIN, constants.MIN)
-        self.state = State.OFF.name
-        return self.state
+         self._pigpio.hardware_PWM(self._GPIOPin, constants.MIN, constants.MIN)
+         self.state = State.OFF.name
+         return self.state
 
     def SetValue(self, DutyCycle: int, Frequency: int):
-        self._pigpio.hardware_PWM(self._GPIOPin, Frequency, DutyCycle)
-        return self.state
+         self._pigpio.hardware_PWM(self._GPIOPin, Frequency, DutyCycle)
+         self.state = State.CUSTOM.name
+         return self.state
 

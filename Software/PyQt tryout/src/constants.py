@@ -1,5 +1,3 @@
-
-
 # Values
 MAXPWM: int = 255
 MINPWM: int = 0
