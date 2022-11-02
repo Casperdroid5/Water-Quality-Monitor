@@ -32,7 +32,7 @@ class VOICECOILMOTORS():
 
     def SetMotorSleep(self, SLEEP: int):
         if SLEEP == 1:
-            self._pigpio.hardware_PWM(self.SleepPin, constants.OFF, constants.LOFF)
+            self._pigpio.hardware_PWM(self.SleepPin, constants.OFF, constants.OFF)
         else:
             self._pigpio.hardware_PWM(self.MOTORnum, constants.ON, constants.ON) 
             self.state = State.SLEEP.name
@@ -45,31 +45,31 @@ if __name__ == "__main__":
     Motor1 = VOICECOILMOTORS(pi = pigpio.pi(), MOTORnum = 1, EnablePin = 36, PhasePin = 33, SleepPin = 36)
     
     print("Enable/Disable Motor")
-    x = Motor1.SetMotorState(SLEEP = True)
+    x = Motor1.SetMotorSleep(SLEEP = 1)
     print(x)
     time.sleep(2)
-    x = Motor1.SetMotorState(SLEEP = False)
+    x = Motor1.SetMotorSleep(SLEEP = 0)
     print(x) 
     time.sleep(2)
     
     print("Set Motor Direction Test")
     time.sleep(1)
-    x = Motor1.SetMotorDir(PHASE = 1)
+    x = Motor1.SetMotorPhase(PHASE = 1)
     print(x)
 
     print("Set Motor Drive Test")
     time.sleep(1)
-    x = Motor1.SetMotorStep(ENABLE = 100_000)
+    x = Motor1.SetMotorEnable(ENABLE = 100_000)
     print(x)
     
     print("Set Motor Direction Test")
     time.sleep(1)
-    x = Motor1.SetMotorDir(PHASE = 0)
+    x = Motor1.SetMotorPhase(PHASE = 0)
     print(x)
 
     print("Set Motor Drive Test")
     time.sleep(1)
-    x = Motor1.SetMotorStep(ENABLE = 100_000)
+    x = Motor1.SetMotorEnable(ENABLE = 100_000)
     print(x)
 
     # print("Sweep test HOT")
