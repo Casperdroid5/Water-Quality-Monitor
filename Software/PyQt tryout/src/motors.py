@@ -8,14 +8,14 @@ import constants
 
 class MOTORS():
 
-    def __init__(self, pi, MOTORnum: int, DIR, STEP, EN, PHASE, SLEEP) -> None:
+    def __init__(self, pi, MOTORnum: int, DIR: int, EN: int) -> None:
         self._pigpio = pi
         self._gpio_MOTORnum: int = MOTORnum 
         self._gpio_DIR: int = DIR
         #self._gpio_STEP: int = STEP
         self._gpio_EN: int = EN
         #self._gpio_PHASE: int = PHASE
-        self._gpio_SLEEP: int = SLEEP
+        #self._gpio_SLEEP: int = SLEEP
         self.state = None
 
     def SetMotorState(self, ENABLE: bool): 
