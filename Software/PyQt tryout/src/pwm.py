@@ -1,25 +1,22 @@
 import time
 import pigpio
 from enums import State
+import constants
 
-_MAX: int = 100_0000
-_MIN: int = 350_000
-_OFF: int = 0
-#_FREQUENCY = 100_000
 class PWM():
 
     def __init__(self, pi, GPIOPin: int) -> None:
         self._GPIOPin: int = GPIOPin
         self._pigpio = pi
-        self.state = ''
+        self.state = None
 
     def TurnOn(self):
-         self._pigpio.hardware_PWM(self._GPIOPin, _MAX, _MAX)
+         self._pigpio.hardware_PWM(self._GPIOPin, constants.MAX, constants.MAX)
          self.state = State.ON.name # was State.ON
          return self.state
 
     def TurnOff(self):
-        self._pigpio.hardware_PWM(self._GPIOPin, _MIN, _MIN)
+        self._pigpio.hardware_PWM(self._GPIOPin, constants.MIN, constants.MIN)
         self.state = State.OFF.name
         return self.state
 
@@ -48,7 +45,7 @@ if __name__ == "__main__":
     time.sleep(1)
 
     print("Sweep test")
-    for x in range(_MIN, _MAX, 100): # steps of 100
+    for x in range(constants.MIN, constants.MAX, 100): # steps of 100
         #time.sleep(0.1)
         print(x)
         x = led1.SetValue(Frequency = 100_000, DutyCycle = x)

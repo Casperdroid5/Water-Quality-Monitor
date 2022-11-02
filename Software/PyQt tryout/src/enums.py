@@ -1,7 +1,7 @@
-
 from enum import Enum, unique
 
 class State(Enum):
+
     OFF = 0
     ON = 1
     HOT = 2
@@ -11,7 +11,8 @@ class State(Enum):
     MOTOR_DISABLED = 6
     CLOCKWISE = 7
     COUNTERCLOCKWISE = 8
-    
+    STEP = 9
+
 
     
 

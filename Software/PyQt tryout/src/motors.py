@@ -1,4 +1,6 @@
+from ctypes.wintypes import DOUBLE
 import time
+from tkinter import DoubleVar
 import pigpio
 from enums import State
 
@@ -16,7 +18,7 @@ class MOTORS():
         self._gpio_EN: int = EN
         #self._gpio_PHASE: int = PHASE
         self._gpio_SLEEP: int = SLEEP
-        self.state = ''
+        self.state = None
 
     def set_motor_power(self, enabled: bool): 
         if enabled == True:
@@ -38,14 +40,14 @@ class MOTORS():
             self.state = State.MOTOR_COUNTERCLOCKWISE.name
             return self.state
 
-    def set_motor_step(self, STEP: float):
+    def set_motor_step(self, STEP: int):
         for x in range(STEP):
             self._pigpio.harware_PWM(self.STEPPIN, _MAX, _MAX) 
             time.sleep(0.001)
             self._pigpio.harware_PWM(self.STEPPIN, _OFF, _OFF) 
             time.sleep(0.001)
             STEP + 1
-            self.state = STEP
+            self.state = State.STEP.name
             return self.state
 
 

@@ -1,0 +1,4 @@
+MAX: int = 100_0000
+MIN: int = 350_000
+OFF: int = 0
+FREQUENCY = 100_000
