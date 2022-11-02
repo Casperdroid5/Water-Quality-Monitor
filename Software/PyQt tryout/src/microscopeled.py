@@ -1,7 +1,7 @@
 import time
 import pigpio
 from enums import State
-from pwm import PWM
+from hardwarepwm import PWM
 import constants
 
 class MICROSCOPELED(PWM): # Child class from PWM

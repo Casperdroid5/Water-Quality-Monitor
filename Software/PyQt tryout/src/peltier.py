@@ -1,6 +1,7 @@
 import time
 import pigpio
 from enums import State
+from pwm import PWM
 import constants
 
 class PELTIER():
@@ -79,7 +80,7 @@ if __name__ == "__main__":
         x = Peltier1.SetTemperature(In1DutyCycle = constants.MIN, In1Frequency = constants.MIN, In2DutyCycle = x, In2Frequency = 100_000)
 
     print("Sweep test COLD") # assuming in2 is the hot side
-    for x in range(constants.MIN, constants._MAX, 100): # steps of 100
+    for x in range(constants.MIN, constants.MAX, 100): # steps of 100
         #time.sleep(0.1)
         print(x)
         x = Peltier1.SetTemperature(In1DutyCycle = x, In1Frequency = 100_000, In2DutyCycle = constants.MIN, In2Frequency = constants.MIN)

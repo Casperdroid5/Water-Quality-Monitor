@@ -1,6 +1,6 @@
 import time
 import pigpio
-from pwm import PWM
+from hardwarepwm import PWM
 import constants
 
 class HEATINGRESISTOR(PWM): # Child class from PWM

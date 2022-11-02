@@ -3,7 +3,7 @@ from turtle import delay
 from xmlrpc.client import Boolean
 import pigpio
 
-from pwm import PWM
+from hardwarepwm import PWM
 from peltier import PELTIER
 from powergpio import POWERGPIO
 

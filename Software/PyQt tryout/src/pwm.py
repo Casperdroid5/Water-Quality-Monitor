@@ -11,16 +11,10 @@ class PWM():
         self.state = None
 
     def TurnOn(self):
-         self._pigpio.hardware_PWM(self._GPIOPin, constants.MAX, constants.MAX)
-         self.state = State.ON.name # was State.ON
-         return self.state
+         self._pigpio.set_PWM_dutycycle(self._GPIOPin, constants.MAXPWM)
 
     def TurnOff(self):
-        self._pigpio.hardware_PWM(self._GPIOPin, constants.MIN, constants.MIN)
-        self.state = State.OFF.name
-        return self.state
+         self._pigpio.set_PWM_dutycycle(self._GPIOPin, constants.MINPWM)
 
-    def SetValue(self, DutyCycle: int, Frequency: int):
-        self._pigpio.hardware_PWM(self._GPIOPin, Frequency, DutyCycle)
-        return self.state
-
+    def SetValue(self, DutyCycle: int):
+         self._pigpio.set_PWM_dutycycle(self._GPIOPin, DutyCycle)

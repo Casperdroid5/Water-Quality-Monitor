@@ -1,4 +1,8 @@
+
+
 # Values
+MAXPWM: int = 255
+MINPWM: int = 0
 MAX: int = 100_0000
 MIN: int = 350_000
 OFF: int = 0
