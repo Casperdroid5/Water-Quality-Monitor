@@ -52,7 +52,7 @@ class MOTORS():
 if __name__ == "__main__":
         
     
-    Motor1 = MOTORS(pi = pigpio.pi(), MOTORnum = 14)
+    Motor1 = MOTORS(pi = pigpio.pi(), MOTORnum = 12) # pins missing (for dir etc)
     
     print("Enable/Disable Motor")
     x = Motor1.SetMotorState(ENABLE = True)
