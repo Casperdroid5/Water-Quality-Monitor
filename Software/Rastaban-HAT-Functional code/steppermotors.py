@@ -16,31 +16,31 @@ class STEPPERMOTORS():
         self.EnablePin: int = EnablePin
         self.state = None
 
-    def SetMotorState(self, ENABLE: bool): 
-        if ENABLE == True:
-            self._pigpio.hardware_PWM(self.MOTORnum, constants.MAX, constants.MAX) #high on enable pin to enable motor
+    def SetMotorState(self, ENABLE: int): 
+        if ENABLE == 1:
+            self._pigpio.set_PWM_dutycycle(self.MOTORnum, constants.MAX) #high on enable pin to enable motor
             self.state = State.MOTOR_ENABLED.name
             return self.state
         else: 
-            self._pigpio.hardware_PWM(self.MOTORnum, constants.OFF, constants.OFF)
+            self._pigpio.set_PWM_dutycycle(self.MOTORnum, constants.OFF)
             self.state = State.MOTOR_DISABLED.name
             return self.state
 
-    def SetMotorDir(self, DIR: bool):
+    def SetMotorDir(self, DIR: int):
         if DIR == 1:
-            self._pigpio.harware_PWM(self.MOTORnum, constants.MAX, constants.MAX) 
+            self._pigpio.harware_PWM(self.MOTORnum, constants.MAX) 
             self.state = State.CLOCKWISE.name
             return self.state
         else:
-            self._pigpio.hardware_PWM(self.MOTORnum, constants.OFF, constants.OFF) 
+            self._pigpio.set_PWM_dutycycle(self.MOTORnum, constants.OFF) 
             self.state = State.MOTOR_COUNTERCLOCKWISE.name
             return self.state
 
     def SetMotorStep(self, STEP: int):
         for x in range(STEP):
-            self._pigpio.harware_PWM(self.STEPPIN, constants.MAX, constants.MAX) 
+            self._pigpio.harware_PWM(self.STEPPIN, constants.MAX) 
             time.sleep(0.001)
-            self._pigpio.harware_PWM(self.STEPPIN, constants.OFF, constants.OFF) 
+            self._pigpio.harware_PWM(self.STEPPIN, constants.OFF) 
             time.sleep(0.001)
             STEP + 1
             self.state = State.STEP.name
@@ -53,10 +53,10 @@ if __name__ == "__main__":
     Motor1 = STEPPERMOTORS(pi = pigpio.pi(), MOTORnum = 1, DirPin = 16, StepPin = 13, EnablePin = 40)
     
     print("Enable/Disable Motor")
-    x = Motor1.SetMotorState(ENABLE = True)
+    x = Motor1.SetMotorState(ENABLE = 1)
     print(x)
     time.sleep(2)
-    x = Motor1.SetMotorState(ENABLE = False)
+    x = Motor1.SetMotorState(ENABLE = 0)
     print(x) 
     time.sleep(2)
     
