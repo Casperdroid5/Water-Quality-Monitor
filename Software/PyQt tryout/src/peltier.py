@@ -12,20 +12,20 @@ class PELTIER():
         self.state = None
 
     def SetToCooling(self):
-        self._pigpio.set_PWM_dutycycle(self._GPIOpeltier_in1, constants.MAX)
-        self._pigpio.set_PWM_dutycycle(self._GPIOpeltier_in2, constants.MIN)
+        self._pigpio.set_PWM_dutycycle(self._GPIOpeltier_in1, constants.MAXPWM)
+        self._pigpio.set_PWM_dutycycle(self._GPIOpeltier_in2, constants.MINPWM)
         self.state = State.COLD.name
         return self.state
 
     def SetToHeating(self):
-        self._pigpio.set_PWM_dutycycle(self._GPIOpeltier_in1, constants.MIN)
-        self._pigpio.set_PWM_dutycycle(self._GPIOpeltier_in2, constants.MAX)
+        self._pigpio.set_PWM_dutycycle(self._GPIOpeltier_in1, constants.MINPWM)
+        self._pigpio.set_PWM_dutycycle(self._GPIOpeltier_in2, constants.MAXPWM)
         self.state = State.HOT.name
         return self.state
         
     def TurnOff(self):
-        self._pigpio.set_PWM_dutycycle(self._GPIOpeltier_in1, constants.MIN)
-        self._pigpio.set_PWM_dutycycle(self._GPIOpeltier_in2, constants.MIN)
+        self._pigpio.set_PWM_dutycycle(self._GPIOpeltier_in1, constants.MINPWM)
+        self._pigpio.set_PWM_dutycycle(self._GPIOpeltier_in2, constants.MINPWM)
         self.state = State.OFF.name
         return self.state
 
@@ -52,17 +52,17 @@ if __name__ == "__main__":
     
     print("SetTemperature 1 Test")
     time.sleep(1)
-    x = Peltier1.SetTemperature(In1DutyCycle = 450_000, In2DutyCycle = constants.MIN) 
+    x = Peltier1.SetTemperature(In1DutyCycle = 150, In2DutyCycle = constants.MINPWM) 
     print(x)
     
     print("SetTemperature 2 Test")
     time.sleep(1)
-    x = Peltier1.SetTemperature(In1DutyCycle = 700_000, In2DutyCycle = constants.MIN) 
+    x = Peltier1.SetTemperature(In1DutyCycle = 255, In2DutyCycle = constants.MINPWM) 
     print(x)
     
     print("SetTemperature 3 Test")
     time.sleep(1)
-    x = Peltier1.SetTemperature(In1DutyCycle = 200_000, In2DutyCycle = constants.MIN,) 
+    x = Peltier1.SetTemperature(In1DutyCycle = 50, In2DutyCycle = constants.MINPWM) 
     print(x)
     
     print("Turn Off Test")
@@ -73,16 +73,16 @@ if __name__ == "__main__":
 
     print("Sweep test HOT")
     time.sleep(1)
-    for x in range(constants.MIN, constants.MAX, 100): # steps of 100
+    for x in range(constants.MINPWM, constants.MAXPWM, 100): # steps of 100
         #time.sleep(0.1)
         print(x)
-        x = Peltier1.SetTemperature(In1DutyCycle = constants.MIN, In2DutyCycle = x)
+        x = Peltier1.SetTemperature(In1DutyCycle = constants.MINPWM, In2DutyCycle = x)
 
-    print("Sweep test COLD") # assuming in2 is the hot side
-    for x in range(constants.MIN, constants.MAX, 100): # steps of 100
+    print("Sweep test COLD") # assuMINPWMg in2 is the hot side
+    for x in range(constants.MINPWM, constants.MAXPWM, 100): # steps of 100
         #time.sleep(0.1)
         print(x)
-        x = Peltier1.SetTemperature(In1DutyCycle = x, In2DutyCycle = constants.MIN)
+        x = Peltier1.SetTemperature(In1DutyCycle = x, In2DutyCycle = constants.MINPWM)
 
     x = Peltier1.TurnOff()
     print(x)
