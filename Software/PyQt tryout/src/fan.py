@@ -4,7 +4,6 @@ from pwm import PWM
 import constants
 from enums import State
 
-
 class FAN(PWM): # Child class from PWM
 
     def GetState(self):
