@@ -1,5 +1,6 @@
 import time
 import pigpio
+from enums import State
 
 _MAX: int = 100_0000
 _MIN: int = 350_000
@@ -16,25 +17,25 @@ class PELTIER():
     def SetToCooling(self):
         self._pigpio.hardware_PWM(self._GPIOpeltier_in1, _MAX, _MAX)
         self._pigpio.hardware_PWM(self._GPIOpeltier_in2, _MIN, _MIN)
-        self.state = 'COLD'
+        self.state = State.COLD.name
         return self.state
 
     def SetToHeating(self):
         self._pigpio.hardware_PWM(self._GPIOpeltier_in1, _MIN, _MIN)
         self._pigpio.hardware_PWM(self._GPIOpeltier_in2, _MAX, _MAX)
-        self.state = 'HOT'
+        self.state = State.HOT.name
         return self.state
         
     def TurnOff(self):
         self._pigpio.hardware_PWM(self._GPIOpeltier_in1, _MIN, _MIN)
         self._pigpio.hardware_PWM(self._GPIOpeltier_in2, _MIN, _MIN)
-        self.state = 'OFF'
+        self.state = State.OFF.name
         return self.state
 
     def SetTemperature(self, In1DutyCycle: int, In1Frequency: int, In2DutyCycle: int, In2Frequency: int):
         self._pigpio.hardware_PWM(self._GPIOpeltier_in1, In1Frequency, In1DutyCycle)
         self._pigpio.hardware_PWM(self._GPIOpeltier_in2, In2Frequency, In2DutyCycle)
-        self.state = "Custom Value"
+        self.state = State.CUSTOM.name
         return self.state    
 
 

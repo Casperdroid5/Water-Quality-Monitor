@@ -1,5 +1,6 @@
 import time
 import pigpio
+from enums import State
 
 _MAX: int = 100_0000
 #_MIN: int = 350_000
@@ -20,21 +21,21 @@ class MOTORS():
     def set_motor_power(self, enabled: bool): 
         if enabled == True:
             self._pigpio.hardware_PWM(self.MOTORnum, _MAX, _MAX) #high on enable pin to enable motor
-            self.state = 'MOTOR ENABLED'
+            self.state = State.MOTOR_ENABLED.name
             return self.state
         else: 
             self._pigpio.hardware_PWM(self.MOTORnum, _OFF, _OFF)
-            self.state = 'MOTOR DISABLED'
+            self.state = State.MOTOR_DISABLED.name
             return self.state
 
     def set_motor_dir(self, DIR: bool):
         if DIR == 1:
             self._pigpio.harware_PWM(self.MOTORnum, _MAX, _MAX) 
-            self.state = 'CLOCKWISE'
+            self.state = State.CLOCKWISE.name
             return self.state
         else:
             self._pigpio.hardware_PWM(self.MOTORnum, _OFF, _OFF) 
-            self.state = 'COUNTERCLOCKWISE'
+            self.state = State.MOTOR_COUNTERCLOCKWISE.name
             return self.state
 
     def set_motor_step(self, STEP: float):
