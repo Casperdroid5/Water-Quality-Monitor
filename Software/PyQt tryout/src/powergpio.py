@@ -7,12 +7,19 @@ _MIN: int = 350_000
 _OFF: int = 0
 #_FREQUENCY = 100_000
 class PowerGPIO(PWM): # Child class from PWM
-    pass
+    
+    def GetState(self):
+        return self.state
+
 
 if __name__ == "__main__":
     
     
+    
     powergpio1 = PWM(pi = pigpio.pi(), GPIOPin = 12)
+    
+    PowerGPIO.GetState()
+    time.sleep(3)
     print("On/Off test")
     x = powergpio1.TurnOn()
     print(x)
