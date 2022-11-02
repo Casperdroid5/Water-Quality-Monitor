@@ -8,7 +8,9 @@ _OFF: int = 0
 #_FREQUENCY = 100_000
 class PowerGPIO(PWM): # Child class from PWM
     
-  
+    def __init__(self): 
+        pass
+    
     def GetState(self):
         print(self.state)
 
