@@ -2,7 +2,7 @@ import time
 import pigpio
 from pwm import PWM
 import constants
-class PowerGPIO(PWM): # Child class from PWM
+class POWERGPIO(PWM): # Child class from PWM
 
     def GetState(self):
         print(self.state)
@@ -12,7 +12,7 @@ if __name__ == "__main__":
     
     
     
-    powergpio1 = PowerGPIO(pi = pigpio.pi(), GPIOPin = 12)
+    powergpio1 = POWERGPIO(pi = pigpio.pi(), GPIOPin = 12)
     
     powergpio1.GetState()
     time.sleep(3)
