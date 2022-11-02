@@ -15,12 +15,12 @@ class PWM():
 
     def TurnOn(self):
          self._pigpio.hardware_PWM(self._GPIOPin, _MAX, _MAX)
-         self.state = State.ON
+         self.state = State.ON.name # was State.ON
          return self.state
 
     def TurnOff(self):
         self._pigpio.hardware_PWM(self._GPIOPin, _MIN, _MIN)
-        self.state = State.OFF
+        self.state = State.OFF.name
         return self.state
 
     def SetValue(self, DutyCycle: int, Frequency: int):
