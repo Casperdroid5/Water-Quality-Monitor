@@ -1,5 +1,6 @@
 import time
 import pigpio
+from enums import State
 
 _MAX: int = 100_0000
 _MIN: int = 350_000
@@ -14,12 +15,12 @@ class PWM():
 
     def TurnOn(self):
          self._pigpio.hardware_PWM(self._GPIOPin, _MAX, _MAX)
-         self.state = 'On'
+         self.state = State.ON
          return self.state
 
     def TurnOff(self):
         self._pigpio.hardware_PWM(self._GPIOPin, _MIN, _MIN)
-        self.state = 'Off'
+        self.state = State.OFF
         return self.state
 
     def SetValue(self, DutyCycle: int, Frequency: int):
