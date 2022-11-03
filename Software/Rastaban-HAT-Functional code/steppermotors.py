@@ -19,7 +19,7 @@ class STEPPERMOTORS():
             self.state = State.MOTOR_ENABLED.name
             return self.state
         else: 
-            self._pigpio.set_PWM_dutycycle(self._EnableGPIOPin, constants.OFF)
+            self._pigpio.set_PWM_dutycycle(self._EnableGPIOPin, constants.MINPWM)
             self.state = State.MOTOR_DISABLED.name
             return self.state
 
@@ -29,7 +29,7 @@ class STEPPERMOTORS():
             self.state = State.MOTOR_CLOCKWISE.name
             return self.state
         else:
-            self._pigpio.set_PWM_dutycycle(self._DirGPIOPin, constants.OFF) 
+            self._pigpio.set_PWM_dutycycle(self._DirGPIOPin, constants.MINPWM) 
             self.state = State.MOTOR_COUNTERCLOCKWISE.name
             return self.state
 
@@ -37,9 +37,8 @@ class STEPPERMOTORS():
         for x in range(STEP):
             self._pigpio.set_PWM_dutycycle(self._StepGPIOPin, constants.MAXPWM) 
             time.sleep(0.0005)
-            self._pigpio.set_PWM_dutycycle(self._StepGPIOPin, constants.OFF) 
+            self._pigpio.set_PWM_dutycycle(self._StepGPIOPin, constants.MINPWM) 
             time.sleep(0.0005)
-            STEP + 1
             self.state = State.STEP.name
             return self.state
 
