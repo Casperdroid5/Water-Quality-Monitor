@@ -5,33 +5,33 @@ import constants
 
 class PELTIER():
     
-    def __init__(self, pi, GPIOpeltier_in1: int, GPIOpeltier_in2: int) -> None:
-        self._GPIOpeltier_in1: int = GPIOpeltier_in1
-        self._GPIOpeltier_in2: int = GPIOpeltier_in2
+    def __init__(self, pi, GPIOPin_in1: int, GPIOPin_in2: int) -> None:
+        self._GPIOPin_in1: int = GPIOPin_in1
+        self._GPIOPin_in2: int = GPIOPin_in2
         self._pigpio = pi
         self.state = None
 
     def SetToCooling(self):
-        self._pigpio.set_PWM_dutycycle(self._GPIOpeltier_in1, constants.MAXPWM)
-        self._pigpio.set_PWM_dutycycle(self._GPIOpeltier_in2, constants.MINPWM)
+        self._pigpio.set_PWM_dutycycle(self._GPIOPin_in1, constants.MAXPWM)
+        self._pigpio.set_PWM_dutycycle(self._GPIOPin_in2, constants.MINPWM)
         self.state = State.COLD.name
         return self.state
 
     def SetToHeating(self):
-        self._pigpio.set_PWM_dutycycle(self._GPIOpeltier_in1, constants.MINPWM)
-        self._pigpio.set_PWM_dutycycle(self._GPIOpeltier_in2, constants.MAXPWM)
+        self._pigpio.set_PWM_dutycycle(self._GPIOPin_in1, constants.MINPWM)
+        self._pigpio.set_PWM_dutycycle(self._GPIOPin_in2, constants.MAXPWM)
         self.state = State.HOT.name
         return self.state
         
     def TurnOff(self):
-        self._pigpio.set_PWM_dutycycle(self._GPIOpeltier_in1, constants.MINPWM)
-        self._pigpio.set_PWM_dutycycle(self._GPIOpeltier_in2, constants.MINPWM)
+        self._pigpio.set_PWM_dutycycle(self._GPIOPin_in1, constants.MINPWM)
+        self._pigpio.set_PWM_dutycycle(self._GPIOPin_in2, constants.MINPWM)
         self.state = State.OFF.name
         return self.state
 
     def SetTemperature(self, In1DutyCycle: int, In2DutyCycle: int,):
-        self._pigpio.set_PWM_dutycycle(self._GPIOpeltier_in1, In1DutyCycle)
-        self._pigpio.set_PWM_dutycycle(self._GPIOpeltier_in2, In2DutyCycle)
+        self._pigpio.set_PWM_dutycycle(self._GPIOPin_in1, In1DutyCycle)
+        self._pigpio.set_PWM_dutycycle(self._GPIOPin_in2, In2DutyCycle)
         self.state = State.CUSTOM.name
         return self.state    
 
@@ -40,7 +40,7 @@ class PELTIER():
 if __name__ == "__main__":
     
     
-    Peltier1 = PELTIER(pi = pigpio.pi(), GPIOpeltier_in1 = 13, GPIOpeltier_in2 = 12)
+    Peltier1 = PELTIER(pi = pigpio.pi(), GPIOPin_in1 = 13, GPIOPin_in2 = 12)
     
     print("full Cool/Heat test")
     x = Peltier1.SetToCooling()

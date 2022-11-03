@@ -6,38 +6,38 @@ import constants
 
 class STEPPERMOTORS():
 
-    def __init__(self, pi, EnablePin: int, DirPin: int, StepPin: int) -> None:
-        self._EnablePin: int = EnablePin
+    def __init__(self, pi, EnableGPIOPin: int, DirGPIOPin: int, StepGPIOPin: int) -> None: 
         self._pigpio = pi
-        self._DirPin: int = DirPin
-        self._StepPin: int = StepPin
+        self._EnableGPIOPin: int = EnableGPIOPin
+        self._DirGPIOPin: int = DirGPIOPin
+        self._StepGPIOPin: int = StepGPIOPin
         self.state = None
 
     def SetMotorState(self, ENABLE: int): 
         if ENABLE == 1:
-            self._pigpio.set_PWM_dutycycle(self._EnablePin, constants.MAXPWM) #high on enable pin to enable motor
+            self._pigpio.set_PWM_dutycycle(self._EnableGPIOPin, constants.MAXPWM) #high on enable pin to enable motor
             self.state = State.MOTOR_ENABLED.name
             return self.state
         else: 
-            self._pigpio.set_PWM_dutycycle(self._EnablePin, constants.OFF)
+            self._pigpio.set_PWM_dutycycle(self._EnableGPIOPin, constants.OFF)
             self.state = State.MOTOR_DISABLED.name
             return self.state
 
     def SetMotorDir(self, DIR: int):
         if DIR == 1:
-            self._pigpio.set_PWM_dutycycle(self._DirPin, constants.MAXPWM) 
+            self._pigpio.set_PWM_dutycycle(self._DirGPIOPin, constants.MAXPWM) 
             self.state = State.MOTOR_CLOCKWISE.name
             return self.state
         else:
-            self._pigpio.set_PWM_dutycycle(self._DirPin, constants.OFF) 
+            self._pigpio.set_PWM_dutycycle(self._DirGPIOPin, constants.OFF) 
             self.state = State.MOTOR_COUNTERCLOCKWISE.name
             return self.state
 
     def SetMotorStep(self, STEP: int):
         for x in range(STEP):
-            self._pigpio.set_PWM_dutycycle(self._StepPin, constants.MAXPWM) 
+            self._pigpio.set_PWM_dutycycle(self._StepGPIOPin, constants.MAXPWM) 
             time.sleep(0.0005)
-            self._pigpio.set_PWM_dutycycle(self._StepPin, constants.OFF) 
+            self._pigpio.set_PWM_dutycycle(self._StepGPIOPin, constants.OFF) 
             time.sleep(0.0005)
             STEP + 1
             self.state = State.STEP.name
@@ -47,7 +47,7 @@ class STEPPERMOTORS():
 if __name__ == "__main__":
         
     
-    StepperMotor1 = STEPPERMOTORS(pi = pigpio.pi(), EnablePin = 18, DirPin = 23, StepPin = 27)
+    StepperMotor1 = STEPPERMOTORS(pi = pigpio.pi(), EnableGPIOPin = 18, DirGPIOPin = 23, StepGPIOPin = 27)
     
     print("Enable/Disable Motor")
     x = StepperMotor1.SetMotorState(1)
