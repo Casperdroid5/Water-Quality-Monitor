@@ -36,9 +36,9 @@ class STEPPERMOTORS():
     def SetMotorStep(self, STEP: int):
         for x in range(STEP):
             self._pigpio.set_PWM_dutycycle(self._StepPin, constants.MAXPWM) 
-            time.sleep(0.001)
+            time.sleep(0.0005)
             self._pigpio.set_PWM_dutycycle(self._StepPin, constants.OFF) 
-            time.sleep(0.001)
+            time.sleep(0.0005)
             STEP + 1
             self.state = State.STEP.name
             return self.state
@@ -47,7 +47,7 @@ class STEPPERMOTORS():
 if __name__ == "__main__":
         
     
-    StepperMotor1 = STEPPERMOTORS(pi = pigpio.pi(), EnablePin = 18, DirPin = 11, StepPin = 27)
+    StepperMotor1 = STEPPERMOTORS(pi = pigpio.pi(), EnablePin = 18, DirPin = 23, StepPin = 27)
     
     print("Enable/Disable Motor")
     x = StepperMotor1.SetMotorState(1)
