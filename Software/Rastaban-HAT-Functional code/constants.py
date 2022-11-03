@@ -7,7 +7,7 @@ OFF: int = 0
 FREQUENCY = 100_000
 
 # RPI GPIO Pins
-GPIO2  = 3  # SDA1, I2C
+""" GPIO2  = 3  # SDA1, I2C
 GPIO3  = 5  # SCL1, I2C
 GPIO4  = 7  # GPCLK0
 GPIO14 = 8  # TXD0, UART
@@ -31,5 +31,5 @@ GPIO13 = 33 # PWM1
 GPIO19 = 35
 GPIO26 = 37
 GPIO20 = 40 
-
+ """
 

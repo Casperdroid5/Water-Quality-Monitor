@@ -6,21 +6,20 @@ import constants
 
 class STEPPERMOTORS():
 
-    def __init__(self, pi, StatePin: int, DirPin: int, StepPin: int, EnablePin: int) -> None:
-        self._StatePin: int = StatePin
+    def __init__(self, pi, EnablePin: int, DirPin: int, StepPin: int) -> None:
+        self._EnablePin: int = EnablePin
         self._pigpio = pi
         self._DirPin: int = DirPin
         self._StepPin: int = StepPin
-        self._EnablePin: int = EnablePin
         self.state = None
 
     def SetMotorState(self, ENABLE: int): 
         if ENABLE == 1:
-            self._pigpio.set_PWM_dutycycle(self._StatePin, constants.MAXPWM) #high on enable pin to enable motor
+            self._pigpio.set_PWM_dutycycle(self._EnablePin, constants.MAXPWM) #high on enable pin to enable motor
             self.state = State.MOTOR_ENABLED.name
             return self.state
         else: 
-            self._pigpio.set_PWM_dutycycle(self._StatePin, constants.OFF)
+            self._pigpio.set_PWM_dutycycle(self._EnablePin, constants.OFF)
             self.state = State.MOTOR_DISABLED.name
             return self.state
 
@@ -48,35 +47,38 @@ class STEPPERMOTORS():
 if __name__ == "__main__":
         
     
-    Motor1 = STEPPERMOTORS(pi = pigpio.pi(), StatePin = 12, DirPin = 16, StepPin = 13, EnablePin = 40)
+    StepperMotor1 = STEPPERMOTORS(pi = pigpio.pi(), EnablePin = 18, DirPin = 11, StepPin = 27)
     
     print("Enable/Disable Motor")
-    x = Motor1.SetMotorState(1)
+    x = StepperMotor1.SetMotorState(1)
     print(x)
     time.sleep(2)
-    x = Motor1.SetMotorState(0)
+    x = StepperMotor1.SetMotorState(0)
     print(x) 
     time.sleep(1)
     
     print("Set Motor Direction Test")
     time.sleep(1)
-    x = Motor1.SetMotorDir(1)
+    x = StepperMotor1.SetMotorDir(1)
     print(x)
 
     print("Set Motor Step Test")
     time.sleep(1)
-    x = Motor1.SetMotorStep(200)
+    x = StepperMotor1.SetMotorStep(200)
     print(x)
     
     print("Set Motor Direction Test")
     time.sleep(1)
-    x = Motor1.SetMotorDir(0)
+    x = StepperMotor1.SetMotorDir(0)
     print(x)
 
     print("Set Motor Step Test")
     time.sleep(1)
-    x = Motor1.SetMotorStep(200)
+    x = StepperMotor1.SetMotorStep(200)
     print(x)
+
+    x = StepperMotor1.SetMotorState(1)
+    print(x) 
 
     print("test complete")
         
