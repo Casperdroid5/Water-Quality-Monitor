@@ -13,7 +13,7 @@ class MICROSCOPELED(HARDWAREPWM): # Child class from PWM
 if __name__ == "__main__":
     
     
-    MicrosScopeLed1 = MICROSCOPELED(pi = pigpio.pi(), GPIOPin = constants.GPIO18)
+    MicrosScopeLed1 = MICROSCOPELED(pi = pigpio.pi(), GPIOPin = 18)
     print("On/Off test")
     x = MicrosScopeLed1.TurnOn()
     print(x)

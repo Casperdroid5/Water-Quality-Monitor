@@ -1,6 +1,4 @@
-from ctypes.wintypes import DOUBLE
 import time
-from tkinter import DoubleVar
 import pigpio
 from enums import State
 import constants
@@ -8,41 +6,39 @@ import constants
 
 class STEPPERMOTORS():
 
-    def __init__(self, pi, MOTORnum: int, DirPin: int, StepPin: int, EnablePin: int) -> None:
+    def __init__(self, pi, EnableGPIOPin: int, DirGPIOPin: int, StepGPIOPin: int) -> None: 
         self._pigpio = pi
-        self.MOTORnum: int = MOTORnum 
-        self.DirPin: int = DirPin
-        self.StepPin: int = StepPin
-        self.EnablePin: int = EnablePin
+        self._EnableGPIOPin: int = EnableGPIOPin
+        self._DirGPIOPin: int = DirGPIOPin
+        self._StepGPIOPin: int = StepGPIOPin
         self.state = None
 
-    def SetMotorState(self, ENABLE: bool): 
-        if ENABLE == True:
-            self._pigpio.hardware_PWM(self.MOTORnum, constants.MAX, constants.MAX) #high on enable pin to enable motor
+    def SetMotorState(self, ENABLE: int): 
+        if ENABLE == 1:
+            self._pigpio.set_PWM_dutycycle(self._EnableGPIOPin, constants.MAXPWM) #high on enable pin to enable motor
             self.state = State.MOTOR_ENABLED.name
             return self.state
         else: 
-            self._pigpio.hardware_PWM(self.MOTORnum, constants.OFF, constants.OFF)
+            self._pigpio.set_PWM_dutycycle(self._EnableGPIOPin, constants.MINPWM)
             self.state = State.MOTOR_DISABLED.name
             return self.state
 
-    def SetMotorDir(self, DIR: bool):
+    def SetMotorDir(self, DIR: int):
         if DIR == 1:
-            self._pigpio.harware_PWM(self.MOTORnum, constants.MAX, constants.MAX) 
-            self.state = State.CLOCKWISE.name
+            self._pigpio.set_PWM_dutycycle(self._DirGPIOPin, constants.MAXPWM) 
+            self.state = State.MOTOR_CLOCKWISE.name
             return self.state
         else:
-            self._pigpio.hardware_PWM(self.MOTORnum, constants.OFF, constants.OFF) 
+            self._pigpio.set_PWM_dutycycle(self._DirGPIOPin, constants.MINPWM) 
             self.state = State.MOTOR_COUNTERCLOCKWISE.name
             return self.state
 
     def SetMotorStep(self, STEP: int):
         for x in range(STEP):
-            self._pigpio.harware_PWM(self.STEPPIN, constants.MAX, constants.MAX) 
-            time.sleep(0.001)
-            self._pigpio.harware_PWM(self.STEPPIN, constants.OFF, constants.OFF) 
-            time.sleep(0.001)
-            STEP + 1
+            self._pigpio.set_PWM_dutycycle(self._StepGPIOPin, constants.MAXPWM) 
+            time.sleep(0.0005)
+            self._pigpio.set_PWM_dutycycle(self._StepGPIOPin, constants.MINPWM) 
+            time.sleep(0.0005)
             self.state = State.STEP.name
             return self.state
 
@@ -50,48 +46,38 @@ class STEPPERMOTORS():
 if __name__ == "__main__":
         
     
-    Motor1 = STEPPERMOTORS(pi = pigpio.pi(), MOTORnum = 1, DirPin = 16, StepPin = 13, EnablePin = 40)
+    StepperMotor1 = STEPPERMOTORS(pi = pigpio.pi(), EnableGPIOPin = 18, DirGPIOPin = 23, StepGPIOPin = 27)
     
     print("Enable/Disable Motor")
-    x = Motor1.SetMotorState(ENABLE = True)
+    x = StepperMotor1.SetMotorState(1)
     print(x)
     time.sleep(2)
-    x = Motor1.SetMotorState(ENABLE = False)
+    x = StepperMotor1.SetMotorState(0)
     print(x) 
-    time.sleep(2)
+    time.sleep(1)
     
     print("Set Motor Direction Test")
     time.sleep(1)
-    x = Motor1.SetMotorDir(DIR = 1)
+    x = StepperMotor1.SetMotorDir(1)
     print(x)
 
     print("Set Motor Step Test")
     time.sleep(1)
-    x = Motor1.SetMotorStep(STEP = 200)
+    x = StepperMotor1.SetMotorStep(200)
     print(x)
     
     print("Set Motor Direction Test")
     time.sleep(1)
-    x = Motor1.SetMotorDir(DIR = 0)
+    x = StepperMotor1.SetMotorDir(0)
     print(x)
 
     print("Set Motor Step Test")
     time.sleep(1)
-    x = Motor1.SetMotorStep(STEP = 200)
+    x = StepperMotor1.SetMotorStep(200)
     print(x)
 
-    # print("Sweep test HOT")
-    # time.sleep(1)
-    # for x in range(constants.MIN, constants.MAX, 100): # steps of 100
-    #     #time.sleep(0.1)
-    #     print(x)
-    #     x = Motor1.SetTemperature(In1DutyCycle = constants.MIN, In1Frequency = constants.MIN, In2DutyCycle = x, In2Frequency = 100_000)
-
-    # print("Sweep test COLD") # assuming in2 is the hot side
-    # for x in range(constants.MIN, constants._MAX, 100): # steps of 100
-    #     #time.sleep(0.1)
-    #     print(x)
-    #     x = Motor1.SetTemperature(In1DutyCycle = x, In1Frequency = 100_000, In2DutyCycle = constants.MIN, In2Frequency = constants.MIN)
+    x = StepperMotor1.SetMotorState(1)
+    print(x) 
 
     print("test complete")
         
