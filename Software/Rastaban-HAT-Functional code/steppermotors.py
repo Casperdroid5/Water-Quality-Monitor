@@ -15,11 +15,11 @@ class STEPPERMOTORS():
 
     def SetMotorState(self, ENABLE: int): 
         if ENABLE == 1:
-            self._pigpio.write(self._EnableGPIOPin, constants.ON)#high on enable pin to enable motor
+            self._pigpio.write(self._EnableGPIOPin, constants.ON) #low on enable pin to enable motor
             self.state = State.MOTOR_ENABLED.name
             return self.state
         else: 
-            self._pigpio.write(self._EnableGPIOPin, constants.OFF)
+            self._pigpio.write(self._EnableGPIOPin, constants.OFF) #high on enable pin to disable motor
             self.state = State.MOTOR_DISABLED.name
             return self.state
 
@@ -54,7 +54,7 @@ if __name__ == "__main__":
     time.sleep(2)
     x = StepperMotor1.SetMotorState(0)
     print(x) 
-    time.sleep(1)
+    time.sleep(2)
     
     print("Set Motor Direction Test")
     time.sleep(1)
