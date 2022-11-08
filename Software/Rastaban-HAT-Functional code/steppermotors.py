@@ -36,9 +36,9 @@ class STEPPERMOTORS():
     def SetMotorStep(self, STEP: int):
         for x in range(STEP):
             self._pigpio.write(self._StepGPIOPin, constants.ON) 
-            time.sleep(0.00000000005)
+            time.sleep(0.00005)
             self._pigpio.write(self._StepGPIOPin, constants.OFF) 
-            time.sleep(0.00000000005)
+            time.sleep(0.00005)
             print(x)
         
 
