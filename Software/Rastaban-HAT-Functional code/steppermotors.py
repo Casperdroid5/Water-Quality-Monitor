@@ -15,11 +15,11 @@ class STEPPERMOTORS():
 
     def SetMotorState(self, ENABLE: int): 
         if ENABLE == 1:
-            self._pigpio.set_PWM_dutycycle(self._EnableGPIOPin, constants.MAXPWM) #high on enable pin to enable motor
+            self._pigpio.write(self._EnableGPIOPin, constants.ON)#high on enable pin to enable motor
             self.state = State.MOTOR_ENABLED.name
             return self.state
         else: 
-            self._pigpio.set_PWM_dutycycle(self._EnableGPIOPin, constants.MINPWM)
+            self._pigpio.write(self._EnableGPIOPin, constants.OFF)
             self.state = State.MOTOR_DISABLED.name
             return self.state
 
