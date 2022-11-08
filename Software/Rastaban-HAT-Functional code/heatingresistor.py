@@ -4,6 +4,7 @@ from pwm import PWM
 from enums import State
 import constants
 
+
 class HEATINGRESISTOR(PWM): # Child class from PWM
 
     def GetState(self):
@@ -11,7 +12,7 @@ class HEATINGRESISTOR(PWM): # Child class from PWM
 
 
 if __name__ == "__main__":    
-    
+
     HeatingResistor1 = HEATINGRESISTOR(pi = pigpio.pi(), GPIOPin = 12)
     
     HeatingResistor1.GetState()
