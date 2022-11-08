@@ -3,6 +3,7 @@ import pigpio
 from pwm import PWM
 import constants
 
+
 class POWERGPIO(PWM): # Child class from PWM
 
     def GetState(self):
@@ -10,7 +11,6 @@ class POWERGPIO(PWM): # Child class from PWM
 
 
 if __name__ == "__main__":
-    
     
     
     powergpio1 = POWERGPIO(pi = pigpio.pi(), GPIOPin = 12)
