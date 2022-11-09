@@ -15,7 +15,6 @@ class VOICECOILMOTORS():
 
     def SetMotorEnable(self, ENABLE: int): # Enable controls speed
         self._pigpio.set_PWM_dutycycle(self._EnableGPIOPin, ENABLE)
-        return self.state
 
     def SetMotorPhase(self, PHASE: int): # Phase controls direction
         if PHASE == 1:
@@ -30,6 +29,7 @@ class VOICECOILMOTORS():
     def SetMotorSleep(self, SLEEP: int):
         if SLEEP == 1:
             self._pigpio.write(self._SleepGPIOPin, constants.OFF)
+            self.state = State.SLEEP.name
         else:
             self._pigpio.write(self._SleepGPIOPin, constants.ON) 
             self.state = State.SLEEP.name
@@ -38,7 +38,7 @@ class VOICECOILMOTORS():
 
 if __name__ == "__main__":
         
-    
+
     Motor1 = VOICECOILMOTORS(pi = pigpio.pi(), EnableGPIOPin = 16, PhaseGPIOPin = 13, SleepGPIOPin = 4)
     
     print("Enable/Disable Motor")
@@ -69,6 +69,12 @@ if __name__ == "__main__":
     time.sleep(1)
     x = Motor1.SetMotorEnable(255)
     print(x)
+
+    print("Sweep test")
+    for x in range(constants.MINPWM, constants.MAXPWM, 5): # steps of 5
+        time.sleep(0.1)
+        print(x)
+        Motor1.SetMotorEnable(x)
 
     time.sleep(1)
     x = Motor1.SetMotorSleep(constants.OFF)
