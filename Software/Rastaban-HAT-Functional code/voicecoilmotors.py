@@ -42,12 +42,13 @@ if __name__ == "__main__":
     Motor1 = VOICECOILMOTORS(pi = pigpio.pi(), EnableGPIOPin = 16, PhaseGPIOPin = 13, SleepGPIOPin = 4)
     
     print("Enable/Disable Motor")
-    x = Motor1.SetMotorSleep(1)
+    time.sleep(1)
+    x = Motor1.SetMotorSleep(constants.ON)
     print(x)
     time.sleep(2)
-    x = Motor1.SetMotorSleep(0)
+    x = Motor1.SetMotorSleep(constants.OFF)
     print(x) 
-    time.sleep(2)
+    time.sleep(1)
     
     print("Set Motor Direction Test")
     time.sleep(1)
@@ -60,7 +61,7 @@ if __name__ == "__main__":
     print(x)
     
     print("Set Motor Direction Test")
-    time.sleep(1)
+    time.sleep(3)
     x = Motor1.SetMotorPhase(0)
     print(x)
 
@@ -68,6 +69,10 @@ if __name__ == "__main__":
     time.sleep(1)
     x = Motor1.SetMotorEnable(255)
     print(x)
+
+    time.sleep(1)
+    x = Motor1.SetMotorSleep(constants.OFF)
+    print(x) 
 
     print("test complete")
         
