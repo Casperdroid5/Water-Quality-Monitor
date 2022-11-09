@@ -19,19 +19,19 @@ class VOICECOILMOTORS():
 
     def SetMotorPhase(self, PHASE: int): # Phase controls direction
         if PHASE == 1:
-            self._pigpio.set_PWM_dutycycle(self._PhaseGPIOPin, constants.MAXPWM) 
+            self._pigpio.write(self._PhaseGPIOPin, constants.ON) 
             self.state = State.PHASE.name
             return self.state
         else:
-            self._pigpio.set_PWM_dutycycle(self._PhaseGPIOPin, constants.OFF) 
+            self._pigpio.write(self._PhaseGPIOPin, constants.OFF) 
             self.state = State.PHASE.name
             return self.state
 
     def SetMotorSleep(self, SLEEP: int):
         if SLEEP == 1:
-            self._pigpio.set_PWM_dutycycle(self._SleepGPIOPin, constants.OFF)
+            self._pigpio.write(self._SleepGPIOPin, constants.OFF)
         else:
-            self._pigpio.set_PWM_dutycycle(self._SleepGPIOPin, constants.ON) 
+            self._pigpio.write(self._SleepGPIOPin, constants.ON) 
             self.state = State.SLEEP.name
             return self.state
 
