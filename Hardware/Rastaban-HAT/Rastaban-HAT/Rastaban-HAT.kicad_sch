@@ -2769,7 +2769,6 @@
     )
   )
 
-
   (junction (at 182.245 83.82) (diameter 0) (color 0 0 0 0)
     (uuid 021a6196-42a1-4d3e-96a3-20debe7d7bbd)
   )
@@ -4104,7 +4103,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c75540c8-56cf-49ea-b94b-9c91dae35d17)
   )
-  (text "PowerManagementSystem" (at 233.045 16.51 0)
+  (text "PowerManagementSystem" (at 225.425 15.875 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d8c93f26-73f3-4b9b-90c2-657d655c4556)
   )
@@ -6554,7 +6553,7 @@
   (symbol (lib_id "Connector:Jack-DC") (at 206.375 34.925 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e220ca8d-f503-491c-aac3-31543f7f0722)
-    (property "Reference" "J5" (id 0) (at 200.025 34.925 0))
+    (property "Reference" "J5" (id 0) (at 200.025 33.655 0))
     (property "Value" "Jack-DC 12V+" (id 1) (at 203.835 29.845 0))
     (property "Footprint" "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002" (id 2) (at 207.645 35.941 0)
       (effects (font (size 1.27 1.27)) hide)

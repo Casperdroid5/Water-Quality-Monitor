@@ -1,0 +1,4 @@
+testrapport results turn 90 degrees to be able to show more pictures.
+figure out why CE is 0V when led is disabled.
+matplotlib.
+lezen over picamera2. doel: picamara2 library maken die met jeroen's code werkt.
