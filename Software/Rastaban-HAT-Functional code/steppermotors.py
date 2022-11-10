@@ -15,32 +15,32 @@ class STEPPERMOTORS():
 
     def SetMotorState(self, ENABLE: int): 
         if ENABLE == 1:
-            self._pigpio.set_PWM_dutycycle(self._EnableGPIOPin, constants.MAXPWM) #high on enable pin to enable motor
+            self._pigpio.write(self._EnableGPIOPin, constants.OFF) #low on enable pin to enable motordriver, tmc 2209
             self.state = State.MOTOR_ENABLED.name
             return self.state
         else: 
-            self._pigpio.set_PWM_dutycycle(self._EnableGPIOPin, constants.MINPWM)
+            self._pigpio.write(self._EnableGPIOPin, constants.ON) #high on enable pin to disable motordriver, tmc 2209
             self.state = State.MOTOR_DISABLED.name
             return self.state
 
     def SetMotorDir(self, DIR: int):
         if DIR == 1:
-            self._pigpio.set_PWM_dutycycle(self._DirGPIOPin, constants.MAXPWM) 
+            self._pigpio.write(self._DirGPIOPin, constants.ON) 
             self.state = State.MOTOR_CLOCKWISE.name
             return self.state
         else:
-            self._pigpio.set_PWM_dutycycle(self._DirGPIOPin, constants.MINPWM) 
+            self._pigpio.write(self._DirGPIOPin, constants.OFF) 
             self.state = State.MOTOR_COUNTERCLOCKWISE.name
             return self.state
 
     def SetMotorStep(self, STEP: int):
         for x in range(STEP):
-            self._pigpio.set_PWM_dutycycle(self._StepGPIOPin, constants.MAXPWM) 
-            time.sleep(0.0005)
-            self._pigpio.set_PWM_dutycycle(self._StepGPIOPin, constants.MINPWM) 
-            time.sleep(0.0005)
-            self.state = State.STEP.name
-            return self.state
+            self._pigpio.write(self._StepGPIOPin, constants.ON) 
+            time.sleep(0.00005)
+            self._pigpio.write(self._StepGPIOPin, constants.OFF) 
+            time.sleep(0.00005)
+            print(x)
+        
 
 
 if __name__ == "__main__":
@@ -49,10 +49,10 @@ if __name__ == "__main__":
     StepperMotor1 = STEPPERMOTORS(pi = pigpio.pi(), EnableGPIOPin = 18, DirGPIOPin = 23, StepGPIOPin = 27)
     
     print("Enable/Disable Motor")
-    x = StepperMotor1.SetMotorState(1)
+    x = StepperMotor1.SetMotorState(constants.OFF)
     print(x)
-    time.sleep(2)
-    x = StepperMotor1.SetMotorState(0)
+    time.sleep(1)
+    x = StepperMotor1.SetMotorState(constants.ON)
     print(x) 
     time.sleep(1)
     
@@ -63,7 +63,7 @@ if __name__ == "__main__":
 
     print("Set Motor Step Test")
     time.sleep(1)
-    x = StepperMotor1.SetMotorStep(200)
+    x = StepperMotor1.SetMotorStep(6400)
     print(x)
     
     print("Set Motor Direction Test")
@@ -73,10 +73,10 @@ if __name__ == "__main__":
 
     print("Set Motor Step Test")
     time.sleep(1)
-    x = StepperMotor1.SetMotorStep(200)
+    x = StepperMotor1.SetMotorStep(6400) #one rotation is 3200 pulses by microstepping 8. motor has 400 steps by full stepping
     print(x)
 
-    x = StepperMotor1.SetMotorState(1)
+    x = StepperMotor1.SetMotorState(State.OFF)
     print(x) 
 
     print("test complete")

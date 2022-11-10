@@ -11,7 +11,7 @@ class HARDWAREPWM():
 
     def TurnOn(self):
          self._pigpio.hardware_PWM(self._GPIOPin, constants.MAX, constants.MAX)
-         self.state = State.ON.name # was State.ON
+         self.state = State.ON.name
          return self.state
 
     def TurnOff(self):
