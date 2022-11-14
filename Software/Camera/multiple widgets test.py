@@ -3,6 +3,7 @@ from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
+from pyqtgraph.dockarea import *
 import sys
 
 
@@ -12,7 +13,7 @@ class Window(QMainWindow):
 		super().__init__()
 
 		# setting title
-		self.setWindowTitle("Python ")
+		self.setWindowTitle("Multiple Widgets")
 
 		# setting geometry
 		self.setGeometry(100, 100, 500, 400)
@@ -30,7 +31,7 @@ class Window(QMainWindow):
 		dock = QDockWidget(self)
 
 		# setting title to the dock widget
-		dock.setWindowTitle("GfG ")
+		dock.setWindowTitle("DOCKtitle")
 
 		# creating a QWidget object
 		widget = QWidget(self)
@@ -59,7 +60,7 @@ class Window(QMainWindow):
 		dock.setWidget(widget)
 
 		# creating a label
-		label = QLabel("GeesforGeeks", self)
+		label = QLabel("label1", self)
 
 		# setting geometry to the label
 		label.setGeometry(100, 200, 300, 80)
