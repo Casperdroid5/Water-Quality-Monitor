@@ -1,27 +1,22 @@
-from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton
 import sys
-
-class MainWindow(QMainWindow):
-  def __init__(self):
-    super().__init__()
-    # Create scene
-    self.image_item = QGraphicsPixmapItem()
-    scene = QGraphicsScene(self)
-    scene.addItem(self.image_item)
-
-    # Create GraphicView display
-    self.view = QGraphicsView(scene, self)
-    # Adding right click menus
-    self.view.setContextMenuPolicy(QtCore.Qt.ActionsContextMenu)
-    self.zoomout_action = QAction("Fit canvas", self)
-    self.view.addAction(self.zoomout_action)
-
-
-app = QApplication(sys.argv)
-window = MainWindow()
-window.show()
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtCore import Qt
+class _Bar(QtWidgets.QWidget):
+  pass
+class PowerBar(QtWidgets.QWidget):
+  """
+  Custom Qt Widget to show a power bar and dial.
+  Demonstrating compound and custom-drawn widget.
+  """
+  def __init__(self, parent=None, steps=5):
+    super().__init__(parent)
+    layout = QtWidgets.QVBoxLayout()
+    self._bar = _Bar()
+    layout.addWidget(self._bar)
+    self._dial = QtWidgets.QDial()
+    layout.addWidget(self._dial)
+    self.setLayout(layout)
+app = QtWidgets.QApplication(sys.argv)
+volume = PowerBar()
+volume.show()
 app.exec_()
-
-image = QImage(camera_image, w, h, w, QImage.Format_Grayscale8)
-self.image_item.setPixmap(QPixmap.fromImage(image))
-self.view.fitInView(self.image_item)
