@@ -46,7 +46,7 @@ class STEPPERMOTORS():
 if __name__ == "__main__":
         
     
-    StepperMotor1 = STEPPERMOTORS(pi = pigpio.pi(), EnableGPIOPin = 18, DirGPIOPin = 23, StepGPIOPin = 27)
+    StepperMotor1 = STEPPERMOTORS(pi = pigpio.pi(), EnableGPIOPin = 40, DirGPIOPin = 16, StepGPIOPin = 13)
     
     print("Enable/Disable Motor")
     x = StepperMotor1.SetMotorState(constants.OFF)

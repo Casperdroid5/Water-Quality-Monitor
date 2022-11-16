@@ -29,7 +29,7 @@ if __name__ == "__main__":
     time.sleep(1)
 
     print("Sweep test")
-    for x in range(constants.MIN, constants.MAX, 100): # steps of 100
+    for x in range(constants.OFF, constants.MAX, 100): # steps of 100
         #time.sleep(0.1)
         print(x)
         x = MicrosScopeLed1.SetValue(Frequency = 100_000, DutyCycle = x)
