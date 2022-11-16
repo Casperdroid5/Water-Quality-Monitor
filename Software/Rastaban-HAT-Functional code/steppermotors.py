@@ -46,38 +46,71 @@ class STEPPERMOTORS():
 if __name__ == "__main__":
         
     
-    StepperMotor1 = STEPPERMOTORS(pi = pigpio.pi(), EnableGPIOPin = 40, DirGPIOPin = 16, StepGPIOPin = 13)
+    PrimaryStepper = STEPPERMOTORS(pi = pigpio.pi(), EnableGPIOPin = 21, DirGPIOPin = 23, StepGPIOPin = 27)
+    SecondaryStepper = STEPPERMOTORS(pi = pigpio.pi(), EnableGPIOPin = 20, DirGPIOPin = 22, StepGPIOPin = 24)
     
     print("Enable/Disable Motor")
-    x = StepperMotor1.SetMotorState(constants.OFF)
+    x = PrimaryStepper.SetMotorState(constants.OFF)
     print(x)
     time.sleep(1)
-    x = StepperMotor1.SetMotorState(constants.ON)
+    x = PrimaryStepper.SetMotorState(constants.ON)
+    print(x) 
+    time.sleep(1)
+
+    print("Enable/Disable Motor")
+    x = SecondaryStepper.SetMotorState(constants.OFF)
+    print(x)
+    time.sleep(1)
+    x = SecondaryStepper.SetMotorState(constants.ON)
     print(x) 
     time.sleep(1)
     
     print("Set Motor Direction Test")
     time.sleep(1)
-    x = StepperMotor1.SetMotorDir(1)
+    x = PrimaryStepper.SetMotorDir(1)
+    print(x)
+
+    print("Set Motor Direction Test")
+    time.sleep(1)
+    x = SecondaryStepper.SetMotorDir(1)
     print(x)
 
     print("Set Motor Step Test")
     time.sleep(1)
-    x = StepperMotor1.SetMotorStep(6400)
+    x = SecondaryStepper.SetMotorStep(6400)
+    print(x)
+
+    print("Set Motor Step Test")
+    time.sleep(1)
+    x = PrimaryStepper.SetMotorStep(6400)
     print(x)
     
     print("Set Motor Direction Test")
     time.sleep(1)
-    x = StepperMotor1.SetMotorDir(0)
+    x = PrimaryStepper.SetMotorDir(0)
     print(x)
 
     print("Set Motor Step Test")
     time.sleep(1)
-    x = StepperMotor1.SetMotorStep(6400) #one rotation is 3200 pulses by microstepping 8. motor has 400 steps by full stepping
+    x = PrimaryStepper.SetMotorStep(6400) #one rotation is 3200 pulses by microstepping 8. motor has 400 steps by full stepping
     print(x)
 
-    x = StepperMotor1.SetMotorState(State.OFF)
+    print("Set Motor Direction Test")
+    time.sleep(1)
+    x = SecondaryStepper.SetMotorDir(0)
+    print(x)
+
+    print("Set Motor Step Test")
+    time.sleep(1)
+    x = SecondaryStepper.SetMotorStep(6400) #one rotation is 3200 pulses by microstepping 8. motor has 400 steps by full stepping
+    print(x)
+
+    x = PrimaryStepper.SetMotorState(State.OFF)
     print(x) 
+
+    x = SecondaryStepper.SetMotorState(constants.OFF)
+    print(x) 
+    time.sleep(1)
 
     print("test complete")
         
