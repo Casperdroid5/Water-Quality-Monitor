@@ -66,27 +66,9 @@ if __name__ == "__main__":
     print(x) 
     time.sleep(1)
 
-    print("Enable/Disable Motor")
-    x = FocusStepper.SetMotorState(constants.OFF)
-    print(x)
-    time.sleep(1)
-    x = FocusStepper.SetMotorState(constants.ON)
-    print(x) 
-    time.sleep(1)
-
-    print("Set Motor Step Test")
-    time.sleep(1)
-    x = FocusStepper.SetMotorStep(6400)
-    print(x)
-    
     print("Set Motor Direction Test")
     time.sleep(1)
     x = PrimaryStepper.SetMotorDir(1)
-    print(x)
-
-    print("Set Motor Direction Test")
-    time.sleep(1)
-    x = FocusStepper.SetMotorDir(1)
     print(x)
 
     print("Set Motor Direction Test")
@@ -128,10 +110,6 @@ if __name__ == "__main__":
     print(x) 
 
     x = SecondaryStepper.SetMotorState(constants.OFF)
-    print(x) 
-    time.sleep(1)
-
-    x = FocusStepper.SetMotorState(constants.OFF)
     print(x) 
     time.sleep(1)
 
