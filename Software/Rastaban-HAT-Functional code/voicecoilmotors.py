@@ -43,10 +43,10 @@ if __name__ == "__main__":
     
     print("Enable/Disable Motor")
     time.sleep(1)
-    x = Motor1.SetMotorSleep(constants.ON)
+    x = Motor1.SetMotorSleep(constants.OFF) # off and on constants are reversed for the drv8838
     print(x)
     time.sleep(2)
-    x = Motor1.SetMotorSleep(constants.OFF)
+    x = Motor1.SetMotorSleep(constants.ON)
     print(x) 
     time.sleep(1)
     
@@ -77,12 +77,8 @@ if __name__ == "__main__":
         Motor1.SetMotorEnable(x)
 
     time.sleep(1)
-    x = Motor1.SetMotorSleep(constants.OFF)
+    x = Motor1.SetMotorSleep(constants.ON)
     print(x) 
-
-    x = Motor1.SetMotorSleep(constants.OFF)
-    print(x) 
-    time.sleep(1)
 
     print("test complete")
         
