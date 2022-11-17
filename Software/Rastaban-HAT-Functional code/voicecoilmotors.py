@@ -39,7 +39,7 @@ class VOICECOILMOTORS():
 if __name__ == "__main__":
         
 
-    Motor1 = VOICECOILMOTORS(pi = pigpio.pi(), EnableGPIOPin = 16, PhaseGPIOPin = 13, SleepGPIOPin = 4)
+    Motor1 = VOICECOILMOTORS(pi = pigpio.pi(), EnableGPIOPin = 12, PhaseGPIOPin = 13, SleepGPIOPin = 4)
     
     print("Enable/Disable Motor")
     time.sleep(1)
@@ -79,6 +79,10 @@ if __name__ == "__main__":
     time.sleep(1)
     x = Motor1.SetMotorSleep(constants.OFF)
     print(x) 
+
+    x = Motor1.SetMotorSleep(constants.OFF)
+    print(x) 
+    time.sleep(1)
 
     print("test complete")
         

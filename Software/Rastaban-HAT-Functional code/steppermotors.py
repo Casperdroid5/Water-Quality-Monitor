@@ -48,7 +48,8 @@ if __name__ == "__main__":
     
     PrimaryStepper = STEPPERMOTORS(pi = pigpio.pi(), EnableGPIOPin = 21, DirGPIOPin = 23, StepGPIOPin = 27)
     SecondaryStepper = STEPPERMOTORS(pi = pigpio.pi(), EnableGPIOPin = 20, DirGPIOPin = 22, StepGPIOPin = 24)
-    
+    FocusStepper = STEPPERMOTORS(pi = pigpio.pi(), EnableGPIOPin = 16, DirGPIOPin = 26, StepGPIOPin = 19)
+
     print("Enable/Disable Motor")
     x = PrimaryStepper.SetMotorState(constants.OFF)
     print(x)
@@ -64,10 +65,28 @@ if __name__ == "__main__":
     x = SecondaryStepper.SetMotorState(constants.ON)
     print(x) 
     time.sleep(1)
+
+    print("Enable/Disable Motor")
+    x = FocusStepper.SetMotorState(constants.OFF)
+    print(x)
+    time.sleep(1)
+    x = FocusStepper.SetMotorState(constants.ON)
+    print(x) 
+    time.sleep(1)
+
+    print("Set Motor Step Test")
+    time.sleep(1)
+    x = FocusStepper.SetMotorStep(6400)
+    print(x)
     
     print("Set Motor Direction Test")
     time.sleep(1)
     x = PrimaryStepper.SetMotorDir(1)
+    print(x)
+
+    print("Set Motor Direction Test")
+    time.sleep(1)
+    x = FocusStepper.SetMotorDir(1)
     print(x)
 
     print("Set Motor Direction Test")
@@ -109,6 +128,10 @@ if __name__ == "__main__":
     print(x) 
 
     x = SecondaryStepper.SetMotorState(constants.OFF)
+    print(x) 
+    time.sleep(1)
+
+    x = FocusStepper.SetMotorState(constants.OFF)
     print(x) 
     time.sleep(1)
 

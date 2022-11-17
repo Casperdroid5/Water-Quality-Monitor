@@ -13,7 +13,7 @@ class POWERGPIO(PWM): # Child class from PWM
 if __name__ == "__main__":
     
     
-    powergpio1 = POWERGPIO(pi = pigpio.pi(), GPIOPin = 12)
+    powergpio1 = POWERGPIO(pi = pigpio.pi(), GPIOPin = 25)
     
     powergpio1.GetState()
     time.sleep(3)

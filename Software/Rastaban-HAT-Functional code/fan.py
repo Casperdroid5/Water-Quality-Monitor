@@ -13,7 +13,7 @@ class FAN(PWM): # Child class from PWM
 if __name__ == "__main__":
     
     
-    Fan1 = FAN(pi = pigpio.pi(), GPIOPin = 12)
+    Fan1 = FAN(pi = pigpio.pi(), GPIOPin = 6)
     
     Fan1.GetState()
     time.sleep(3)
