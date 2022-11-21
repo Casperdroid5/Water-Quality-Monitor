@@ -4775,7 +4775,7 @@
     (property "Value" "ESD7351HT1G" (id 1) (at 194.31 87.7569 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "SOD2512X110N" (id 2) (at 194.31 89.535 0)
+    (property "Footprint" "SamacSys_Parts:SOD2512X110N" (id 2) (at 194.31 89.535 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://componentsearchengine.com/Datasheets/1/ESD7351HT1G.pdf" (id 3) (at 191.77 89.535 0)
@@ -4854,7 +4854,7 @@
     (property "Value" "ESD7351HT1G" (id 1) (at 184.785 87.7569 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "SOD2512X110N" (id 2) (at 184.785 89.535 0)
+    (property "Footprint" "SamacSys_Parts:SOD2512X110N" (id 2) (at 184.785 89.535 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://componentsearchengine.com/Datasheets/1/ESD7351HT1G.pdf" (id 3) (at 182.245 89.535 0)
@@ -6504,7 +6504,7 @@
       (reference "C26") (unit 1) (value "100nF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/6398cb05-8a3c-41dd-8b01-249c75cc0cd0"
-      (reference "D1") (unit 1) (value "ESD7351HT1G") (footprint "SOD2512X110N")
+      (reference "D1") (unit 1) (value "ESD7351HT1G") (footprint "SamacSys_Parts:SOD2512X110N")
     )
     (path "/f3747824-7ae0-46af-a774-78fceec77b76"
       (reference "D2") (unit 1) (value "OVLEW1CB9") (footprint "SamacSys_Parts:1808190")
@@ -6513,10 +6513,10 @@
       (reference "D3") (unit 1) (value "SMBJ26A") (footprint "SamacSys_Parts:DIOM5436X261N")
     )
     (path "/5459797e-034f-4c1c-82ab-aef0fd8ac36b"
-      (reference "D4") (unit 1) (value "ESD7351HT1G") (footprint "SOD2512X110N")
+      (reference "D4") (unit 1) (value "ESD7351HT1G") (footprint "SamacSys_Parts:SOD2512X110N")
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/8aebf9b6-9e4f-4d1c-962c-1275d2c57064"
-      (reference "D7") (unit 1) (value "SS310") (footprint "")
+      (reference "D7") (unit 1) (value "SS310") (footprint "SamacSys_Parts:SOD2512X110N")
     )
     (path "/bacc34b0-9755-45d5-8946-44f33e8699fb"
       (reference "F1") (unit 1) (value "0.5A") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
@@ -6588,7 +6588,7 @@
       (reference "JP1") (unit 1) (value "ID_WP") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/586b9eba-13ed-4a48-b897-7047d1918716"
-      (reference "JP2") (unit 1) (value "Jumper_2_Open") (footprint "")
+      (reference "JP2") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/c797706d-1ad3-4be1-9438-319ea56ef687"
       (reference "JP4") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
