@@ -2900,7 +2900,7 @@
 
   (footprint "Module:DRV8838 POLOLU" (layer "F.Cu")
     (tedit 0) (tstamp a781d9f5-2630-465a-8a40-57a6a247faec)
-    (at 187.452 147.574)
+    (at 187.452 146.05)
     (property "Sheetfile" "FocusMotors.kicad_sch")
     (property "Sheetname" "FocusMotors")
     (property "Vanallesenmeer" "https://www.vanallesenmeer.nl/DRV8838-Single-Brushed-DC-Motor-Driver-Carrier-Pololu-2990")
