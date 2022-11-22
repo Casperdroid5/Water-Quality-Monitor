@@ -4498,7 +4498,7 @@
   (symbol (lib_id "power:GND") (at 27.305 34.925 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4ad2ae5a-d718-4239-9448-4207e14db113)
-    (property "Reference" "#PWR?" (id 0) (at 27.305 41.275 0)
+    (property "Reference" "#PWR0106" (id 0) (at 27.305 41.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 31.115 36.83 0))
@@ -4663,7 +4663,7 @@
   (symbol (lib_id "Jumper:Jumper_3_Open") (at 46.355 27.305 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 547edde9-85fc-4dd2-829e-b40d1b6725ca)
-    (property "Reference" "JP?" (id 0) (at 45.72 22.225 90)
+    (property "Reference" "JP3" (id 0) (at 45.72 22.225 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Jumper_3_Open" (id 1) (at 43.815 28.5749 90)
@@ -5151,7 +5151,7 @@
   (symbol (lib_id "Regulator_Linear:TLV1117-33") (at 27.305 27.305 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 96722965-3c3f-46b8-92f2-892224bf27fd)
-    (property "Reference" "U?" (id 0) (at 27.305 21.59 0))
+    (property "Reference" "U2" (id 0) (at 27.305 21.59 0))
     (property "Value" "TLV1117-33" (id 1) (at 27.305 23.495 0))
     (property "Footprint" "SamacSys_Parts:SOT230P700X180-4N" (id 2) (at 26.67 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5174,7 +5174,7 @@
   (symbol (lib_id "Jumper:Jumper_3_Open") (at 61.595 27.305 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9a901ea0-1317-4c66-91ae-4f4c95e324aa)
-    (property "Reference" "JP?" (id 0) (at 62.23 32.385 90)
+    (property "Reference" "JP5" (id 0) (at 62.23 32.385 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Jumper_3_Open" (id 1) (at 64.135 26.0351 90)
@@ -6231,7 +6231,7 @@
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
     (path "/4ad2ae5a-d718-4239-9448-4207e14db113"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
     )
     (path "/f3fe5026-3ec3-4ef9-8ee4-ac53381f5d3c"
       (reference "C1") (unit 1) (value "10uF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -6362,14 +6362,14 @@
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/586b9eba-13ed-4a48-b897-7047d1918716"
       (reference "JP2") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
+    (path "/547edde9-85fc-4dd2-829e-b40d1b6725ca"
+      (reference "JP3") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
+    )
     (path "/c797706d-1ad3-4be1-9438-319ea56ef687"
       (reference "JP4") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
     )
-    (path "/547edde9-85fc-4dd2-829e-b40d1b6725ca"
-      (reference "JP?") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
-    )
     (path "/9a901ea0-1317-4c66-91ae-4f4c95e324aa"
-      (reference "JP?") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
+      (reference "JP5") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/c16e1378-ee11-43ee-9091-3cf8d3755162"
       (reference "L1") (unit 1) (value "68uH") (footprint "Inductor_SMD:L_Bourns-SRU8028_8.0x8.0mm")
@@ -6476,6 +6476,9 @@
     (path "/c4faca07-3860-42fb-9e62-697ba90173b0"
       (reference "U1") (unit 1) (value "DRV8870DDA") (footprint "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias")
     )
+    (path "/96722965-3c3f-46b8-92f2-892224bf27fd"
+      (reference "U2") (unit 1) (value "TLV1117-33") (footprint "SamacSys_Parts:SOT230P700X180-4N")
+    )
     (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/c1dc1b77-ffa7-4f69-878e-c9530094aabf"
       (reference "U3") (unit 1) (value "TMC2208_Carrier") (footprint "SnapEDA Library:MODULE_TMC2208_SILENTSTEPSTICK")
     )
@@ -6496,9 +6499,6 @@
     )
     (path "/f0da1c4a-3b35-4b96-878a-21013f0f687f"
       (reference "U9") (unit 1) (value "CAT24C256") (footprint "SamacSys_Parts:SOIC127P600X175-8N")
-    )
-    (path "/96722965-3c3f-46b8-92f2-892224bf27fd"
-      (reference "U?") (unit 1) (value "TLV1117-33") (footprint "SamacSys_Parts:SOT230P700X180-4N")
     )
   )
 )
