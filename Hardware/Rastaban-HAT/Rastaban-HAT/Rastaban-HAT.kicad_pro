@@ -372,41 +372,6 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "PWR",
-        "nets": [
-          "/FluidMotors/OA1PRI",
-          "/FluidMotors/OA1SEC",
-          "/FluidMotors/OA2PRI",
-          "/FluidMotors/OA2SEC",
-          "/FluidMotors/OB1PRI",
-          "/FluidMotors/OB1SEC",
-          "/FluidMotors/OB2PRI",
-          "/FluidMotors/OB2SEC",
-          "/FocusMotors/OA1FOCUS",
-          "/FocusMotors/OA2FOCUS",
-          "/FocusMotors/OB1FOCUS",
-          "/FocusMotors/OB2FOCUS",
-          "/FocusMotors/out1",
-          "/FocusMotors/out2",
-          "12V+",
-          "12VIN"
-        ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 207, 211)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6.0
       }
     ],
     "meta": {
