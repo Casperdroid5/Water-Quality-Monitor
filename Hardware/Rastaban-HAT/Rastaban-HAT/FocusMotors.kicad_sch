@@ -800,7 +800,7 @@
     (property "MANUFACTURER" "Trinamic Motion" (id 4) (at 46.355 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "Purpose" "Primairy steppermotor driver" (id 5) (at 53.975 52.705 0))
+    (property "Purpose" "Focus steppermotor driver" (id 5) (at 53.975 52.705 0))
     (property "TinyTronics" "https://www.tinytronics.nl/shop/nl/mechanica-en-actuatoren/motoraansturingen-en-drivers/stappen-motoraansturingen-en-drivers/tmc2208-motor-driver-module" (id 6) (at 53.975 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
