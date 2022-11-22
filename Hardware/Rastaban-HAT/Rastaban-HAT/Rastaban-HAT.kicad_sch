@@ -3721,7 +3721,7 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "5V+" (shape input) (at 137.795 77.47 0) (fields_autoplaced)
+  (global_label "5V+" (shape bidirectional) (at 137.795 77.47 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 44658315-0230-4186-acd8-70c992cfcb5a)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 144.0786 77.3906 0)
