@@ -1,0 +1,2771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\crtak\HAN\Jeroen Veen - Effluent\07 Studentprojects\Casper Tak\WaterQualityMonitor\Hardware\Rastaban-HAT\Rastaban-HAT\Rastaban-HAT.kicad_sch</source>
+    <date>24/11/2022 09:25:22</date>
+    <tool>Eeschema (6.0.6)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Rastaban-HAT</title>
+        <company>HAN</company>
+        <rev>1.3</rev>
+        <date>2022-11-21</date>
+        <source>Rastaban-HAT.kicad_sch</source>
+        <comment number="1" value="Casper R. Tak"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/RaspberryPiPower/" tstamps="/6c4087b1-d585-4615-84b3-d395a8b5856d/">
+      <title_block>
+        <title>Rastaban-HAT</title>
+        <company>HAN</company>
+        <rev>1.4</rev>
+        <date>2022-11-21</date>
+        <source>RaspberryPiPower.kicad_sch</source>
+        <comment number="1" value="Casper R. Tak"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/FluidMotors/" tstamps="/509754cd-dbf1-46e6-965c-38d41c0b6924/">
+      <title_block>
+        <title>Rastaban-HAT</title>
+        <company>HAN</company>
+        <rev>1.2</rev>
+        <date>2022-11-21</date>
+        <source>FluidMotors.kicad_sch</source>
+        <comment number="1" value="Casper R. Tak"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/FocusMotors/" tstamps="/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/">
+      <title_block>
+        <title>Rastaban-HAT</title>
+        <company>HAN</company>
+        <rev>1.3</rev>
+        <date>2022-11-21</date>
+        <source>FocusMotors.kicad_sch</source>
+        <comment number="1" value="Casper R. Tak"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17024</field>
+        <field name="Purpose">decoupling</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C17024"/>
+      <property name="Purpose" value="decoupling"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3fe5026-3ec3-4ef9-8ee4-ac53381f5d3c</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C531179</field>
+        <field name="Purpose">decoupling</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C531179"/>
+      <property name="Purpose" value="decoupling"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e705e76-606c-4ed6-ae7f-ed966b630818</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>47uF 50V</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.4</footprint>
+      <fields>
+        <field name="LCSC">C72522</field>
+        <field name="Manufacturer_Part_Number">C2918513</field>
+        <field name="Purpose">decoupling</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part#" value=""/>
+      <property name="Manufacturer_Part_Number" value="C2918513"/>
+      <property name="LCSC" value="C72522"/>
+      <property name="Purpose" value="decoupling"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>023fab8f-e850-4f6d-bd01-c197d7adaf26</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17024</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C17024"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf4c234e-8821-4f3f-91ed-c4127b83d67d</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C531179</field>
+        <field name="Purpose">decoupling</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C531179"/>
+      <property name="Purpose" value="decoupling"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d1772b3-b434-4c39-820a-75c27b63c8e3</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C531179</field>
+        <field name="Purpose">decoupling</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C531179"/>
+      <property name="Purpose" value="decoupling"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fd24ba3-02a6-4dad-b537-cd582941af2f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>ESD7351HT1G</value>
+      <footprint>SamacSys_Parts:SOD2512X110N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/ESD7351HT1G.pdf</datasheet>
+      <fields>
+        <field name="Description">ESD Suppressors / TVS Diodes UNIDIRECTIONAL 3.3V ESD PR</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">ESD7351HT1G</field>
+        <field name="Mouser Part Number">863-ESD7351HT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/ESD7351HT1G?qs=dbuNSGnowt39rUvUpno3Rw%3D%3D</field>
+        <field name="Purpose">TVS diode</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="ESD7351HT1G" description="ESD Suppressors / TVS Diodes UNIDIRECTIONAL 3.3V ESD PR"/>
+      <property name="Description" value="ESD Suppressors / TVS Diodes UNIDIRECTIONAL 3.3V ESD PR"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="863-ESD7351HT1G"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/ESD7351HT1G?qs=dbuNSGnowt39rUvUpno3Rw%3D%3D"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="ESD7351HT1G"/>
+      <property name="Purpose" value="TVS diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6398cb05-8a3c-41dd-8b01-249c75cc0cd0</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>OVLEW1CB9</value>
+      <footprint>SamacSys_Parts:1808190</footprint>
+      <datasheet>https://www.farnell.com/datasheets/2702468.pdf</datasheet>
+      <fields>
+        <field name="Mouser">828-OVLEW1CB9</field>
+        <field name="Purpose">LED for microscope</field>
+      </fields>
+      <libsource lib="SparkFun-LED" part="LED5MM" description="&lt;b&gt;LED (Generic)&lt;/b&gt;Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LEDs. Generic LEDs with no color specified."/>
+      <property name="Purpose" value="LED for microscope"/>
+      <property name="Mouser" value="828-OVLEW1CB9"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3747824-7ae0-46af-a774-78fceec77b76</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>SMBJ26A</value>
+      <footprint>SamacSys_Parts:DIOM5436X261N</footprint>
+      <datasheet>https://www.bourns.com/docs/product-datasheets/smbj.pdf?sfvrsn=34552159_17</datasheet>
+      <fields>
+        <field name="LCSC">C10216</field>
+        <field name="Mouser Part Number">652-SMBJ26A</field>
+        <field name="Purpose">ESD</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SMBJ26A" description="TVS Diode Single Uni-Dir 26V 600W 2-Pin SMB T/R"/>
+      <property name="Mouser Part Number" value="652-SMBJ26A"/>
+      <property name="LCSC" value="C10216"/>
+      <property name="Purpose" value="ESD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6659f4e8-15f2-43f4-924e-74d59efb1046</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>ESD7351HT1G</value>
+      <footprint>SamacSys_Parts:SOD2512X110N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/ESD7351HT1G.pdf</datasheet>
+      <fields>
+        <field name="Description">ESD Suppressors / TVS Diodes UNIDIRECTIONAL 3.3V ESD PR</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">ESD7351HT1G</field>
+        <field name="Mouser Part Number">863-ESD7351HT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/ESD7351HT1G?qs=dbuNSGnowt39rUvUpno3Rw%3D%3D</field>
+        <field name="Purpose">TVS diode</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="ESD7351HT1G" description="ESD Suppressors / TVS Diodes UNIDIRECTIONAL 3.3V ESD PR"/>
+      <property name="Description" value="ESD Suppressors / TVS Diodes UNIDIRECTIONAL 3.3V ESD PR"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="863-ESD7351HT1G"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/ESD7351HT1G?qs=dbuNSGnowt39rUvUpno3Rw%3D%3D"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="ESD7351HT1G"/>
+      <property name="Purpose" value="TVS diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5459797e-034f-4c1c-82ab-aef0fd8ac36b</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>8A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C140473</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="LCSC" value="C140473"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b73aee68-d2d6-4af6-8012-832b4d70c4c0</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>5A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C182986</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="LCSC" value="C182986"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15e341b8-b722-4b21-9283-a504e09cc3d5</tstamps>
+    </comp>
+    <comp ref="F3">
+      <value>5A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C182986</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="LCSC" value="C182986"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91c00537-41c7-4bd7-bca7-88b57af6bbbd</tstamps>
+    </comp>
+    <comp ref="F4">
+      <value>4A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C178929</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="LCSC" value="C178929"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aad0bd0c-8c40-4f59-a931-9d40d3c93f6e</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>150uH</value>
+      <footprint>Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C250237</field>
+      </fields>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="LCSC" value="C250237"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54fbf583-d0ef-4860-9a35-b4f04688b5a2</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>BCR420UW6-7</value>
+      <footprint>SamacSys_Parts:SOT95P280X145-6N</footprint>
+      <datasheet>https://www.arrow.com/en/products/bcr420uw6-7/diodes-incorporated</datasheet>
+      <fields>
+        <field name="Description">LED Lighting Drivers 10mA LED Curr Reg 350mA 40V 10kHz</field>
+        <field name="Height">1.4</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">BCR420UW6-7</field>
+        <field name="Mouser">621-BCR420UW6-7</field>
+        <field name="Mouser Part Number">621-BCR420UW6-7</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BCR420UW6-7?qs=pyrzFRyRzn6yrtUh9GiIPg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BCR420UW6-7" description="LED Lighting Drivers 10mA LED Curr Reg 350mA 40V 10kHz"/>
+      <property name="Description" value="LED Lighting Drivers 10mA LED Curr Reg 350mA 40V 10kHz"/>
+      <property name="Height" value="1.4"/>
+      <property name="Mouser Part Number" value="621-BCR420UW6-7"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BCR420UW6-7?qs=pyrzFRyRzn6yrtUh9GiIPg%3D%3D"/>
+      <property name="Manufacturer_Name" value="Diodes Inc."/>
+      <property name="Manufacturer_Part_Number" value="BCR420UW6-7"/>
+      <property name="Mouser" value="621-BCR420UW6-7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c251b5da-b99e-4ddb-a4de-62952dc041e7</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>1778780</value>
+      <footprint>SamacSys_Parts:1778780</footprint>
+      <datasheet>http://www.phoenixcontact.com/de/produkte/1778780/pdf</datasheet>
+      <fields>
+        <field name="Description">PCB header, nominal cross section: 0.5 mm?, color: black, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 4, Number of rows: 1, Number of positions per row: 4, number of connections: 4, product range: PTSM 0,5/..-HH-SMD, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape, Article with anti-rotation pin</field>
+        <field name="Height">5.1</field>
+        <field name="LCSC">C5173835</field>
+        <field name="Manufacturer_Name">Phoenix Contact</field>
+        <field name="Manufacturer_Part_Number">1778780</field>
+        <field name="Mouser Part Number">651-1778780</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1778780?qs=pYfYGt2amwkFYtacWTGMiw%3D%3D</field>
+      </fields>
+      <libsource lib="" part="1778780_1" description="PCB header, nominal cross section: 0.5 mm?, color: black, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 4, Number of rows: 1, Number of positions per row: 4, number of connections: 4, product range: PTSM 0,5/..-HH-SMD, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape, Article with anti-rotation pin"/>
+      <property name="Description" value="PCB header, nominal cross section: 0.5 mm?, color: black, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 4, Number of rows: 1, Number of positions per row: 4, number of connections: 4, product range: PTSM 0,5/..-HH-SMD, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape, Article with anti-rotation pin"/>
+      <property name="Height" value="5.1"/>
+      <property name="Mouser Part Number" value="651-1778780"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1778780?qs=pYfYGt2amwkFYtacWTGMiw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Phoenix Contact"/>
+      <property name="Manufacturer_Part_Number" value="1778780"/>
+      <property name="LCSC" value="C5173835"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e10c08e-67b3-4717-b449-44243f0aae62</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>1778780</value>
+      <footprint>SamacSys_Parts:1778780</footprint>
+      <datasheet>http://www.phoenixcontact.com/de/produkte/1778780/pdf</datasheet>
+      <fields>
+        <field name="Description">PCB header, nominal cross section: 0.5 mm?, color: black, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 4, Number of rows: 1, Number of positions per row: 4, number of connections: 4, product range: PTSM 0,5/..-HH-SMD, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape, Article with anti-rotation pin</field>
+        <field name="Height">5.1</field>
+        <field name="LCSC">C5173835</field>
+        <field name="Manufacturer_Name">Phoenix Contact</field>
+        <field name="Manufacturer_Part_Number">1778780</field>
+        <field name="Mouser Part Number">651-1778780</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1778780?qs=pYfYGt2amwkFYtacWTGMiw%3D%3D</field>
+      </fields>
+      <libsource lib="" part="1778780_1" description="PCB header, nominal cross section: 0.5 mm?, color: black, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 4, Number of rows: 1, Number of positions per row: 4, number of connections: 4, product range: PTSM 0,5/..-HH-SMD, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape, Article with anti-rotation pin"/>
+      <property name="Description" value="PCB header, nominal cross section: 0.5 mm?, color: black, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 4, Number of rows: 1, Number of positions per row: 4, number of connections: 4, product range: PTSM 0,5/..-HH-SMD, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape, Article with anti-rotation pin"/>
+      <property name="Height" value="5.1"/>
+      <property name="Mouser Part Number" value="651-1778780"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1778780?qs=pYfYGt2amwkFYtacWTGMiw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Phoenix Contact"/>
+      <property name="Manufacturer_Part_Number" value="1778780"/>
+      <property name="LCSC" value="C5173835"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50b07640-10d9-48fc-9f46-0d336057ad58</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>1778780</value>
+      <footprint>SamacSys_Parts:1778780</footprint>
+      <datasheet>http://www.phoenixcontact.com/de/produkte/1778780/pdf</datasheet>
+      <fields>
+        <field name="Description">PCB header, nominal cross section: 0.5 mm?, color: black, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 4, Number of rows: 1, Number of positions per row: 4, number of connections: 4, product range: PTSM 0,5/..-HH-SMD, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape, Article with anti-rotation pin</field>
+        <field name="Height">5.1</field>
+        <field name="LCSC">C5173835</field>
+        <field name="Manufacturer_Name">Phoenix Contact</field>
+        <field name="Manufacturer_Part_Number">1778780</field>
+        <field name="Mouser Part Number">651-1778780</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1778780?qs=pYfYGt2amwkFYtacWTGMiw%3D%3D</field>
+      </fields>
+      <libsource lib="" part="1778780_1" description="PCB header, nominal cross section: 0.5 mm?, color: black, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 4, Number of rows: 1, Number of positions per row: 4, number of connections: 4, product range: PTSM 0,5/..-HH-SMD, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape, Article with anti-rotation pin"/>
+      <property name="Description" value="PCB header, nominal cross section: 0.5 mm?, color: black, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 4, Number of rows: 1, Number of positions per row: 4, number of connections: 4, product range: PTSM 0,5/..-HH-SMD, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape, Article with anti-rotation pin"/>
+      <property name="Height" value="5.1"/>
+      <property name="Mouser Part Number" value="651-1778780"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1778780?qs=pYfYGt2amwkFYtacWTGMiw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Phoenix Contact"/>
+      <property name="Manufacturer_Part_Number" value="1778780"/>
+      <property name="LCSC" value="C5173835"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87d14d87-71bb-4442-8b22-a0d69c5e1e74</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>SamacSys_Parts:1808190</footprint>
+      <datasheet>https://www.phoenixcontact.com/en-us/products/pcb-header-ptsm-05-2-hh0-25-smd-r32-1808190?type=pdf</datasheet>
+      <fields>
+        <field name="Mouser">651-1808190</field>
+        <field name="Purpose">Terminal</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Purpose" value="Terminal"/>
+      <property name="Mouser" value="651-1808190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72095511-e22a-429b-b14d-7b07d12754e9</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Jack-DC 12V+</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002</footprint>
+      <datasheet>https://nl.mouser.com/datasheet/2/445/694106301002-1719831.pdf</datasheet>
+      <fields>
+        <field name="Mouser">710-694106301002</field>
+        <field name="Purpose">Power input connector</field>
+      </fields>
+      <libsource lib="Connector" part="Jack-DC" description="DC Barrel Jack"/>
+      <property name="Purpose" value="Power input connector"/>
+      <property name="Mouser" value="710-694106301002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e220ca8d-f503-491c-aac3-31543f7f0722</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>SM04B-SRSS-TB(LF)(SN)</value>
+      <footprint>SnapEDA Library:JST_SM04B-SRSS-TB(LF)(SN)</footprint>
+      <datasheet>https://www.farnell.com/datasheets/2082363.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C160404</field>
+      </fields>
+      <libsource lib="SM04B-SRSS-TB_LF__SN_" part="SM04B-SRSS-TB(LF)(SN)" description=""/>
+      <property name="LCSC" value="C160404"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a59c5d3d-4ea0-4b08-99c1-38f965204418</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>SamacSys_Parts:1808190</footprint>
+      <datasheet>https://www.phoenixcontact.com/en-us/products/pcb-header-ptsm-05-2-hh0-25-smd-r32-1808190?type=pdf</datasheet>
+      <fields>
+        <field name="Mouser">651-1808190</field>
+        <field name="Purpose">Terminal</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Purpose" value="Terminal"/>
+      <property name="Mouser" value="651-1808190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00360c14-430e-4399-9d74-f52e2b63950e</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>SamacSys_Parts:1808190</footprint>
+      <datasheet>https://www.phoenixcontact.com/en-us/products/pcb-header-ptsm-05-2-hh0-25-smd-r32-1808190?type=pdf</datasheet>
+      <fields>
+        <field name="Mouser">651-1808190</field>
+        <field name="Purpose">Terminal</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Purpose" value="Terminal"/>
+      <property name="Mouser" value="651-1808190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28c54d7f-daa9-4302-85f5-36582dc2620a</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x05_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">x</field>
+        <field name="Mouser">x</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="x"/>
+      <property name="Mouser" value="x"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24bb24ca-3d2a-479f-b9a0-a9d8fbfb368d</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>GPIO</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical_SMD</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2187/CS25582-40G-M36-0A+(1).jpg</datasheet>
+      <fields>
+        <field name="Mouser">485-2187</field>
+        <field name="Purpose">PINheaderRPI</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x20_Odd_Even" description="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Purpose" value="PINheaderRPI"/>
+      <property name="Mouser" value="485-2187"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdd25cd5-3c1d-4ee9-8209-d2eb21ea0541</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x06_Male</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">x</field>
+        <field name="Mouser">x</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="x"/>
+      <property name="Mouser" value="x"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8f40b7e-e51c-4600-aa2a-8259bee415a5</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>ID_WP</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <fields>
+        <field name="LCSC">x</field>
+        <field name="Mouser">x</field>
+        <field name="Purpose">Bridging this jumper enables write protection</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Purpose" value="Bridging this jumper enables write protection"/>
+      <property name="LCSC" value="x"/>
+      <property name="Mouser" value="x"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d76e85fc-4f2e-4d54-b404-7aa3a9abd669</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels</footprint>
+      <fields>
+        <field name="LCSC">x</field>
+        <field name="Mouser">x</field>
+        <field name="Purpose">i2c value selector option</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <property name="Purpose" value="i2c value selector option"/>
+      <property name="LCSC" value="x"/>
+      <property name="Mouser" value="x"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>547edde9-85fc-4dd2-829e-b40d1b6725ca</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>Jumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels</footprint>
+      <fields>
+        <field name="LCSC">x</field>
+        <field name="Mouser">x</field>
+        <field name="Purpose">i2c value selector option</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <property name="Purpose" value="i2c value selector option"/>
+      <property name="LCSC" value="x"/>
+      <property name="Mouser" value="x"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c797706d-1ad3-4be1-9438-319ea56ef687</tstamps>
+    </comp>
+    <comp ref="JP5">
+      <value>Jumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels</footprint>
+      <fields>
+        <field name="LCSC">x</field>
+        <field name="Mouser">x</field>
+        <field name="Purpose">i2c value selector option</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <property name="Purpose" value="i2c value selector option"/>
+      <property name="LCSC" value="x"/>
+      <property name="Mouser" value="x"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a901ea0-1317-4c66-91ae-4f4c95e324aa</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Fan</value>
+      <footprint>SamacSys_Parts:1808190</footprint>
+      <datasheet>https://www.phoenixcontact.com/en-us/products/pcb-header-ptsm-05-2-hh0-25-smd-r32-1808190?type=pdf</datasheet>
+      <fields>
+        <field name="Mouser">651-1808190</field>
+        <field name="Purpose">Cooling fan</field>
+      </fields>
+      <libsource lib="Motor" part="Fan" description="Fan"/>
+      <property name="Purpose" value="Cooling fan"/>
+      <property name="Mouser" value="651-1808190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42e1677f-8d01-428b-8142-17b3a15cdb20</tstamps>
+    </comp>
+    <comp ref="PE1">
+      <value>PeltierElement</value>
+      <footprint>SamacSys_Parts:1808190</footprint>
+      <datasheet>https://www.phoenixcontact.com/en-us/products/pcb-header-ptsm-05-2-hh0-25-smd-r32-1808190?type=pdf</datasheet>
+      <fields>
+        <field name="Mouser">651-1808190</field>
+      </fields>
+      <libsource lib="Device" part="PeltierElement" description="Peltier element, thermoelectric cooler"/>
+      <property name="Mouser" value="651-1808190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5a5959a-c687-4613-9524-73f0cec68824</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>PMV15ENE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://nl.mouser.com/datasheet/2/916/PMV15ENE-2909821.pdf</datasheet>
+      <fields>
+        <field name="Mouser">771-PMV15ENER</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002K" description="0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Mouser" value="771-PMV15ENER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d781f579-d711-4274-aa03-1956fe5a4698</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>PMV15ENE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://nl.mouser.com/datasheet/2/916/PMV15ENE-2909821.pdf</datasheet>
+      <fields>
+        <field name="Mouser">771-PMV15ENER</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002K" description="0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Mouser" value="771-PMV15ENER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79a87a34-ce08-4a45-a783-4b1608b58851</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>PMV15ENE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://nl.mouser.com/datasheet/2/916/PMV15ENE-2909821.pdf</datasheet>
+      <fields>
+        <field name="Mouser">771-PMV15ENER</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002K" description="0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Mouser" value="771-PMV15ENER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f90f5433-864e-43d0-aa94-c0a228052989</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>PMV15ENE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://nl.mouser.com/datasheet/2/916/PMV15ENE-2909821.pdf</datasheet>
+      <fields>
+        <field name="Mouser">771-PMV15ENER</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002K" description="0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Mouser" value="771-PMV15ENER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c893e8e-42f7-41db-8af0-31704d9102b5</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>2N70002HWX</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering</footprint>
+      <datasheet>https://nl.mouser.com/datasheet/2/916/2N7002HW-2909781.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C3647053</field>
+        <field name="Mouser">771-2N7002HWX</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMG1012T" description="20V Vds, 0.63 Id, N-Channel MOSFET with ESD protection, SOT-523"/>
+      <property name="Mouser" value="771-2N7002HWX"/>
+      <property name="LCSC" value="C3647053"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52dc7e8b-b1eb-4620-8eaf-faf5e24e7dfc</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>0.2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Mouser">771-PMV15ENER</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mouser" value="771-PMV15ENER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b982913b-78ea-41c6-92bb-058d05052eaf</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10W resistor</value>
+      <footprint>SamacSys_Parts:1808190</footprint>
+      <fields>
+        <field name="LCSC">x</field>
+        <field name="Mouser">x</field>
+        <field name="Purpose">Heating resistor</field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="1.20KOHM-0603-1_10W-1%" description="1.20k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"/>
+      <property name="Purpose" value="Heating resistor"/>
+      <property name="LCSC" value="x"/>
+      <property name="Mouser" value="x"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2569925-ebf9-4052-bd02-8582502d3183</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C5140188</field>
+        <field name="Purpose">to prevent undefined state at boot</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Purpose" value="to prevent undefined state at boot"/>
+      <property name="LCSC" value="C5140188"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54df1e90-d477-4dff-94d9-4ba31ebd1447</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Purpose">to prevent current surge (ESD)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Purpose" value="to prevent current surge (ESD)"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bb6a702-d546-4c16-bbb7-cf406432ab69</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>30</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3016603</field>
+        <field name="Mouser">71-RCWE0805R300FKEA</field>
+        <field name="Purpose">current limit for led if required</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Purpose" value="current limit for led if required"/>
+      <property name="Mouser" value="71-RCWE0805R300FKEA"/>
+      <property name="LCSC" value="C3016603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>822771ba-8130-4725-9a99-918aa0322d9b</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>3.9k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2907252</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C2907252"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93a1a383-0aa1-4a12-94bf-c12d2e0a0fc4</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>3.9k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2907252</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C2907252"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>857f46c4-5304-4f80-9dc8-f41df7a6e674</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Purpose">to prevent current surge (ESD)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Purpose" value="to prevent current surge (ESD)"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb5e63ff-1067-4dcb-b6e6-12082d5cebfc</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Purpose">to prevent current surge (ESD)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Purpose" value="to prevent current surge (ESD)"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ff823dd-a5ed-48a7-9748-be558efa0f57</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C5140188</field>
+        <field name="Purpose">to prevent undefined state at boot</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Purpose" value="to prevent undefined state at boot"/>
+      <property name="LCSC" value="C5140188"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5418b036-fd21-4015-a8b3-6810df80b9d2</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C5140188</field>
+        <field name="Purpose">to prevent undefined state at boot</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Purpose" value="to prevent undefined state at boot"/>
+      <property name="LCSC" value="C5140188"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebd109ae-d914-40f1-a125-f98fbb1fa23a</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Purpose">to prevent current surge (ESD)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Purpose" value="to prevent current surge (ESD)"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39f249f4-671a-47f5-8862-a844e2045f8d</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Purpose">to prevent current surge (ESD)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Purpose" value="to prevent current surge (ESD)"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45f5a047-373d-4cd3-81aa-c66082ac3d62</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C5140188</field>
+        <field name="Purpose">to prevent undefined state at boot</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Purpose" value="to prevent undefined state at boot"/>
+      <property name="LCSC" value="C5140188"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2c03239-aef2-404f-af6f-44b58624d0e8</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C5140188</field>
+        <field name="Purpose">to prevent undefined state at boot</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Purpose" value="to prevent undefined state at boot"/>
+      <property name="LCSC" value="C5140188"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80d5b766-fa42-423f-9803-062bb5292349</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>DRV8870DDA</value>
+      <footprint>Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv8870.pdf</datasheet>
+      <fields>
+        <field name="Mouser">595-DRV8870DDA</field>
+        <field name="Purpose">H-bridge for peltier hot/cold side</field>
+      </fields>
+      <libsource lib="Driver_Motor" part="DRV8870DDA" description="Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Dynamic current limiting, HTSOP-8"/>
+      <property name="Purpose" value="H-bridge for peltier hot/cold side"/>
+      <property name="Mouser" value="595-DRV8870DDA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4faca07-3860-42fb-9e62-697ba90173b0</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TLV1117-33</value>
+      <footprint>SamacSys_Parts:SOT230P700X180-4N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv1117.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C37359</field>
+        <field name="Purpose">Voltage regulator</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TLV1117-33" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"/>
+      <property name="LCSC" value="C37359"/>
+      <property name="Purpose" value="Voltage regulator"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96722965-3c3f-46b8-92f2-892224bf27fd</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>CAT24C256</value>
+      <footprint>SamacSys_Parts:SOIC127P600X175-8N</footprint>
+      <datasheet>https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF</datasheet>
+      <fields>
+        <field name="Mouser">698-CAT24C256WI-GT3</field>
+        <field name="Purpose">EEPROM pihat</field>
+      </fields>
+      <libsource lib="Memory_EEPROM" part="CAT24C256" description="256 kb CMOS Serial EEPROM, DIP-8/SOIC-8/TSSOP-8/DFN-8"/>
+      <property name="Purpose" value="EEPROM pihat"/>
+      <property name="Mouser" value="698-CAT24C256WI-GT3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rastaban-HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0da1c4a-3b35-4b96-878a-21013f0f687f</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17024</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C17024"/>
+      <property name="Sheetname" value="RaspberryPiPower"/>
+      <property name="Sheetfile" value="RaspberryPiPower.kicad_sch"/>
+      <sheetpath names="/RaspberryPiPower/" tstamps="/6c4087b1-d585-4615-84b3-d395a8b5856d/"/>
+      <tstamps>69f29097-2575-4071-a5ad-9d8a6188f953</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>22uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="RaspberryPiPower"/>
+      <property name="Sheetfile" value="RaspberryPiPower.kicad_sch"/>
+      <sheetpath names="/RaspberryPiPower/" tstamps="/6c4087b1-d585-4615-84b3-d395a8b5856d/"/>
+      <tstamps>07a2b4b7-dc8f-4cf0-8221-342a7b65987b</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C531179</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C531179"/>
+      <property name="Sheetname" value="RaspberryPiPower"/>
+      <property name="Sheetfile" value="RaspberryPiPower.kicad_sch"/>
+      <sheetpath names="/RaspberryPiPower/" tstamps="/6c4087b1-d585-4615-84b3-d395a8b5856d/"/>
+      <tstamps>7514df18-9295-4870-9b15-d0d13f5e8b8b</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>SS310</value>
+      <footprint>SamacSys_Parts:SOD2512X110N</footprint>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value="RaspberryPiPower"/>
+      <property name="Sheetfile" value="RaspberryPiPower.kicad_sch"/>
+      <sheetpath names="/RaspberryPiPower/" tstamps="/6c4087b1-d585-4615-84b3-d395a8b5856d/"/>
+      <tstamps>8aebf9b6-9e4f-4d1c-962c-1275d2c57064</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>BCM53DS</value>
+      <footprint>SamacSys_Parts:SOT95P280X145-6N</footprint>
+      <datasheet>https://nl.mouser.com/datasheet/2/916/BCM53DS-1370670.pdf</datasheet>
+      <fields>
+        <field name="Description">80 V, 1 A PNP/PNP matched double transistors</field>
+        <field name="Mouser">771-BCM53DSF</field>
+        <field name="Mouser Part Number">771-BCM53DSF</field>
+        <field name="Purpose">Dual PNP small signal transistor</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="DMMT5401-7-F" description="Transistor Dual PNP 150V 0.2A SOT26-6 Diodes Inc DMMT5401-7-F Dual PNP Bipolar Transistor, -200 mA, -150 V, 6-Pin SOT-26"/>
+      <property name="Description" value="80 V, 1 A PNP/PNP matched double transistors"/>
+      <property name="Mouser Part Number" value="771-BCM53DSF"/>
+      <property name="Purpose" value="Dual PNP small signal transistor"/>
+      <property name="Mouser" value="771-BCM53DSF"/>
+      <property name="Sheetname" value="RaspberryPiPower"/>
+      <property name="Sheetfile" value="RaspberryPiPower.kicad_sch"/>
+      <sheetpath names="/RaspberryPiPower/" tstamps="/6c4087b1-d585-4615-84b3-d395a8b5856d/"/>
+      <tstamps>caba448a-7835-4e6f-829a-54fc84211a56</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="RaspberryPiPower"/>
+      <property name="Sheetfile" value="RaspberryPiPower.kicad_sch"/>
+      <sheetpath names="/RaspberryPiPower/" tstamps="/6c4087b1-d585-4615-84b3-d395a8b5856d/"/>
+      <tstamps>586b9eba-13ed-4a48-b897-7047d1918716</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>68uH</value>
+      <footprint>Inductor_SMD:L_Bourns-SRU8028_8.0x8.0mm</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="RaspberryPiPower"/>
+      <property name="Sheetfile" value="RaspberryPiPower.kicad_sch"/>
+      <sheetpath names="/RaspberryPiPower/" tstamps="/6c4087b1-d585-4615-84b3-d395a8b5856d/"/>
+      <tstamps>c16e1378-ee11-43ee-9091-3cf8d3755162</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>DMG2305UX-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET P-Ch 20V 5A Enhancement SOT23 Diodes Inc DMG2305UX-7 P-channel MOSFET Transistor, -3.3 A, -20 V, 3-Pin SOT-23</field>
+        <field name="LCSC">C2940629</field>
+        <field name="Mouser">621-DMG2305UX-7</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="DMG2305UX-7" description="MOSFET P-Ch 20V 5A Enhancement SOT23 Diodes Inc DMG2305UX-7 P-channel MOSFET Transistor, -3.3 A, -20 V, 3-Pin SOT-23"/>
+      <property name="Description" value="MOSFET P-Ch 20V 5A Enhancement SOT23 Diodes Inc DMG2305UX-7 P-channel MOSFET Transistor, -3.3 A, -20 V, 3-Pin SOT-23"/>
+      <property name="LCSC" value="C2940629"/>
+      <property name="Mouser" value="621-DMG2305UX-7"/>
+      <property name="Sheetname" value="RaspberryPiPower"/>
+      <property name="Sheetfile" value="RaspberryPiPower.kicad_sch"/>
+      <sheetpath names="/RaspberryPiPower/" tstamps="/6c4087b1-d585-4615-84b3-d395a8b5856d/"/>
+      <tstamps>1f6d85e7-6f26-4417-a374-26a54cd21a91</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="RaspberryPiPower"/>
+      <property name="Sheetfile" value="RaspberryPiPower.kicad_sch"/>
+      <sheetpath names="/RaspberryPiPower/" tstamps="/6c4087b1-d585-4615-84b3-d395a8b5856d/"/>
+      <tstamps>d600cfcb-687e-457d-83a9-f6fdf751a73b</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="RaspberryPiPower"/>
+      <property name="Sheetfile" value="RaspberryPiPower.kicad_sch"/>
+      <sheetpath names="/RaspberryPiPower/" tstamps="/6c4087b1-d585-4615-84b3-d395a8b5856d/"/>
+      <tstamps>d14b199b-0896-4caf-9294-0f8b8ee4224c</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C5140188</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C5140188"/>
+      <property name="Sheetname" value="RaspberryPiPower"/>
+      <property name="Sheetfile" value="RaspberryPiPower.kicad_sch"/>
+      <sheetpath names="/RaspberryPiPower/" tstamps="/6c4087b1-d585-4615-84b3-d395a8b5856d/"/>
+      <tstamps>44471c99-33b1-4dc3-a9f8-7f908acebced</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>47K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C102018</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C102018"/>
+      <property name="Sheetname" value="RaspberryPiPower"/>
+      <property name="Sheetfile" value="RaspberryPiPower.kicad_sch"/>
+      <sheetpath names="/RaspberryPiPower/" tstamps="/6c4087b1-d585-4615-84b3-d395a8b5856d/"/>
+      <tstamps>1dab99d4-401f-4cbc-baae-6f99b48c1825</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>LM2596S-ADJ</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2596.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="LM2596S-ADJ" description="Adjustable 3A Step-Down Voltage Regulator, TO-263"/>
+      <property name="Sheetname" value="RaspberryPiPower"/>
+      <property name="Sheetfile" value="RaspberryPiPower.kicad_sch"/>
+      <sheetpath names="/RaspberryPiPower/" tstamps="/6c4087b1-d585-4615-84b3-d395a8b5856d/"/>
+      <tstamps>bf8fccf1-cff4-4a6d-8934-d2c9e9f32789</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100uF 50V</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
+      <fields>
+        <field name="LCSC">C445063</field>
+        <field name="Manufacturer_Part_Number">C3339</field>
+        <field name="Purpose">decoupling</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part#" value=""/>
+      <property name="Manufacturer_Part_Number" value="C3339"/>
+      <property name="Purpose" value="decoupling"/>
+      <property name="LCSC" value="C445063"/>
+      <property name="Sheetname" value="FluidMotors"/>
+      <property name="Sheetfile" value="FluidMotors.kicad_sch"/>
+      <sheetpath names="/FluidMotors/" tstamps="/509754cd-dbf1-46e6-965c-38d41c0b6924/"/>
+      <tstamps>b391f05e-9d79-4808-8c88-d0da93b38ae2</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100uF 50V</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
+      <fields>
+        <field name="LCSC">C445063</field>
+        <field name="Manufacturer_Part_Number">C3339</field>
+        <field name="Purpose">decoupling</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part#" value=""/>
+      <property name="Manufacturer_Part_Number" value="C3339"/>
+      <property name="Purpose" value="decoupling"/>
+      <property name="LCSC" value="C445063"/>
+      <property name="Sheetname" value="FluidMotors"/>
+      <property name="Sheetfile" value="FluidMotors.kicad_sch"/>
+      <sheetpath names="/FluidMotors/" tstamps="/509754cd-dbf1-46e6-965c-38d41c0b6924/"/>
+      <tstamps>e00c426b-f72a-4212-94e0-d9ce7621402d</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C531179</field>
+        <field name="Purpose">decoupling</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Purpose" value="decoupling"/>
+      <property name="LCSC" value="C531179"/>
+      <property name="Sheetname" value="FluidMotors"/>
+      <property name="Sheetfile" value="FluidMotors.kicad_sch"/>
+      <sheetpath names="/FluidMotors/" tstamps="/509754cd-dbf1-46e6-965c-38d41c0b6924/"/>
+      <tstamps>ea895115-43dd-412e-a12c-5a4bbf8914e0</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C531179</field>
+        <field name="Purpose">decoupling</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Purpose" value="decoupling"/>
+      <property name="LCSC" value="C531179"/>
+      <property name="Sheetname" value="FluidMotors"/>
+      <property name="Sheetfile" value="FluidMotors.kicad_sch"/>
+      <sheetpath names="/FluidMotors/" tstamps="/509754cd-dbf1-46e6-965c-38d41c0b6924/"/>
+      <tstamps>398454fc-117f-46f9-a536-a0824937f2c4</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C114565</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C114565"/>
+      <property name="Sheetname" value="FluidMotors"/>
+      <property name="Sheetfile" value="FluidMotors.kicad_sch"/>
+      <sheetpath names="/FluidMotors/" tstamps="/509754cd-dbf1-46e6-965c-38d41c0b6924/"/>
+      <tstamps>cab08119-0e04-4159-a5c8-d70b94063c85</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C114565</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C114565"/>
+      <property name="Sheetname" value="FluidMotors"/>
+      <property name="Sheetfile" value="FluidMotors.kicad_sch"/>
+      <sheetpath names="/FluidMotors/" tstamps="/509754cd-dbf1-46e6-965c-38d41c0b6924/"/>
+      <tstamps>403a04d0-feeb-4614-b4d2-4be145463f80</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C114565</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C114565"/>
+      <property name="Sheetname" value="FluidMotors"/>
+      <property name="Sheetfile" value="FluidMotors.kicad_sch"/>
+      <sheetpath names="/FluidMotors/" tstamps="/509754cd-dbf1-46e6-965c-38d41c0b6924/"/>
+      <tstamps>24a41367-f749-4d24-8d97-e1876b4712ad</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C114565</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C114565"/>
+      <property name="Sheetname" value="FluidMotors"/>
+      <property name="Sheetfile" value="FluidMotors.kicad_sch"/>
+      <sheetpath names="/FluidMotors/" tstamps="/509754cd-dbf1-46e6-965c-38d41c0b6924/"/>
+      <tstamps>a00136a6-7e5e-4701-a6be-836ac909d5aa</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TMC2208_Carrier</value>
+      <footprint>SnapEDA Library:MODULE_TMC2208_SILENTSTEPSTICK</footprint>
+      <fields>
+        <field name="MANUFACTURER">Trinamic Motion</field>
+        <field name="Purpose">Primairy steppermotor driver</field>
+        <field name="TinyTronics">https://www.tinytronics.nl/shop/nl/mechanica-en-actuatoren/motoraansturingen-en-drivers/stappen-motoraansturingen-en-drivers/tmc2208-motor-driver-module</field>
+      </fields>
+      <libsource lib="" part="TMC2208_SILENTSTEPSTICK_1" description=""/>
+      <property name="MANUFACTURER" value="Trinamic Motion"/>
+      <property name="Purpose" value="Primairy steppermotor driver"/>
+      <property name="TinyTronics" value="https://www.tinytronics.nl/shop/nl/mechanica-en-actuatoren/motoraansturingen-en-drivers/stappen-motoraansturingen-en-drivers/tmc2208-motor-driver-module"/>
+      <property name="Sheetname" value="FluidMotors"/>
+      <property name="Sheetfile" value="FluidMotors.kicad_sch"/>
+      <sheetpath names="/FluidMotors/" tstamps="/509754cd-dbf1-46e6-965c-38d41c0b6924/"/>
+      <tstamps>c1dc1b77-ffa7-4f69-878e-c9530094aabf</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TMC2208_Carrier</value>
+      <footprint>SnapEDA Library:MODULE_TMC2208_SILENTSTEPSTICK</footprint>
+      <fields>
+        <field name="MANUFACTURER">Trinamic Motion</field>
+        <field name="Purpose">Secundary steppermotor driver</field>
+        <field name="TinyTronics">https://www.tinytronics.nl/shop/nl/mechanica-en-actuatoren/motoraansturingen-en-drivers/stappen-motoraansturingen-en-drivers/tmc2208-motor-driver-module</field>
+      </fields>
+      <libsource lib="" part="TMC2208_SILENTSTEPSTICK_1" description=""/>
+      <property name="MANUFACTURER" value="Trinamic Motion"/>
+      <property name="Purpose" value="Secundary steppermotor driver"/>
+      <property name="TinyTronics" value="https://www.tinytronics.nl/shop/nl/mechanica-en-actuatoren/motoraansturingen-en-drivers/stappen-motoraansturingen-en-drivers/tmc2208-motor-driver-module"/>
+      <property name="Sheetname" value="FluidMotors"/>
+      <property name="Sheetfile" value="FluidMotors.kicad_sch"/>
+      <sheetpath names="/FluidMotors/" tstamps="/509754cd-dbf1-46e6-965c-38d41c0b6924/"/>
+      <tstamps>87051d40-c155-42ae-a681-4d15ce0c4865</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C531179</field>
+        <field name="Purpose">decoupling</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Purpose" value="decoupling"/>
+      <property name="LCSC" value="C531179"/>
+      <property name="Sheetname" value="FocusMotors"/>
+      <property name="Sheetfile" value="FocusMotors.kicad_sch"/>
+      <sheetpath names="/FocusMotors/" tstamps="/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/"/>
+      <tstamps>6a1389f5-af30-47b1-b0e6-d495f68a5530</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C531179</field>
+        <field name="Purpose">decoupling</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Purpose" value="decoupling"/>
+      <property name="LCSC" value="C531179"/>
+      <property name="Sheetname" value="FocusMotors"/>
+      <property name="Sheetfile" value="FocusMotors.kicad_sch"/>
+      <sheetpath names="/FocusMotors/" tstamps="/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/"/>
+      <tstamps>45cf8dc3-5f81-4af3-b0d1-8379078362f4</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100uF 50V</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
+      <fields>
+        <field name="LCSC">C445063</field>
+        <field name="Manufacturer_Part_Number">C525005</field>
+        <field name="Purpose">decoupling</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC Part#" value=""/>
+      <property name="Manufacturer_Part_Number" value="C525005"/>
+      <property name="Purpose" value="decoupling"/>
+      <property name="LCSC" value="C445063"/>
+      <property name="Sheetname" value="FocusMotors"/>
+      <property name="Sheetfile" value="FocusMotors.kicad_sch"/>
+      <sheetpath names="/FocusMotors/" tstamps="/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/"/>
+      <tstamps>6a92e50c-ed6c-499b-95da-e3221c59e174</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>10uF 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17024</field>
+        <field name="Manufacturer_Part_Number">C513765</field>
+        <field name="Purpose">decoupling</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer_Part_Number" value="C513765"/>
+      <property name="LCSC Part#" value=""/>
+      <property name="Purpose" value="decoupling"/>
+      <property name="LCSC" value="C17024"/>
+      <property name="Sheetname" value="FocusMotors"/>
+      <property name="Sheetfile" value="FocusMotors.kicad_sch"/>
+      <sheetpath names="/FocusMotors/" tstamps="/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/"/>
+      <tstamps>e5d64b5c-b610-4e2e-9355-8b38ef775df4</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C531179</field>
+        <field name="Purpose">decoupling</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Purpose" value="decoupling"/>
+      <property name="LCSC" value="C531179"/>
+      <property name="Sheetname" value="FocusMotors"/>
+      <property name="Sheetfile" value="FocusMotors.kicad_sch"/>
+      <sheetpath names="/FocusMotors/" tstamps="/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/"/>
+      <tstamps>d82a4c9c-4d57-45b3-be3e-d497c1cc4ec7</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C114565</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C114565"/>
+      <property name="Sheetname" value="FocusMotors"/>
+      <property name="Sheetfile" value="FocusMotors.kicad_sch"/>
+      <sheetpath names="/FocusMotors/" tstamps="/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/"/>
+      <tstamps>9574c2c2-0489-4094-bbea-0f63f4a444cf</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C114565</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C114565"/>
+      <property name="Sheetname" value="FocusMotors"/>
+      <property name="Sheetfile" value="FocusMotors.kicad_sch"/>
+      <sheetpath names="/FocusMotors/" tstamps="/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/"/>
+      <tstamps>e449317c-5d3c-4f00-86af-b9868a847145</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>TMC2208_Carrier</value>
+      <footprint>SnapEDA Library:MODULE_TMC2208_SILENTSTEPSTICK</footprint>
+      <fields>
+        <field name="MANUFACTURER">Trinamic Motion</field>
+        <field name="Purpose">Focus steppermotor driver</field>
+        <field name="TinyTronics">https://www.tinytronics.nl/shop/nl/mechanica-en-actuatoren/motoraansturingen-en-drivers/stappen-motoraansturingen-en-drivers/tmc2208-motor-driver-module</field>
+      </fields>
+      <libsource lib="" part="TMC2208_SILENTSTEPSTICK_1" description=""/>
+      <property name="MANUFACTURER" value="Trinamic Motion"/>
+      <property name="Purpose" value="Focus steppermotor driver"/>
+      <property name="TinyTronics" value="https://www.tinytronics.nl/shop/nl/mechanica-en-actuatoren/motoraansturingen-en-drivers/stappen-motoraansturingen-en-drivers/tmc2208-motor-driver-module"/>
+      <property name="Sheetname" value="FocusMotors"/>
+      <property name="Sheetfile" value="FocusMotors.kicad_sch"/>
+      <sheetpath names="/FocusMotors/" tstamps="/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/"/>
+      <tstamps>8f0de300-69f3-4997-87b5-be68c5302aa1</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>DRV8838 POLOLU</value>
+      <footprint>Module:DRV8838 POLOLU</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv8837.pdf</datasheet>
+      <fields>
+        <field name="Vanallesenmeer">https://www.vanallesenmeer.nl/DRV8838-Single-Brushed-DC-Motor-Driver-Carrier-Pololu-2990</field>
+      </fields>
+      <libsource lib="Driver_Motor" part="DRV8838 POLOLU" description="H-Bridge driver, 1.8A, Low Voltage, PH/EN input, WSON-8"/>
+      <property name="Vanallesenmeer" value="https://www.vanallesenmeer.nl/DRV8838-Single-Brushed-DC-Motor-Driver-Carrier-Pololu-2990"/>
+      <property name="Sheetname" value="FocusMotors"/>
+      <property name="Sheetfile" value="FocusMotors.kicad_sch"/>
+      <sheetpath names="/FocusMotors/" tstamps="/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/"/>
+      <tstamps>1d3758c9-7eb3-42ba-8ec8-545ede1e6fd7</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>TLV1117-33</value>
+      <footprint>SamacSys_Parts:SOT230P700X180-4N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv1117.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C37359</field>
+        <field name="Purpose">Voltage regulator</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TLV1117-33" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"/>
+      <property name="LCSC" value="C37359"/>
+      <property name="Purpose" value="Voltage regulator"/>
+      <property name="Sheetname" value="FocusMotors"/>
+      <property name="Sheetfile" value="FocusMotors.kicad_sch"/>
+      <sheetpath names="/FocusMotors/" tstamps="/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/"/>
+      <tstamps>981d5a8d-1ed2-4526-9cfd-d88479025092</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="1778780_1">
+      <description>PCB header, nominal cross section: 0.5 mm?, color: black, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 4, Number of rows: 1, Number of positions per row: 4, number of connections: 4, product range: PTSM 0,5/..-HH-SMD, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape, Article with anti-rotation pin</description>
+      <docs>http://www.phoenixcontact.com/de/produkte/1778780/pdf</docs>
+      <fields>
+        <field name="Reference">J?</field>
+        <field name="Value">1778780_1</field>
+        <field name="Footprint">1778780</field>
+        <field name="Datasheet">http://www.phoenixcontact.com/de/produkte/1778780/pdf</field>
+        <field name="Description">PCB header, nominal cross section: 0.5 mm?, color: black, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 4, Number of rows: 1, Number of positions per row: 4, number of connections: 4, product range: PTSM 0,5/..-HH-SMD, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape, Article with anti-rotation pin</field>
+        <field name="Height">5.1</field>
+        <field name="Mouser Part Number">651-1778780</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1778780?qs=pYfYGt2amwkFYtacWTGMiw%3D%3D</field>
+        <field name="Manufacturer_Name">Phoenix Contact</field>
+        <field name="Manufacturer_Part_Number">1778780</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="TMC2208_SILENTSTEPSTICK_1">
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">TMC2208_Carrier</field>
+        <field name="Footprint">SnapEDA Library:MODULE_TMC2208_SILENTSTEPSTICK</field>
+        <field name="MANUFACTURER">Trinamic Motion</field>
+        <field name="Purpose">Primairy steppermotor driver</field>
+      </fields>
+      <pins>
+        <pin num="JP1_1" name="DIR" type="input"/>
+        <pin num="JP1_2" name="STEP" type="input"/>
+        <pin num="JP1_3" name="CLK" type="input"/>
+        <pin num="JP1_4" name="PDN/UART1" type="bidirectional"/>
+        <pin num="JP1_5" name="PDN/UART2" type="bidirectional"/>
+        <pin num="JP1_6" name="MS2" type="input"/>
+        <pin num="JP1_7" name="MS1" type="input"/>
+        <pin num="JP1_8" name="EN" type="input"/>
+        <pin num="JP2_1" name="VM" type="power_in"/>
+        <pin num="JP2_2" name="GND" type="power_in"/>
+        <pin num="JP2_3" name="OA2" type="passive"/>
+        <pin num="JP2_4" name="OA1" type="passive"/>
+        <pin num="JP2_5" name="OB1" type="passive"/>
+        <pin num="JP2_6" name="OB2" type="passive"/>
+        <pin num="JP2_7" name="VIO" type="power_in"/>
+        <pin num="JP2_8" name="GND" type="power_in"/>
+        <pin num="JP3_1" name="DIAG" type="output"/>
+        <pin num="JP3_2" name="INDEX" type="output"/>
+        <pin num="VREF" name="VREF" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Male">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Jack-DC">
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J5</field>
+        <field name="Value">Jack-DC 12V+</field>
+        <field name="Footprint">Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x20_Odd_Even">
+      <description>Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x20_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="PeltierElement">
+      <description>Peltier element, thermoelectric cooler</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">PE</field>
+        <field name="Value">PeltierElement</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_Motor" part="DRV8838 POLOLU">
+      <description>H-Bridge driver, 1.8A, Low Voltage, PH/EN input, WSON-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/drv8837.pdf</docs>
+      <footprints>
+        <fp>WSON*1EP*2x2mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DRV8838 POLOLU</field>
+        <field name="Footprint">Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/drv8837.pdf</field>
+      </fields>
+      <pins>
+        <pin num="01" name="OUT1" type="output"/>
+        <pin num="02" name="OUT2" type="output"/>
+        <pin num="EN" name="ENABLE" type="input"/>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="PH" name="PH" type="input"/>
+        <pin num="VCC" name="VCC" type="power_in"/>
+        <pin num="VIN" name="VIN" type="power_in"/>
+        <pin num="VM" name="VM" type="power_in"/>
+        <pin num="~sleep" name="SLEEP" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_Motor" part="DRV8870DDA">
+      <description>Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Dynamic current limiting, HTSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/drv8870.pdf</docs>
+      <footprints>
+        <fp>Texas*HTSOP*1EP*3.9x4.9mm*P1.27mm*EP2.95x4.9mm*Mask2.4x3.1mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DRV8870DDA</field>
+        <field name="Footprint">Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/drv8870.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="IN2" type="input"/>
+        <pin num="3" name="IN1" type="input"/>
+        <pin num="4" name="VREF" type="input"/>
+        <pin num="5" name="VM" type="power_in"/>
+        <pin num="6" name="OUT1" type="output"/>
+        <pin num="7" name="ISEN" type="passive"/>
+        <pin num="8" name="OUT2" type="output"/>
+        <pin num="9" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_3_Open">
+      <description>Jumper, 3-pole, both open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*3Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_3_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_EEPROM" part="CAT24C256">
+      <description>256 kb CMOS Serial EEPROM, DIP-8/SOIC-8/TSSOP-8/DFN-8</description>
+      <docs>https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>DFN*3x2mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CAT24C256</field>
+        <field name="Datasheet">https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="bidirectional"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor" part="Fan">
+      <description>Fan</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Fan</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="TLV1117-33">
+      <description>800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?252*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U8</field>
+        <field name="Value">TLV1117-33</field>
+        <field name="Footprint">SamacSys_Parts:SOT230P700X180-4N</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+        <pin num="4" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="LM2596S-ADJ">
+      <description>Adjustable 3A Step-Down Voltage Regulator, TO-263</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2596.pdf</docs>
+      <footprints>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2596S-ADJ</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-263-5_TabPin3</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm2596.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="OUT" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="~{ON}/OFF" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SM04B-SRSS-TB_LF__SN_" part="SM04B-SRSS-TB(LF)(SN)">
+      <fields>
+        <field name="Reference">J?</field>
+        <field name="Value">SM04B-SRSS-TB(LF)(SN)</field>
+        <field name="Footprint">JST_SM04B-SRSS-TB(LF)(SN)</field>
+        <field name="MANUFACTURER">JST</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="BCR420UW6-7">
+      <description>LED Lighting Drivers 10mA LED Curr Reg 350mA 40V 10kHz</description>
+      <docs>https://www.arrow.com/en/products/bcr420uw6-7/diodes-incorporated</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">BCR420UW6-7</field>
+        <field name="Footprint">SOT95P285X140-6N</field>
+        <field name="Datasheet">https://www.arrow.com/en/products/bcr420uw6-7/diodes-incorporated</field>
+        <field name="Description">LED Lighting Drivers 10mA LED Curr Reg 350mA 40V 10kHz</field>
+        <field name="Height">1.4</field>
+        <field name="Mouser Part Number">621-BCR420UW6-7</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BCR420UW6-7?qs=pyrzFRyRzn6yrtUh9GiIPg%3D%3D</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">BCR420UW6-7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="passive"/>
+        <pin num="2" name="OUT_1" type="passive"/>
+        <pin num="3" name="OUT_2" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="OUT_3" type="passive"/>
+        <pin num="6" name="REXT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="DMG2305UX-7">
+      <description>MOSFET P-Ch 20V 5A Enhancement SOT23 Diodes Inc DMG2305UX-7 P-channel MOSFET Transistor, -3.3 A, -20 V, 3-Pin SOT-23</description>
+      <docs>https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMG2305UX-7</field>
+        <field name="Footprint">SOT96P240X110-3N</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf</field>
+        <field name="Description">MOSFET P-Ch 20V 5A Enhancement SOT23 Diodes Inc DMG2305UX-7 P-channel MOSFET Transistor, -3.3 A, -20 V, 3-Pin SOT-23</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">621-DMG2305UX-7</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG2305UX-7?qs=L1DZKBg7t5F%2FNBHrjfxC%252Bg%3D%3D</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">DMG2305UX-7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="DMMT5401-7-F">
+      <description>Transistor Dual PNP 150V 0.2A SOT26-6 Diodes Inc DMMT5401-7-F Dual PNP Bipolar Transistor, -200 mA, -150 V, 6-Pin SOT-26</description>
+      <docs>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-9/DSA-164366.pdf</docs>
+      <fields>
+        <field name="Reference">IC?</field>
+        <field name="Value">DMMT5401-7-F</field>
+        <field name="Footprint">SOT95P285X140-6N</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-9/DSA-164366.pdf</field>
+        <field name="Description">Transistor Dual PNP 150V 0.2A SOT26-6 Diodes Inc DMMT5401-7-F Dual PNP Bipolar Transistor, -200 mA, -150 V, 6-Pin SOT-26</field>
+        <field name="Height">1.4</field>
+        <field name="Mouser Part Number">621-DMMT5401-7-F</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMMT5401-7-F?qs=hiZRsJxw0h3f7LzTPwvEFQ%3D%3D</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">DMMT5401-7-F</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C1" type="passive"/>
+        <pin num="2" name="B1" type="passive"/>
+        <pin num="3" name="B2" type="passive"/>
+        <pin num="4" name="C2" type="passive"/>
+        <pin num="5" name="E2" type="passive"/>
+        <pin num="6" name="E1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="ESD7351HT1G">
+      <description>ESD Suppressors / TVS Diodes UNIDIRECTIONAL 3.3V ESD PR</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/ESD7351HT1G.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ESD7351HT1G</field>
+        <field name="Footprint">SOD2512X110N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/ESD7351HT1G.pdf</field>
+        <field name="Description">ESD Suppressors / TVS Diodes UNIDIRECTIONAL 3.3V ESD PR</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">863-ESD7351HT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/ESD7351HT1G?qs=dbuNSGnowt39rUvUpno3Rw%3D%3D</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">ESD7351HT1G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="SMBJ26A">
+      <description>TVS Diode Single Uni-Dir 26V 600W 2-Pin SMB T/R</description>
+      <docs>https://www.bourns.com/docs/product-datasheets/smbj.pdf?sfvrsn=34552159_17</docs>
+      <fields>
+        <field name="Reference">D3</field>
+        <field name="Value">SMBJ26A</field>
+        <field name="Footprint">Snapeda:DIOM4336X265N</field>
+        <field name="Datasheet">https://www.bourns.com/docs/product-datasheets/smbj.pdf?sfvrsn=34552159_17</field>
+        <field name="Description">TVS Diode Single Uni-Dir 26V 600W 2-Pin SMB T/R</field>
+        <field name="Height">2.44</field>
+        <field name="Mouser Part Number">652-SMBJ26A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Bourns/SMBJ26A?qs=%252Bf8Cd6aE5bzyuNXx4QjGJA%3D%3D</field>
+        <field name="Manufacturer_Name">Bourns</field>
+        <field name="Manufacturer_Part_Number">SMBJ26A</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="K" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-LED" part="LED5MM">
+      <description>&lt;b&gt;LED (Generic)&lt;/b&gt;Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LEDs. Generic LEDs with no color specified.</description>
+      <footprints>
+        <fp>*LED_5MM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED5MM</field>
+        <field name="Footprint">LED_5MM</field>
+        <field name="Field4">XXX-00000</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="K" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Resistors" part="1.20KOHM-0603-1_10W-1%">
+      <description>1.20k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia</description>
+      <footprints>
+        <fp>*0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1.20KOHM-0603-1_10W-1%</field>
+        <field name="Footprint">0603</field>
+        <field name="Field4">RES-08413</field>
+        <field name="Field5">RES-09383</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="2N7002K">
+      <description>0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.diodes.com/assets/Datasheets/ds30896.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002K</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds30896.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="DMG1012T">
+      <description>20V Vds, 0.63 Id, N-Channel MOSFET with ESD protection, SOT-523</description>
+      <docs>https://www.diodes.com/assets/Datasheets/ds31783.pdf</docs>
+      <footprints>
+        <fp>SOT?523*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMG1012T</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-523</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds31783.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Driver_Motor">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Driver_Motor.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Memory_EEPROM">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Memory_EEPROM.kicad_sym</uri>
+    </library>
+    <library logical="Motor">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Motor.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/Users/crtak/Documents/KiCad/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="SparkFun-LED">
+      <uri>C:/Users/crtak/Documents/KiCad/6.0/Libraries/SparkFun-KiCad-Libraries-master/SparkFun-KiCad-Libraries-master/Libraries/SparkFun-LED.lib</uri>
+    </library>
+    <library logical="SparkFun-Resistors">
+      <uri>C:/Users/crtak/Documents/KiCad/6.0/Libraries/SparkFun-KiCad-Libraries-master/SparkFun-KiCad-Libraries-master/Libraries/SparkFun-Resistors.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/FluidMotors/OA1PRI">
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U3" pin="JP2_4" pinfunction="OA1" pintype="passive"/>
+    </net>
+    <net code="2" name="/FluidMotors/OA1SEC">
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U4" pin="JP2_4" pinfunction="OA1" pintype="passive"/>
+    </net>
+    <net code="3" name="/FluidMotors/OA2PRI">
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U3" pin="JP2_3" pinfunction="OA2" pintype="passive"/>
+    </net>
+    <net code="4" name="/FluidMotors/OA2SEC">
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U4" pin="JP2_3" pinfunction="OA2" pintype="passive"/>
+    </net>
+    <net code="5" name="/FluidMotors/OB1PRI">
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="JP2_5" pinfunction="OB1" pintype="passive"/>
+    </net>
+    <net code="6" name="/FluidMotors/OB1SEC">
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U4" pin="JP2_5" pinfunction="OB1" pintype="passive"/>
+    </net>
+    <net code="7" name="/FluidMotors/OB2PRI">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="JP2_6" pinfunction="OB2" pintype="passive"/>
+    </net>
+    <net code="8" name="/FluidMotors/OB2SEC">
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="JP2_6" pinfunction="OB2" pintype="passive"/>
+    </net>
+    <net code="9" name="/FocusMotors/OA1FOCUS">
+      <node ref="J3" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U6" pin="JP2_4" pinfunction="OA1" pintype="passive"/>
+    </net>
+    <net code="10" name="/FocusMotors/OA2FOCUS">
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U6" pin="JP2_3" pinfunction="OA2" pintype="passive"/>
+    </net>
+    <net code="11" name="/FocusMotors/OB1FOCUS">
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U6" pin="JP2_5" pinfunction="OB1" pintype="passive"/>
+    </net>
+    <net code="12" name="/FocusMotors/OB2FOCUS">
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="JP2_6" pinfunction="OB2" pintype="passive"/>
+    </net>
+    <net code="13" name="/FocusMotors/out1">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U7" pin="01" pinfunction="OUT1" pintype="output"/>
+    </net>
+    <net code="14" name="/FocusMotors/out2">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U7" pin="02" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="15" name="3.3V+">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="J10" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VREF" pintype="input"/>
+      <node ref="U3" pin="JP2_7" pinfunction="VIO" pintype="power_in"/>
+      <node ref="U4" pin="JP2_7" pinfunction="VIO" pintype="power_in"/>
+      <node ref="U6" pin="JP2_7" pinfunction="VIO" pintype="power_in"/>
+      <node ref="U7" pin="VCC" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U9" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="16" name="5V+">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="IC2" pin="5" pinfunction="E2" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J11" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP3" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="Q3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U8" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="17" name="12V+">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="F3" pin="1" pintype="passive"/>
+      <node ref="F4" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="M1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="JP2_1" pinfunction="VM" pintype="power_in"/>
+      <node ref="U4" pin="JP2_1" pinfunction="VM" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U6" pin="JP2_1" pinfunction="VM" pintype="power_in"/>
+    </net>
+    <net code="18" name="12VIN">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="CTRLFAN">
+      <node ref="J10" pin="32" pinfunction="Pin_32" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="CTRLHEAT">
+      <node ref="J10" pin="30" pinfunction="Pin_30" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="CTRLLED">
+      <node ref="IC1" pin="1" pinfunction="EN" pintype="passive"/>
+      <node ref="J10" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="DIRFOCUS">
+      <node ref="J10" pin="38" pinfunction="Pin_38" pintype="passive"/>
+      <node ref="U6" pin="JP1_1" pinfunction="DIR" pintype="input"/>
+    </net>
+    <net code="23" name="DIRPRI">
+      <node ref="J10" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="U3" pin="JP1_1" pinfunction="DIR" pintype="input"/>
+    </net>
+    <net code="24" name="DIRSEC">
+      <node ref="J10" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U4" pin="JP1_1" pinfunction="DIR" pintype="input"/>
+    </net>
+    <net code="25" name="ENDRV">
+      <node ref="J10" pin="31" pinfunction="Pin_31" pintype="passive"/>
+      <node ref="U7" pin="EN" pinfunction="ENABLE" pintype="input"/>
+    </net>
+    <net code="26" name="ENFOC">
+      <node ref="J10" pin="35" pinfunction="Pin_35" pintype="passive"/>
+      <node ref="U6" pin="JP1_8" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="27" name="ENPRI">
+      <node ref="J10" pin="39" pinfunction="Pin_39" pintype="passive"/>
+      <node ref="U3" pin="JP1_8" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="28" name="ENSEC">
+      <node ref="J10" pin="37" pinfunction="Pin_37" pintype="passive"/>
+      <node ref="U4" pin="JP1_8" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="29" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pintype="passive"/>
+      <node ref="D3" pin="A" pintype="passive"/>
+      <node ref="D4" pin="2" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J10" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J10" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J10" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J10" pin="26" pinfunction="Pin_26" pintype="passive"/>
+      <node ref="J10" pin="29" pinfunction="Pin_29" pintype="passive"/>
+      <node ref="J10" pin="33" pinfunction="Pin_33" pintype="passive"/>
+      <node ref="J10" pin="40" pinfunction="Pin_40" pintype="passive"/>
+      <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J11" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J11" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J5" pin="2" pintype="passive"/>
+      <node ref="J5" pin="3" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J6" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J6" pin="S2" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="JP2_2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="JP2_8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="JP2_2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="JP2_8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="5" pinfunction="~{ON}/OFF" pintype="input"/>
+      <node ref="U6" pin="JP2_2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="JP2_8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="GND" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="30" name="GPIO9">
+      <node ref="J10" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="31" name="GPIO10">
+      <node ref="J10" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="32" name="GPIO11">
+      <node ref="J10" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="33" name="GPIO14">
+      <node ref="J10" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="34" name="GPIO15">
+      <node ref="J10" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="35" name="ID_SCL">
+      <node ref="J10" pin="27" pinfunction="Pin_27" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U9" pin="6" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="36" name="ID_SDA">
+      <node ref="J10" pin="28" pinfunction="Pin_28" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U9" pin="5" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="IN1">
+      <node ref="J10" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="IN1" pintype="input"/>
+    </net>
+    <net code="38" name="IN2">
+      <node ref="J10" pin="25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="IN2" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U2" pin="4" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="40" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="F4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VM" pintype="power_in"/>
+    </net>
+    <net code="41" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D3" pin="K" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="IC2" pin="6" pinfunction="E1" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q3" pin="3" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(C15-Pad2)">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="U7" pin="VM" pinfunction="VM" pintype="power_in"/>
+      <node ref="U8" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U8" pin="4" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="44" name="Net-(D2-PadA)">
+      <node ref="D2" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="JP3" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(D2-PadK)">
+      <node ref="D2" pin="K" pinfunction="C" pintype="passive"/>
+      <node ref="JP5" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="47" name="Net-(F2-Pad2)">
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(F3-Pad2)">
+      <node ref="F3" pin="2" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5" pinfunction="OUT_3" pintype="passive"/>
+      <node ref="JP5" pin="3" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(IC1-Pad6)">
+      <node ref="IC1" pin="6" pinfunction="REXT" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(IC2-Pad1)">
+      <node ref="IC2" pin="1" pinfunction="C1" pintype="passive"/>
+      <node ref="IC2" pin="2" pinfunction="B1" pintype="passive"/>
+      <node ref="IC2" pin="3" pinfunction="B2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(IC2-Pad4)">
+      <node ref="IC2" pin="4" pinfunction="C2" pintype="passive"/>
+      <node ref="Q3" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(J7-Pad2)">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(J8-Pad2)">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(JP1-Pad1)">
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U9" pin="7" pinfunction="WP" pintype="input"/>
+    </net>
+    <net code="56" name="Net-(JP4-Pad1)">
+      <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="A2" pintype="input"/>
+    </net>
+    <net code="57" name="Net-(JP4-Pad2)">
+      <node ref="JP4" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U9" pin="2" pinfunction="A1" pintype="input"/>
+    </net>
+    <net code="58" name="Net-(JP4-Pad3)">
+      <node ref="JP4" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="U9" pin="1" pinfunction="A0" pintype="input"/>
+    </net>
+    <net code="59" name="Net-(JP5-Pad1)">
+      <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(M1-Pad2)">
+      <node ref="M1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(PE1-Pad1)">
+      <node ref="PE1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="62" name="Net-(PE1-Pad2)">
+      <node ref="PE1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="OUT1" pintype="output"/>
+    </net>
+    <net code="63" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(Q6-Pad1)">
+      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="ISEN" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="71" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U3" pin="JP1_7" pinfunction="MS1" pintype="input"/>
+    </net>
+    <net code="72" name="Net-(R21-Pad1)">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U3" pin="JP1_6" pinfunction="MS2" pintype="input"/>
+    </net>
+    <net code="73" name="Net-(R22-Pad1)">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U4" pin="JP1_7" pinfunction="MS1" pintype="input"/>
+    </net>
+    <net code="74" name="Net-(R23-Pad1)">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U4" pin="JP1_6" pinfunction="MS2" pintype="input"/>
+    </net>
+    <net code="75" name="Net-(R24-Pad1)">
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U6" pin="JP1_7" pinfunction="MS1" pintype="input"/>
+    </net>
+    <net code="76" name="Net-(R25-Pad1)">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U6" pin="JP1_6" pinfunction="MS2" pintype="input"/>
+    </net>
+    <net code="77" name="PHADRV">
+      <node ref="J10" pin="34" pinfunction="Pin_34" pintype="passive"/>
+      <node ref="U7" pin="PH" pinfunction="PH" pintype="input"/>
+    </net>
+    <net code="78" name="PWRGPIO1">
+      <node ref="J10" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="79" name="PWRGPIO2">
+      <node ref="J10" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="80" name="SCL">
+      <node ref="D1" pin="1" pintype="passive"/>
+      <node ref="J10" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="81" name="SDA">
+      <node ref="D4" pin="1" pintype="passive"/>
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="82" name="SLEEP">
+      <node ref="J10" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U7" pin="~sleep" pinfunction="SLEEP" pintype="input"/>
+    </net>
+    <net code="83" name="STEPFOCUS">
+      <node ref="J10" pin="36" pinfunction="Pin_36" pintype="passive"/>
+      <node ref="U6" pin="JP1_2" pinfunction="STEP" pintype="input"/>
+    </net>
+    <net code="84" name="STEPPRI">
+      <node ref="J10" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U3" pin="JP1_2" pinfunction="STEP" pintype="input"/>
+    </net>
+    <net code="85" name="STEPSEC">
+      <node ref="J10" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="U4" pin="JP1_2" pinfunction="STEP" pintype="input"/>
+    </net>
+    <net code="86" name="unconnected-(IC1-Pad2)">
+      <node ref="IC1" pin="2" pinfunction="OUT_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(IC1-Pad3)">
+      <node ref="IC1" pin="3" pinfunction="OUT_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U3-PadJP1_3)">
+      <node ref="U3" pin="JP1_3" pinfunction="CLK" pintype="input+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U3-PadJP1_4)">
+      <node ref="U3" pin="JP1_4" pinfunction="PDN/UART1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U3-PadJP1_5)">
+      <node ref="U3" pin="JP1_5" pinfunction="PDN/UART2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U3-PadJP3_1)">
+      <node ref="U3" pin="JP3_1" pinfunction="DIAG" pintype="output+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U3-PadJP3_2)">
+      <node ref="U3" pin="JP3_2" pinfunction="INDEX" pintype="output+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U3-PadVREF)">
+      <node ref="U3" pin="VREF" pinfunction="VREF" pintype="passive+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U4-PadJP1_3)">
+      <node ref="U4" pin="JP1_3" pinfunction="CLK" pintype="input+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U4-PadJP1_4)">
+      <node ref="U4" pin="JP1_4" pinfunction="PDN/UART1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U4-PadJP1_5)">
+      <node ref="U4" pin="JP1_5" pinfunction="PDN/UART2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U4-PadJP3_1)">
+      <node ref="U4" pin="JP3_1" pinfunction="DIAG" pintype="output+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U4-PadJP3_2)">
+      <node ref="U4" pin="JP3_2" pinfunction="INDEX" pintype="output+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U4-PadVREF)">
+      <node ref="U4" pin="VREF" pinfunction="VREF" pintype="passive+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U6-PadJP1_3)">
+      <node ref="U6" pin="JP1_3" pinfunction="CLK" pintype="input+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U6-PadJP1_4)">
+      <node ref="U6" pin="JP1_4" pinfunction="PDN/UART1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U6-PadJP1_5)">
+      <node ref="U6" pin="JP1_5" pinfunction="PDN/UART2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U6-PadJP3_1)">
+      <node ref="U6" pin="JP3_1" pinfunction="DIAG" pintype="output+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U6-PadJP3_2)">
+      <node ref="U6" pin="JP3_2" pinfunction="INDEX" pintype="output+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U6-PadVREF)">
+      <node ref="U6" pin="VREF" pinfunction="VREF" pintype="passive+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U7-PadVIN)">
+      <node ref="U7" pin="VIN" pinfunction="VIN" pintype="power_in+no_connect"/>
+    </net>
+  </nets>
+</export>
