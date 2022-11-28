@@ -9,7 +9,7 @@ class WidgetGallery(QDialog):
     def __init__(self, parent=None):
         super(WidgetGallery, self).__init__(parent)
 
-        disableWidgetsCheckBox = QCheckBox("&Disable widgets")
+        disableWidgetsCheckBox = QCheckBox("&Disable all widgets")
 
         self.createTopLeftGroupBox()
         self.createTopRightGroupBox()
@@ -40,66 +40,67 @@ class WidgetGallery(QDialog):
 
 
     def createTopLeftGroupBox(self):
-        self.topLeftGroupBox = QGroupBox("Temperature control")
+        self.topLeftGroupBox = QGroupBox("Camera control")
         self.topLeftGroupBox.setCheckable(True)
         self.topLeftGroupBox.setChecked(True)
         
-        radioButton1 = QRadioButton("Radio button 1")
-        radioButton2 = QRadioButton("Radio button 2")
-        radioButton3 = QRadioButton("Radio button 3")
-        radioButton1.setChecked(True)
+        StartRecordingButton = QPushButton("Start recording")
+        StartRecordingButton.setDefault(True)
+
+        StopRecordingButton = QPushButton("Stop recording")
+        StopRecordingButton.setDefault(True)
+
+        TakePictureButton = QPushButton("Take picture")
+        TakePictureButton.setDefault(True)
 
         layout = QVBoxLayout()
-        layout.addWidget(radioButton1)
-        layout.addWidget(radioButton2)
-        layout.addWidget(radioButton3)
+        layout.addWidget(StartRecordingButton)
+        layout.addWidget(StopRecordingButton)
+        layout.addWidget(TakePictureButton)
         layout.addStretch(1)
         self.topLeftGroupBox.setLayout(layout)
 
     def createTopRightGroupBox(self):
-        self.topRightGroupBox = QGroupBox("Light Intensity Control")
+        self.topRightGroupBox = QGroupBox("Temperature control")
         self.topRightGroupBox.setCheckable(True)
         self.topRightGroupBox.setChecked(True)
         
-        defaultPushButton = QPushButton("Default Push Button")
-        defaultPushButton.setDefault(True)
+        EnablePeltier = QPushButton("Enable Peltier")
+        EnablePeltier.setDefault(True)
 
         togglePushButton = QPushButton("Toggle Push Button")
         togglePushButton.setCheckable(True)
         togglePushButton.setChecked(True)
 
-        flatPushButton = QPushButton("Flat Push Button")
-        flatPushButton.setFlat(True)
+        spinBox = QSpinBox(self.topRightGroupBox)
+        spinBox.setValue(50)
 
-        layout = QVBoxLayout()
-        layout.addWidget(defaultPushButton)
-        layout.addWidget(togglePushButton)
-        layout.addStretch(1)
+
+        layout = QGridLayout()
+        layout.addWidget(spinBox, 1, 0, 1, 2)
+        layout.addWidget(EnablePeltier, 1,2)
+        layout.setRowStretch(5, 1)
         self.topRightGroupBox.setLayout(layout)
 
     def createBottomLeftGroupBox(self):
-        self.bottomLeftGroupBox = QGroupBox("Primary Motor Control")
+        self.bottomLeftGroupBox = QGroupBox("Motor control")
         self.bottomLeftGroupBox.setCheckable(True)
         self.bottomLeftGroupBox.setChecked(True)
 
-        defaultPushButton = QPushButton("Default Push Button")
-        defaultPushButton.setDefault(True)
+        EnablePrimeryMotor = QPushButton("Enable primary motor")
+        EnablePrimeryMotor.setDefault(True)
 
-        togglePushButton = QPushButton("Toggle Push Button")
-        togglePushButton.setCheckable(True)
-        togglePushButton.setChecked(True)
-
-        flatPushButton = QPushButton("Flat Push Button")
-        flatPushButton.setFlat(True)
+        EnableSecondaryMotor = QPushButton("Enable secondary motor")
+        EnableSecondaryMotor.setDefault(True)
 
         layout = QVBoxLayout()
-        layout.addWidget(defaultPushButton)
-        layout.addWidget(togglePushButton)
+        layout.addWidget(EnablePrimeryMotor)
+        layout.addWidget(EnableSecondaryMotor)
         layout.addStretch(1)
         self.bottomLeftGroupBox.setLayout(layout)
 
     def createBottomRightGroupBox(self):
-        self.bottomRightGroupBox = QGroupBox("Group 4")
+        self.bottomRightGroupBox = QGroupBox("Light Intensity Control")
         self.bottomRightGroupBox.setCheckable(True)
         self.bottomRightGroupBox.setChecked(True)
 
@@ -109,15 +110,10 @@ class WidgetGallery(QDialog):
         slider = QSlider(Qt.Orientation.Horizontal, self.bottomRightGroupBox)
         slider.setValue(40)
 
-        dial = QDial(self.bottomRightGroupBox)
-        dial.setValue(30)
-        dial.setNotchesVisible(True)
-
         layout = QGridLayout()
         layout.addWidget(spinBox, 1, 0, 1, 2)
         layout.addWidget(slider, 3, 0)
 
-        layout.addWidget(dial, 3, 1, 2, 1)
         layout.setRowStretch(5, 1)
         self.bottomRightGroupBox.setLayout(layout)
 
