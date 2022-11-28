@@ -4,7 +4,7 @@
 
 import sys
 
-from PyQt5 import QApplication, QMainWindow, QWidget
+from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget
 
 WINDOW_SIZE = 235
 
