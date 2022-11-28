@@ -11,16 +11,6 @@ class WidgetGallery(QDialog):
     def __init__(self, parent=None):
         super(WidgetGallery, self).__init__(parent)
 
-        self.originalPalette = QApplication.palette()
-
-        styleComboBox = QComboBox()
-        styleComboBox.addItems(QStyleFactory.keys())
-
-        styleLabel = QLabel("&Style:")
-        styleLabel.setBuddy(styleComboBox)
-
-        self.useStylePaletteCheckBox = QCheckBox("&Use style's standard palette")
-        
 
         disableWidgetsCheckBox = QCheckBox("&Disable widgets")
 
@@ -30,18 +20,15 @@ class WidgetGallery(QDialog):
         self.createBottomRightGroupBox()
 
 
-        styleComboBox.textActivated.connect(self.changeStyle)
-        self.useStylePaletteCheckBox.toggled.connect(self.changePalette)
         disableWidgetsCheckBox.toggled.connect(self.topLeftGroupBox.setDisabled)
         disableWidgetsCheckBox.toggled.connect(self.topRightGroupBox.setDisabled)
 
         disableWidgetsCheckBox.toggled.connect(self.bottomRightGroupBox.setDisabled)
 
         topLayout = QHBoxLayout()
-        topLayout.addWidget(styleLabel)
-        topLayout.addWidget(styleComboBox)
+
         topLayout.addStretch(1)
-        topLayout.addWidget(self.useStylePaletteCheckBox)
+
         topLayout.addWidget(disableWidgetsCheckBox)
 
         mainLayout = QGridLayout()
@@ -56,12 +43,7 @@ class WidgetGallery(QDialog):
         mainLayout.setColumnStretch(1, 1)
         self.setLayout(mainLayout)
 
-        self.setWindowTitle("Styles")
-        self.changeStyle('Windows')
 
-    def changeStyle(self, styleName):
-        QApplication.setStyle(QStyleFactory.create(styleName))
-        self.changePalette()
 
     def changePalette(self):
         if (self.useStylePaletteCheckBox.isChecked()):
