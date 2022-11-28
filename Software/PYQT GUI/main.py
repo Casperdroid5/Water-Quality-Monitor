@@ -1,10 +1,8 @@
 
-from PyQt5.QtCore import QDateTime, Qt, QTimer
-from PyQt5.QtWidgets import (QApplication, QCheckBox, QComboBox, QDateTimeEdit,
-        QDial, QDialog, QGridLayout, QGroupBox, QHBoxLayout, QLabel, QLineEdit,
-        QProgressBar, QPushButton, QRadioButton, QScrollBar, QSizePolicy,
-        QSlider, QSpinBox, QStyleFactory, QTableWidget, QTabWidget, QTextEdit,
-        QVBoxLayout, QWidget)
+from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import (QApplication, QCheckBox,
+        QDial, QDialog, QGridLayout, QGroupBox, QHBoxLayout, QLineEdit,
+        QPushButton, QRadioButton, QSlider, QSpinBox, QVBoxLayout)
 
 
 class WidgetGallery(QDialog):
