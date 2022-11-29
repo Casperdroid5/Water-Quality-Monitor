@@ -22,7 +22,7 @@ class WidgetGallery(QDialog):
         disableWidgetsCheckBox.toggled.connect(self.MotorControlBox.setDisabled)
         disableWidgetsCheckBox.toggled.connect(self.LightControlBox.setDisabled)
         disableWidgetsCheckBox.toggled.connect(self.PowerGPIOBox.setDisabled)
-        disableWidgetsCheckBox.toggled.connect(self.PanicBox.setDisabled)
+
 
         topLayout = QHBoxLayout()
         topLayout.addStretch(1)
@@ -151,8 +151,7 @@ class WidgetGallery(QDialog):
         
     def PanicBox(self):
         self.PanicBox = QGroupBox("Panic buttons")
-        self.PanicBox.setCheckable(True)
-        self.PanicBox.setChecked(True)
+
 
         KillAllPower = QPushButton("Kill all power")
         KillAllPower.setDefault(True)
