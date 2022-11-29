@@ -98,9 +98,17 @@ class WidgetGallery(QDialog):
         EnableSecondaryMotor = QPushButton("Enable secondary motor")
         EnableSecondaryMotor.setDefault(True)
 
+        RotateClockWise = QPushButton("Rotate ClockWise")
+        RotateClockWise.setDefault(True)
+
+        RotateCounterClockWise = QPushButton("RotateCounterClockWise")
+        RotateCounterClockWise.setDefault(True)
+
         layout = QVBoxLayout()
         layout.addWidget(EnablePrimeryMotor)
         layout.addWidget(EnableSecondaryMotor)
+        layout.addWidget(RotateClockWise)
+        layout.addWidget(RotateCounterClockWise)
         layout.addStretch(1)
         self.MotorControlBox.setLayout(layout)
 
