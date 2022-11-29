@@ -113,7 +113,6 @@ class WidgetGallery(QDialog):
         layout.addWidget(RotateCounterClockWise)
         layout.addWidget(Degrees)
 
-
         layout.addStretch(1)
         self.MotorControlBox.setLayout(layout)
 
