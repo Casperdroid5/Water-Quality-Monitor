@@ -1,9 +1,8 @@
 
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import (QApplication, QCheckBox,
-        QDial, QDialog, QGridLayout, QGroupBox, QHBoxLayout, 
-        QPushButton, QRadioButton, QSlider, QSpinBox, QVBoxLayout)
-
+        QDialog, QGridLayout, QGroupBox, QHBoxLayout, 
+        QPushButton, QSpinBox, QVBoxLayout)
 
 class WidgetGallery(QDialog):
     def __init__(self, parent=None):
@@ -88,7 +87,7 @@ class WidgetGallery(QDialog):
         self.TemperatureControlBox.setLayout(layout)
 
     def MotorControlBox(self):
-        self.MotorControlBox = QGroupBox("Motor control")
+        self.MotorControlBox = QGroupBox("Motor control") 
         self.MotorControlBox.setCheckable(True)
         self.MotorControlBox.setChecked(True)
 
@@ -104,11 +103,17 @@ class WidgetGallery(QDialog):
         RotateCounterClockWise = QPushButton("RotateCounterClockWise")
         RotateCounterClockWise.setDefault(True)
 
+        Degrees = QSpinBox(self.MotorControlBox)
+        Degrees.setValue(50)
+
         layout = QVBoxLayout()
         layout.addWidget(EnablePrimeryMotor)
         layout.addWidget(EnableSecondaryMotor)
         layout.addWidget(RotateClockWise)
         layout.addWidget(RotateCounterClockWise)
+        layout.addWidget(Degrees)
+
+
         layout.addStretch(1)
         self.MotorControlBox.setLayout(layout)
 
@@ -139,7 +144,7 @@ class WidgetGallery(QDialog):
 
         layout = QGridLayout()
         layout.addWidget(PGPIO1SPIN, 1, 0, 1, 2)
-        layout.addWidget(PGPIO2SPIN, 1, 1, 1, 2)
+        layout.addWidget(PGPIO2SPIN, 1, 2, 1, 2)
 
         layout.setRowStretch(5, 1)
         self.PowerGPIOBox.setLayout(layout)
