@@ -79,7 +79,7 @@ if __name__ == "__main__":
     print("Set Motor Step Test")
     time.sleep(1)
     x = SecondaryStepper.SetMotorStep(6400)
-    print(x)
+    print(x) 
 
     print("Set Motor Step Test")
     time.sleep(1)
