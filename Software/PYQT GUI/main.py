@@ -15,11 +15,13 @@ class WidgetGallery(QDialog):
         self.TemperatureControlBox()
         self.MotorControlBox()    
         self.LightControlBox()
+        self.PowerGPIOBox()
 
         disableWidgetsCheckBox.toggled.connect(self.CameraControlBox.setDisabled)
         disableWidgetsCheckBox.toggled.connect(self.TemperatureControlBox.setDisabled)
         disableWidgetsCheckBox.toggled.connect(self.MotorControlBox.setDisabled)
         disableWidgetsCheckBox.toggled.connect(self.LightControlBox.setDisabled)
+        disableWidgetsCheckBox.toggled.connect(self.PowerGPIOBox.setDisabled)
 
         topLayout = QHBoxLayout()
         topLayout.addStretch(1)
@@ -31,6 +33,7 @@ class WidgetGallery(QDialog):
         mainLayout.addWidget(self.TemperatureControlBox, 1, 1)
         mainLayout.addWidget(self.LightControlBox, 2, 1)
         mainLayout.addWidget(self.MotorControlBox, 2, 0)
+        mainLayout.addWidget(self.PowerGPIOBox, 3, 0)
 
         mainLayout.setRowStretch(1, 1)
         mainLayout.setRowStretch(2, 1)
@@ -116,6 +119,32 @@ class WidgetGallery(QDialog):
 
         layout.setRowStretch(5, 1)
         self.LightControlBox.setLayout(layout)
+
+    def PowerGPIOBox(self):
+        self.PowerGPIOBox = QGroupBox("Power GPIO Control")
+        self.PowerGPIOBox.setCheckable(True)
+        self.PowerGPIOBox.setChecked(True)
+
+        PGPIO1SPIN = QSpinBox(self.PowerGPIOBox)
+        PGPIO1SPIN.setValue(50)
+
+        PGPIO1SLIDE = QSlider(Qt.Orientation.Horizontal, self.PowerGPIOBox)
+        PGPIO1SLIDE.setValue(40)
+        
+        PGPIO2SPIN = QSpinBox(self.PowerGPIOBox)
+        PGPIO2SPIN.setValue(50)
+
+        PGPIO2SLIDE = QSlider(Qt.Orientation.Horizontal, self.PowerGPIOBox)
+        PGPIO2SLIDE.setValue(40)
+
+        layout = QGridLayout()
+        layout.addWidget(PGPIO1SPIN, 1, 0, 1, 2)
+        layout.addWidget(PGPIO1SLIDE, 3, 0)
+        layout.addWidget(PGPIO2SPIN, 1, 1, 1, 2)
+        layout.addWidget(PGPIO2SLIDE, 3, 1)
+
+        layout.setRowStretch(5, 1)
+        self.PowerGPIOBox.setLayout(layout)
 
 if __name__ == '__main__':
 
