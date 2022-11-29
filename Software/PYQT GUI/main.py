@@ -110,12 +110,8 @@ class WidgetGallery(QDialog):
         spinBox = QSpinBox(self.LightControlBox)
         spinBox.setValue(50)
 
-        slider = QSlider(Qt.Orientation.Horizontal, self.LightControlBox)
-        slider.setValue(40)
-
         layout = QGridLayout()
         layout.addWidget(spinBox, 1, 0, 1, 2)
-        layout.addWidget(slider, 3, 0)
 
         layout.setRowStretch(5, 1)
         self.LightControlBox.setLayout(layout)
@@ -127,21 +123,13 @@ class WidgetGallery(QDialog):
 
         PGPIO1SPIN = QSpinBox(self.PowerGPIOBox)
         PGPIO1SPIN.setValue(50)
-
-        PGPIO1SLIDE = QSlider(Qt.Orientation.Horizontal, self.PowerGPIOBox)
-        PGPIO1SLIDE.setValue(40)
         
         PGPIO2SPIN = QSpinBox(self.PowerGPIOBox)
         PGPIO2SPIN.setValue(50)
 
-        PGPIO2SLIDE = QSlider(Qt.Orientation.Horizontal, self.PowerGPIOBox)
-        PGPIO2SLIDE.setValue(40)
-
         layout = QGridLayout()
         layout.addWidget(PGPIO1SPIN, 1, 0, 1, 2)
-        layout.addWidget(PGPIO1SLIDE, 3, 0)
         layout.addWidget(PGPIO2SPIN, 1, 1, 1, 2)
-        layout.addWidget(PGPIO2SLIDE, 3, 1)
 
         layout.setRowStretch(5, 1)
         self.PowerGPIOBox.setLayout(layout)
