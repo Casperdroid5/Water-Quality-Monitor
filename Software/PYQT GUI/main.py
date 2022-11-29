@@ -11,15 +11,15 @@ class WidgetGallery(QDialog):
 
         disableWidgetsCheckBox = QCheckBox("&Disable all widgets")
 
-        self.createTopLeftGroupBox()
-        self.createTopRightGroupBox()
-        self.createBottomLeftGroupBox()    
-        self.createBottomRightGroupBox()
+        self.CameraControlBox()
+        self.TemperatureControlBox()
+        self.MotorControlBox()    
+        self.LightControlBox()
 
-        disableWidgetsCheckBox.toggled.connect(self.topLeftGroupBox.setDisabled)
-        disableWidgetsCheckBox.toggled.connect(self.topRightGroupBox.setDisabled)
-        disableWidgetsCheckBox.toggled.connect(self.bottomLeftGroupBox.setDisabled)
-        disableWidgetsCheckBox.toggled.connect(self.bottomRightGroupBox.setDisabled)
+        disableWidgetsCheckBox.toggled.connect(self.CameraControlBox.setDisabled)
+        disableWidgetsCheckBox.toggled.connect(self.TemperatureControlBox.setDisabled)
+        disableWidgetsCheckBox.toggled.connect(self.MotorControlBox.setDisabled)
+        disableWidgetsCheckBox.toggled.connect(self.LightControlBox.setDisabled)
 
         topLayout = QHBoxLayout()
         topLayout.addStretch(1)
@@ -27,10 +27,10 @@ class WidgetGallery(QDialog):
 
         mainLayout = QGridLayout()
         mainLayout.addLayout(topLayout, 0, 0, 1, 2)
-        mainLayout.addWidget(self.topLeftGroupBox, 1, 0)
-        mainLayout.addWidget(self.topRightGroupBox, 1, 1)
-        mainLayout.addWidget(self.bottomRightGroupBox, 2, 1)
-        mainLayout.addWidget(self.bottomLeftGroupBox, 2, 0)
+        mainLayout.addWidget(self.CameraControlBox, 1, 0)
+        mainLayout.addWidget(self.TemperatureControlBox, 1, 1)
+        mainLayout.addWidget(self.LightControlBox, 2, 1)
+        mainLayout.addWidget(self.MotorControlBox, 2, 0)
 
         mainLayout.setRowStretch(1, 1)
         mainLayout.setRowStretch(2, 1)
@@ -39,10 +39,10 @@ class WidgetGallery(QDialog):
         self.setLayout(mainLayout)
 
 
-    def createTopLeftGroupBox(self):
-        self.topLeftGroupBox = QGroupBox("Camera control")
-        self.topLeftGroupBox.setCheckable(True)
-        self.topLeftGroupBox.setChecked(True)
+    def CameraControlBox(self):
+        self.CameraControlBox = QGroupBox("Camera control")
+        self.CameraControlBox.setCheckable(True)
+        self.CameraControlBox.setChecked(True)
         
         StartRecordingButton = QPushButton("Start recording")
         StartRecordingButton.setDefault(True)
@@ -58,12 +58,12 @@ class WidgetGallery(QDialog):
         layout.addWidget(StopRecordingButton)
         layout.addWidget(TakePictureButton)
         layout.addStretch(1)
-        self.topLeftGroupBox.setLayout(layout)
+        self.CameraControlBox.setLayout(layout)
 
-    def createTopRightGroupBox(self):
-        self.topRightGroupBox = QGroupBox("Temperature control")
-        self.topRightGroupBox.setCheckable(True)
-        self.topRightGroupBox.setChecked(True)
+    def TemperatureControlBox(self):
+        self.TemperatureControlBox = QGroupBox("Temperature control")
+        self.TemperatureControlBox.setCheckable(True)
+        self.TemperatureControlBox.setChecked(True)
         
         EnablePeltier = QPushButton("Enable Peltier")
         EnablePeltier.setDefault(True)
@@ -72,7 +72,7 @@ class WidgetGallery(QDialog):
         togglePushButton.setCheckable(True)
         togglePushButton.setChecked(True)
 
-        spinBox = QSpinBox(self.topRightGroupBox)
+        spinBox = QSpinBox(self.TemperatureControlBox)
         spinBox.setValue(50)
 
 
@@ -80,12 +80,12 @@ class WidgetGallery(QDialog):
         layout.addWidget(spinBox, 1, 0, 1, 2)
         layout.addWidget(EnablePeltier, 1,2)
         layout.setRowStretch(5, 1)
-        self.topRightGroupBox.setLayout(layout)
+        self.TemperatureControlBox.setLayout(layout)
 
-    def createBottomLeftGroupBox(self):
-        self.bottomLeftGroupBox = QGroupBox("Motor control")
-        self.bottomLeftGroupBox.setCheckable(True)
-        self.bottomLeftGroupBox.setChecked(True)
+    def MotorControlBox(self):
+        self.MotorControlBox = QGroupBox("Motor control")
+        self.MotorControlBox.setCheckable(True)
+        self.MotorControlBox.setChecked(True)
 
         EnablePrimeryMotor = QPushButton("Enable primary motor")
         EnablePrimeryMotor.setDefault(True)
@@ -97,17 +97,17 @@ class WidgetGallery(QDialog):
         layout.addWidget(EnablePrimeryMotor)
         layout.addWidget(EnableSecondaryMotor)
         layout.addStretch(1)
-        self.bottomLeftGroupBox.setLayout(layout)
+        self.MotorControlBox.setLayout(layout)
 
-    def createBottomRightGroupBox(self):
-        self.bottomRightGroupBox = QGroupBox("Light Intensity Control")
-        self.bottomRightGroupBox.setCheckable(True)
-        self.bottomRightGroupBox.setChecked(True)
+    def LightControlBox(self):
+        self.LightControlBox = QGroupBox("Light Intensity Control")
+        self.LightControlBox.setCheckable(True)
+        self.LightControlBox.setChecked(True)
 
-        spinBox = QSpinBox(self.bottomRightGroupBox)
+        spinBox = QSpinBox(self.LightControlBox)
         spinBox.setValue(50)
 
-        slider = QSlider(Qt.Orientation.Horizontal, self.bottomRightGroupBox)
+        slider = QSlider(Qt.Orientation.Horizontal, self.LightControlBox)
         slider.setValue(40)
 
         layout = QGridLayout()
@@ -115,7 +115,7 @@ class WidgetGallery(QDialog):
         layout.addWidget(slider, 3, 0)
 
         layout.setRowStretch(5, 1)
-        self.bottomRightGroupBox.setLayout(layout)
+        self.LightControlBox.setLayout(layout)
 
 if __name__ == '__main__':
 
