@@ -16,12 +16,14 @@ class WidgetGallery(QDialog):
         self.MotorControlBox()    
         self.LightControlBox()
         self.PowerGPIOBox()
+        self.PanicBox()
 
         disableWidgetsCheckBox.toggled.connect(self.CameraControlBox.setDisabled)
         disableWidgetsCheckBox.toggled.connect(self.TemperatureControlBox.setDisabled)
         disableWidgetsCheckBox.toggled.connect(self.MotorControlBox.setDisabled)
         disableWidgetsCheckBox.toggled.connect(self.LightControlBox.setDisabled)
         disableWidgetsCheckBox.toggled.connect(self.PowerGPIOBox.setDisabled)
+        disableWidgetsCheckBox.toggled.connect(self.PanicBox.setDisabled)
 
         topLayout = QHBoxLayout()
         topLayout.addStretch(1)
@@ -34,6 +36,7 @@ class WidgetGallery(QDialog):
         mainLayout.addWidget(self.LightControlBox, 2, 1)
         mainLayout.addWidget(self.MotorControlBox, 2, 0)
         mainLayout.addWidget(self.PowerGPIOBox, 3, 0)
+        mainLayout.addWidget(self.PanicBox, 3, 1)
 
         mainLayout.setRowStretch(1, 1)
         mainLayout.setRowStretch(2, 1)
@@ -73,11 +76,10 @@ class WidgetGallery(QDialog):
 
         togglePushButton = QPushButton("Toggle Push Button")
         togglePushButton.setCheckable(True)
-        togglePushButton.setChecked(True)
+        togglePushButton.setChecked(True) 
 
         spinBox = QSpinBox(self.TemperatureControlBox)
         spinBox.setValue(50)
-
 
         layout = QGridLayout()
         layout.addWidget(spinBox, 1, 0, 1, 2)
@@ -133,6 +135,23 @@ class WidgetGallery(QDialog):
 
         layout.setRowStretch(5, 1)
         self.PowerGPIOBox.setLayout(layout)
+        
+    def PanicBox(self):
+        self.PanicBox = QGroupBox("Panic buttons")
+        self.PanicBox.setCheckable(True)
+        self.PanicBox.setChecked(True)
+
+        KillAllPower = QPushButton("Kill all power")
+        KillAllPower.setDefault(True)
+
+        ShutdownRaspberryPi = QPushButton("Shutdown RaspberryPi")
+        ShutdownRaspberryPi.setDefault(True)
+
+        layout = QVBoxLayout()
+        layout.addWidget(KillAllPower)
+        layout.addWidget(ShutdownRaspberryPi)
+        layout.addStretch(1)
+        self.PanicBox.setLayout(layout)
 
 if __name__ == '__main__':
 
