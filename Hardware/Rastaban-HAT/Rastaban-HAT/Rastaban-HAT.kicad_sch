@@ -5310,7 +5310,7 @@
     (in_bom yes) (on_board yes)
     (uuid b73aee68-d2d6-4af6-8012-832b4d70c4c0)
     (property "Reference" "F1" (id 0) (at 219.075 27.94 90))
-    (property "Value" "8A" (id 1) (at 219.075 30.48 90))
+    (property "Value" "6A" (id 1) (at 219.075 30.48 90))
     (property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (id 2) (at 218.948 34.163 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6186,12 +6186,6 @@
     (path "/95edd161-0b71-48f3-a788-f500649f4d67"
       (reference "#FLG0108") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/3f7b49cb-4f91-4e3a-bc52-2170c4280378"
-      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/a639a28b-44e8-4331-86a9-ee23abfc57da"
-      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
-    )
     (path "/0f96aa04-8fd8-4d5e-b5aa-b6b5cd6aead4"
       (reference "#PWR03") (unit 1) (value "GND") (footprint "")
     )
@@ -6234,12 +6228,6 @@
     (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/071a0391-3a10-4f6e-9e7a-93e5588f986f"
       (reference "#PWR016") (unit 1) (value "GND") (footprint "")
     )
-    (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/21f0307f-e57a-4b82-a811-4a4c0cc39af9"
-      (reference "#PWR017") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/4798d222-3f35-4cb7-a92f-a9bc57d3eae3"
-      (reference "#PWR018") (unit 1) (value "GND") (footprint "")
-    )
     (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/8bd435d0-c630-4a5e-8354-9659ffc95eeb"
       (reference "#PWR019") (unit 1) (value "GND") (footprint "")
     )
@@ -6248,9 +6236,6 @@
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/71a58dd1-e00b-4d41-949c-7eede1b18fd6"
       (reference "#PWR021") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/0f4f2371-628b-4982-8b1a-ac59e6727701"
-      (reference "#PWR022") (unit 1) (value "GND") (footprint "")
     )
     (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/78771dbf-1375-4148-9375-6d1c7455bcdb"
       (reference "#PWR023") (unit 1) (value "GND") (footprint "")
@@ -6266,9 +6251,6 @@
     )
     (path "/ed4757a3-ef7d-46a2-9f21-3f9ff14fd6d2"
       (reference "#PWR027") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/f96e6a9b-5721-4176-8223-a2634cb845ee"
-      (reference "#PWR028") (unit 1) (value "GND") (footprint "")
     )
     (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/18a87dc6-55ad-4f9e-b83b-4f29c26db4b0"
       (reference "#PWR029") (unit 1) (value "GND") (footprint "")
@@ -6310,10 +6292,10 @@
       (reference "C5") (unit 1) (value "10uF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/69f29097-2575-4071-a5ad-9d8a6188f953"
-      (reference "C6") (unit 1) (value "10uF 25V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C6") (unit 1) (value "10uF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/07a2b4b7-dc8f-4cf0-8221-342a7b65987b"
-      (reference "C7") (unit 1) (value "22uF 25V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C7") (unit 1) (value "22uF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/7514df18-9295-4870-9b15-d0d13f5e8b8b"
       (reference "C13") (unit 1) (value "100nF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -6364,7 +6346,7 @@
       (reference "D7") (unit 1) (value "SS310") (footprint "SamacSys_Parts:SOD2512X110N")
     )
     (path "/b73aee68-d2d6-4af6-8012-832b4d70c4c0"
-      (reference "F1") (unit 1) (value "8A") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+      (reference "F1") (unit 1) (value "6A") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/15e341b8-b722-4b21-9283-a504e09cc3d5"
       (reference "F2") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
@@ -6441,23 +6423,23 @@
     (path "/9a901ea0-1317-4c66-91ae-4f4c95e324aa"
       (reference "JP5") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
     )
-    (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/a8135aec-ec7d-49b4-b929-5f4f9eded84f"
-      (reference "JP6") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
+    (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/5df89ce0-9fee-4aff-8e55-288367c87b0f"
+      (reference "JP?") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
-    (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/f8240f8e-c178-4611-bdb5-eeb65e98e03a"
-      (reference "JP7") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
+    (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/6a746520-d2ef-4f30-ae60-3bcdf87ee5a6"
+      (reference "JP?") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
-    (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/71861fb0-5cdf-4bee-9770-e7d92bd5a689"
-      (reference "JP8") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
+    (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/722a2000-f23d-4576-87e9-b604fe2a222d"
+      (reference "JP?") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
-    (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/8f01953c-6c97-481e-a55c-81761ab0a6f5"
-      (reference "JP9") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
+    (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/74ea4342-c4fd-4de3-b03a-0daa7fed2db8"
+      (reference "JP?") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
-    (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/4b07540c-b8e6-440c-94cd-323cae59602d"
-      (reference "JP10") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
+    (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/cce3f5c1-997f-4823-b2e5-5e758461a470"
+      (reference "JP?") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
-    (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/f609fb88-04a4-43bd-b10c-e1e530816e4a"
-      (reference "JP11") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
+    (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/d7facad8-a831-4490-9f62-68f8b141d370"
+      (reference "JP?") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/c16e1378-ee11-43ee-9091-3cf8d3755162"
       (reference "L1") (unit 1) (value "68uH") (footprint "Inductor_SMD:L_Bourns-SRU8028_8.0x8.0mm")
