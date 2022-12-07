@@ -4218,7 +4218,7 @@
     (property "Datasheet" "~" (id 3) (at 163.83 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Purpose" "UART TMC2" (id 4) (at 163.83 71.12 0)
+    (property "Purpose" "to prevent current surge (ESD)" (id 4) (at 163.83 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C17414" (id 5) (at 163.83 71.12 0)
@@ -4292,7 +4292,7 @@
     (property "Datasheet" "~" (id 3) (at 168.91 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Purpose" "UART TMC3" (id 4) (at 168.91 71.12 0)
+    (property "Purpose" "to prevent current surge (ESD)" (id 4) (at 168.91 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C17414" (id 5) (at 168.91 71.12 0)
@@ -5055,7 +5055,7 @@
     (property "Value" "MountingHole" (id 1) (at 280.67 219.7099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 278.13 218.44 0)
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (id 2) (at 278.13 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 278.13 218.44 0)
@@ -5112,7 +5112,7 @@
     (property "Value" "MountingHole" (id 1) (at 299.72 219.7099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 297.18 218.44 0)
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (id 2) (at 297.18 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 297.18 218.44 0)
@@ -5199,7 +5199,7 @@
     (property "Value" "MountingHole" (id 1) (at 280.67 214.6299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 278.13 213.36 0)
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (id 2) (at 278.13 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 278.13 213.36 0)
@@ -5281,7 +5281,7 @@
     (property "Value" "MountingHole" (id 1) (at 299.72 214.6299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 297.18 213.36 0)
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (id 2) (at 297.18 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 297.18 213.36 0)
@@ -6377,16 +6377,16 @@
       (reference "F4") (unit 1) (value "4A") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/9d85a8e4-06e0-4f54-b2f8-248d310df882"
-      (reference "H1") (unit 1) (value "MountingHole") (footprint "")
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
     (path "/8ac2d22c-1e29-4a89-bd8c-ac15e4053a22"
-      (reference "H2") (unit 1) (value "MountingHole") (footprint "")
+      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
     (path "/a601452d-b32f-4068-9f24-cbb4c7180e77"
-      (reference "H3") (unit 1) (value "MountingHole") (footprint "")
+      (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
     (path "/94d6564c-59b4-41c8-be45-e46fc832160f"
-      (reference "H4") (unit 1) (value "MountingHole") (footprint "")
+      (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
     (path "/c251b5da-b99e-4ddb-a4de-62952dc041e7"
       (reference "IC1") (unit 1) (value "BCR420UW6-7") (footprint "SamacSys_Parts:SOT95P280X145-6N")
@@ -6443,22 +6443,22 @@
       (reference "JP5") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
     )
     (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/a8135aec-ec7d-49b4-b929-5f4f9eded84f"
-      (reference "JP6") (unit 1) (value "Jumper_3_Open") (footprint "")
+      (reference "JP6") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
     )
     (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/f8240f8e-c178-4611-bdb5-eeb65e98e03a"
-      (reference "JP7") (unit 1) (value "Jumper_3_Open") (footprint "")
+      (reference "JP7") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
     )
     (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/71861fb0-5cdf-4bee-9770-e7d92bd5a689"
-      (reference "JP8") (unit 1) (value "Jumper_3_Open") (footprint "")
+      (reference "JP8") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
     )
     (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/8f01953c-6c97-481e-a55c-81761ab0a6f5"
-      (reference "JP9") (unit 1) (value "Jumper_3_Open") (footprint "")
+      (reference "JP9") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
     )
     (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/4b07540c-b8e6-440c-94cd-323cae59602d"
-      (reference "JP10") (unit 1) (value "Jumper_3_Open") (footprint "")
+      (reference "JP10") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
     )
     (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/f609fb88-04a4-43bd-b10c-e1e530816e4a"
-      (reference "JP11") (unit 1) (value "Jumper_3_Open") (footprint "")
+      (reference "JP11") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/c16e1378-ee11-43ee-9091-3cf8d3755162"
       (reference "L1") (unit 1) (value "68uH") (footprint "Inductor_SMD:L_Bourns-SRU8028_8.0x8.0mm")
@@ -6560,16 +6560,16 @@
       (reference "U2") (unit 1) (value "TLV1117-33") (footprint "SamacSys_Parts:SOT230P700X180-4N")
     )
     (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/d9a96aee-8962-4bb6-ac35-6813a93e28a2"
-      (reference "U3") (unit 2) (value "TMC2209") (footprint "")
+      (reference "U3") (unit 2) (value "TMC2209") (footprint "SnapEDA Library:MODULE_TMC2208_SILENTSTEPSTICK")
     )
     (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/03ef2368-f8be-4e46-be5a-623a9f416523"
-      (reference "U4") (unit 2) (value "TMC2209") (footprint "")
+      (reference "U4") (unit 2) (value "TMC2209") (footprint "SnapEDA Library:MODULE_TMC2208_SILENTSTEPSTICK")
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/bf8fccf1-cff4-4a6d-8934-d2c9e9f32789"
       (reference "U5") (unit 1) (value "LM2596S-ADJ") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
     )
     (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/07e943cb-a420-48d9-a89e-43830e42010e"
-      (reference "U6B1") (unit 1) (value "TMC2209") (footprint "")
+      (reference "U6") (unit 1) (value "TMC2209") (footprint "SnapEDA Library:MODULE_TMC2208_SILENTSTEPSTICK")
     )
     (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/1d3758c9-7eb3-42ba-8ec8-545ede1e6fd7"
       (reference "U7") (unit 1) (value "DRV8838 POLOLU") (footprint "Module:DRV8838 POLOLU")
