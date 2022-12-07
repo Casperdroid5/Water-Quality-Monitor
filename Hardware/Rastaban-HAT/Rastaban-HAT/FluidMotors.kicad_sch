@@ -475,6 +475,12 @@
     (uuid f60f0b40-9f26-4f08-8e3e-cf779d63cda1)
   )
 
+  (text "kijken of er een interne pull down is. vcc via jumper"
+    (at 93.345 38.735 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c96c7b28-7251-4924-bb9c-0bbda34725c6)
+  )
+
   (hierarchical_label "M2BSEC" (shape output) (at 170.815 64.77 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 04049ffd-849f-4cfd-8454-4a5b5e38c549)
