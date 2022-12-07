@@ -6461,23 +6461,23 @@
     (path "/9a901ea0-1317-4c66-91ae-4f4c95e324aa"
       (reference "JP5") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
     )
-    (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/5df89ce0-9fee-4aff-8e55-288367c87b0f"
-      (reference "JP?") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
-    )
-    (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/6a746520-d2ef-4f30-ae60-3bcdf87ee5a6"
-      (reference "JP?") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
-    )
     (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/722a2000-f23d-4576-87e9-b604fe2a222d"
-      (reference "JP?") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
-    )
-    (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/74ea4342-c4fd-4de3-b03a-0daa7fed2db8"
-      (reference "JP?") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+      (reference "JP6") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/cce3f5c1-997f-4823-b2e5-5e758461a470"
-      (reference "JP?") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+      (reference "JP7") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/74ea4342-c4fd-4de3-b03a-0daa7fed2db8"
+      (reference "JP8") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/509754cd-dbf1-46e6-965c-38d41c0b6924/5df89ce0-9fee-4aff-8e55-288367c87b0f"
+      (reference "JP9") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/6a746520-d2ef-4f30-ae60-3bcdf87ee5a6"
+      (reference "JP10") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/d7facad8-a831-4490-9f62-68f8b141d370"
-      (reference "JP?") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+      (reference "JP11") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/c16e1378-ee11-43ee-9091-3cf8d3755162"
       (reference "L1") (unit 1) (value "68uH") (footprint "Inductor_SMD:L_Bourns-SRU8028_8.0x8.0mm")
