@@ -435,6 +435,7 @@
     )
   )
 
+
   (junction (at 114.3 72.39) (diameter 0) (color 0 0 0 0)
     (uuid 091a225c-6569-42ca-b5b2-a70093a52d7e)
   )
@@ -697,10 +698,10 @@
     (pin "1" (uuid 0dfa905c-9b9f-467a-8425-e44dff3fe75a))
   )
 
-  (symbol (lib_id "TMC2209:TMC2209") (at 73.025 66.04 0) (unit 2)
+  (symbol (lib_id "TMC2209:TMC2209") (at 73.025 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 07e943cb-a420-48d9-a89e-43830e42010e)
-    (property "Reference" "U6" (id 0) (at 73.025 77.47 0))
+    (property "Reference" "U6B1" (id 0) (at 73.025 77.47 0))
     (property "Value" "TMC2209" (id 1) (at 73.025 80.01 0))
     (property "Footprint" "" (id 2) (at 73.025 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -717,7 +718,7 @@
     (pin "JP1_7" (uuid 2d3b143d-33d8-44d5-b1c0-d906e1e6bdd3))
     (pin "JP1_8" (uuid c9ee21dd-8cce-4757-aa55-2f7f184d1f40))
     (pin "JP2_1" (uuid 1100232c-de07-467e-98e9-4793692d53dc))
-    (pin "JP2_2" (uuid af085d59-a969-419e-8188-9163d923153d))
+    (pin "JP2_2" (uuid 6175466e-7c12-4030-b081-bb922444fd12))
     (pin "JP2_2" (uuid 6175466e-7c12-4030-b081-bb922444fd12))
     (pin "JP2_3" (uuid 568ef869-b8be-443d-a7ca-5bd4afc07ec1))
     (pin "JP2_4" (uuid 17cfdca3-2afc-4e23-84d1-ece1fe986fdb))
