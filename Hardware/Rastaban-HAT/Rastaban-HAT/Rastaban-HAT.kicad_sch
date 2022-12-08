@@ -6381,7 +6381,7 @@
       (reference "D4") (unit 1) (value "ESD7351HT1G") (footprint "SamacSys_Parts:SOD2512X110N")
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/8aebf9b6-9e4f-4d1c-962c-1275d2c57064"
-      (reference "D7") (unit 1) (value "SS310") (footprint "SamacSys_Parts:SOD2512X110N")
+      (reference "D7") (unit 1) (value "SS510") (footprint "SamacSys_Parts:SOD2512X110N")
     )
     (path "/b73aee68-d2d6-4af6-8012-832b4d70c4c0"
       (reference "F1") (unit 1) (value "6A") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
@@ -6509,9 +6509,6 @@
     (path "/b982913b-78ea-41c6-92bb-058d05052eaf"
       (reference "R1") (unit 1) (value "0.2") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/d600cfcb-687e-457d-83a9-f6fdf751a73b"
-      (reference "R2") (unit 1) (value "680") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
     (path "/e2569925-ebf9-4052-bd02-8582502d3183"
       (reference "R3") (unit 1) (value "10W resistor") (footprint "SamacSys_Parts:1808190")
     )
@@ -6520,9 +6517,6 @@
     )
     (path "/21480e88-9cef-45b5-ac25-e35296d2b53f"
       (reference "R5") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/d14b199b-0896-4caf-9294-0f8b8ee4224c"
-      (reference "R6") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/2dca2a46-cd51-4f18-b20b-23776de71cef"
       (reference "R7") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -6585,7 +6579,7 @@
       (reference "U4") (unit 1) (value "TMC2209") (footprint "")
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/bf8fccf1-cff4-4a6d-8934-d2c9e9f32789"
-      (reference "U5") (unit 1) (value "LM2596S-ADJ") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
+      (reference "U5") (unit 1) (value "LM2596S -5.0") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
     )
     (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/a70c60aa-0378-4351-ad48-f468968dd722"
       (reference "U6") (unit 1) (value "TMC2209") (footprint "")
