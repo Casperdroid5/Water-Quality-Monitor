@@ -949,7 +949,7 @@
     (uuid a70c60aa-0378-4351-ad48-f468968dd722)
     (property "Reference" "U6" (id 0) (at 73.025 76.835 0))
     (property "Value" "TMC2209" (id 1) (at 73.025 79.375 0))
-    (property "Footprint" "" (id 2) (at 73.025 35.56 0)
+    (property "Footprint" "SnapEDA Library:MODULE_TMC2208_SILENTSTEPSTICK" (id 2) (at 73.025 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 73.025 35.56 0)
