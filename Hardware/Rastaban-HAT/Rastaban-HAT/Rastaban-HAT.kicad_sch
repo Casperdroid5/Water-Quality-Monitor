@@ -6282,8 +6282,11 @@
     (path "/7b03732c-6b0a-482e-b8e3-ced6ad7436b5/19c00ce3-2058-47f9-9e04-887a4a2eabc2"
       (reference "C4") (unit 1) (value "100nF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
+    (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/c53de886-b6c4-4801-9161-88d00e7e3b3d"
+      (reference "C5") (unit 1) (value "220uF 50V") (footprint "Capacitor_SMD:CP_Elec_8x10")
+    )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/69f29097-2575-4071-a5ad-9d8a6188f953"
-      (reference "C6") (unit 1) (value "10uF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C6") (unit 1) (value "100nF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/40850252-1ede-4d76-b078-62d66750f123"
       (reference "C7") (unit 1) (value "220uF 50V") (footprint "Capacitor_SMD:CP_Elec_8x10")
@@ -6333,8 +6336,8 @@
     (path "/5459797e-034f-4c1c-82ab-aef0fd8ac36b"
       (reference "D4") (unit 1) (value "ESD7351HT1G") (footprint "SamacSys_Parts:SOD2512X110N")
     )
-    (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/8aebf9b6-9e4f-4d1c-962c-1275d2c57064"
-      (reference "D7") (unit 1) (value "1N5824") (footprint "SamacSys_Parts:SOD2512X110N")
+    (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/d0cbdaf5-3a93-43db-8b00-6f9eff288227"
+      (reference "D5") (unit 1) (value "SS54-HF") (footprint "DIOM5025X220N")
     )
     (path "/b73aee68-d2d6-4af6-8012-832b4d70c4c0"
       (reference "F1") (unit 1) (value "6A") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
@@ -6433,7 +6436,7 @@
       (reference "JP11") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/6c4087b1-d585-4615-84b3-d395a8b5856d/c16e1378-ee11-43ee-9091-3cf8d3755162"
-      (reference "L1") (unit 1) (value "33uH") (footprint "Inductor_SMD:L_Bourns-SRU8028_8.0x8.0mm")
+      (reference "L1") (unit 1) (value "33uH") (footprint "Inductor_SMD:L_Bourns_SRR1208_12.7x12.7mm")
     )
     (path "/42e1677f-8d01-428b-8142-17b3a15cdb20"
       (reference "M1") (unit 1) (value "Fan") (footprint "SamacSys_Parts:1808190")
