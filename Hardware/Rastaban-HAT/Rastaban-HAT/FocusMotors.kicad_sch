@@ -503,6 +503,7 @@
   )
 
   (no_connect (at 76.2 41.91) (uuid 28190409-ddab-43af-8c64-4d3c1a1a50b8))
+  (no_connect (at 55.245 50.165) (uuid 30519133-ffbc-4288-8686-6181ca62264b))
   (no_connect (at 178.435 83.82) (uuid 63da8747-64d5-4588-b9ac-93be03c27ac6))
   (no_connect (at 69.85 41.91) (uuid 72cf6536-001e-453a-80c6-7733ea683a3a))
   (no_connect (at 55.245 59.69) (uuid 7bea2a31-d880-4967-b5a0-990f22eb3a13))
@@ -662,10 +663,6 @@
   (hierarchical_label "M2BFOC" (shape output) (at 90.805 57.785 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1cf7241c-8e9a-46cd-b4f4-f1563abe3172)
-  )
-  (hierarchical_label "ENFOC" (shape input) (at 55.245 50.165 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 1cfbf986-f402-41ad-afa0-e74a6fd4dee3)
   )
   (hierarchical_label "M1AFOC" (shape output) (at 90.805 62.865 0)
     (effects (font (size 1.27 1.27)) (justify left))
