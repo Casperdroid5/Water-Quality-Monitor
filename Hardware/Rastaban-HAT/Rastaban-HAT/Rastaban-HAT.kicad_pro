@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -412,11 +412,8 @@
           "Net-(J8-Pad2)",
           "Net-(PE1-Pad1)",
           "Net-(PE1-Pad2)",
-          "Net-(Q1-Pad3)",
           "Net-(Q4-Pad1)",
-          "Net-(Q4-Pad3)",
-          "PWRGPIO1",
-          "PWRGPIO2"
+          "Net-(Q4-Pad3)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
