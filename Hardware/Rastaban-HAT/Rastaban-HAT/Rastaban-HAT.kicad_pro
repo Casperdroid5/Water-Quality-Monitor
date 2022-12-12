@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -400,6 +400,21 @@
           "/FocusMotors/out2",
           "12V+",
           "12VIN",
+          "Net-(C13-Pad2)",
+          "Net-(C15-Pad2)",
+          "Net-(C2-Pad2)",
+          "Net-(D2-Pad1)",
+          "Net-(D5-Pad1)",
+          "Net-(F2-Pad2)",
+          "Net-(F3-Pad2)",
+          "Net-(F5-Pad2)",
+          "Net-(J7-Pad2)",
+          "Net-(J8-Pad2)",
+          "Net-(PE1-Pad1)",
+          "Net-(PE1-Pad2)",
+          "Net-(Q1-Pad3)",
+          "Net-(Q4-Pad1)",
+          "Net-(Q4-Pad3)",
           "PWRGPIO1",
           "PWRGPIO2"
         ],
