@@ -503,7 +503,6 @@
   )
 
   (no_connect (at 76.2 41.91) (uuid 28190409-ddab-43af-8c64-4d3c1a1a50b8))
-  (no_connect (at 55.245 50.165) (uuid 30519133-ffbc-4288-8686-6181ca62264b))
   (no_connect (at 178.435 83.82) (uuid 63da8747-64d5-4588-b9ac-93be03c27ac6))
   (no_connect (at 69.85 41.91) (uuid 72cf6536-001e-453a-80c6-7733ea683a3a))
   (no_connect (at 55.245 59.69) (uuid 7bea2a31-d880-4967-b5a0-990f22eb3a13))
@@ -679,6 +678,10 @@
   (hierarchical_label "3.3V+" (shape input) (at 37.465 53.34 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 81df07f3-2e42-473f-8f5c-c3b92d3be73f)
+  )
+  (hierarchical_label "EnaFoc" (shape input) (at 55.245 50.165 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 8282f6e8-6cc6-46aa-9f38-0462250a5808)
   )
   (hierarchical_label "out1" (shape output) (at 178.435 88.9 0)
     (effects (font (size 1.27 1.27)) (justify left))
