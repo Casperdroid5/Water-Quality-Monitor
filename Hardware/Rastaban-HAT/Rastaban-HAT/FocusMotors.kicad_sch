@@ -507,7 +507,7 @@
   (no_connect (at 178.435 83.82) (uuid 63da8747-64d5-4588-b9ac-93be03c27ac6))
   (no_connect (at 69.85 41.91) (uuid 72cf6536-001e-453a-80c6-7733ea683a3a))
   (no_connect (at 55.245 59.69) (uuid 7bea2a31-d880-4967-b5a0-990f22eb3a13))
-  (no_connect (at 55.245 63.5) (uuid 8a8aae6f-5fd3-41d9-8e72-48beb465b3f0))
+  (no_connect (at 55.245 66.04) (uuid 8a8aae6f-5fd3-41d9-8e72-48beb465b3f0))
   (no_connect (at 73.025 41.91) (uuid 9cb779bd-bf14-4330-ac1a-6e8759e70544))
   (no_connect (at 55.245 72.39) (uuid df9f056c-6449-4431-92e1-24df3144be1a))
   (no_connect (at 55.245 69.85) (uuid f25333e7-755b-428f-9824-9d46c594f826))
@@ -648,7 +648,7 @@
     )
   )
 
-  (hierarchical_label "UARTCTRL" (shape input) (at 55.245 66.04 180)
+  (hierarchical_label "UARTCTRL" (shape input) (at 55.245 63.5 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0e63d5ef-a5d8-4fb3-a356-2aa312509e24)
   )
