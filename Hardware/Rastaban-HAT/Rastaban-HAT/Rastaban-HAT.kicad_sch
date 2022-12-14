@@ -6,8 +6,8 @@
 
   (title_block
     (title "Rastaban-HAT")
-    (date "2022-12-13")
-    (rev "1.7")
+    (date "2022-12-14")
+    (rev "1.6")
     (company "HAN")
     (comment 1 "Casper R. Tak")
   )
