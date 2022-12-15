@@ -1,4 +1,4 @@
-Vragen aan Johan:
+Vragen:
 
 SMD of tht voor de gpio header?
 mosfet types (welke zijn ideaal, jellybean?)
