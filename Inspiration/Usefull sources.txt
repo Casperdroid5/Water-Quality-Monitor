@@ -3,3 +3,5 @@ https://www.circuitbread.com/ee-faq/what-is-the-difference-between-coupling-deco
 https://github.com/Chr157i4n/TMC2209_Raspberry_Pi
 
 https://raspberrypi.stackexchange.com/questions/100641/whats-the-difference-between-soft-pwm-and-pwm
+
+https://electronics.stackexchange.com/questions/558386/what-could-be-the-reasons-for-a-stepper-motor-stuttering-with-an-a4988-driver

@@ -10,7 +10,7 @@
     (date "2022-12-20")
     (rev "V0.3.1")
     (company "HAN")
-    (comment 1 "Designed by: Casper Tak")
+    (comment 1 "Designed by: Casper R. Tak")
   )
 
   (layers
