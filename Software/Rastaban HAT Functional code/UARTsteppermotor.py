@@ -6,7 +6,7 @@ from src.TMC_2209.TMC_2209_StepperDriver import *
 
 """
 This code is used to control the TMC2209 stepper motors using UART.  
-By using UART it is possible to set parameters for the driver.
+By using UART it is possible to set and read the parameters for the driver.
 """
 
 
@@ -38,7 +38,7 @@ class UARTSTEPPERMOTORS():
 
 
 if __name__ == "__main__":
-   primarystepper = UARTSTEPPERMOTORS(21) 
+   primarystepper = UARTSTEPPERMOTORS(27) 
    primarystepper = primarystepper.SetMotorSettings(900, True, False, 256, False)
    primarystepper = primarystepper.PrintCurrentSettings()
    #primarystepper.set_loglevel(Loglevel.DEBUG)
@@ -46,6 +46,15 @@ if __name__ == "__main__":
    primarystepper = primarystepper.ControlMotorMovement(True, 30, 1)
   
    primarystepper.set_motor_enabled(False)
+
+   secondarystepper = UARTSTEPPERMOTORS(22) 
+   secondarystepper = secondarystepper.SetMotorSettings(900, True, False, 256, False)
+   secondarystepper = secondarystepper.PrintCurrentSettings()
+   #primarystepper.set_loglevel(Loglevel.DEBUG)
+   #primarystepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
+   secondarystepper = secondarystepper.ControlMotorMovement(True, 90, 2)
+  
+   secondarystepper.set_motor_enabled(False)
 
 
 #primarystepper.deinit()
