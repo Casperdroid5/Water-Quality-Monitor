@@ -478,7 +478,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Rastaban-HAT.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

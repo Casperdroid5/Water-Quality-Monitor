@@ -4,7 +4,7 @@ from enums import State
 import constants
 
 """
-This code is used to control the TMC2209 stepper motors using step dir and enable pins. This is the "legacy" way to control stepper motors. 
+This code is used to control the TMC2209 stepper motors using step, dir and enable pins. This is the "legacy" way to control stepper motors. 
 However, it is nowadays more common to control stepper motors via UART (sometimes in combination with step/dir/en), 
 since this gives the user more control over the stepper motors and enables extra features.
 """

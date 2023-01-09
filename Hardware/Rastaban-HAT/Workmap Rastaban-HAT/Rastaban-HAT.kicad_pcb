@@ -1056,7 +1056,7 @@
       (net 88 "GND") (pintype "passive") (tstamp 6acc7e83-62db-4304-aebe-a766cf360cc2))
     (model "${KIPRJMOD}/packages3D/BarrelJack_CUI_PJ-063AH_Horizontal.step"
       (offset (xyz 0 0 0))
-      (scale (xyz 1 1.1 1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
