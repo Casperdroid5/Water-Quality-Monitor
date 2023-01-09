@@ -1,5 +1,6 @@
 var namespace_t_m_c__2209 =
 [
+    [ "TMC2209 UART tests", "namespace_t_m_c__2209_1_1_t_m_c2209_01_u_a_r_t_01tests.html", "namespace_t_m_c__2209_1_1_t_m_c2209_01_u_a_r_t_01tests" ],
     [ "TMC_2209_reg", "namespace_t_m_c__2209_1_1_t_m_c__2209__reg.html", [
       [ "CHOPCONF", "namespace_t_m_c__2209_1_1_t_m_c__2209__reg.html#ae864031c3583755af94c62b7b1b9ac2e", null ],
       [ "cs_actual", "namespace_t_m_c__2209_1_1_t_m_c__2209__reg.html#a65fbfbfbc172cca5517a192cb736bb74", null ],

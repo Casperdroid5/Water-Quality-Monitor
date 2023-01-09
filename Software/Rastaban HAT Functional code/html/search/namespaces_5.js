@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['microscopeled_0',['microscopeled',['../namespacemicroscopeled.html',1,'']]]
+  ['init_0',['init',['../namespaceinit.html',1,'']]]
 ];

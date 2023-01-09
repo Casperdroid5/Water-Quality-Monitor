@@ -27,16 +27,17 @@ var annotated_dup =
     [ "steppermotors", "namespacesteppermotors.html", [
       [ "STEPPERMOTORS", "classsteppermotors_1_1_s_t_e_p_p_e_r_m_o_t_o_r_s.html", "classsteppermotors_1_1_s_t_e_p_p_e_r_m_o_t_o_r_s" ]
     ] ],
-    [ "TMC_2209", "namespace_t_m_c__2209.html", [
-      [ "TMC_2209_StepperDriver", "namespace_t_m_c__2209_1_1_t_m_c__2209___stepper_driver.html", [
-        [ "Direction", "class_t_m_c__2209_1_1_t_m_c__2209___stepper_driver_1_1_direction.html", null ],
-        [ "Loglevel", "class_t_m_c__2209_1_1_t_m_c__2209___stepper_driver_1_1_loglevel.html", null ],
-        [ "MovementAbsRel", "class_t_m_c__2209_1_1_t_m_c__2209___stepper_driver_1_1_movement_abs_rel.html", null ],
-        [ "TMC_2209", "class_t_m_c__2209_1_1_t_m_c__2209___stepper_driver_1_1_t_m_c__2209.html", "class_t_m_c__2209_1_1_t_m_c__2209___stepper_driver_1_1_t_m_c__2209" ]
-      ] ],
-      [ "TMC_2209_uart", "namespace_t_m_c__2209_1_1_t_m_c__2209__uart.html", [
-        [ "TMC_UART", "class_t_m_c__2209_1_1_t_m_c__2209__uart_1_1_t_m_c___u_a_r_t.html", "class_t_m_c__2209_1_1_t_m_c__2209__uart_1_1_t_m_c___u_a_r_t" ]
-      ] ]
+    [ "TMC_2209_StepperDriver", "namespace_t_m_c__2209___stepper_driver.html", [
+      [ "Direction", "class_t_m_c__2209___stepper_driver_1_1_direction.html", null ],
+      [ "Loglevel", "class_t_m_c__2209___stepper_driver_1_1_loglevel.html", null ],
+      [ "MovementAbsRel", "class_t_m_c__2209___stepper_driver_1_1_movement_abs_rel.html", null ],
+      [ "TMC_2209", "class_t_m_c__2209___stepper_driver_1_1_t_m_c__2209.html", "class_t_m_c__2209___stepper_driver_1_1_t_m_c__2209" ]
+    ] ],
+    [ "TMC_2209_uart", "namespace_t_m_c__2209__uart.html", [
+      [ "TMC_UART", "class_t_m_c__2209__uart_1_1_t_m_c___u_a_r_t.html", "class_t_m_c__2209__uart_1_1_t_m_c___u_a_r_t" ]
+    ] ],
+    [ "UARTsteppermotor", "namespace_u_a_r_tsteppermotor.html", [
+      [ "UARTSTEPPERMOTORS", "class_u_a_r_tsteppermotor_1_1_u_a_r_t_s_t_e_p_p_e_r_m_o_t_o_r_s.html", "class_u_a_r_tsteppermotor_1_1_u_a_r_t_s_t_e_p_p_e_r_m_o_t_o_r_s" ]
     ] ],
     [ "voicecoilmotors", "namespacevoicecoilmotors.html", [
       [ "VOICECOILMOTORS", "classvoicecoilmotors_1_1_v_o_i_c_e_c_o_i_l_m_o_t_o_r_s.html", "classvoicecoilmotors_1_1_v_o_i_c_e_c_o_i_l_m_o_t_o_r_s" ]

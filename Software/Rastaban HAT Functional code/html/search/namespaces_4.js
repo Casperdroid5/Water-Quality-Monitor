@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['init_0',['init',['../namespaceinit.html',1,'']]]
+  ['hardwarepwm_0',['hardwarepwm',['../namespacehardwarepwm.html',1,'']]],
+  ['heatingresistor_1',['heatingresistor',['../namespaceheatingresistor.html',1,'']]]
 ];

@@ -10,13 +10,14 @@ var hierarchy =
       [ "powergpio.POWERGPIO", "classpowergpio_1_1_p_o_w_e_r_g_p_i_o.html", null ]
     ] ],
     [ "steppermotors.STEPPERMOTORS", "classsteppermotors_1_1_s_t_e_p_p_e_r_m_o_t_o_r_s.html", null ],
-    [ "TMC_2209.TMC_2209_StepperDriver.TMC_2209", "class_t_m_c__2209_1_1_t_m_c__2209___stepper_driver_1_1_t_m_c__2209.html", null ],
-    [ "TMC_2209.TMC_2209_uart.TMC_UART", "class_t_m_c__2209_1_1_t_m_c__2209__uart_1_1_t_m_c___u_a_r_t.html", null ],
+    [ "TMC_2209_StepperDriver.TMC_2209", "class_t_m_c__2209___stepper_driver_1_1_t_m_c__2209.html", null ],
+    [ "TMC_2209_uart.TMC_UART", "class_t_m_c__2209__uart_1_1_t_m_c___u_a_r_t.html", null ],
+    [ "UARTsteppermotor.UARTSTEPPERMOTORS", "class_u_a_r_tsteppermotor_1_1_u_a_r_t_s_t_e_p_p_e_r_m_o_t_o_r_s.html", null ],
     [ "voicecoilmotors.VOICECOILMOTORS", "classvoicecoilmotors_1_1_v_o_i_c_e_c_o_i_l_m_o_t_o_r_s.html", null ],
     [ "Enum", null, [
-      [ "TMC_2209.TMC_2209_StepperDriver.Direction", "class_t_m_c__2209_1_1_t_m_c__2209___stepper_driver_1_1_direction.html", null ],
-      [ "TMC_2209.TMC_2209_StepperDriver.Loglevel", "class_t_m_c__2209_1_1_t_m_c__2209___stepper_driver_1_1_loglevel.html", null ],
-      [ "TMC_2209.TMC_2209_StepperDriver.MovementAbsRel", "class_t_m_c__2209_1_1_t_m_c__2209___stepper_driver_1_1_movement_abs_rel.html", null ],
+      [ "TMC_2209_StepperDriver.Direction", "class_t_m_c__2209___stepper_driver_1_1_direction.html", null ],
+      [ "TMC_2209_StepperDriver.Loglevel", "class_t_m_c__2209___stepper_driver_1_1_loglevel.html", null ],
+      [ "TMC_2209_StepperDriver.MovementAbsRel", "class_t_m_c__2209___stepper_driver_1_1_movement_abs_rel.html", null ],
       [ "enums.State", "classenums_1_1_state.html", null ]
     ] ]
 ];
