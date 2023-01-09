@@ -62,7 +62,7 @@ if __name__ == "__main__":
     print("SetTemperature 2 Test")
     time.sleep(2)
     PeltierA = Peltier1.SetTemperature(In1DutyCycle = 255, In2DutyCycle = constants.MINPWM) 
-    print(xPeltierA)
+    print(PeltierA)
     
     print("SetTemperature 3 Test")
     time.sleep(1)
