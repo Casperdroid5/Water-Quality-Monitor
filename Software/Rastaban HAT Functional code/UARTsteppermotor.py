@@ -43,9 +43,9 @@ if __name__ == "__main__":
    primarystepper = primarystepper.PrintCurrentSettings()
    #primarystepper.set_loglevel(Loglevel.DEBUG)
    #primarystepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
-   primarystepper = primarystepper.ControlMotorMovement(False, 30, 1)
+   primarystepper = primarystepper.ControlMotorMovement(True, 30, 1)
   
-   primarystepper.set_motor_enabled(True)
+   primarystepper.set_motor_enabled(False)
 
 
 #primarystepper.deinit()
