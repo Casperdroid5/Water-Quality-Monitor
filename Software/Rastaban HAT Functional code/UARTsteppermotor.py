@@ -48,7 +48,7 @@ if __name__ == "__main__":
    primarystepper.set_motor_enabled(False)
 
    secondarystepper = UARTSTEPPERMOTORS(22) 
-   secondarystepper = secondarystepper.SetMotorSettings(900, True, False, 256, False)
+   secondarystepper = secondarystepper.SetMotorSettings(900, True, False, 2, False)
    secondarystepper = secondarystepper.PrintCurrentSettings()
    #primarystepper.set_loglevel(Loglevel.DEBUG)
    #primarystepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
