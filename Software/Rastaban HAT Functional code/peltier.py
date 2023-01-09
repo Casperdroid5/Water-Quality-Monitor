@@ -47,48 +47,48 @@ if __name__ == "__main__":
     Peltier1 = PELTIER(pi = pigpio.pi(), GPIOPin_in1 = 8, GPIOPin_in2 = 7)
     
     print("full Cool/Heat test")
-    Peltier1 = Peltier1.SetToCooling()
-    print(x)
+    PeltierA = Peltier1.SetToCooling()
+    print(PeltierA)
     time.sleep(2)
-    x = Peltier1.SetToHeating()
-    print(x) 
+    PeltierA = Peltier1.SetToHeating()
+    print(PeltierA) 
     time.sleep(2)
     
     print("SetTemperature 1 Test")
     time.sleep(2)
-    x = Peltier1.SetTemperature(In1DutyCycle = 150, In2DutyCycle = constants.MINPWM) 
-    print(x)
+    PeltierA = Peltier1.SetTemperature(In1DutyCycle = 150, In2DutyCycle = constants.MINPWM) 
+    print(PeltierA)
     
     print("SetTemperature 2 Test")
     time.sleep(2)
-    x = Peltier1.SetTemperature(In1DutyCycle = 255, In2DutyCycle = constants.MINPWM) 
-    print(x)
+    PeltierA = Peltier1.SetTemperature(In1DutyCycle = 255, In2DutyCycle = constants.MINPWM) 
+    print(xPeltierA)
     
     print("SetTemperature 3 Test")
     time.sleep(1)
-    x = Peltier1.SetTemperature(In1DutyCycle = 50, In2DutyCycle = constants.MINPWM) 
-    print(x)
+    PeltierA = Peltier1.SetTemperature(In1DutyCycle = 50, In2DutyCycle = constants.MINPWM) 
+    print(PeltierA)
     
     print("Turn Off Test")
     time.sleep(1)
-    x = Peltier1.TurnOff()
-    print(x) 
+    PeltierA = Peltier1.TurnOff()
+    print(PeltierA) 
     time.sleep(3)
 
     print("Sweep test HOT")
     time.sleep(1)
-    for x in range(constants.MINPWM, constants.MAXPWM, 100): # steps of 100
+    for PeltierA in range(constants.MINPWM, constants.MAXPWM, 100): # steps of 100
         #time.sleep(0.1)
-        print(x)
-        x = Peltier1.SetTemperature(In1DutyCycle = constants.MINPWM, In2DutyCycle = x)
+        print(PeltierA)
+        PeltierA = Peltier1.SetTemperature(In1DutyCycle = constants.MINPWM, In2DutyCycle = PeltierA)
 
     print("Sweep test COLD") # assuMINPWMg in2 is the hot side
-    for x in range(constants.MINPWM, constants.MAXPWM, 100): # steps of 100
+    for PeltierA in range(constants.MINPWM, constants.MAXPWM, 100): # steps of 100
         #time.sleep(0.1)
-        print(x)
-        x = Peltier1.SetTemperature(In1DutyCycle = x, In2DutyCycle = constants.MINPWM)
+        print(PeltierA)
+        PeltierA = Peltier1.SetTemperature(In1DutyCycle = PeltierA, In2DutyCycle = constants.MINPWM)
 
-    x = Peltier1.TurnOff()
-    print(x)
+    PeltierA = Peltier1.TurnOff()
+    print(PeltierA)
     print("test complete")
         
