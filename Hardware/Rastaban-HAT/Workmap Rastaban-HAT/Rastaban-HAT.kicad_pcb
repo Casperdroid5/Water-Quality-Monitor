@@ -474,7 +474,7 @@
     (pad "6" smd rect (at 7.35 4.2 270) (size 2.2 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp daa95169-89b4-4f11-96cc-b5657e8eace7))
     (pad "7" thru_hole circle (at -4.85 5.35 270) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask) (tstamp 2c900d05-b5d3-42e3-9c9d-252b1fa0e9cb))
     (pad "8" thru_hole circle (at 4.85 5.35 270) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask) (tstamp 554cd34b-4512-44be-9079-f0dfd2181be1))
-    (model "C:\\Users\\crtak\\Documents\\KiCad\\SamacSys_Parts.3dshapes\\1778780.stp"
+    (model "${KIPRJMOD}/packages3D/1778780.stp"
       (offset (xyz -5.849999817 -8.169999954 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -530,7 +530,7 @@
     (pad "6" smd rect (at 7.35 4.2 270) (size 2.2 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ccb48458-7ae9-407a-bda9-db4e6f9e5878))
     (pad "7" thru_hole circle (at -4.85 5.35 270) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask) (tstamp 6ddaafbe-cffd-48c0-9fb2-d9cc17a9aa26))
     (pad "8" thru_hole circle (at 4.85 5.35 270) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask) (tstamp 2c549fc0-8c31-4665-b0aa-18892ca068b9))
-    (model "C:\\Users\\crtak\\Documents\\KiCad\\SamacSys_Parts.3dshapes\\1778780.stp"
+    (model "${KIPRJMOD}/packages3D/1778780.stp"
       (offset (xyz -5.849999817 -8.169999954 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -575,7 +575,7 @@
       (net 89 "Net-(M1-Pad2)") (pinfunction "-") (pintype "passive") (tstamp fca05e17-6b9d-49fa-9fa1-e57a1cf25c37))
     (pad "3" smd rect (at -4.85 4.2 180) (size 2.2 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 38a4a8ad-e35a-4805-9719-f18e896b05c1))
     (pad "4" smd rect (at 4.85 4.2 180) (size 2.2 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 96754666-3d22-41b9-bc75-84b63b063631))
-    (model "C:\\Users\\crtak\\Documents\\KiCad\\SamacSys_Parts.3dshapes\\1808190.stp"
+    (model "${KIPRJMOD}/packages3D/1808190.stp"
       (offset (xyz 3.349999854 -8.169999954 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 -180 90))
@@ -620,7 +620,7 @@
       (net 30 "Net-(D6-Pad2)") (pinfunction "Pin_2") (pintype "passive") (tstamp 8d9710e5-8c07-4938-8938-87e9dabbc0ed))
     (pad "3" smd rect (at -4.85 4.2 180) (size 2.2 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 00bffa78-b11e-45ea-bfda-e5eb0c615726))
     (pad "4" smd rect (at 4.85 4.2 180) (size 2.2 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 526e7853-7ab0-409c-93a9-e1a45fdb8c25))
-    (model "C:\\Users\\crtak\\Documents\\KiCad\\SamacSys_Parts.3dshapes\\1808190.stp"
+    (model "${KIPRJMOD}/packages3D/1808190.stp"
       (offset (xyz 3.349999854 -8.169999954 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 -180 90))
@@ -929,9 +929,9 @@
     (pad "~sleep" thru_hole oval (at -3.81 4.958) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 35 "SLEEP") (pinfunction "SLEEP") (pintype "input") (tstamp ddc61af1-f23d-4cd9-868f-a970a7758ad9))
     (model "${KIPRJMOD}/packages3D/drv8838-motor-driver-carrier.step"
-      (offset (xyz 5 6.5 3.5))
+      (offset (xyz -5 -6 3.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 -180))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -1099,7 +1099,7 @@
       (net 28 "/FocusMotors/out1") (pinfunction "Pin_2") (pintype "passive") (tstamp ce7a62e4-213e-4faa-8229-f00ac4bae339))
     (pad "3" smd rect (at -4.85 4.2 180) (size 2.2 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e39bae14-e538-4248-a518-93e0b71522aa))
     (pad "4" smd rect (at 4.85 4.2 180) (size 2.2 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6e43d427-eb97-4f88-a286-7b9d8b44d9bb))
-    (model "C:\\Users\\crtak\\Documents\\KiCad\\SamacSys_Parts.3dshapes\\1808190.stp"
+    (model "${KIPRJMOD}/packages3D/1808190.stp"
       (offset (xyz 3.349999854 -8.169999954 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 -180 90))
@@ -1155,7 +1155,7 @@
     (pad "6" smd rect (at 7.35 4.2 270) (size 2.2 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 23dec267-fba7-4396-b435-3ec2b0e605e9))
     (pad "7" thru_hole circle (at -4.85 5.35 270) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask) (tstamp 26775ae5-c224-4b89-b4e9-0618a4230272))
     (pad "8" thru_hole circle (at 4.85 5.35 270) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask) (tstamp 60505007-25da-4749-a800-90eb8cd57c38))
-    (model "C:\\Users\\crtak\\Documents\\KiCad\\SamacSys_Parts.3dshapes\\1778780.stp"
+    (model "${KIPRJMOD}/packages3D/1778780.stp"
       (offset (xyz -5.849999817 -8.169999954 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1199,7 +1199,7 @@
       (net 87 "Net-(PE1-Pad2)") (pintype "passive") (tstamp 382da3d6-c876-46f2-a677-f6a7a66d8e23))
     (pad "3" smd rect (at -4.85 4.2 180) (size 2.2 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 550f978b-d67e-4342-b488-2bff5e61a154))
     (pad "4" smd rect (at 4.85 4.2 180) (size 2.2 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ccdaa274-3031-4635-9f3d-763b42786667))
-    (model "C:\\Users\\crtak\\Documents\\KiCad\\SamacSys_Parts.3dshapes\\1808190.stp"
+    (model "${KIPRJMOD}/packages3D/1808190.stp"
       (offset (xyz 3.349999854 -8.169999954 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 -180 90))
@@ -1244,7 +1244,7 @@
       (net 88 "GND") (pinfunction "C") (pintype "power_out") (tstamp 77f75759-afb3-49dc-b5f4-e2a758a103c2))
     (pad "3" smd rect (at -4.85 4.2 90) (size 2.2 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5276b782-a154-4fa6-bcd1-6bf68542b5b7))
     (pad "4" smd rect (at 4.85 4.2 90) (size 2.2 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ee8ba131-9cb0-4337-a7d3-4c7cca36e533))
-    (model "C:\\Users\\crtak\\Documents\\KiCad\\SamacSys_Parts.3dshapes\\1808190.stp"
+    (model "${KIPRJMOD}/packages3D/1808190.stp"
       (offset (xyz 3.349999854 -8.169999954 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 -180 90))
@@ -1585,7 +1585,7 @@
       (net 80 "Net-(F5-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 5827de5f-5bf0-41d6-adea-79f0f8dd228d))
     (pad "3" smd rect (at -4.85 4.2 90) (size 2.2 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 24857300-a71b-413d-883c-ff3fb6e3526e))
     (pad "4" smd rect (at 4.85 4.2 90) (size 2.2 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6bfde084-e0e4-49c1-9900-3c28905ace89))
-    (model "C:\\Users\\crtak\\Documents\\KiCad\\SamacSys_Parts.3dshapes\\1808190.stp"
+    (model "${KIPRJMOD}/packages3D/1808190.stp"
       (offset (xyz 3.349999854 -8.169999954 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 -180 90))
@@ -1699,7 +1699,7 @@
       (net 64 "Net-(D7-Pad2)") (pinfunction "Pin_2") (pintype "passive") (tstamp 7823224b-3054-4c77-9960-82f7338a4b1b))
     (pad "3" smd rect (at -4.85 4.2 180) (size 2.2 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6ee1e08e-3c55-4505-8e48-51f9a56304f6))
     (pad "4" smd rect (at 4.85 4.2 180) (size 2.2 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c05304df-bd04-41fa-bd1b-25598cb0062a))
-    (model "C:\\Users\\crtak\\Documents\\KiCad\\SamacSys_Parts.3dshapes\\1808190.stp"
+    (model "${KIPRJMOD}/packages3D/1808190.stp"
       (offset (xyz 3.349999854 -8.169999954 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 -180 90))
