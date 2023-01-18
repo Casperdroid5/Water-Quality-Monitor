@@ -1,6 +1,5 @@
-from src import *
+from TMC_2209.src import *
 import time
-
 
 print("---")
 print("SCRIPT START")
