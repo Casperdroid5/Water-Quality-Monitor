@@ -1,4 +1,4 @@
-from src.TMC_2209.TMC_2209_StepperDriver import *
+from src import *
 import time
 
 
