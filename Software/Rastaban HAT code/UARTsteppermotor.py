@@ -10,7 +10,7 @@ By using UART it is possible to set and read the parameters for the driver.
 """
 
 
-class UARTSTEPPERMOTOR():
+class UARTSTEPPERMOTOR(TMC_2209):
 
     def __init__(self, pi, EnableGPIOPin: int) -> None: 
         self._pigpio = pi
