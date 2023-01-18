@@ -10,11 +10,11 @@ By using UART it is possible to set and read the parameters for the driver.
 """
 
 
-class UARTSTEPPERMOTORS():
+class UARTSTEPPERMOTOR():
 
     def __init__(self, pi, EnableGPIOPin: int) -> None: 
         self._pigpio = pi
-        self._EnableGPIOPin = EnableGPIOPin   
+        self._EnableGPIOPin : int = EnableGPIOPin   
         self.state = None
 
     def ControlMotorMovement(self, dirreg: bool, rpm: int, revolutions: float, State: bool):    
@@ -38,23 +38,25 @@ class UARTSTEPPERMOTORS():
 
 
 if __name__ == "__main__":
-   primarystepper = UARTSTEPPERMOTORS(pi = pigpio.pi(), EnableGPIOPin = 27) 
-   primarystepper = primarystepper.SetMotorSettings(900, True, False, 256, False)
-   primarystepper = primarystepper.PrintCurrentSettings()
+   primarystepper1 = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 27) 
+   
+   primarystepperA = primarystepper1.SetMotorSettings(900, True, False, 256, False)
+   primarystepperA = primarystepper1.PrintCurrentSettings()
    #primarystepper.set_loglevel(Loglevel.DEBUG)
    #primarystepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
-   primarystepper = primarystepper.ControlMotorMovement(True, 30, 1)
+   primarystepperA = primarystepper1.ControlMotorMovement(True, 30, 1)
   
-   primarystepper.set_motor_enabled(False)
+   primarystepperA = primarystepper1.set_motor_enabled(False)
 
-   secondarystepper = UARTSTEPPERMOTORS(pi = pigpio.pi(), EnableGPIOPin = 22) 
-   secondarystepper = secondarystepper.SetMotorSettings(900, True, False, 2, False)
-   secondarystepper = secondarystepper.PrintCurrentSettings()
+   secondarystepper2 = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 22) 
+   
+   secondarystepperB = secondarystepper2.SetMotorSettings(900, True, False, 2, False)
+   secondarystepperB = secondarystepper2.PrintCurrentSettings()
    #primarystepper.set_loglevel(Loglevel.DEBUG)
    #primarystepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
-   secondarystepper = secondarystepper.ControlMotorMovement(True, 90, 2)
+   secondarystepperB = secondarystepper2.ControlMotorMovement(True, 90, 2)
   
-   secondarystepper.set_motor_enabled(False)
+   secondarystepperB = secondarystepper2.set_motor_enabled(False)
 
 
 #primarystepper.deinit()
