@@ -17,10 +17,10 @@ class UARTSTEPPERMOTOR(TMC_2209):
         self._EnableGPIOPin : int = EnableGPIOPin   
         self.state = None
 
-    def ControlMotorMovement(self, dirreg: bool, rpm: int, revolutions: float, State: bool):    
+    def ControlMotorMovement(self, dirreg: bool, rpm: int, revolutions: float, MotorEnableState: bool):    
         self.set_direction_reg(dirreg)
         self.set_vactual_rpm(rpm, revolutions = revolutions)
-        self.set_motor_enabled(State)
+        self.set_motor_enabled(MotorEnableState)
         
     def SetMotorSettings(self, cur: int, interpol: bool, spread: bool, microstepres: int, interrsense: bool): 
         self.set_current(cur)
@@ -30,11 +30,13 @@ class UARTSTEPPERMOTOR(TMC_2209):
         self.set_internal_rsense(interrsense)
     
     def PrintCurrentDriverSettings(self): 
+        print("---\n---") # for readability
         print("---CURRENTDRIVERSETTINGS---") # for readability
         self.readIOIN()
         self.readCHOPCONF()
         self.readDRVSTATUS()
         self.readGCONF()
+        print("---ENDING-CURRENTDRIVERSETTINGS---") # for readability
         print("---\n---") # for readability
 
 
