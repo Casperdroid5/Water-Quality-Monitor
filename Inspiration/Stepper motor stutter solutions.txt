@@ -1,1 +1,0 @@
-https://electronics.stackexchange.com/questions/558386/what-could-be-the-reasons-for-a-stepper-motor-stuttering-with-an-a4988-driver

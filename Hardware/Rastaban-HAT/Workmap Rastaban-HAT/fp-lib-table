@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Rastaban V0.3")(type "KiCad")(uri "${KIPRJMOD}/Rastaban V0.3.pretty")(options "")(descr ""))
+)
