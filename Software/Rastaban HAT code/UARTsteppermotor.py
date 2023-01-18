@@ -2,7 +2,7 @@ import time
 import pigpio
 from enums import State
 import constants
-from src.TMC_2209.TMC_2209_StepperDriver import *
+from src.TMC_2209_UART.TMC_2209_StepperDriver import * # Path to driver, important.
 
 """
 This code is used to control the TMC2209 stepper motors using UART.  
