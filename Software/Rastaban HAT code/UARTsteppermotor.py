@@ -2,17 +2,17 @@ import time
 import pigpio
 from enums import State
 import constants
-from TMC_2209_UART.src.TMC_2209_StepperDriver import * # Path to driver, important.
+from TMC_2209_UART.src.TMC_2209_StepperDriver import TMC_2209 # Path to driver, important.
 
 """
 This code is used to control the TMC2209 stepper motors using UART.  
 By using UART it is possible to set and read the parameters for the driver.
 """
 
-
 class UARTSTEPPERMOTOR(TMC_2209):
 
-    def __init__(self, pi, EnableGPIOPin: int) -> None: 
+    def __init__(self, pi, EnableGPIOPin: int) -> None:
+        super().__init__() 
         self._pigpio = pi
         self._EnableGPIOPin : int = EnableGPIOPin   
         self.state = None
