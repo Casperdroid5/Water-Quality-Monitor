@@ -14,7 +14,7 @@ class UARTSTEPPERMOTORS():
 
     def __init__(self, pi, EnableGPIOPin: int) -> None: 
         self._pigpio = pi
-        self._EnableGPIOPin: int = EnableGPIOPin   
+        self._EnableGPIOPin = EnableGPIOPin   
         self.state = None
 
     def ControlMotorMovement(self, dirreg: bool, rpm: int, revolutions: float, State: bool):    
