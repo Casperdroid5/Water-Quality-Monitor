@@ -29,7 +29,8 @@ class UARTSTEPPERMOTOR(TMC_2209):
         self.set_microstepping_resolution(microstepres)
         self.set_internal_rsense(interrsense)
     
-    def PrintCurrentSettings(self): 
+    def PrintCurrentDriverSettings(self): 
+        print("---CURRENTDRIVERSETTINGS---") # for readability
         self.readIOIN()
         self.readCHOPCONF()
         self.readDRVSTATUS()
@@ -38,18 +39,24 @@ class UARTSTEPPERMOTOR(TMC_2209):
 
 
 if __name__ == "__main__":
-   primarystepper = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 27) 
+    
+   print("---")
+   print("SCRIPT START")
+   print("---")
    
+   primarystepper = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 27) # create object
    primarystepper.SetMotorSettings(900, True, False, 256, False)
-   primarystepper.PrintCurrentSettings()
+   primarystepper.PrintCurrentDriverSettings()
    #primarystepper.set_loglevel(Loglevel.DEBUG)
    #primarystepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
    primarystepper.ControlMotorMovement(True, 30, 1, True)
    primarystepper.set_motor_enabled(False)
+   
    print("---\n---") # for readability
-   secondarystepper = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 22)   
+   
+   secondarystepper = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 22) # create object   
    secondarystepper.SetMotorSettings(900, True, False, 2, False)
-   secondarystepper.PrintCurrentSettings()
+   secondarystepper.PrintCurrentDriverSettings()
    #primarystepper.set_loglevel(Loglevel.DEBUG)
    #primarystepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
    secondarystepper.ControlMotorMovement(True, 90, 2, False)
