@@ -51,7 +51,7 @@ if __name__ == "__main__":
    primarystepper.PrintCurrentDriverSettings()
    #primarystepper.set_loglevel(Loglevel.DEBUG)
    #primarystepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
-   primarystepper.ControlMotorMovement(True, 30, 1, True)
+   primarystepper.ControlMotorMovement(True, 30, 2, False)
    primarystepper.set_motor_enabled(False)
    
    print("---\n---") # for readability
@@ -61,8 +61,8 @@ if __name__ == "__main__":
    secondarystepper.PrintCurrentDriverSettings()
    #primarystepper.set_loglevel(Loglevel.DEBUG)
    #primarystepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
-   secondarystepper.ControlMotorMovement(True, 90, 2, False)
-   secondarystepper.set_motor_enabled(False)
+   secondarystepper.ControlMotorMovement(True, 90, 2, True)
+   secondarystepper.set_motor_enabled(True)
    print("---\n---") # for readability
 
 primarystepper.deinit()
