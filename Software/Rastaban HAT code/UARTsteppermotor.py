@@ -38,7 +38,7 @@ class UARTSTEPPERMOTORS():
 
 
 if __name__ == "__main__":
-   primarystepper = UARTSTEPPERMOTORS(27) 
+   primarystepper = UARTSTEPPERMOTORS(pi = pigpio.pi(), EnableGPIOPin = 27) 
    primarystepper = primarystepper.SetMotorSettings(900, True, False, 256, False)
    primarystepper = primarystepper.PrintCurrentSettings()
    #primarystepper.set_loglevel(Loglevel.DEBUG)
@@ -47,7 +47,7 @@ if __name__ == "__main__":
   
    primarystepper.set_motor_enabled(False)
 
-   secondarystepper = UARTSTEPPERMOTORS(22) 
+   secondarystepper = UARTSTEPPERMOTORS(pi = pigpio.pi(), EnableGPIOPin = 22) 
    secondarystepper = secondarystepper.SetMotorSettings(900, True, False, 2, False)
    secondarystepper = secondarystepper.PrintCurrentSettings()
    #primarystepper.set_loglevel(Loglevel.DEBUG)
