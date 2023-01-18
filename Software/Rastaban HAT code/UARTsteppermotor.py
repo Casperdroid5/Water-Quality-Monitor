@@ -12,7 +12,7 @@ By using UART it is possible to set and read the parameters for the driver.
 class UARTSTEPPERMOTOR(TMC_2209):
 
     def __init__(self, pi, EnableGPIOPin: int) -> None:
-        super().__init__() 
+        super().__init__(EnableGPIOPin) 
         self._pigpio = pi
         self._EnableGPIOPin : int = EnableGPIOPin   
         self.state = None
@@ -38,29 +38,28 @@ class UARTSTEPPERMOTOR(TMC_2209):
 
 
 if __name__ == "__main__":
-   primarystepper1 = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 27) 
+   primarystepper = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 27) 
    
-   primarystepperA = primarystepper1.SetMotorSettings(900, True, False, 256, False)
-   primarystepperA = primarystepper1.PrintCurrentSettings()
+   primarystepper.SetMotorSettings(900, True, False, 256, False)
+   primarystepper.PrintCurrentSettings()
    #primarystepper.set_loglevel(Loglevel.DEBUG)
    #primarystepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
-   primarystepperA = primarystepper1.ControlMotorMovement(True, 30, 1)
-  
-   primarystepperA = primarystepper1.set_motor_enabled(False)
-
-   secondarystepper2 = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 22) 
-   
-   secondarystepperB = secondarystepper2.SetMotorSettings(900, True, False, 2, False)
-   secondarystepperB = secondarystepper2.PrintCurrentSettings()
+   primarystepper.ControlMotorMovement(True, 30, 1, True)
+   primarystepper.set_motor_enabled(False)
+   print("---\n---") # for readability
+   secondarystepper = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 22)   
+   secondarystepper.SetMotorSettings(900, True, False, 2, False)
+   secondarystepper.PrintCurrentSettings()
    #primarystepper.set_loglevel(Loglevel.DEBUG)
    #primarystepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
-   secondarystepperB = secondarystepper2.ControlMotorMovement(True, 90, 2)
-  
-   secondarystepperB = secondarystepper2.set_motor_enabled(False)
+   secondarystepper.ControlMotorMovement(True, 90, 2, False)
+   secondarystepper.set_motor_enabled(False)
+   print("---\n---") # for readability
 
-
-#primarystepper.deinit()
-#del primarystepper
+primarystepper.deinit()
+secondarystepper.deinit()
+del primarystepper
+del secondarystepper
 
 print("---")
 print("SCRIPT FINISHED")
