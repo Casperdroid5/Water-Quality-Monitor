@@ -15,7 +15,7 @@ class UARTSTEPPERMOTOR(TMC_2209):
         super().__init__(EnableGPIOPin) 
         self._pigpio = pi
         self._EnableGPIOPin : int = EnableGPIOPin   
-        self._driver_address : int = DriverAdress
+        self.driver_address : int = DriverAdress
         self.state = None
 
     def ControlMotorMovement(self, dirreg: bool, rpm: int, revolutions: float):    
@@ -46,7 +46,7 @@ if __name__ == "__main__":
    print("SCRIPT START")
    print("---")
    
-   primarystepper = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 27, driver_address=1)) # create object
+   primarystepper = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 27, DriverAdress = 0) # create object
    primarystepper.SetMotorSettings(900, True, True, 8, False)
    primarystepper.PrintCurrentDriverSettings()
    #primarystepper.set_loglevel(Loglevel.DEBUG)
@@ -57,7 +57,7 @@ if __name__ == "__main__":
    
    print("---\n---") # for readability
    
-   secondarystepper = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 22) # create object   
+   secondarystepper = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 22, DriverAdress = 1) # create object   
    secondarystepper.SetMotorSettings(1200, True, True, 2, False)
    secondarystepper.PrintCurrentDriverSettings()
    #primarystepper.set_loglevel(Loglevel.DEBUG)
