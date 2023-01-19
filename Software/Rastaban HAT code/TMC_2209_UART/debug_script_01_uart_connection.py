@@ -1,6 +1,9 @@
 from src.TMC_2209_StepperDriver import *
 import time
 
+"""
+This script tests communication with the 3 TMC2209 drivers via UART.
+"""
 
 print("---")
 print("SCRIPT START")
