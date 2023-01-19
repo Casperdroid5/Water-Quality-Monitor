@@ -7,6 +7,7 @@ from TMC_2209_UART.src.TMC_2209_StepperDriver import * # Path to driver, importa
 """
 This code is used to control the TMC2209 stepper motors using UART.  
 By using UART it is possible to set and read the parameters for the driver.
+The goal of this code is to create control blocks for the library code.
 """
 
 class UARTSTEPPERMOTOR(TMC_2209):
