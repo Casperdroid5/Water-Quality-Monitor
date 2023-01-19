@@ -80,9 +80,9 @@ if __name__ == "__main__":
    focusstepper.set_loglevel(Loglevel.DEBUG)
    focusstepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
    focusstepper.set_motor_enabled(True)
-   focusstepper.ControlMotorMovement(True, 10, 1) # focus motors up
+   focusstepper.ControlMotorMovement(True, 10, 1.5) # focus motors up
    time.sleep(2)
-   focusstepper.ControlMotorMovement(False, 10, 1) # focus motors down
+   focusstepper.ControlMotorMovement(False, 10, 1.5) # focus motors down
    focusstepper.set_motor_enabled(False)
    print("---\n---") # for readability
 
