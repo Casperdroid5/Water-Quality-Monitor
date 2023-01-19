@@ -15,10 +15,9 @@ print("---")
 # initiate the TMC_2209 class
 # use your pin for pin_en here
 #-----------------------------------------------------------------------
-tmc = TMC_2209(21)
-
-
-
+tmc0 = TMC_2209(27, driver_address=0)
+tmc1 = TMC_2209(22, driver_address=1)
+tmc2 = TMC_2209(19, driver_address=2)
 
 
 #-----------------------------------------------------------------------
@@ -26,98 +25,26 @@ tmc = TMC_2209(21)
 # set whether the movement should be relative or absolute
 # both optional
 #-----------------------------------------------------------------------
-tmc.set_loglevel(Loglevel.DEBUG)
-tmc.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
-
-
-
-
+tmc0.set_loglevel(Loglevel.DEBUG)
+tmc0.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
 
 #-----------------------------------------------------------------------
 # these functions change settings in the TMC register
 #-----------------------------------------------------------------------
-tmc.set_direction_reg(False)
-tmc.set_current(300)
-tmc.set_interpolation(True)
-tmc.set_spreadcycle(False)
-tmc.set_microstepping_resolution(2)
-tmc.set_internal_rsense(False)
+tmc0.set_direction_reg(False)
+tmc0.set_current(300)
+tmc0.set_interpolation(True)
+tmc0.set_spreadcycle(False)
+tmc0.set_microstepping_resolution(2)
+tmc0.set_internal_rsense(False)
 
 
 print("---\n---")
-
-
-
-
-
-#-----------------------------------------------------------------------
-# these functions read and print the current settings in the TMC register
-#-----------------------------------------------------------------------
-tmc.readIOIN()
-tmc.readCHOPCONF()
-tmc.readDRVSTATUS()
-tmc.readGCONF()
-
-print("---\n---")
-
-
-
-
 
 #-----------------------------------------------------------------------
 # activate the motor current output
 #-----------------------------------------------------------------------
-tmc.set_motor_enabled(True)
-
-
-
-
-
-#-----------------------------------------------------------------------
-# move the motor for 1 second forward, stop for 1 second
-# and then move backwards for 1 second
-#-----------------------------------------------------------------------
-#tmc.set_vactual(400)
-#time.sleep(1)
-#tmc.set_vactual(0)
-#time.sleep(1)
-#tmc.set_vactual(-400)
-#time.sleep(1)
-#tmc.set_vactual(0)
-
-
-
-
-
-#-----------------------------------------------------------------------
-# set_vactual_rps uses revolutions per seconds as parameter
-#-----------------------------------------------------------------------
-# tmc.set_vactual_rps(1)
-# time.sleep(1)
-# tmc.set_vactual_rps(0)
-# time.sleep(1)
-# tmc.set_vactual_rps(-1)
-# time.sleep(1)
-# tmc.set_vactual_rps(0)
-
-
-
-
-
-#-----------------------------------------------------------------------
-# set_vactual_rps uses revolutions per seconds as parameter
-#-----------------------------------------------------------------------
-#tmc.set_vactual_rpm(60)
-#time.sleep(1)
-#tmc.set_vactual(0)
-#time.sleep(1)
-#tmc.set_vactual_rpm(-60)
-#time.sleep(1)
-#tmc.set_vactual(0)
-
-
-
-
+tmc0.set_motor_enabled(True)
 
 #-----------------------------------------------------------------------
 # set_vactual_rpm and set_vactual_rps accept "revolutions" and "duration" as keyword parameter
@@ -125,30 +52,17 @@ tmc.set_motor_enabled(True)
 # if revolutions the script will calculate the duration based on the speed and the revolutions
 # Movement of the Motor will not be very accurate with this way
 #-----------------------------------------------------------------------
-tmc.set_vactual_rpm(30, revolutions=2)
-tmc.set_vactual_rpm(-120, revolutions=2)
+tmc0.set_vactual_rpm(30, revolutions=2)
+tmc0.set_vactual_rpm(-120, revolutions=2)
 time.sleep(1)
-tmc.set_vactual_rpm(30, duration=4)
-tmc.set_vactual_rpm(-120, duration=1)
-
-
-
-
-
-#-----------------------------------------------------------------------
-# use acceleration (velocity ramping) with VActual
-# does not work with revolutions as parameter
-#-----------------------------------------------------------------------
-# tmc.set_vactual_rpm(-120, duration=10, acceleration=500)
-
-
-
+tmc0.set_vactual_rpm(30, duration=4)
+tmc0.set_vactual_rpm(-120, duration=1)
 
 
 #-----------------------------------------------------------------------
 # deactivate the motor current output
 #-----------------------------------------------------------------------
-tmc.set_motor_enabled(False)
+tmc0.set_motor_enabled(False)
 
 print("---\n---")
 
@@ -159,8 +73,8 @@ print("---\n---")
 #-----------------------------------------------------------------------
 # deinitiate the TMC_2209 class
 #-----------------------------------------------------------------------
-tmc.deinit()
-del tmc
+tmc0.deinit()
+del tmc0
 
 print("---")
 print("SCRIPT FINISHED")
