@@ -1,5 +1,6 @@
 import pigpio
 from enums import State
+import time
 import constants
 from TMC_2209_UART.src.TMC_2209_StepperDriver import * # Path to driver, important.
 
@@ -55,7 +56,9 @@ if __name__ == "__main__":
    primarystepper.set_loglevel(Loglevel.DEBUG)
    primarystepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
    primarystepper.set_motor_enabled(True)
-   primarystepper.ControlMotorMovement(True, 20, 3) 
+   primarystepper.ControlMotorMovement(True, 50, 3) 
+   time.sleep(1)
+   primarystepper.ControlMotorMovement(False, 50, 3)
    primarystepper.set_motor_enabled(False)
    
    print("---\n---") # for readability
@@ -65,17 +68,21 @@ if __name__ == "__main__":
    secondarystepper.set_loglevel(Loglevel.DEBUG)
    secondarystepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
    secondarystepper.set_motor_enabled(True)
-   secondarystepper.ControlMotorMovement(True, 100, 3)
+   secondarystepper.ControlMotorMovement(True, 150, 3)
+   time.sleep(1)
+   secondarystepper.ControlMotorMovement(False, 150, 3)
    secondarystepper.set_motor_enabled(False)
 
    print("---\n---") # for readability
 
-   focusstepper.SetMotorSettings(600, True, True, 8, False)
+   focusstepper.SetMotorSettings(1000, True, True, 256, False)
    focusstepper.PrintCurrentDriverSettings()
    focusstepper.set_loglevel(Loglevel.DEBUG)
    focusstepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
    focusstepper.set_motor_enabled(True)
-   focusstepper.ControlMotorMovement(True, 30, 3)
+   focusstepper.ControlMotorMovement(True, 10, 1) # focus motors up
+   time.sleep(2)
+   focusstepper.ControlMotorMovement(False, 10, 1) # focus motors down
    focusstepper.set_motor_enabled(False)
    print("---\n---") # for readability
 
