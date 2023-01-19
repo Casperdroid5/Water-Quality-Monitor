@@ -17,10 +17,9 @@ class UARTSTEPPERMOTOR(TMC_2209):
         self._EnableGPIOPin : int = EnableGPIOPin   
         self.state = None
 
-    def ControlMotorMovement(self, dirreg: bool, rpm: int, revolutions: float, MotorEnableState: bool):    
+    def ControlMotorMovement(self, dirreg: bool, rpm: int, revolutions: float):    
         self.set_direction_reg(dirreg)
         self.set_vactual_rpm(rpm, revolutions = revolutions)
-        self.set_motor_enabled(MotorEnableState)
         
     def SetMotorSettings(self, cur: int, interpol: bool, spread: bool, microstepres: int, interrsense: bool): 
         self.set_current(cur)
@@ -47,12 +46,12 @@ if __name__ == "__main__":
    print("---")
    
    primarystepper = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 27) # create object
-   primarystepper.SetMotorSettings(900, True, False, 8, True)
+   primarystepper.SetMotorSettings(900, True, False, 8, False)
    primarystepper.PrintCurrentDriverSettings()
    #primarystepper.set_loglevel(Loglevel.DEBUG)
    #primarystepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
    primarystepper.set_motor_enabled(True)
-   primarystepper.ControlMotorMovement(True, 30, 2, False)
+   primarystepper.ControlMotorMovement(True, 30, 2, True)
    primarystepper.set_motor_enabled(False)
    
    print("---\n---") # for readability
