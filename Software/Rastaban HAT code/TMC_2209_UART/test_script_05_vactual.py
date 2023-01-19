@@ -28,6 +28,12 @@ tmc2 = TMC_2209(19, driver_address=2)
 tmc0.set_loglevel(Loglevel.DEBUG)
 tmc0.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
 
+tmc1.set_loglevel(Loglevel.DEBUG)
+tmc1.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
+
+tmc2.set_loglevel(Loglevel.DEBUG)
+tmc2.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
+
 #-----------------------------------------------------------------------
 # these functions change settings in the TMC register
 #-----------------------------------------------------------------------
@@ -38,6 +44,20 @@ tmc0.set_spreadcycle(False)
 tmc0.set_microstepping_resolution(2)
 tmc0.set_internal_rsense(False)
 
+tmc1.set_direction_reg(False)
+tmc1.set_current(300)
+tmc1.set_interpolation(True)
+tmc1.set_spreadcycle(False)
+tmc1.set_microstepping_resolution(2)
+tmc1.set_internal_rsense(False)
+
+tmc2.set_direction_reg(False)
+tmc2.set_current(300)
+tmc2.set_interpolation(True)
+tmc2.set_spreadcycle(False)
+tmc2.set_microstepping_resolution(2)
+tmc2.set_internal_rsense(False)
+
 
 print("---\n---")
 
@@ -45,6 +65,9 @@ print("---\n---")
 # activate the motor current output
 #-----------------------------------------------------------------------
 tmc0.set_motor_enabled(True)
+tmc1.set_motor_enabled(True)
+tmc2.set_motor_enabled(True)
+
 
 #-----------------------------------------------------------------------
 # set_vactual_rpm and set_vactual_rps accept "revolutions" and "duration" as keyword parameter
@@ -58,11 +81,25 @@ time.sleep(1)
 tmc0.set_vactual_rpm(30, duration=4)
 tmc0.set_vactual_rpm(-120, duration=1)
 
+tmc1.set_vactual_rpm(30, revolutions=2)
+tmc1.set_vactual_rpm(-120, revolutions=2)
+time.sleep(1)
+tmc1.set_vactual_rpm(30, duration=4)
+tmc1.set_vactual_rpm(-120, duration=1)
+
+tmc2.set_vactual_rpm(30, revolutions=2)
+tmc2.set_vactual_rpm(-120, revolutions=2)
+time.sleep(1)
+tmc2.set_vactual_rpm(30, duration=4)
+tmc2.set_vactual_rpm(-120, duration=1)
+
 
 #-----------------------------------------------------------------------
 # deactivate the motor current output
 #-----------------------------------------------------------------------
 tmc0.set_motor_enabled(False)
+tmc1.set_motor_enabled(False)
+tmc2.set_motor_enabled(False)
 
 print("---\n---")
 
