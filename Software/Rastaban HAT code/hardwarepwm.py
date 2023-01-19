@@ -1,4 +1,3 @@
-import pigpio
 from enums import State
 import constants
 

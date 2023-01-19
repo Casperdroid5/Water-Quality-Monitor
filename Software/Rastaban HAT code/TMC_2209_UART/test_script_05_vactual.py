@@ -112,6 +112,10 @@ print("---\n---")
 #-----------------------------------------------------------------------
 tmc0.deinit()
 del tmc0
+tmc1.deinit()
+del tmc1
+tmc2.deinit()
+del tmc2
 
 print("---")
 print("SCRIPT FINISHED")
