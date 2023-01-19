@@ -11,10 +11,11 @@ By using UART it is possible to set and read the parameters for the driver.
 
 class UARTSTEPPERMOTOR(TMC_2209):
 
-    def __init__(self, pi, EnableGPIOPin: int) -> None:
+    def __init__(self, pi, EnableGPIOPin: int, DriverAdress: int) -> None:
         super().__init__(EnableGPIOPin) 
         self._pigpio = pi
         self._EnableGPIOPin : int = EnableGPIOPin   
+        self._driver_address : int = DriverAdress
         self.state = None
 
     def ControlMotorMovement(self, dirreg: bool, rpm: int, revolutions: float):    
@@ -45,7 +46,7 @@ if __name__ == "__main__":
    print("SCRIPT START")
    print("---")
    
-   primarystepper = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 27) # create object
+   primarystepper = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 27, driver_address=1)) # create object
    primarystepper.SetMotorSettings(900, True, True, 8, False)
    primarystepper.PrintCurrentDriverSettings()
    #primarystepper.set_loglevel(Loglevel.DEBUG)
