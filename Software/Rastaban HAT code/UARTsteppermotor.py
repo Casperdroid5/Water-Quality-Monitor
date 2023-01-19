@@ -46,7 +46,7 @@ if __name__ == "__main__":
    print("---")
    
    primarystepper = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 27) # create object
-   primarystepper.SetMotorSettings(900, True, False, 8, False)
+   primarystepper.SetMotorSettings(900, True, True, 8, False)
    primarystepper.PrintCurrentDriverSettings()
    #primarystepper.set_loglevel(Loglevel.DEBUG)
    #primarystepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
@@ -57,12 +57,12 @@ if __name__ == "__main__":
    print("---\n---") # for readability
    
    secondarystepper = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 22) # create object   
-   secondarystepper.SetMotorSettings(900, True, False, 2, False)
+   secondarystepper.SetMotorSettings(1200, True, True, 2, False)
    secondarystepper.PrintCurrentDriverSettings()
    #primarystepper.set_loglevel(Loglevel.DEBUG)
    #primarystepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
    secondarystepper.set_motor_enabled(True)
-   secondarystepper.ControlMotorMovement(True, 120, 2)
+   secondarystepper.ControlMotorMovement(True, 30, 8)
    secondarystepper.set_motor_enabled(False)
    print("---\n---") # for readability
 
