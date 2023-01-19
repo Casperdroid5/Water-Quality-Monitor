@@ -2,7 +2,7 @@ import time
 import pigpio
 from enums import State
 import constants
-from TMC_2209_UART.src.TMC_2209_StepperDriver import TMC_2209 # Path to driver, important.
+from TMC_2209_UART.src.TMC_2209_StepperDriver import * # Path to driver, important.
 
 """
 This code is used to control the TMC2209 stepper motors using UART.  
@@ -49,8 +49,8 @@ if __name__ == "__main__":
    primarystepper = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 27, DriverAdress = 0) # create object
    primarystepper.SetMotorSettings(900, True, True, 8, False)
    primarystepper.PrintCurrentDriverSettings()
-   #primarystepper.set_loglevel(Loglevel.DEBUG)
-   #primarystepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
+   primarystepper.set_loglevel(Loglevel.DEBUG)
+   primarystepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
    primarystepper.set_motor_enabled(True)
    primarystepper.ControlMotorMovement(True, 30, 2)
    primarystepper.set_motor_enabled(False)
@@ -58,12 +58,12 @@ if __name__ == "__main__":
    print("---\n---") # for readability
    
    secondarystepper = UARTSTEPPERMOTOR(pi = pigpio.pi(), EnableGPIOPin = 22, DriverAdress = 1) # create object   
-   secondarystepper.SetMotorSettings(1200, True, True, 2, False)
+   secondarystepper.SetMotorSettings(600, True, True, 8, False)
    secondarystepper.PrintCurrentDriverSettings()
-   #primarystepper.set_loglevel(Loglevel.DEBUG)
-   #primarystepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
+   secondarystepper.set_loglevel(Loglevel.DEBUG)
+   secondarystepper.set_movement_abs_rel(MovementAbsRel.ABSOLUTE)
    secondarystepper.set_motor_enabled(True)
-   secondarystepper.ControlMotorMovement(True, 30, 8)
+   secondarystepper.ControlMotorMovement(True, 30, 2)
    secondarystepper.set_motor_enabled(False)
    print("---\n---") # for readability
 
