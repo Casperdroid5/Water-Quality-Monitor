@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['voicecoilmotors_0',['voicecoilmotors',['../namespacevoicecoilmotors.html',1,'']]]
+  ['voicecoil_0',['voicecoil',['../namespacevoicecoil.html',1,'']]]
 ];

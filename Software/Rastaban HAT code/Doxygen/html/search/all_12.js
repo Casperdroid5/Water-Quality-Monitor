@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['vactual_0',['VACTUAL',['../namespace_t_m_c__2209__reg.html#a00d8cb16c3b8501dea78eba26f507361',1,'TMC_2209_reg']]],
-  ['voicecoilmotors_1',['voicecoilmotors',['../namespacevoicecoilmotors.html',1,'']]],
-  ['voicecoilmotors_2',['VOICECOILMOTORS',['../classvoicecoilmotors_1_1_v_o_i_c_e_c_o_i_l_m_o_t_o_r_s.html',1,'voicecoilmotors']]],
-  ['voicecoilmotors_2epy_3',['voicecoilmotors.py',['../voicecoilmotors_8py.html',1,'']]],
-  ['vsense_4',['vsense',['../namespace_t_m_c__2209__reg.html#a9001282debea9613da0089b6277e92a5',1,'TMC_2209_reg']]]
+  ['vactual_0',['VACTUAL',['../namespacesrc_1_1_t_m_c__2209__reg.html#a205c3303d7f2b83042aee3ed45b18db5',1,'src::TMC_2209_reg']]],
+  ['voicecoil_1',['voicecoil',['../namespacevoicecoil.html',1,'']]],
+  ['voicecoil_2epy_2',['voicecoil.py',['../voicecoil_8py.html',1,'']]],
+  ['voicecoilmotors_3',['VOICECOILMOTORS',['../classvoicecoil_1_1_v_o_i_c_e_c_o_i_l_m_o_t_o_r_s.html',1,'voicecoil']]],
+  ['vsense_4',['vsense',['../namespacesrc_1_1_t_m_c__2209__reg.html#a280b3341718b4fbe9b7a11355182ca22',1,'src::TMC_2209_reg']]]
 ];

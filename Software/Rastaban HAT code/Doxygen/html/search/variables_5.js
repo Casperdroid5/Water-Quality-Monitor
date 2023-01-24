@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['gconf_0',['GCONF',['../namespace_t_m_c__2209__reg.html#a031948413ca525b2e1d40fb1c300df84',1,'TMC_2209_reg']]],
-  ['gstat_1',['GSTAT',['../namespace_t_m_c__2209__reg.html#a410c1db7b9a1ca2618ce492482c3284f',1,'TMC_2209_reg']]]
+  ['gconf_0',['GCONF',['../namespacesrc_1_1_t_m_c__2209__reg.html#a2655de219881ef1df312aaf9ee81c57d',1,'src::TMC_2209_reg']]],
+  ['gstat_1',['GSTAT',['../namespacesrc_1_1_t_m_c__2209__reg.html#af852b16b407461dc7ca422082c5c8c79',1,'src::TMC_2209_reg']]]
 ];

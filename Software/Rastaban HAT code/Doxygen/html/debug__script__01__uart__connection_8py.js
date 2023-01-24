@@ -1,4 +1,6 @@
 var debug__script__01__uart__connection_8py =
 [
-    [ "tmc", "debug__script__01__uart__connection_8py.html#a156e3e2b7ead0683314a2ed047774d19", null ]
+    [ "tmcFocus", "debug__script__01__uart__connection_8py.html#a51029ab67f0496b172f5c5a7438447ac", null ],
+    [ "tmcPrimary", "debug__script__01__uart__connection_8py.html#a0ec464179289a8692f941db983fe298e", null ],
+    [ "tmcSecondary", "debug__script__01__uart__connection_8py.html#a36df9e4eafdc0269f3daceabce9c324a", null ]
 ];

@@ -5,8 +5,5 @@ var searchData=
   ['test_5fscript_5f03_5fbasic_5fmovement_2',['test_script_03_basic_movement',['../namespacetest__script__03__basic__movement.html',1,'']]],
   ['test_5fscript_5f04_5fstallguard_3',['test_script_04_stallguard',['../namespacetest__script__04__stallguard.html',1,'']]],
   ['test_5fscript_5f05_5fvactual_4',['test_script_05_vactual',['../namespacetest__script__05__vactual.html',1,'']]],
-  ['test_5fscript_5f06_5fmultiple_5fdrivers_5',['test_script_06_multiple_drivers',['../namespacetest__script__06__multiple__drivers.html',1,'']]],
-  ['tmc_5f2209_5freg_6',['TMC_2209_reg',['../namespace_t_m_c__2209__reg.html',1,'']]],
-  ['tmc_5f2209_5fstepperdriver_7',['TMC_2209_StepperDriver',['../namespace_t_m_c__2209___stepper_driver.html',1,'']]],
-  ['tmc_5f2209_5fuart_8',['TMC_2209_uart',['../namespace_t_m_c__2209__uart.html',1,'']]]
+  ['test_5fscript_5f06_5fmultiple_5fdrivers_5',['test_script_06_multiple_drivers',['../namespacetest__script__06__multiple__drivers.html',1,'']]]
 ];

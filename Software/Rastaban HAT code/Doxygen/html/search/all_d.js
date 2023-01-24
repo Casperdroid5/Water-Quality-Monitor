@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['pdn_5fdisable_0',['pdn_disable',['../namespace_t_m_c__2209__reg.html#a78b300ce273fc883812c74d948981802',1,'TMC_2209_reg']]],
+  ['pdn_5fdisable_0',['pdn_disable',['../namespacesrc_1_1_t_m_c__2209__reg.html#abe806fd3063d7558466920a3f046e118',1,'src::TMC_2209_reg']]],
   ['peltier_1',['peltier',['../namespacepeltier.html',1,'']]],
   ['peltier_2',['PELTIER',['../classpeltier_1_1_p_e_l_t_i_e_r.html',1,'peltier']]],
   ['peltier_2epy_3',['peltier.py',['../peltier_8py.html',1,'']]],
@@ -15,7 +15,7 @@ var searchData=
   ['powergpio1_12',['powergpio1',['../namespacepowergpio.html#a4a92bf707e7a6d600f5d8c110b398ab5',1,'powergpio']]],
   ['primarystepper_13',['PrimaryStepper',['../namespacesteppermotors.html#ae29c3111387b8943409a80fbec85e13f',1,'steppermotors']]],
   ['primarystepper_14',['primarystepper',['../namespace_u_a_r_tsteppermotor.html#ab6cbca26981b467840aa34991fc88d52',1,'UARTsteppermotor']]],
-  ['printcurrentsettings_15',['PrintCurrentSettings',['../class_u_a_r_tsteppermotor_1_1_u_a_r_t_s_t_e_p_p_e_r_m_o_t_o_r_s.html#ac32647f10f41faeb326b4cf205c94db1',1,'UARTsteppermotor::UARTSTEPPERMOTORS']]],
+  ['printcurrentdriversettings_15',['PrintCurrentDriverSettings',['../class_u_a_r_tsteppermotor_1_1_u_a_r_t_s_t_e_p_p_e_r_m_o_t_o_r.html#a298a8af919172418283b3080448908b9',1,'UARTsteppermotor::UARTSTEPPERMOTOR']]],
   ['process_16',['process',['../namespaceinit.html#a5565008d4f988cf4aa6ab8894b3ea7b1',1,'init']]],
   ['pwm_17',['pwm',['../namespacepwm.html',1,'']]],
   ['pwm_18',['PWM',['../classpwm_1_1_p_w_m.html',1,'pwm']]],
