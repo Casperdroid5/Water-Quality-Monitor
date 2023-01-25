@@ -6,5 +6,3 @@ MIN: int = 350_000
 OFF: int = 0
 ON: int = 1
 FREQUENCY = 100_000
-
-

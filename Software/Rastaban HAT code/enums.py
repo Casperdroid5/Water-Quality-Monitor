@@ -1,5 +1,6 @@
 from enum import Enum, unique
 
+
 class State(Enum):
 
     OFF = 0
@@ -15,8 +16,3 @@ class State(Enum):
     ENABLE = 10
     PHASE = 11
     SLEEP = 12
-    
-
-
-    
-

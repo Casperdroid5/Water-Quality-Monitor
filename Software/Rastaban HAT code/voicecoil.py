@@ -5,6 +5,7 @@ import constants
 
 "This code is using the DRV8838 driver to control the voicecoil."
 
+
 class VOICECOILMOTORS():
 
     def __init__(self, pi, EnableGPIOPin: int, PhaseGPIOPin: int, SleepGPIOPin: int) -> None:
@@ -14,16 +15,16 @@ class VOICECOILMOTORS():
         self._SleepGPIOPin: int = SleepGPIOPin
         self.state = None
 
-    def SetMotorEnable(self, ENABLE: int): # Enable controls speed
+    def SetMotorEnable(self, ENABLE: int):  # Enable controls speed
         self._pigpio.set_PWM_dutycycle(self._EnableGPIOPin, ENABLE)
 
-    def SetMotorPhase(self, PHASE: int): # Phase controls direction
+    def SetMotorPhase(self, PHASE: int):  # Phase controls direction
         if PHASE == 1:
-            self._pigpio.write(self._PhaseGPIOPin, constants.ON) 
+            self._pigpio.write(self._PhaseGPIOPin, constants.ON)
             self.state = State.PHASE.name
             return self.state
         else:
-            self._pigpio.write(self._PhaseGPIOPin, constants.OFF) 
+            self._pigpio.write(self._PhaseGPIOPin, constants.OFF)
             self.state = State.PHASE.name
             return self.state
 
@@ -32,25 +33,26 @@ class VOICECOILMOTORS():
             self._pigpio.write(self._SleepGPIOPin, constants.OFF)
             self.state = State.SLEEP.name
         else:
-            self._pigpio.write(self._SleepGPIOPin, constants.ON) 
+            self._pigpio.write(self._SleepGPIOPin, constants.ON)
             self.state = State.SLEEP.name
             return self.state
 
 
 if __name__ == "__main__":
-        
 
-    Motor1 = VOICECOILMOTORS(pi = pigpio.pi(), EnableGPIOPin = 12, PhaseGPIOPin = 13, SleepGPIOPin = 4)
-    
+    Motor1 = VOICECOILMOTORS(
+        pi=pigpio.pi(), EnableGPIOPin=12, PhaseGPIOPin=13, SleepGPIOPin=4)
+
     print("Enable/Disable Motor")
     time.sleep(1)
-    x = Motor1.SetMotorSleep(constants.OFF) # off and on constants are reversed for the drv8838
+    # off and on constants are reversed for the drv8838
+    x = Motor1.SetMotorSleep(constants.OFF)
     print(x)
     time.sleep(2)
     x = Motor1.SetMotorSleep(constants.ON)
-    print(x) 
+    print(x)
     time.sleep(1)
-    
+
     print("Set Motor Direction Test")
     time.sleep(1)
     x = Motor1.SetMotorPhase(1)
@@ -60,7 +62,7 @@ if __name__ == "__main__":
     time.sleep(1)
     x = Motor1.SetMotorEnable(255)
     print(x)
-    
+
     print("Set Motor Direction Test")
     time.sleep(3)
     x = Motor1.SetMotorPhase(0)
@@ -72,14 +74,13 @@ if __name__ == "__main__":
     print(x)
 
     print("Sweep test")
-    for x in range(constants.MINPWM, constants.MAXPWM, 5): # steps of 5
+    for x in range(constants.MINPWM, constants.MAXPWM, 5):  # steps of 5
         time.sleep(0.1)
         print(x)
         Motor1.SetMotorEnable(x)
 
     time.sleep(1)
     x = Motor1.SetMotorSleep(constants.ON)
-    print(x) 
+    print(x)
 
     print("test complete")
-        
