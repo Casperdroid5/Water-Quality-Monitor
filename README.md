@@ -10,19 +10,13 @@ The Water Quality Monitor utilizes a Raspberry Pi running Raspbian as the main c
 
 The design process involved selecting suitable hardware components, designing the PCB layout, and programming the firmware in Python.
 
-1. **Hardware Selection**: Chose appropriate sensors, actuators, and electronic components.
+1. **Hardware Selection**: Chose appropriate sensors, actuators, and electronic components to suit the needs of the clients setup.
 2. **PCB Design**: Created a custom PCB layout to ensure optimal circuit connections.
-3. **Firmware Programming**: Developed the firmware using Python to enable hardware communication, implement the GUI, and perform data processing.
-
+3. **Firmware Development**: Developed the firmware using Python to enable hardware communication.
 ## Testing
 
 Comprehensive testing was conducted to ensure accuracy and reliability.
 
-1. **Hardware Testing**: Verified proper functionality of each hardware component.
-2. **Software Testing**: Thoroughly tested firmware, GUI, and data processing algorithms.
+1. **Hardware Testing**: Verified proper functionality of each hardware component on the printed circuitboard.
+2. **Software Testing**: Thoroughly tested firmware for peripherals. 
 
-## Conclusion
-
-My internship contribution to the Water Quality Monitor project included hardware selection, PCB design, and Python firmware programming. Testing was performed to ensure accurate and reliable measurements.
-
-The Water Quality Monitor aims to provide a dependable solution for monitoring water quality and ensuring the safety of drinking water by combining hardware and software expertise.
